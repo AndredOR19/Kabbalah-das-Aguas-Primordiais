@@ -534,7 +534,23 @@ print(analisar_nome("דוד"))  # ['Juiz', 'Porta', 'Juiz']
       "arquétipo_jung": "Anima",  
       "shadow": "Ilusão"  
     }  
-  }  
+  }
+# Jung e o Corpo do Verbo: Psicologia Arquetípica da Kabbalah  
+
+## 1. Fundamentos Teóricos  
+- O Inconsciente Coletivo como *Binah* (Entendimento)  
+- Sombra pessoal vs. *Klipot* (Cascas na Kabbalah)  
+
+## 2. Ferramentas Práticas  
+### a) Análise de Nomes Arquetípicos  
+(Exemplo com o nome "דוד" → Arquétipo do Rei-Guerrero)  
+
+### b) Tarot do Verbo  
+- Correspondências entre Arcanos Maiores e Letras:  
+  `O Louco = א` (Potencial puro), `A Torre = פ` (Queda iniciática)  
+
+## 3. Casos Clínicos Simulados  
+- Como tratar uma **crise de ansiedade** através da letra `ה` (Expansão/Contração)  
 }
 ## Psicologia Arquetípica das Letras  
 Cada letra hebraica é um **arquétipo ativo** no inconsciente coletivo (Jung) e um **símbolo divino** (Kabbalah):  
