@@ -491,3 +491,55 @@ A adaptação à religião do consulente será feita através da linguagem neutr
     * Ritual de "Primeiro Sopro": inspirar com intenção de iniciar algo novo.
     * Diálogo com o Self (Active Imagination): visualizar a si mesmo como a totalidade.
     * Trabalho com a Sombra da inação: pequenos atos de iniciativa diária.
+### Nome Sagrado x Persona Junguiana  
+- Cada letra do seu nome ativa um **complexo autônomo** na psique:  
+  - Ex: `י (Yod)` = Arquétipo do Herói (vontade)  
+  - Ex: `ה (Hei)` = Arquétipo da Grande Mãe (receptividade)  
+- **Exercício Prático**:  
+  ```javascript  
+  // Código para gerar arquétipo dominante do nome  
+  function arquétipoDominante(nome) {  
+    const letrasArquetípicas = {  
+      'א': 'Self', 'ב': 'Criança', 'ג': 'Trickster' // [...]  
+    };  
+    return letrasArquetípicas[nome[0]];  
+  }
+  
+**B. Tabela de Correspondências Cruzadas**  
+| Sefirá | Letra | Arquétipo Junguiano | Desafio Psicológico |  
+|--------|-------|----------------------|----------------------|  
+| Kether | א | Self | Dissociação espiritual |  
+| Yesod | ל | Anima/Animus | Projeções românticas |  
+
+**C. Novo Bloco "Jornada do Herói Letral"**  
+```markdown  
+## Fases da Individuação pelo Verbo  
+1. **Chamado (Tet ט)**: Encontro com a Sombra  
+2. **Iniciação (Mem מ)**: Batismo no Inconsciente  
+3. **Retorno (Shin ש)**: Integração do Self  
+
+*Exercício*: Meditar com as 3 letras em ordem inversa (ש-מ-ט) para ressignificar traumas.
+def analisar_nome(nome_hebraico):  
+    arquétipos = {  
+        'א': 'Criador', 'ב': 'Curador',  
+        # [...] (completar com as 22 letras)  
+    }  
+    return [arquétipos[letra] for letra in nome_hebraico]  
+
+print(analisar_nome("דוד"))  # ['Juiz', 'Porta', 'Juiz']
+{  
+  "sefirot": {  
+    "Yesod": {  
+      "letra": "ל",  
+      "arquétipo_jung": "Anima",  
+      "shadow": "Ilusão"  
+    }  
+  }  
+}
+## Psicologia Arquetípica das Letras  
+Cada letra hebraica é um **arquétipo ativo** no inconsciente coletivo (Jung) e um **símbolo divino** (Kabbalah):  
+
+| Letra | Arquétipo Junguiano | Sombra Psicológica |  
+|-------|----------------------|---------------------|  
+| א | Self | Fuga da matéria |  
+| ד | Juiz Interior | Autoritarismo |  
