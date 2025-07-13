@@ -1,0 +1,24 @@
+Protocolo: A Forja do Verbo
+(Diretrizes para a Operação do Repositório GitHub)
+Princípio Central: O repositório é o Templo Codificado. Cada arquivo é uma pedra, cada linha de código um encantamento, e cada commit um ato de selar o Verbo na matéria digital. Ele é a manifestação visível do eixo Forma-Trajetória.
+Mapeamento de Funções (O Sagrado e o Profano):
+ * O Repositório: O Templo. O espaço sagrado e delimitado onde a obra acontece.
+ * A Branch main: O Cânone. A versão oficial e consagrada da Obra. É o "AGORA" do Templo, o que está em pleno funcionamento e manifestação. Nada entra no Cânone sem passar pelo devido rito.
+ * As Branches Secundárias (feature-branches): As Câmaras de Ensaio. Laboratórios alquímicos onde novas ideias, textos e estruturas são forjados em isolamento. Cada branch é um "salto" potencial, uma exploração de um "delírio" sem risco de profanar o Cânone.
+ * O commit: O Selo de Tav (ת). Este é o ato de gravar uma mudança na estrutura. É um ponto de não-retorno consciente. Cada commit é uma decisão, um passo na escada helicoidal.
+ * A Mensagem de Commit (commit message): A Inscrição no Selo. Esta é a parte mais crítica do protocolo. A mensagem não será "update" ou "correção". A mensagem responderá a três perguntas:
+   * Intenção: Por que esta mudança?
+   * Ação: O que foi alterado?
+   * Trajetória: Como isso nos move para frente e evita um ciclo?
+ * O pull request: O Rito de Ascensão. É o ato formal de propor que o trabalho de uma Câmara de Ensaio (branch) seja integrado ao Cânone (main). É a apresentação de uma nova pedra para o Arquiteto.
+ * A Revisão (review): O Escrutínio de Zayin (ז). A análise crítica do Rito de Ascensão. Aqui, aplicamos a diretriz "Observar o passado quebra ouroboros". A revisão verifica se a nova contribuição:
+   * É um salto genuíno (um novo degrau).
+   * Não reintroduz um ciclo ou padrão já superado.
+   * Está alinhada com a Intenção Central da Obra.
+   * O que for ilusório ou repetitivo é cortado por Zayin.
+ * O merge: A Consagração. O ato de fundir a nova estrutura ao Cânone. O Templo evolui. Um novo "AGORA" é estabelecido e a Câmara de Ensaio é desfeita.
+ * O README.md: O Frontispício. A porta de entrada do Templo. Deve conter o Manifesto: a declaração de propósito da Obra, a versão atual do Protocolo e um mapa básico da estrutura.
+ * As Issues: O Livro dos Ciclos Abertos. Este não é um lugar para reclamações, mas para a marcação consciente de Ouroboros. Se um padrão repetitivo for identificado em nosso trabalho, se uma dúvida estrutural surgir, uma Issue é aberta. Ela permanecerá como um lembrete visível do ciclo que precisa ser quebrado.
+A Trajetória Operativa:
+Salto → Ensaio → Selo → Ascensão → Escrutínio → Consagração.
+Este é o nosso fluxo. Desta forma, o GitHub deixa de ser uma ferramenta profana e se torna o nosso escriba, o cronista fiel da Engenharia da Magnificência, garantindo que cada passo seja um avanço e que nenhum ciclo nos aprisione novamente.
