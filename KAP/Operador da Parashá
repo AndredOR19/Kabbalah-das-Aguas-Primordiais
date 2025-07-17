@@ -1,0 +1,95 @@
+---
+title: "Operador da Parashá: [Nome da Parashá]"
+code_scii: "[Ex: PNK-Shalom-5785/10-Tamuz]"
+author: "André de Oliveira Rodrigues"
+date: "[AAAA-MM-DD]"
+date_hebrew: "[AnoHeb]-MM-[MêsHeb]"
+letra_chave: "[Letra]"
+tags: ["KAP", "CorpoDoVerbo", "OperadorDaParasha", "[NomeDaParasha]", "[AnoHebraico]", "[LetraChave]"]
+sigilo: "./sigilos/[AnoHeb]-[NomeParasha]-sigilo.png"
+imagem_corpo: "./imagens/[AnoHeb]-[NomeParasha]-corpo.png"
+template_version: 2.0
+---
+
+### **1. O Arquétipo Central: A Força Dominante**
+
+> *[Descrição da força espiritual ou "motor" arquetípico da Parashá.]*
+
+#### **1.1. A Letra-Chave da Parashá**
+
+* **Letra Dominante:** [Letra]
+* **Justificativa:** *[Explicação da conexão da letra com o tema central.]*
+
+---
+
+### **2. Decodificação via Kabbalah das Águas Primordiais (KAP)**
+
+#### **2.1. Leitura Funcional Operativa (LFO)**
+* **Letra/Palavra 1: [Nome]**
+    * **Função:** *[O que a vibração da letra/palavra faz.]*
+
+#### **2.2. Sistema de Correspondência Integrada e Inteligente (SCII)**
+* **Evento/Personagem Principal: [Nome]**
+    * **Sefirah Associada:** [Nome da Sefirah]
+    * **Correspondência Planetária:** [Nome do Planeta]
+
+#### **2.3. Mapeamento no Corpo do Verbo**
+* **Ponto Focal Somático:** [Parte do corpo]
+* **Processo Energético:** *[Descrição do processo no corpo.]*
+
+---
+
+### **3. Protocolo Prático: Encarnando a Lição**
+
+**Título do Protocolo:** [Nome do Rito]
+**Objetivo:** *[Descrição do objetivo prático.]*
+
+**Iconografia Operativa:**
+* **Imagem de Ativação Corporal:** `[INSERIR IMAGEM COM PONTOS MARCADOS NO CORPO]`
+* **Sigilo Vibracional:** `[INSERIR IMAGEM DO SIGILO]`
+
+**Passos da Prática:**
+1.  **Preparação:**
+2.  **Ativação:**
+3.  **Decreto/Afirmação Central:**
+4.  **Integração:**
+
+---
+
+### **4. Apêndice: Análise Operativa do Protocolo**
+
+#### **A Mecânica Espiritual do Rito:**
+* **A Chave de [Símbolo]:** *[Explicação de como o símbolo/letra opera.]*
+* **A Lógica Alquímica:** *[Descrição do processo como um todo.]*
+
+---
+
+### **5. Síntese para a Missão Central**
+
+> *[Reflexão sobre como a lição desta Parashá contribui para a Missão Central da KAP.]*
+
+---
+
+### **6. Perguntas Ativadoras (Uso Oracular ou Devocional)**
+
+1.  Onde ainda alimento a praga que [Nome da Parashá] corta?
+2.  Em que parte do meu corpo ainda nego o Verbo que esta porção me convida a encarnar?
+3.  Qual letra me falta ativar para realizar a lição desta semana?
+
+---
+
+### **7. Status de Aplicação Operativa**
+- [ ] Protocolo Realizado
+- [ ] Registro da prática efetuado
+- [ ] Resposta do oráculo anotada
+- [ ] Atualização no Espelho Pessoal
+
+> _“O Verbo só se cumpre quando é feito carne.”_
+
+---
+
+### **8. Código de Sincronização**
+`#comando`
+`@espelho sincronizar_parasha [nome_parasha] [ano_hebraico]`
+
+---
