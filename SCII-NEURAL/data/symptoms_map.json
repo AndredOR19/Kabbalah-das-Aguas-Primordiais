@@ -1,0 +1,57 @@
+[
+  {
+    "sintoma": "ansiedade",
+    "letras": ["Mem", "Yod"],
+    "sefirot": ["Binah", "Yesod"],
+    "parte_corpo": ["útero", "garganta", "plexo solar"],
+    "rituais": [
+      "Banho lunar com sal grosso + vibração Mem",
+      "Respiração com Yod no coração, 21 repetições"
+    ],
+    "descricao": "Sensação de agitação interna, dificuldade de concentração e inquietação."
+  },
+  {
+    "sintoma": "insônia",
+    "letras": ["Gimel", "Tav"],
+    "sefirot": ["Netzach", "Malkuth"],
+    "parte_corpo": ["sistema nervoso", "esqueleto"],
+    "rituais": [
+      "Inalação profunda visualizando a letra Gimel antes de dormir",
+      "Banho relaxante com erva-cidreira e mantra Tav"
+    ],
+    "descricao": "Dificuldade para adormecer ou manter o sono, mente hiperativa à noite."
+  },
+  {
+    "sintoma": "medo",
+    "letras": ["Nun", "Heh"],
+    "sefirot": ["Geburah", "Binah"],
+    "parte_corpo": ["órgãos reprodutivos", "útero"],
+    "rituais": [
+      "Visualização da letra Nun brilhando sobre os órgãos reprodutivos",
+      "Meditação com a letra Heh pulsando no útero por 7 minutos"
+    ],
+    "descricao": "Estado de alerta constante, sensação de ameaça ou insegurança."
+  },
+  {
+    "sintoma": "bloqueio criativo",
+    "letras": ["Lamed", "Shin"],
+    "sefirot": ["Hod", "Geburah"],
+    "parte_corpo": ["rins", "sistema nervoso"],
+    "rituais": [
+      "Prática de escrita automática invocando Lamed",
+      "Visualização da letra Shin vibrando através da coluna vertebral"
+    ],
+    "descricao": "Incapacidade de iniciar ou concluir projetos artísticos ou intelectuais."
+  },
+  {
+    "sintoma": "cansaço emocional",
+    "letras": ["Heh", "Tav"],
+    "sefirot": ["Netzach", "Malkuth"],
+    "parte_corpo": ["útero", "esqueleto"],
+    "rituais": [
+      "Banho de sal com erva-doce e oração com Shin no pôr do sol",
+      "Visualizar a letra Heh pulsando no útero por 7 minutos"
+    ],
+    "descricao": "Sensação de desgaste, tristeza e falta de ânimo prolongada."
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "id": "caso_001",
+    "timestamp": "2025-07-28",
+    "input": {
+      "nome": "Maria Conceição Silva",
+      "data_nascimento": "15/03/1987",
+      "hora": "14:30",
+      "local": "São Paulo, SP",
+      "sintomas": ["ansiedade", "insônia", "bloqueio criativo"],
+      "queixa_principal": "Sinto-me travada em todos os aspectos da vida"
+    },
+    "processamento": {
+      "gematria": {
+        "valor_total": 1847,
+        "reducao": 2,
+        "letras": ["Mem", "Resh", "Yod", "Aleph"]
+      },
+      "astrologia": {
+        "sol": "Peixes",
+        "lua": "Virgem",
+        "ascendente": "Câncer",
+        "ano_pessoal": 6
+      }
+    },
+    "diagnostico": {
+      "letras_desequilibradas": ["Mem", "Yod"],
+      "sefirot_primarias": ["Binah", "Yesod"],
+      "correspondencia_somatica": ["útero", "garganta", "plexo solar"],
+      "arquetipo_ativo": "Mãe Ferida",
+      "nivel_desequilibrio": 0.75
+    },
+    "prescricao": {
+      "ritual_principal": "Banho lunar com sal grosso + vibração Mem",
+      "pratica_diaria": "Respiração com Yod no coração, 21 repetições",
+      "tempo_estimado": "21 dias",
+      "cristal_recomendado": "Pedra da lua",
+      "cor_terapeutica": "Azul prateado"
+    },
+    "resultado": {
+      "feedback_7_dias": "Ansiedade diminuiu 60%",
+      "feedback_21_dias": "Bloqueio criativo resolvido, novo projeto iniciado",
+      "eficacia_ritual": 0.85,
+      "tempo_real_resolucao": "18 dias"
+    }
+  },
+  {
+    "id": "caso_002",
+    "timestamp": "2025-07-28",
+    "input": {
+      "nome": "José Antonio Pereira",
+      "data_nascimento": "10/12/1990",
+      "hora": "08:45",
+      "local": "Rio de Janeiro, RJ",
+      "sintomas": ["medo", "ansiedade", "cansaço emocional"],
+      "queixa_principal": "Sinto-me paralisado e sem coragem de seguir adiante"
+    },
+    "processamento": {
+      "gematria": {
+        "valor_total": 1290,
+        "reducao": 3,
+        "letras": ["Yod", "Samech", "Aleph", "Pei"]
+      },
+      "astrologia": {
+        "sol": "Sagitário",
+        "lua": "Gêmeos",
+        "ascendente": "Leão",
+        "ano_pessoal": 5
+      }
+    },
+    "diagnostico": {
+      "letras_desequilibradas": ["Yod", "Samech"],
+      "sefirot_primarias": ["Yesod", "Hod"],
+      "correspondencia_somatica": ["mãos", "quadris"],
+      "arquetipo_ativo": "Guerreiro Ferido",
+      "nivel_desequilibrio": 0.65
+    },
+    "prescricao": {
+      "ritual_principal": "Meditação com Yod no coração por 21 dias",
+      "pratica_diaria": "Dança livre invocando Samech",
+      "tempo_estimado": "30 dias",
+      "cristal_recomendado": "Quartzo rosa",
+      "cor_terapeutica": "Verde jade"
+    },
+    "resultado": {
+      "feedback_7_dias": "Redução significativa da sensação de medo",
+      "feedback_30_dias": "Energia retomada, retomada dos projetos pessoais",
+      "eficacia_ritual": 0.80,
+      "tempo_real_resolucao": "27 dias"
+    }
+  }
+]

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Oráculo SCII</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 600px; margin: auto; padding: 2rem; }
+        label { display: block; margin-top: 1rem; }
+        input, textarea { width: 100%; padding: 0.5rem; }
+        button { margin-top: 1rem; padding: 0.5rem 1rem; }
+        #resultado { margin-top: 2rem; background: #f0f0f0; padding: 1rem; border-radius: 8px; }
+    </style>
+</head>
+<body>
+    <h1>Consulta ao Oráculo SCII</h1>
+    <form id="consultaForm">
+        <label for="nome">Nome Completo</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="data_nascimento">Data de Nascimento (DD/MM/AAAA)</label>
+        <input type="text" id="data_nascimento" name="data_nascimento" required>
+
+        <label for="sintomas">Sintomas (separados por vírgula)</label>
+        <textarea id="sintomas" name="sintomas" rows="3"></textarea>
+
+        <button type="submit">Consultar</button>
+    </form>
+
+    <div id="resultado"></div>
+
+    <script>
+    document.getElementById('consultaForm').addEventListener('submit', async function(e) {
+        e.preventDefault();
+        const nome = document.getElementById('nome').value;
+        const data_nascimento = document.getElementById('data_nascimento').value;
+        const sintomasTexto = document.getElementById('sintomas').value;
+        const sintomas = sintomasTexto.split(',').map(s => s.trim()).filter(Boolean);
+        const response = await fetch('/consulta', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ nome, data_nascimento, sintomas })
+        });
+        const data = await response.json();
+        document.getElementById('resultado').innerText = JSON.stringify(data, null, 2);
+    });
+    </script>
+</body>
+</html>
