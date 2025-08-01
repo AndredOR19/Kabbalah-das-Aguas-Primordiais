@@ -1,0 +1,26 @@
+{
+    "nome_app": "Oráculo SCII",
+    "módulos": [
+        "Barômetro da Alma",
+        "Protocolos Somáticos",
+        "Mapa do Corpo do Verbo",
+        "Validação por Biofeedback"
+    ],
+    "entradas_usuario": [
+        "Nome completo",
+        "Data de nascimento",
+        "Ascendente",
+        "Lua"
+    ],
+    "saídas_esperadas": [
+        "Letra ativa",
+        "Protocolo sugerido",
+        "Relatório energético",
+        "Histórico vibracional"
+    ],
+    "tecnologias_base": [
+        "SCII JSON",
+        "Feedback somático",
+        "Integração com sensores biométricos"
+    ]
+}
