@@ -1,0 +1,34 @@
+[
+  {
+    "id_letra": "א",
+    "nome_letra": "Aleph",
+    "valor_numerico": 1,
+    "pictograma_primordial": "Touro, força, líder, poder, primeiro.",
+    "funcao_verbo": "O ponto adimensional de onde toda a criação emana. O paradoxo do silêncio que contém todas as palavras. O princípio da Vontade una antes da sua divisão em pensamento e ação. A fonte de energia vital (prana).",
+    "correspondencia_somatica": "O diafragma e o complexo pulmonar. O centro do peito que governa o ritmo da respiração. O ponto de equilíbrio entre o 'acima' e o 'abaixo' no tronco.",
+    "arquetipo_principal": "A Fonte Silenciosa",
+    "palavras_chave": ["origem", "unidade", "vontade", "poder", "espírito", "início", "potencial", "silêncio"],
+    "analogias_hermeneuticas": {
+      "jung": "O arquétipo do Self em seu estado mais puro e indiferenciado, contendo a totalidade dos opostos antes da criação da consciência do Ego.",
+      "freud": "A representação do Oceano Primordial do Id antes de qualquer forma de recalque ou da formação do Ego. A pura pulsão de vida, a energia libidinal em seu estado de potencialidade absoluta.",
+      "maquiavel": "O poder absoluto do Príncipe Fundador no momento antes da criação do seu principado. A pura 'Virtù' concentrada, a capacidade de criar um estado a partir do nada, usando apenas a força de sua vontade.",
+      "lucia_helena": "O 'Uno' de Plotino. A fonte primeira, inefável e transcendente de onde tudo emana, mas que em si mesma não pode ser descrita ou dividida. O Bem de Platão."
+    }
+  },
+  {
+    "id_letra": "ב",
+    "nome_letra": "Bet",
+    "valor_numerico": 2,
+    "pictograma_primordial": "Casa, tenda, interior, recipiente.",
+    "funcao_verbo": "O princípio da dualidade, da polaridade e da interioridade. A criação de um 'dentro' e um 'fora'. O recipiente que dá forma à energia de Aleph. O ato de abrigar e conter. A planta baixa da criação.",
+    "correspondencia_somatica": "A boca como o recipiente que contém a palavra. O estômago como o recipiente que contém o alimento. O corpo como a casa da alma.",
+    "arquetipo_principal": "O Recipiente Sagrado",
+    "palavras_chave": ["casa", "recipiente", "dualidade", "interior", "corpo", "forma", "manifestação"],
+    "analogias_hermeneuticas": {
+      "jung": "O arquétipo da Grande Mãe como o útero que recebe a semente da vida. A própria psique como o recipiente das experiências e dos arquétipos.",
+      "freud": "O Ego, a estrutura que se diferencia do Id para conter e mediar suas pulsões, criando a primeira divisão psíquica.",
+      "maquiavel": "A cidade ou a fortaleza. A estrutura física que um Príncipe constrói para abrigar seu poder e seu povo, definindo claramente suas fronteiras.",
+      "lucia_helena": "A matéria (Hylé) aristotélica, que serve como o substrato passivo que recebe a forma (Eidos). O corpo como o templo que precisa ser cuidado para abrigar a alma."
+    }
+  }
+]
