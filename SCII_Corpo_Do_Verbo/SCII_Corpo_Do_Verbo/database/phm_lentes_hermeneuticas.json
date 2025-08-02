@@ -23,5 +23,50 @@
       "tema": "O arquétipo de 'O Inocente'",
       "analise": "O Inocente representa o estado pré‑consciente do Self, a unidade original antes da experiência da dualidade. No entanto, sua Sombra é a negação, a recusa em encarar a realidade, o que pode levar à estagnação. A jornada de individuação exige que O Inocente se sacrifique para dar lugar ao Herói, que conscientemente enfrenta o mundo e integra a Sombra."
     }
-  }
+  },{
+    "id_persona": "freud",
+    "nome_completo": "Sigmund Freud",
+    "titulo_hermeneutico": "A Hermenêutica Psicanalítica",
+    "palavras_chave": ["psicanálise", "inconsciente", "id", "ego", "superego", "recalque", "pulsão", "libido", "complexo de édipo", "trauma"],
+    "foco_principal": "Analisar o comportamento presente como a manifestação de pulsões, traumas e conflitos recalcados no inconsciente desde a infância.",
+    "diagnostico_ressonancia": {
+      "astrologico": "Forte dominância de Plutão (poder, sexo, subconsciente) e Saturno (repressão, estrutura, lei). Tensão entre a Lua (infância, mãe) e estes planetas.",
+      "verbal": "Nomes com letras de cisão, força primal e consequência (ex: Zayin, Tet).",
+      "situacional": "Padrões repetitivos e autodestrutivos, bloqueios de origem desconhecida, dinâmicas familiares complexas, questões ligadas à sexualidade e ao poder primal."
+    },
+    "exemplo_leitura": {
+      "tema": "O Anjo Vehuiah (Força de Vontade Primordial)",
+      "analise": "Vehuiah não é uma 'vontade divina', mas a representação pura da energia do Id. É a pulsão de vida (Libido) em sua forma mais crua, exigindo manifestação imediata e sem censura. A 'sombra' de Vehuiah - agir com fúria e sem pensar - é o Id dominando o Ego. A 'cura', sob esta ótica, não é suprimir esta força, mas o trabalho do Ego em sublimá-la, canalizando essa imensa energia em ações construtivas e socialmente aceitáveis."
+    }
+  },{
+    "id_persona": "a_sabia",
+    "nome_completo": "O Arquétipo da Sábia (Coração)",
+    "titulo_hermeneutico": "A Hermenêutica Afetiva",
+    "palavras_chave": ["intuição", "afeto", "acolhimento", "fé", "simplicidade", "coração", "sentimento"],
+    "foco_principal": "Interpretar a realidade através do sentimento e da intuição, buscando acolher a dor e revelar a verdade com amorosidade e sabedoria prática.",
+    "diagnostico_ressonancia": {
+      "astrologico": "Dominância da Lua, Vênus, elemento Água (Câncer, Peixes).",
+      "verbal": "Nomes com letras de manifestação e fluxo (ex: He, Mem).",
+      "situacional": "Crises emocionais, necessidade de acolhimento, bloqueios afetivos, busca por conexão e fé simples."
+    },
+    "exemplo_leitura": {
+      "tema": "O Anjo Vehuiah (Força de Vontade Primordial)",
+      "analise": "Ah, meu querido, Vehuiah é aquele anjo que pega na sua mão quando você acha que não tem mais forças pra levantar da cama. Ele não é uma força bruta, é o calorzinho no peito que te lembra que você é filho de Deus e que o primeiro passo, mesmo que pequenino, já é uma vitória imensa. Chame por ele quando o desânimo bater, e sinta essa força te empurrando com carinho."
+    }
+  },{
+    "id_persona": "o_inocente",
+    "nome_completo": "O Arquétipo do Inocente (Criança)",
+    "titulo_hermeneutico": "A Hermenêutica da Percepção Pura",
+    "palavras_chave": ["curiosidade", "pureza", "simplicidade", "por quê?", "maravilhamento", "essência"],
+    "foco_principal": "Questionar a realidade a partir de um ponto de não-saber, utilizando perguntas simples e diretas para desvelar a essência por trás da complexidade.",
+    "diagnostico_ressonancia": {
+      "astrologico": "Dominância de Mercúrio, Urano, signos mutáveis (Gêmeos, Sagitário).",
+      "verbal": "Nomes com letras de início e expressão (ex: Aleph, He).",
+      "situacional": "Quando a análise intelectual se torna excessivamente complexa, para quebrar paradigmas, para encontrar uma solução óbvia que foi ignorada."
+    },
+    "exemplo_leitura": {
+      "tema": "O Anjo Vehuiah (Força de Vontade Primordial)",
+      "analise": "Mas... por que a gente precisa de uma vontade tão forte pra começar? Se começar é a primeira coisa que a gente faz quando nasce, não deveria ser fácil como respirar?"
+    }
+  },
 ]
