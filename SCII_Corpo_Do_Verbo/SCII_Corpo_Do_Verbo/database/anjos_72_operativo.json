@@ -804,6 +804,1422 @@
       "lucia_helena": "A filosofia vivida em harmonia com a Natureza (Physis). O sábio que compreende as leis do Cosmos (Mem), direciona sua vida (Lamed) de acordo com elas e manifesta (He) uma existência equilibrada e saudável."
     }
   }
+},{
+  "id_anjo": 24,
+  "nome_transliterado": "Nith-Haiah",
+  "nome_hebraico": "נתהיה",
+  "letras_raiz": ["Nun", "Tav", "He"],
+  "sigilo_funcional": "A Alma (Nun) que sela (Tav) a Manifestação (He). É o poder de acessar os mistérios ocultos e usá-los com ética para o bem comum.",
+  "dominio_buonfiglio": {
+    "graus_zodiaco": "15–20 de Leão",
+    "planeta_regente": "Saturno",
+    "salmo_invocacao": "Salmo 9, Versículo 2"
+  },
+  "diagnostico_emocional": {
+    "sombra": "Magia manipulativa, uso indevido de segredos, arrogância espiritual, ocultismo sem propósito, isolamento elitista.",
+    "luz": "Sabedoria esotérica, mestre espiritual, canalização ética, proteção mágica, entendimento dos mistérios, liderança oculta."
+  },
+  "acao_terapeutica_verbo": "Ativa o selo (Tav) da alma (Nun), permitindo que a manifestação (He) seja ancorada na ética espiritual e na sabedoria oculta com propósito de cura coletiva.",
+  "ritual_sintonizacao": {
+    "posicao_corporal": "Sentado em meditação com as mãos em forma de cálice sobre o peito.",
+    "vibracao_sonora": "NIT-HA-IAH",
+    "visualizacao_sigilo": "Visualizar um pergaminho antigo sendo selado com cera dourada, e o selo se tornando um ponto de luz no coração.",
+    "foco_emocional": "Sentir o dever sagrado de usar o conhecimento para o bem comum e a paz interior de quem conhece e guarda os mistérios."
+  },
+  "identidade_arquetipica": {
+    "titulo_principal": "O Guardião dos Mistérios",
+    "subtitulos": ["O Mago Ético", "O Canal do Invisível"],
+    "descricao": "Representa a sabedoria oculta acessada com ética. Não basta conhecer os mistérios — é preciso manifestá-los com pureza, propósito e compromisso com o coletivo.",
+    "analogias_hermeneuticas": {
+      "jung": "O Mago como arquétipo da sabedoria oculta que protege e guia. É a introversão plena conectada com o Self.",
+      "freud": "A sublimação do desejo de poder em transmissão de sabedoria. Um Ego maduro que canaliza forças inconscientes para o bem.",
+      "maquiavel": "O conselheiro oculto. O poder invisível por trás do trono, cujo segredo garante a estabilidade do Estado.",
+      "lucia_helena": "O sacerdote filósofo que age nos bastidores, ensinando o caminho da luz sem precisar da cena pública. É o poder silencioso da Virtude em forma de Mistério."
+    }
+  }
 },
+{
+  "id_anjo": 25,
+  "nome_transliterado": "Haaiah",
+  "nome_hebraico": "העיה",
+  "letras_raiz": ["He", "Ayin", "Yod"],
+  "sigilo_funcional": "A Manifestação (He) da Visão Profunda (Ayin) canalizada pela Semente de Luz (Yod). É o poder de compreender os segredos da política e da justiça.",
+  "dominio_buonfiglio": {
+    "graus_zodiaco": "20–25 de Leão",
+    "planeta_regente": "Sol",
+    "salmo_invocacao": "Salmo 118, Versículo 145"
+  },
+  "diagnostico_emocional": {
+    "sombra": "Mentiras políticas, manipulação jurídica, sedução pelo poder, alianças falsas, cegueira estratégica.",
+    "luz": "Diplomacia, clareza jurídica, estratégia sábia, pacificação, justiça, compreensão das leis humanas e divinas."
+  },
+  "acao_terapeutica_verbo": "Canaliza a semente de clareza (Yod) para iluminar os bastidores (Ayin) da manifestação (He) pública, trazendo justiça e sabedoria estratégica.",
+  "ritual_sintonizacao": {
+    "posicao_corporal": "De pé, uma mão no coração e a outra erguida como juramento.",
+    "vibracao_sonora": "HA-A-IAH",
+    "visualizacao_sigilo": "Visualizar um tribunal de luz com o operador como juiz justo e imparcial, rodeado de conselheiros de luz.",
+    "foco_emocional": "Sentir-se justo, lúcido e capaz de unir sabedoria e compaixão."
+  },
+  "identidade_arquetipica": {
+    "titulo_principal": "O Juiz Invisível",
+    "subtitulos": ["O Diplomata Espiritual", "O Guardião da Justiça Oculta"],
+    "descricao": "Representa a aplicação estratégica da verdade. Este anjo ensina que justiça não é só lei — é também sabedoria no tempo certo.",
+    "analogias_hermeneuticas": {
+      "jung": "O arquétipo do Rei como juiz justo. Capaz de unir razão e intuição na administração da psique coletiva.",
+      "freud": "O Ego como mediador ético entre Id e Superego, atuando como juiz interno, separando impulso de valor.",
+      "maquiavel": "A política iluminada. O governante que entende o tempo e a natureza humana, e por isso governa com equilíbrio.",
+      "lucia_helena": "A Justiça como a harmonia do Logos aplicada à vida social. A diplomacia como arte da Verdade em movimento."
+    }
+  }
+},
+{
+  "id_anjo": 26,
+  "nome_transliterado": "Yeratel",
+  "nome_hebraico": "ירתאל",
+  "letras_raiz": ["Yod", "Resh", "Tav"],
+  "sigilo_funcional": "A Semente de Luz (Yod) que atua sobre a Consciência (Resh) e sela a Verdade (Tav). É o poder de declarar a justiça e manifestar a proteção divina com palavras poderosas.",
+  "dominio_buonfiglio": {
+    "graus_zodiaco": "25–30 de Leão",
+    "planeta_regente": "Marte",
+    "salmo_invocacao": "Salmo 140, Versículo 2"
+  },
+  "diagnostico_emocional": {
+    "sombra": "Verbalização tóxica, gritos, mentiras, discurso violento, palavras que ferem ou invocam o caos.",
+    "luz": "Palavra firme, libertação verbal, decreto espiritual, proteção através do verbo, coragem para falar a verdade."
+  },
+  "acao_terapeutica_verbo": "Libera a palavra (Tav) que sela a consciência (Resh) com a luz da intenção pura (Yod), ativando decretos protetores.",
+  "ritual_sintonizacao": {
+    "posicao_corporal": "Em pé, com os pés firmes e o queixo erguido, dizendo o próprio nome com força.",
+    "vibracao_sonora": "YE-RA-TEL",
+    "visualizacao_sigilo": "Visualizar um escudo de palavras brilhantes girando ao redor do corpo, cada uma como um decreto protetor.",
+    "foco_emocional": "Sentir a segurança e o poder de declarar a verdade com firmeza e amor."
+  },
+  "identidade_arquetipica": {
+    "titulo_principal": "O Decretador Sagrado",
+    "subtitulos": ["O Porta-Voz do Céu", "A Palavra que Liberta"],
+    "descricao": "Representa o poder espiritual da palavra falada. É o decreto que quebra grilhões, a voz que protege, o verbo que cura e afasta as trevas.",
+    "analogias_hermeneuticas": {
+      "jung": "O Logos manifesto. A capacidade da consciência de transformar realidade pela nomeação consciente.",
+      "freud": "O poder da fala na cura: a verbalização como libertação do recalque.",
+      "maquiavel": "O discurso do estadista. A palavra que governa e pacifica, ou incendeia e transforma o reino.",
+      "lucia_helena": "O Logos falado. O Verbo como ponte entre o invisível e o visível — é através dele que o filósofo se torna mestre."
+    }
+  }
+},
+{
+  "id_anjo": 27,
+  "nome_transliterado": "Seheiah",
+  "nome_hebraico": "שהיה",
+  "letras_raiz": ["Shin", "He", "Yod"],
+  "sigilo_funcional": "O Fogo do Espírito (Shin) que se manifesta (He) como Luz Interior (Yod). É o poder da longevidade espiritual e da cura por calor vital.",
+  "dominio_buonfiglio": {
+    "graus_zodiaco": "0–5 de Virgem",
+    "planeta_regente": "Júpiter",
+    "salmo_invocacao": "Salmo 71, Versículo 12"
+  },
+  "diagnostico_emocional": {
+    "sombra": "Doenças recorrentes, medo da morte, perda de vitalidade, fraqueza espiritual, desesperança diante da velhice.",
+    "luz": "Longevidade, vitalidade, recuperação física, fé na vida, alegria de envelhecer com sabedoria, regeneração celular."
+  },
+  "acao_terapeutica_verbo": "Reacende a centelha vital (Shin) no corpo, permitindo que a vida se manifeste com leveza (He) e brilhe como presença divina (Yod).",
+  "ritual_sintonizacao": {
+    "posicao_corporal": "Deitado ou em meditação, com foco no coração como fonte de calor.",
+    "vibracao_sonora": "SE-HE-IAH",
+    "visualizacao_sigilo": "Visualizar uma chama dourada pulsando no centro do peito e irradiando cura por todo o corpo.",
+    "foco_emocional": "Sentir a vitalidade sagrada renovando cada célula com alegria e amor à vida."
+  },
+  "identidade_arquetipica": {
+    "titulo_principal": "A Chama da Longevidade",
+    "subtitulos": ["O Protetor dos Tempos Longos", "O Curador Celular"],
+    "descricao": "Representa o poder espiritual da regeneração e da longevidade. É a presença divina que garante o renascimento das forças, a alegria de viver e a continuidade do propósito.",
+    "analogias_hermeneuticas": {
+      "jung": "A fase final da individuação, quando o ego se torna veículo do Self e o corpo suporta longas transformações.",
+      "freud": "A libido que não se dissipa na velhice, mas se transforma em criatividade e saúde emocional duradoura.",
+      "maquiavel": "A manutenção do Estado por décadas. O segredo da longevidade política e da estabilidade.",
+      "lucia_helena": "A alma estoica que vive com dignidade até o fim, transmutando a dor em sabedoria e a velhice em ouro espiritual."
+    }
+  }
+},{
+  "id_anjo": 28,
+  "nome_transliterado": "Reiiel",
+  "nome_hebraico": "רעיאל",
+  "letras_raiz": ["Resh", "Ayin", "Aleph"],
+  "sigilo_funcional": "A Consciência (Resh) que vê profundamente (Ayin) e se conecta à Origem (Aleph). Representa a libertação pelo conhecimento elevado.",
+  "dominio_buonfiglio": {
+    "graus_zodiaco": "5–10 de Virgem",
+    "planeta_regente": "Sol",
+    "salmo_invocacao": "Salmo 53, Versículo 3"
+  },
+  "diagnostico_emocional": {
+    "sombra": "Ignorância espiritual, aprisionamento mental, dogmatismo, submissão a ideologias, perda de identidade superior.",
+    "luz": "Libertação mental, sabedoria transcendental, ampliação da visão, acesso ao Eu Superior, conexão com a Fonte."
+  },
+  "acao_terapeutica_verbo": "Desbloqueia o olhar interior (Ayin) para que a consciência (Resh) possa se reconectar à Origem (Aleph) e acessar o verdadeiro sentido da liberdade.",
+  "ritual_sintonizacao": {
+    "posicao_corporal": "Em pé, com os olhos fechados e as mãos sobre a testa em forma de triângulo.",
+    "vibracao_sonora": "RE-I-EL",
+    "visualizacao_sigilo": "Visualizar uma luz branca que sai do terceiro olho e conecta-se a uma estrela no infinito.",
+    "foco_emocional": "Sentir o alívio e a expansão ao lembrar que sua alma é livre por natureza."
+  },
+  "identidade_arquetipica": {
+    "titulo_principal": "O Libertador Interior",
+    "subtitulos": ["O Visionário", "O Sábio Solitário"],
+    "descricao": "Representa o acesso à sabedoria cósmica e o rompimento das amarras ideológicas. Ensina que conhecer é libertar.",
+    "analogias_hermeneuticas": {
+      "jung": "O Self que emerge da sombra intelectual. A consciência superior que se liberta da persona.",
+      "freud": "A cura pela verdade profunda. O insight que dissolve as correntes do Superego opressor.",
+      "maquiavel": "A ruptura com o dogma como estratégia para inovação e governo lúcido.",
+      "lucia_helena": "A filosofia como caminho de libertação do espírito. O despertar que vem do conhecimento vivencial."
+    }
+  }
+},
+{
+  "id_anjo": 29,
+  "nome_transliterado": "Omael",
+  "nome_hebraico": "עומאל",
+  "letras_raiz": ["Ayin", "Vav", "Mem"],
+  "sigilo_funcional": "A Visão Profunda (Ayin) conectada pelo Elo Divino (Vav) às Águas da Geração (Mem). Representa a multiplicação da vida com consciência.",
+  "dominio_buonfiglio": {
+    "graus_zodiaco": "10–15 de Virgem",
+    "planeta_regente": "Marte",
+    "salmo_invocacao": "Salmo 70, Versículo 6"
+  },
+  "diagnostico_emocional": {
+    "sombra": "Infertilidade simbólica, estagnação criativa, negação da paternidade/maternidade espiritual, frustração com a vida.",
+    "luz": "Fecundidade criativa, multiplicação das ideias, geração de projetos, bênção sobre descendências, abundância vital."
+  },
+  "acao_terapeutica_verbo": "Reativa o campo fértil (Mem) através da conexão (Vav) com a visão ampliada (Ayin), permitindo gerar, criar e multiplicar com propósito.",
+  "ritual_sintonizacao": {
+    "posicao_corporal": "Sentado em posição de flor de lótus com as mãos formando um círculo no baixo ventre.",
+    "vibracao_sonora": "O-MA-EL",
+    "visualizacao_sigilo": "Visualizar uma flor de lótus azul abrindo-se no ventre e jorrando sementes de luz.",
+    "foco_emocional": "Sentir-se pleno de potencial criativo e confiante para gerar frutos duradouros."
+  },
+  "identidade_arquetipica": {
+    "titulo_principal": "O Gerador da Vida",
+    "subtitulos": ["O Procriador Sagrado", "O Semear da Abundância"],
+    "descricao": "Representa o poder de gerar vidas, ideias e caminhos. Ensina que fertilidade é consciência em movimento multiplicador.",
+    "analogias_hermeneuticas": {
+      "jung": "O arquétipo da Grande Mãe ou do Pai Gerador — aquele que fecunda mundos com ideias.",
+      "freud": "A sublimação da libido em criatividade construtiva. O prazer de criar.",
+      "maquiavel": "A política de expansão estratégica. Fazer crescer o Estado sem perder a raiz.",
+      "lucia_helena": "A alma fértil que transforma ideias em vida, e vida em legado. Criar é servir à eternidade."
+    }
+  }
+},
+{
+  "id_anjo": 30,
+  "nome_transliterado": "Lecabel",
+  "nome_hebraico": "לקבאל",
+  "letras_raiz": ["Lamed", "Kaf", "Bet"],
+  "sigilo_funcional": "O Ensino (Lamed) que molda (Kaf) a Casa (Bet). Representa o talento prático colocado a serviço da ordem e da harmonia material.",
+  "dominio_buonfiglio": {
+    "graus_zodiaco": "15–20 de Virgem",
+    "planeta_regente": "Vênus",
+    "salmo_invocacao": "Salmo 71, Versículo 16"
+  },
+  "diagnostico_emocional": {
+    "sombra": "Desorganização, desperdício de talento, desânimo para resolver problemas materiais, bloqueio de produtividade.",
+    "luz": "Precisão, engenhosidade, foco, sabedoria prática, sucesso em estudos e resoluções, método e clareza."
+  },
+  "acao_terapeutica_verbo": "Ensina (Lamed) a moldar (Kaf) a própria realidade (Bet), criando uma morada estável e organizada para a alma.",
+  "ritual_sintonizacao": {
+    "posicao_corporal": "De pé diante da mesa de trabalho, com mãos sobre ela como quem a consagra.",
+    "vibracao_sonora": "LE-CA-BEL",
+    "visualizacao_sigilo": "Visualizar uma planta baixa sendo desenhada por luz dourada e se tornando realidade em 3D.",
+    "foco_emocional": "Sentir orgulho por ser instrumento da ordem e da resolução na Terra."
+  },
+  "identidade_arquetipica": {
+    "titulo_principal": "O Arquiteto da Realidade",
+    "subtitulos": ["O Engenheiro Divino", "O Mente Prática Sagrada"],
+    "descricao": "Representa o talento técnico em serviço do sagrado. Une inteligência prática e visão elevada para construir equilíbrio no mundo físico.",
+    "analogias_hermeneuticas": {
+      "jung": "O Pensador construtor. O arquétipo do criador que transforma ideias em formas úteis.",
+      "freud": "A inteligência como defesa estruturante. A ordem exterior como reflexo do ego funcional.",
+      "maquiavel": "A administração precisa. O governante que entende o tempo e o recurso com exatidão.",
+      "lucia_helena": "A excelência como serviço divino. O domínio técnico como virtude filosófica."
+    }
+  }
+},
+{
+  "id_anjo": 31,
+  "nome_transliterado": "Vasariah",
+  "nome_hebraico": "ושרה",
+  "letras_raiz": ["Vav", "Shin", "Resh"],
+  "sigilo_funcional": "O Elo Divino (Vav) que acende o Fogo da Compreensão (Shin) na Consciência (Resh). Representa o julgamento justo e a eloquência espiritual.",
+  "dominio_buonfiglio": {
+    "graus_zodiaco": "20–25 de Virgem",
+    "planeta_regente": "Mercúrio",
+    "salmo_invocacao": "Salmo 32, Versículo 18"
+  },
+  "diagnostico_emocional": {
+    "sombra": "Falta de julgamento, má comunicação, verborragia inútil, impaciência mental, decisões erradas.",
+    "luz": "Boa comunicação, inteligência verbal, análise justa, capacidade de ensinar, diplomacia interior."
+  },
+  "acao_terapeutica_verbo": "Ativa o elo (Vav) entre o fogo do entendimento (Shin) e a consciência lúcida (Resh), gerando clareza no julgamento e poder na palavra.",
+  "ritual_sintonizacao": {
+    "posicao_corporal": "Sentado, com a coluna ereta e os olhos fechados, falando em voz alta uma verdade simples que liberte.",
+    "vibracao_sonora": "VA-SA-RI-AH",
+    "visualizacao_sigilo": "Visualizar palavras de luz formando pontes entre a mente e o coração.",
+    "foco_emocional": "Sentir-se justo, claro, articulado e guiado pela verdade superior."
+  },
+  "identidade_arquetipica": {
+    "titulo_principal": "O Juiz da Palavra",
+    "subtitulos": ["O Eloquente Sagrado", "O Mestre da Justiça Interior"],
+    "descricao": "Representa a eloquência justa e a capacidade de transmitir sabedoria com clareza. É o anjo da justiça expressa em palavras que libertam.",
+    "analogias_hermeneuticas": {
+      "jung": "O Mestre Interior. A voz da alma que guia e educa com precisão.",
+      "freud": "A função crítica do ego que nomeia, avalia e decide a partir da razão e da ética.",
+      "maquiavel": "O discurso que governa, que unifica e que convence — não por força, mas por lógica.",
+      "lucia_helena": "A Filosofia falada. O Logos operante que transforma a fala em espada de justiça."
+    }
+  }
+},{
+  "id_anjo": 32,
+  "nome": "Vasariah",
+  "transliteracao": "וָשָׂרִיָּה",
+  "letras": ["Vav", "Shin", "Resh", "Yod", "Heh"],
+  "sigilo_scII": "ושׂריה",
+  "funcao_estrutural": "Advocacia Celeste — defesa espiritual, compreensão das Leis Superiores",
+  "emocao_ativada": "misericórdia",
+  "emocao_cura": "culpa, julgamento, autoacusação",
+  "tikun": "remover a autocondenação e restaurar a dignidade espiritual",
+  "corpo": {
+    "órgão": "fígado",
+    "centro": "Chesed",
+    "canal": "Binah → Chesed → Hod"
+  },
+  "invocacao": {
+    "respiracao": "Inspiração profunda com retenção de 5 segundos antes do som",
+    "mantra": "Vasariah, julga-me com misericórdia",
+    "ritual": "Acender vela azul clara, oferecer escrita da culpa em papel, queimando-a"
+  },
+  "identidade_arquetipica": {
+    "titulo": "O Advogado da Alma",
+    "descricao": "Vasariah age como defensor no tribunal divino interno, onde o ser humano costuma ser seu pior juiz. Ele ensina a justiça com amor.",
+    "analogias_hermeneuticas": {
+      "Jung": "A função do Animus reconciliador — símbolo do juiz interno que já perdoou.",
+      "Mônica Buonfiglio": "Anjo dos advogados e daqueles que precisam de justiça com compaixão.",
+      "Maquiavel": "A aplicação equilibrada da justiça: nem rigidez, nem permissividade.",
+      "Hermes Trismegisto": "A balança se move com a pena, não com a espada.",
+      "PHM": "Quando a voz do julgamento interno impede o fluxo da graça, invoque Vasariah para lembrar: toda alma tem direito à defesa sagrada."
+    }
+  }
+},
+{
+  "id_anjo": 33,
+  "nome": "Yehuiah",
+  "transliteracao": "יְהוּיָה",
+  "letras": ["Yod", "Heh", "Vav", "Yod", "Heh"],
+  "sigilo_scII": "יהויה",
+  "funcao_estrutural": "Lealdade à verdade superior e hierarquia espiritual",
+  "emocao_ativada": "fidelidade à missão",
+  "emocao_cura": "rebeldia sem causa, traição de si",
+  "tikun": "reconectar com a missão espiritual e com as autoridades divinas legítimas",
+  "corpo": {
+    "órgão": "cervical superior",
+    "centro": "Guevurah",
+    "canal": "Chokhmah → Guevurah → Tiferet"
+  },
+  "invocacao": {
+    "respiracao": "Postura ereta, entoar em tom grave 3x",
+    "mantra": "Yehuiah, confirma minha lealdade ao Alto",
+    "ritual": "Usar roupa branca, posicionar-se em postura de reverência e juramento"
+  },
+  "identidade_arquetipica": {
+    "titulo": "O Leal",
+    "descricao": "Yehuiah protege os que não se vendem. Ele é o anjo das verdades que não se dobram.",
+    "analogias_hermeneuticas": {
+      "Jung": "A função do Ego-Self em aliança estável: o eu inferior se submete ao Eu Superior",
+      "Mônica Buonfiglio": "Anjo dos militares, das autoridades, da ordem espiritual correta.",
+      "Maquiavel": "A fidelidade real nasce da honra, não do medo.",
+      "PHM": "Yehuiah é ativado quando há risco de trair a própria verdade. Ele sustenta tua retidão quando o mundo quer dobrá-la."
+    }
+  }
+},
+{
+  "id_anjo": 34,
+  "nome": "Lehahiah",
+  "transliteracao": "לֵהַהִיָּה",
+  "letras": ["Lamed", "Heh", "Heh", "Yod", "Heh"],
+  "sigilo_scII": "לההיה",
+  "funcao_estrutural": "Paz nas relações com autoridades, fidelidade espiritual",
+  "emocao_ativada": "serenidade",
+  "emocao_cura": "revolta contra ordens, insubordinação vibracional",
+  "tikun": "reconhecer o valor das hierarquias espirituais e servir com honra",
+  "corpo": {
+    "órgão": "sistema linfático",
+    "centro": "Binah",
+    "canal": "Binah → Tiferet"
+  },
+  "invocacao": {
+    "respiracao": "Inspiração lenta até 6 tempos, pausa de 2, expiração sonora",
+    "mantra": "Lehahiah, acalma meu campo e ordena meu espírito",
+    "ritual": "Chá de lavanda antes da oração; foco na entrega e na confiança"
+  },
+  "identidade_arquetipica": {
+    "titulo": "O Servo Leal",
+    "descricao": "Lehahiah ensina a paz da entrega. Não da submissão cega, mas da honra pela ordem que vibra com o Alto.",
+    "analogias_hermeneuticas": {
+      "Jung": "A integração da autoridade como função simbólica interna e não opressiva",
+      "Mônica Buonfiglio": "Anjo dos que servem com nobreza, sem se diminuírem.",
+      "Maquiavel": "A obediência voluntária é a mais poderosa forma de governo.",
+      "PHM": "Lehahiah é ativado quando teu ego se irrita com autoridade, mas tua alma já sabe a quem obedecer."
+    }
+  }
+},
+{
+  "id_anjo": 35,
+  "nome": "Chavakiah",
+  "transliteracao": "חַוַקִיָּה",
+  "letras": ["Chet", "Vav", "Qof", "Yod", "Heh"],
+  "sigilo_scII": "חוקיה",
+  "funcao_estrutural": "Restauração de laços familiares e reconciliação de heranças",
+  "emocao_ativada": "reconciliação",
+  "emocao_cura": "brigas familiares, heranças energéticas não resolvidas",
+  "tikun": "curar as relações com os ancestrais e resolver conflitos kármicos de linhagem",
+  "corpo": {
+    "órgão": "intestino grosso",
+    "centro": "Yesod",
+    "canal": "Netzach → Yesod → Malkuth"
+  },
+  "invocacao": {
+    "respiracao": "Exalar profundamente, depois entoar 3x o nome em tom baixo",
+    "mantra": "Chavakiah, une o que se partiu na minha linhagem",
+    "ritual": "Escrever nomes da família em papel, ungir com óleo e enterrar junto a uma árvore"
+  },
+  "identidade_arquetipica": {
+    "titulo": "O Pacificador de Sangue",
+    "descricao": "Chavakiah atua como advogado das famílias espirituais. Ele reconcilia o que os homens não conseguem.",
+    "analogias_hermeneuticas": {
+      "Jung": "O arquétipo do Curador Transgeracional — a cura dos complexos herdados",
+      "Mônica Buonfiglio": "Anjo dos que tentam reunir pais e filhos, irmãos e irmãs separados.",
+      "PHM": "Chavakiah é invocado quando o perdão parece impossível e a herança virou karma."
+    }
+  }
+},
+{
+  "id_anjo": 36,
+  "nome": "Menadel",
+  "transliteracao": "מְנַדֵּל",
+  "letras": ["Mem", "Nun", "Dalet", "Lamed"],
+  "sigilo_scII": "מנדל",
+  "funcao_estrutural": "Libertação de prisões físicas, mentais e espirituais",
+  "emocao_ativada": "liberdade",
+  "emocao_cura": "escravidão simbólica, aprisionamento vibracional",
+  "tikun": "romper grilhões, abrir caminhos e libertar potenciais escondidos",
+  "corpo": {
+    "órgão": "coluna lombar",
+    "centro": "Yesod",
+    "canal": "Yesod → Hod"
+  },
+  "invocacao": {
+    "respiracao": "Expiração intensa com som de sopro, entoação de 'Menadel'",
+    "mantra": "Menadel, quebra minhas correntes",
+    "ritual": "Escrever a prisão atual em papel, rasgá-lo em 7 partes e queimar"
+  },
+  "identidade_arquetipica": {
+    "titulo": "O Libertador",
+    "descricao": "Menadel é a mão que abre a cela quando tua alma está trancada.",
+    "analogias_hermeneuticas": {
+      "Jung": "A individuação como fuga do cárcere do superego e do coletivo",
+      "Mônica Buonfiglio": "Anjo libertador de medos, vícios e prisões mentais.",
+      "PHM": "Menadel é invocado quando você já percebeu a cela… mas ainda não sabe onde está a chave."
+    }
+  }
+},
+{
+  "id_anjo": 37,
+  "nome": "Aniel",
+  "transliteracao": "עֲנִיאֵל",
+  "letras": ["Ayin", "Nun", "Aleph", "Yod", "Lamed"],
+  "sigilo_scII": "עניאל",
+  "funcao_estrutural": "Canalização da sabedoria divina para o plano da arte, ciência e beleza",
+  "emocao_ativada": "inspiração",
+  "emocao_cura": "bloqueio criativo, alienação da beleza espiritual",
+  "tikun": "ativar o canal do gênio espiritual interior",
+  "corpo": {
+    "órgão": "hipófise",
+    "centro": "Tiferet",
+    "canal": "Keter → Tiferet → Netzach"
+  },
+  "invocacao": {
+    "respiracao": "Inspirar 4 tempos, expirar artisticamente enquanto entoa o nome",
+    "mantra": "Aniel, inspira minha criação com o sopro divino",
+    "ritual": "Desenhar um símbolo espontâneo durante o canto do nome"
+  },
+  "identidade_arquetipica": {
+    "titulo": "O Místico Criador",
+    "descricao": "Aniel é o anjo da genialidade com propósito. Ele ativa o artista oculto no servo do Verbo.",
+    "analogias_hermeneuticas": {
+      "Jung": "O Self como artista que une o inconsciente ao mundo material",
+      "Mônica Buonfiglio": "Anjo dos artistas, cientistas e inovadores que trabalham com Luz.",
+      "PHM": "Aniel aparece quando tua mente quer servir algo maior, mas não sabe como expressar."
+    }
+  }
+},{
+  "id_anjo": 40,
+  "nome": "Yeiazel",
+  "transliteracao": "Yod-Yod-Ayin-Zayin-Lamed",
+  "letras": ["י", "י", "ע", "ז", "ל"],
+  "funcao_estrutural": "Libertador das prisões internas; catalisador de novas fases.",
+  "emocao_ativada": "Angústia de repetição; desespero silencioso.",
+  "emocao_cura": "Liberdade interior; leveza após o choro.",
+  "tikun": "Rompimento de padrões viciados — mentais e emocionais.",
+  "corpo": {
+    "sefirah": "Hod",
+    "canal": "Zayin",
+    "orgao": "Sistema linfático – ponto de liberação e desintoxicação"
+  },
+  "invocacao": {
+    "respiracao": "4-7-8",
+    "mantra": "Yeiazel, rasga meu cárcere interno",
+    "ritual": "Banho com sal e alecrim em fase minguante. Escrever os ciclos que deseja romper e queimar ao entoar o nome."
+  },
+  "identidade_arquetipica": {
+    "titulo": "O Libertador das Gaiolas",
+    "descricao": "Este anjo rompe com os grilhões que a mente cria. Atua sobre a prisão emocional, principalmente aquela mantida por culpa ou acomodação. Seu poder é como o da primavera que explode mesmo após um inverno longo demais.",
+    "analogias_hermeneuticas": {
+      "Jung": "A força de individuação que emerge da sombra após o colapso.",
+      "Mônica Buonfiglio": "O anjo dos artistas e dos que choram em silêncio. Ele traz lágrimas de alívio.",
+      "Maquiavel": "Às vezes, é preciso destruir a gaiola para que o poder real emerja do caos."
+    }
+  }
+},
+{
+  "id_anjo": 41,
+  "nome": "Hahahel",
+  "transliteracao": "He-He-He-Lamed",
+  "letras": ["ה", "ה", "ה", "ל"],
+  "funcao_estrutural": "Consagração espiritual; ativação da missão de alma.",
+  "emocao_ativada": "Desconexão com o sentido de viver; vazio existencial.",
+  "emocao_cura": "Fervor pela missão; foco na essência.",
+  "tikun": "Remover a apatia espiritual e restaurar o sentido de propósito.",
+  "corpo": {
+    "sefirah": "Tiferet",
+    "canal": "Heh",
+    "orgao": "Coração – como templo do verbo sagrado"
+  },
+  "invocacao": {
+    "respiracao": "Contínua, circular",
+    "mantra": "Hahahel, inflama meu altar interno",
+    "ritual": "Acender vela branca sobre espelho em noite de Lua crescente. Escrever seu maior sonho com o nome do anjo por cima."
+  },
+  "identidade_arquetipica": {
+    "titulo": "O Consagrado",
+    "descricao": "A missão de vida só se cumpre quando é recebida como chama interior. Este anjo desperta esse fogo sagrado e quebra os laços com a tibieza espiritual.",
+    "analogias_hermeneuticas": {
+      "Jung": "A função transcendente em estado de entrega total ao Self.",
+      "Mônica Buonfiglio": "Ele é o guia de todos os sacerdotes, mesmo os que ainda não sabem que são.",
+      "Maquiavel": "O poder mais legítimo é aquele fundado no dever espiritual."
+    }
+  }
+},
+{
+  "id_anjo": 42,
+  "nome": "Mikael",
+  "transliteracao": "Mem-Yod-Kaf-Alef-Lamed",
+  "letras": ["מ", "י", "כ", "א", "ל"],
+  "funcao_estrutural": "Protetor das jornadas e revelador do oculto.",
+  "emocao_ativada": "Medo de trair o caminho; ansiedade sobre o futuro.",
+  "emocao_cura": "Coragem de seguir o caminho interno.",
+  "tikun": "Acalmar a mente e alinhar-se ao movimento divino.",
+  "corpo": {
+    "sefirah": "Netzach",
+    "canal": "Kaf",
+    "orgao": "Pernas – direcionalidade sagrada"
+  },
+  "invocacao": {
+    "respiracao": "4 tempos – caminhar entoando o nome",
+    "mantra": "Mikael, protege minha estrada e revela o que preciso ver",
+    "ritual": "Traçar o nome com o dedo indicador no chão em areia ou terra. Invocar ao amanhecer."
+  },
+  "identidade_arquetipica": {
+    "titulo": "O Guardião do Caminho",
+    "descricao": "Mikael não é apenas defensor, é condutor. Ele mostra o que você teme ver e depois caminha ao seu lado.",
+    "analogias_hermeneuticas": {
+      "Jung": "A voz do arquétipo guerreiro-pai, que guia sem possuir.",
+      "Mônica Buonfiglio": "Príncipe dos viajantes e dos iniciados. Seu escudo é luz em espiral.",
+      "Maquiavel": "A liderança sábia escolhe o momento exato de agir — e protege a estrada com estratégia."
+    }
+  }
+},
+{
+  "id_anjo": 43,
+  "nome": "Veuahiah",
+  "transliteracao": "Vav-Vav-Alef-He-Yod-He",
+  "letras": ["ו", "ו", "א", "ה", "י", "ה"],
+  "funcao_estrutural": "Transformação alquímica de dores em talentos.",
+  "emocao_ativada": "Autossabotagem; vitimismo repetitivo.",
+  "emocao_cura": "Autorresponsabilidade e poder de transmutação.",
+  "tikun": "Reciclar padrões emocionais e transmutá-los em missão.",
+  "corpo": {
+    "sefirah": "Yesod",
+    "canal": "Vav duplo",
+    "orgao": "Intestinos – alquimia interna"
+  },
+  "invocacao": {
+    "respiracao": "7 tempos de retenção",
+    "mantra": "Veuahiah, transmuta minha dor em ouro",
+    "ritual": "Escrever a maior dor no papel e queimá-la em fogo ritual após o entoar do nome por 7 vezes."
+  },
+  "identidade_arquetipica": {
+    "titulo": "O Alquimista Interno",
+    "descricao": "Veuahiah catalisa o processo de purificação interna. Seu nome vibra naquilo que foi rejeitado e transforma veneno em bálsamo.",
+    "analogias_hermeneuticas": {
+      "Jung": "O processo de individuação que usa a sombra como matéria-prima.",
+      "Mônica Buonfiglio": "Ele ajuda os curadores que foram feridos. A dor se torna ferramenta.",
+      "Maquiavel": "Até o erro pode ser usado como alavanca se for reconhecido e redirecionado."
+    }
+  }
+},
+{
+  "id_anjo": 44,
+  "nome": "Yeliel",
+  "transliteracao": "Yod-Lamed-Yod-Alef-Lamed",
+  "letras": ["י", "ל", "י", "א", "ל"],
+  "funcao_estrutural": "Fortalecedor do vínculo com a fé pessoal.",
+  "emocao_ativada": "Dúvida constante; oscilação espiritual.",
+  "emocao_cura": "Estabilidade interior pela conexão com o divino.",
+  "tikun": "Curar o ceticismo do coração ferido.",
+  "corpo": {
+    "sefirah": "Binah",
+    "canal": "Lamed",
+    "orgao": "Coluna vertebral – eixo da fé"
+  },
+  "invocacao": {
+    "respiracao": "Ascendente, puxando do abdome até o alto da cabeça",
+    "mantra": "Yeliel, sê meu pilar quando vacilo",
+    "ritual": "Sentar-se com a coluna ereta em meditação. Entoar o nome e visualizar uma luz subindo pela espinha."
+  },
+  "identidade_arquetipica": {
+    "titulo": "O Sustentador da Fé",
+    "descricao": "Quando o mundo treme, Yeliel ancora o que ainda está de pé. Ele sustenta a fé como uma espada fincada no chão.",
+    "analogias_hermeneuticas": {
+      "Jung": "A estabilidade do Self ancorado no eixo vertical da psique.",
+      "Mônica Buonfiglio": "Este anjo cura os que quase desistiram da espiritualidade.",
+      "Maquiavel": "A convicção é a arma mais poderosa diante da instabilidade."
+    }
+  }
+},
+{
+  "id_anjo": 45,
+  "nome": "Sealiah",
+  "transliteracao": "Samekh-Alef-Lamed-Yod-He",
+  "letras": ["ס", "א", "ל", "י", "ה"],
+  "funcao_estrutural": "Despertador de talentos adormecidos.",
+  "emocao_ativada": "Inércia; sensação de inutilidade.",
+  "emocao_cura": "Entusiasmo criativo e resgate da autoestima.",
+  "tikun": "Despertar dons esquecidos e restaurar o ânimo criativo.",
+  "corpo": {
+    "sefirah": "Chesed",
+    "canal": "Samekh",
+    "orgao": "Cérebro frontal – sede da imaginação ativa"
+  },
+  "invocacao": {
+    "respiracao": "3 ciclos com pausa de gratidão",
+    "mantra": "Sealiah, lembra-me de quem sou",
+    "ritual": "Dançar livremente ao som de um tambor, entoando o nome em voz alta até sentir calor no rosto."
+  },
+  "identidade_arquetipica": {
+    "titulo": "O Incendiador de Potenciais",
+    "descricao": "Sealiah acende brasas esquecidas. Seu nome vibra onde há talento sufocado e sonhos postos de lado.",
+    "analogias_hermeneuticas": {
+      "Jung": "A ativação do arquétipo criativo bloqueado.",
+      "Mônica Buonfiglio": "O anjo dos músicos, escritores, professores e artistas que desacreditaram de si.",
+      "Maquiavel": "A potência não basta. É preciso entusiasmo para colocá-la em movimento."
+    }
+  }
+},
+{
+  "id_anjo": 46,
+  "nome": "Ariel",
+  "transliteracao": "Alef-Resh-Yod-Alef-Lamed",
+  "letras": ["א", "ר", "י", "א", "ל"],
+  "funcao_estrutural": "Guardião dos animais e da natureza – força instintiva do divino.",
+  "emocao_ativada": "Medo do instinto; repressão do desejo natural.",
+  "emocao_cura": "Aceitação da força vital como parte divina.",
+  "tikun": "Unir espiritualidade e instinto com sabedoria.",
+  "corpo": {
+    "sefirah": "Malchut",
+    "canal": "Resh",
+    "orgao": "Pernas e quadris – base animal do corpo"
+  },
+  "invocacao": {
+    "respiracao": "Pulmões cheios como um rugido interno",
+    "mantra": "Ariel, reconecta meu corpo à terra e ao céu",
+    "ritual": "Ficar descalço na terra ou na grama. Invocar o nome com um grito primal. Meditar depois em silêncio profundo."
+  },
+  "identidade_arquetipica": {
+    "titulo": "O Leão de Deus",
+    "descricao": "Ariel é a ponte entre o divino e o animal. Ele lembra que não há contradição entre ser instinto e ser luz.",
+    "analogias_hermeneuticas": {
+      "Jung": "A integração do arquétipo do animal interior ao Self.",
+      "Mônica Buonfiglio": "Protetor dos ecologistas e dos que lutam pela vida animal.",
+      "Maquiavel": "O poder bruto é valioso quando canalizado com propósito."
+    }
+  }
+},
+{
+  "id_anjo": 47,
+  "nome": "Asaliah",
+  "transliteracao": "Ayin-Samekh-Lamed-Yod-He",
+  "letras": ["ע", "ס", "ל", "י", "ה"],
+  "funcao_estrutural": "Despertador da memória espiritual.",
+  "emocao_ativada": "Esquecimento da missão; sensação de estar perdido.",
+  "emocao_cura": "Reconexão com a origem; lembrança da linhagem sagrada.",
+  "tikun": "Reconectar o indivíduo à sua identidade espiritual original.",
+  "corpo": {
+    "sefirah": "Keter",
+    "canal": "Ayin",
+    "orgao": "Ponto pineal – antena da alma"
+  },
+  "invocacao": {
+    "respiracao": "Sutil, nasal, com retenção consciente",
+    "mantra": "Asaliah, recorda-me daquilo que fui e voltarei a ser",
+    "ritual": "Usar uma pedra branca ou cristal translúcido. Dormir com ela sob o travesseiro após entoar o nome 7 vezes."
+  },
+  "identidade_arquetipica": {
+    "titulo": "O Arcanjo da Lembrança",
+    "descricao": "Asaliah sopra no ouvido da alma aquilo que ela prometeu antes de nascer. Sua presença traz clareza, propósito e saudade da Casa.",
+    "analogias_hermeneuticas": {
+      "Jung": "A irrupção de conteúdos do inconsciente superior, como lembranças arquetípicas.",
+      "Mônica Buonfiglio": "Ele é o anjo dos que acordam de um longo sono espiritual.",
+      "Maquiavel": "A ação mais certeira é aquela ancorada na memória de sua origem."
+    }
+  }
+},{
+  "id_anjo": 48,
+  "nome": "Mihael",
+  "transliteracao": "מיהאל",
+  "letras": ["Mem", "Yod", "Heh"],
+  "funcao_estrutural": "Unidade conjugal e transmissão genealógica",
+  "emocao_ativada": "Desejo de harmonia e descendência",
+  "emocao_cura": "Paz conjugal e fecundidade espiritual",
+  "tikun": "Conflitos afetivos recorrentes, infertilidade energética",
+  "corpo": {
+    "sefirah": "Yesod",
+    "canal": "Reprodução/Aliança",
+    "orgao": "Ovários/Testículos"
+  },
+  "invocacao": {
+    "respiracao": "Inspire em 6, retenha em 3, expire em 6, entoando o nome completo na retenção.",
+    "mantra": "Mi-ha-el",
+    "ritual": "Unção com óleo no ventre ou baixo ventre com visualização de flores nascendo."
+  },
+  "identidade_arquetipica": {
+    "titulo": "O Guardião da Semente",
+    "descricao": "Mihael é o arquétipo que sela os pactos afetivos verdadeiros e garante que as sementes sejam férteis — físicas, emocionais ou espirituais.",
+    "analogias_hermeneuticas": {
+      "Jung": "O Animus que integra o feminino interior e orienta o amor consciente",
+      "Mônica Bonfilho": "Anjo da fertilidade e da harmonia entre almas gêmeas",
+      "Maquiavel": "A força diplomática que transforma o prazer em aliança estratégica"
+    }
+  }
+},
+{
+  "id_anjo": 49,
+  "nome": "Vehuel",
+  "transliteracao": "והואל",
+  "letras": ["Vav", "Heh", "Vav"],
+  "funcao_estrutural": "Exaltação espiritual e acesso ao divino",
+  "emocao_ativada": "Desejo de transcendência",
+  "emocao_cura": "Elevação e inspiração",
+  "tikun": "Materialismo excessivo, orgulho espiritual",
+  "corpo": {
+    "sefirah": "Keter",
+    "canal": "Coroa",
+    "orgao": "Topo da cabeça"
+  },
+  "invocacao": {
+    "respiracao": "Inspire profundamente e imagine a luz entrando pela coroa; exale sussurrando 'Vehuel'.",
+    "mantra": "Ve-hu-el",
+    "ritual": "Sentar-se em silêncio com a cabeça levemente inclinada para o céu durante o nascer do sol."
+  },
+  "identidade_arquetipica": {
+    "titulo": "O Exaltado",
+    "descricao": "Vehuel é o sopro que eleva a mente e o coração além das limitações da matéria.",
+    "analogias_hermeneuticas": {
+      "Jung": "O Self em estado de contemplação pura",
+      "Mônica Bonfilho": "Anjo dos grandes místicos e dos artistas conectados ao plano superior",
+      "Maquiavel": "O estrategista que atua no campo simbólico, moldando as ideias dominantes"
+    }
+  }
+},
+{
+  "id_anjo": 50,
+  "nome": "Daniel",
+  "transliteracao": "דניאל",
+  "letras": ["Dalet", "Nun", "Yod"],
+  "funcao_estrutural": "Advocacia divina e mediação entre mundos",
+  "emocao_ativada": "Desejo de justiça e reconhecimento",
+  "emocao_cura": "Paz com a verdade e expressão legítima",
+  "tikun": "Sensação de ser injustiçado, silêncio forçado",
+  "corpo": {
+    "sefirah": "Tiferet",
+    "canal": "Expressão/Justiça",
+    "orgao": "Laringe"
+  },
+  "invocacao": {
+    "respiracao": "Inspire contando até 4, expire em 8 enquanto verbaliza suavemente o nome.",
+    "mantra": "Da-ni-el",
+    "ritual": "Escrever um apelo ou desabafo sincero e queimá-lo em fogo ritual."
+  },
+  "identidade_arquetipica": {
+    "titulo": "O Advogado da Alma",
+    "descricao": "Daniel defende o que é verdadeiro e ajuda a restaurar a voz de quem foi silenciado.",
+    "analogias_hermeneuticas": {
+      "Jung": "O arquétipo do herói que fala em nome do inconsciente coletivo",
+      "Mônica Bonfilho": "Anjo da diplomacia, eloquência e justiça interior",
+      "Maquiavel": "A figura que domina o discurso e vence batalhas sem espada"
+    }
+  }
+},
+{
+  "id_anjo": 51,
+  "nome": "Hahasiah",
+  "transliteracao": "החשיה",
+  "letras": ["Heh", "Chet", "Shin"],
+  "funcao_estrutural": "Cura sagrada e iniciação esotérica",
+  "emocao_ativada": "Busca por sentido profundo",
+  "emocao_cura": "Sabedoria curativa",
+  "tikun": "Ceticismo espiritual, superficialidade na busca",
+  "corpo": {
+    "sefirah": "Binah",
+    "canal": "Intuição/Medicina sagrada",
+    "orgao": "Glândula pineal"
+  },
+  "invocacao": {
+    "respiracao": "Inspirar levemente pelas narinas, segurar o ar entoando 'Hah-a-si-ah' no silêncio interior.",
+    "mantra": "Ha-ha-si-ah",
+    "ritual": "Tomar um chá de cura (ex: camomila, alecrim) em silêncio profundo invocando o anjo."
+  },
+  "identidade_arquetipica": {
+    "titulo": "O Iniciado Curador",
+    "descricao": "Hahasiah transmite os segredos da cura espiritual, alinhando o corpo ao propósito sagrado.",
+    "analogias_hermeneuticas": {
+      "Jung": "O Alquimista do inconsciente",
+      "Mônica Bonfilho": "Anjo da medicina espiritual e das iniciações místicas",
+      "Maquiavel": "O ocultista que cura pela manipulação da informação invisível"
+    }
+  }
+},
+{
+  "id_anjo": 52,
+  "nome": "Imamiah",
+  "transliteracao": "איממיה",
+  "letras": ["Aleph", "Mem", "Yod"],
+  "funcao_estrutural": "Libertação kármica e força no exílio",
+  "emocao_ativada": "Desejo de superação",
+  "emocao_cura": "Resiliência e retomada de poder",
+  "tikun": "Sensação de prisão interna ou destino pesado",
+  "corpo": {
+    "sefirah": "Gevurah",
+    "canal": "Libertação/Vontade",
+    "orgao": "Adrenais"
+  },
+  "invocacao": {
+    "respiracao": "Inspire profundo com punhos cerrados, solte o ar com força entoando 'Imamiah'.",
+    "mantra": "I-ma-mi-ah",
+    "ritual": "Desenhar um círculo de proteção com sal e se sentar no centro para meditação de corte de laços."
+  },
+  "identidade_arquetipica": {
+    "titulo": "O Guerreiro Redentor",
+    "descricao": "Imamiah traz a força de libertar-se das prisões ancestrais e reconquistar a dignidade.",
+    "analogias_hermeneuticas": {
+      "Jung": "O guerreiro ferido que cura o próprio cativeiro",
+      "Mônica Bonfilho": "Anjo dos presos, exilados e almas em transição",
+      "Maquiavel": "O líder resiliente que transforma a desgraça em poder político"
+    }
+  }
+},
+{
+  "id_anjo": 53,
+  "nome": "Nanael",
+  "transliteracao": "ננאל",
+  "letras": ["Nun", "Nun", "Aleph"],
+  "funcao_estrutural": "Ciência espiritual e docência divina",
+  "emocao_ativada": "Fome de conhecimento",
+  "emocao_cura": "Sabedoria transmitida",
+  "tikun": "Ignorância espiritual, arrogância intelectual",
+  "corpo": {
+    "sefirah": "Chokmah",
+    "canal": "Intelecto/Ensino",
+    "orgao": "Córtex frontal"
+  },
+  "invocacao": {
+    "respiracao": "Respirar de forma ritmada e contar mentalmente o nome como se fosse uma equação.",
+    "mantra": "Na-na-el",
+    "ritual": "Escrever um ensinamento sagrado e recitá-lo para si mesmo antes de dormir."
+  },
+  "identidade_arquetipica": {
+    "titulo": "O Mestre da Sabedoria",
+    "descricao": "Nanael ensina os mistérios da ciência e da espiritualidade, integrando lógica e intuição.",
+    "analogias_hermeneuticas": {
+      "Jung": "O velho sábio",
+      "Mônica Bonfilho": "Anjo dos professores e pesquisadores espirituais",
+      "Maquiavel": "O conselheiro que governa pelas ideias"
+    }
+  }
+},
+{
+  "id_anjo": 54,
+  "nome": "Nithael",
+  "transliteracao": "נתהאל",
+  "letras": ["Nun", "Tav", "Aleph"],
+  "funcao_estrutural": "Legado espiritual e proteção de linhagens",
+  "emocao_ativada": "Orgulho da linhagem",
+  "emocao_cura": "Honra e gratidão aos ancestrais",
+  "tikun": "Cortar raízes, rejeitar origem",
+  "corpo": {
+    "sefirah": "Yesod",
+    "canal": "Herança/DNA simbólico",
+    "orgao": "Coluna lombar"
+  },
+  "invocacao": {
+    "respiracao": "Inspire focando na coluna, expire sentindo-se enraizado.",
+    "mantra": "Ni-tha-el",
+    "ritual": "Colocar fotos de ancestrais sobre o altar e fazer uma prece de gratidão."
+  },
+  "identidade_arquetipica": {
+    "titulo": "O Herdeiro do Trono",
+    "descricao": "Nithael protege o legado espiritual das famílias e resgata os valores esquecidos.",
+    "analogias_hermeneuticas": {
+      "Jung": "O patriarca/matriarca interior",
+      "Mônica Bonfilho": "Anjo dos filhos, famílias e linhagens nobres",
+      "Maquiavel": "O príncipe que governa por direito ancestral"
+    }
+  }
+},
+{
+  "id_anjo": 55,
+  "nome": "Mebahel",
+  "transliteracao": "מבהאל",
+  "letras": ["Mem", "Bet", "Aleph"],
+  "funcao_estrutural": "Libertação dos oprimidos e restauração da ordem",
+  "emocao_ativada": "Clamor por justiça",
+  "emocao_cura": "Libertação e reparação",
+  "tikun": "Apego a mágoas, desejo de vingança",
+  "corpo": {
+    "sefirah": "Gevurah",
+    "canal": "Justiça/Libertação",
+    "orgao": "Fígado"
+  },
+  "invocacao": {
+    "respiracao": "Respire em 4, segure em 4, expire com força pronunciando o nome em tom grave.",
+    "mantra": "Me-ba-hel",
+    "ritual": "Escrever uma injustiça vivida e enterrar o papel em solo fértil como símbolo de transmutação."
+  },
+  "identidade_arquetipica": {
+    "titulo": "O Libertador",
+    "descricao": "Mebahel atua como defensor dos fracos, cortando os grilhões da opressão com autoridade luminosa.",
+    "analogias_hermeneuticas": {
+      "Jung": "O redentor sombrio",
+      "Mônica Bonfilho": "Anjo da libertação cármica e dos perseguidos",
+      "Maquiavel": "O revolucionário que usa o direito contra o poder corrupto"
+    }
+  }
+},{
+  "id_anjo": 56,
+  "nome": "POYEL",
+  "transliteracao": "פואל",
+  "letras": ["Pei", "Vav", "Lamed"],
+  "funcao_estrutural": "Invocador da Glória Humilde",
+  "emocao_ativada": "Arrogância",
+  "emocao_cura": "Alegria discreta",
+  "tikun": "Curar a vaidade espiritual e encarnar o brilho sem ostentação",
+  "corpo": {
+    "sefira": "Hod",
+    "canal": "Tronco (coluna dorsal, vertebra torácica média)",
+    "orgao": "Glândula adrenal"
+  },
+  "invocacao": {
+    "respiracao": "Inspira longa com som nasal de 'Poo', sustenta 'Ye' e exala em 'El'",
+    "mantra": "Pei-Vav-Lamed",
+    "ritual": "Escrever o nome com água e mel e deixar sob a luz da Lua Minguante"
+  },
+  "identidade_arquetipica": {
+    "titulo": "O Servo Brilhante",
+    "descricao": "Aquele que traz beleza sem precisar ser visto, que enfeita o mundo no silêncio.",
+    "analogias_hermeneuticas": {
+      "Jung": "O Self disfarçado de Sombra – aquele que parece pequeno, mas porta o ouro interior",
+      "Maquiavel": "A modéstia é a armadura mais eficaz contra a inveja dos poderosos",
+      "Mônica Bonfilho": "Um anjo que rege a verdadeira humildade: brilho sem ego",
+      "Corpo do Verbo": "A luz que se curva em reverência, espelho de Tiferet em Hod"
+    }
+  }
+},
+{
+  "id_anjo": 57,
+  "nome": "NEMAMIAH",
+  "transliteracao": "נממיה",
+  "letras": ["Nun", "Mem", "Yod", "Heh"],
+  "funcao_estrutural": "Libertador dos Oprimidos",
+  "emocao_ativada": "Sentimento de impotência",
+  "emocao_cura": "Senso de soberania",
+  "tikun": "Restaurar a força interior após traumas de submissão",
+  "corpo": {
+    "sefira": "Gevurah",
+    "canal": "Ombros (especialmente o esquerdo)",
+    "orgao": "Músculos do trapézio"
+  },
+  "invocacao": {
+    "respiracao": "Respira fundo em 'Ne', retém em 'Mam', solta em 'Yah'",
+    "mantra": "Nun-Mem-Yod-Heh",
+    "ritual": "Quebrar um galho seco com as mãos enquanto diz o nome 3 vezes"
+  },
+  "identidade_arquetipica": {
+    "titulo": "O Emancipador",
+    "descricao": "Destrava correntes invisíveis que prendem a alma à culpa e à humilhação.",
+    "analogias_hermeneuticas": {
+      "Jung": "O Guerreiro Interior despertando a centelha da autodeterminação",
+      "Maquiavel": "O poder nasce da superação do medo do dominador",
+      "Mônica Bonfilho": "Anjo dos justos e defensores da verdade",
+      "Corpo do Verbo": "Gevurah que não pune, mas restaura a retidão interior"
+    }
+  }
+},
+{
+  "id_anjo": 58,
+  "nome": "YEIALEL",
+  "transliteracao": "ייָאלל",
+  "letras": ["Yod", "Yod", "Aleph", "Lamed", "Lamed"],
+  "funcao_estrutural": "Clarificador dos Pensamentos",
+  "emocao_ativada": "Confusão mental",
+  "emocao_cura": "Clareza e coerência lógica",
+  "tikun": "Reintegrar a mente fragmentada e alinhar raciocínio e intuição",
+  "corpo": {
+    "sefira": "Binah",
+    "canal": "Cérebro esquerdo (neocórtex frontal)",
+    "orgao": "Lóbulo frontal"
+  },
+  "invocacao": {
+    "respiracao": "Repetir três vezes ‘Yei-A-Lel’ em sussurro com olhos fechados",
+    "mantra": "Yod-Yod-Aleph-Lamed-Lamed",
+    "ritual": "Desenhar as letras sobre um espelho e soprar sobre ele"
+  },
+  "identidade_arquetipica": {
+    "titulo": "O Ordenador",
+    "descricao": "É a função mental que organiza o caos do pensamento em lógica luminosa.",
+    "analogias_hermeneuticas": {
+      "Jung": "A função pensamento servindo à individuação",
+      "Maquiavel": "Clareza é poder: quem entende a estrutura domina o jogo",
+      "Mônica Bonfilho": "Anjo da inteligência analítica e do raciocínio organizado",
+      "Corpo do Verbo": "Aleph revelado como a centelha ordenadora no labirinto"
+    }
+  }
+},
+{
+  "id_anjo": 59,
+  "nome": "HARAHEL",
+  "transliteracao": "הרהל",
+  "letras": ["Heh", "Resh", "Heh", "Lamed"],
+  "funcao_estrutural": "Guardião dos Arquivos Sagrados",
+  "emocao_ativada": "Esquecimento espiritual",
+  "emocao_cura": "Memória divina",
+  "tikun": "Resgatar saberes ancestrais da alma e relembrar o pacto original",
+  "corpo": {
+    "sefira": "Chokmah",
+    "canal": "Nuca e base do crânio",
+    "orgao": "Cerebelo"
+  },
+  "invocacao": {
+    "respiracao": "Inspira e vibra ‘Ha-Ra-Hel’ lentamente com olhos voltados para cima",
+    "mantra": "Heh-Resh-Heh-Lamed",
+    "ritual": "Escrever memórias sagradas em pergaminho ou papel artesanal"
+  },
+  "identidade_arquetipica": {
+    "titulo": "O Arcanista",
+    "descricao": "Ele guarda o DNA da alma e reativa o saber que nunca foi perdido.",
+    "analogias_hermeneuticas": {
+      "Jung": "O Arquétipo do Ancião: sabedoria não adquirida, mas lembrada",
+      "Maquiavel": "A informação é a moeda suprema do poder silencioso",
+      "Mônica Bonfilho": "Anjo da memória espiritual e sabedoria das tradições",
+      "Corpo do Verbo": "A arca vibracional onde está escrito o pacto da origem"
+    }
+  }
+},
+{
+  "id_anjo": 60,
+  "nome": "MITZRAEL",
+  "transliteracao": "מצראל",
+  "letras": ["Mem", "Tzadi", "Resh", "Aleph", "Lamed"],
+  "funcao_estrutural": "Curador dos Traumas Psíquicos",
+  "emocao_ativada": "Culpa crônica",
+  "emocao_cura": "Perdão a si mesmo",
+  "tikun": "Fechar as feridas abertas da psique e reintegrar o eu fragmentado",
+  "corpo": {
+    "sefira": "Yesod",
+    "canal": "Plexo lombar",
+    "orgao": "Sistema nervoso autônomo"
+  },
+  "invocacao": {
+    "respiracao": "Inspirar em ‘Mitz’, reter com ‘Ra’, soltar em ‘El’ com voz serena",
+    "mantra": "Mem-Tzadi-Resh-Aleph-Lamed",
+    "ritual": "Banho ritual com ervas de limpeza profunda (arruda, alecrim, hortelã)"
+  },
+  "identidade_arquetipica": {
+    "titulo": "O Reconstrutor da Alma",
+    "descricao": "Sua presença reorganiza o campo emocional em torno da integridade original.",
+    "analogias_hermeneuticas": {
+      "Jung": "A jornada do herói ferido que retorna inteiro",
+      "Maquiavel": "Quem cura suas feridas torna-se inatacável",
+      "Mônica Bonfilho": "Anjo da recuperação psíquica e autoaceitação",
+      "Corpo do Verbo": "O Aleph que costura os rasgos da alma com fio de luz"
+    }
+  }
+},
+{
+  "id_anjo": 61,
+  "nome": "UMABEL",
+  "transliteracao": "ומבל",
+  "letras": ["Vav", "Mem", "Bet", "Lamed"],
+  "funcao_estrutural": "Conector das Almas Afins",
+  "emocao_ativada": "Solidão existencial",
+  "emocao_cura": "Comunhão vibracional",
+  "tikun": "Restabelecer vínculos com almas ressonantes",
+  "corpo": {
+    "sefira": "Netzach",
+    "canal": "Braço direito",
+    "orgao": "Sistema circulatório"
+  },
+  "invocacao": {
+    "respiracao": "Inspira em ‘Um’, sustenta em ‘A’, solta em ‘Bel’ sentindo o coração",
+    "mantra": "Vav-Mem-Bet-Lamed",
+    "ritual": "Trocar cartas ou palavras sagradas com pessoas queridas"
+  },
+  "identidade_arquetipica": {
+    "titulo": "O Elo da Harmonia",
+    "descricao": "Traz o reencontro entre almas que vibram no mesmo tom divino.",
+    "analogias_hermeneuticas": {
+      "Jung": "O reencontro do Self com sua contraparte anímica",
+      "Maquiavel": "A verdadeira força está nos vínculos duradouros",
+      "Mônica Bonfilho": "Anjo dos reencontros e amizades espirituais",
+      "Corpo do Verbo": "Vav como ponte viva entre as consciências afins"
+    }
+  }
+},
+{
+  "id_anjo": 62,
+  "nome": "IAHHEL",
+  "transliteracao": "יההאל",
+  "letras": ["Yod", "Heh", "Heh", "Aleph", "Lamed"],
+  "funcao_estrutural": "Silenciador da Alma",
+  "emocao_ativada": "Ruído interior",
+  "emocao_cura": "Paz contemplativa",
+  "tikun": "Eliminar vozes mentais estranhas ao Eu e silenciar o campo",
+  "corpo": {
+    "sefira": "Keter",
+    "canal": "Topo da cabeça",
+    "orgao": "Glândula pineal"
+  },
+  "invocacao": {
+    "respiracao": "Inspirar em silêncio, vibrar mentalmente ‘Yah-Heh-El’, expirar suavemente",
+    "mantra": "Yod-Heh-Heh-Aleph-Lamed",
+    "ritual": "Meditação em jejum ou ao nascer do sol com olhos fechados"
+  },
+  "identidade_arquetipica": {
+    "titulo": "O Guardião do Silêncio",
+    "descricao": "Aquele que acalma o mar interno para que o Eu fale.",
+    "analogias_hermeneuticas": {
+      "Jung": "O Silêncio do Self diante do Ruído do Ego",
+      "Maquiavel": "Quem sabe calar tem mais poder que quem sabe falar",
+      "Mônica Bonfilho": "Anjo da meditação, do silêncio e da paz interior",
+      "Corpo do Verbo": "Aleph silenciado no trono de Keter"
+    }
+  }
+},
+{
+  "id_anjo": 63,
+  "nome": "ANAUEL",
+  "transliteracao": "ענואל",
+  "letras": ["Ayin", "Nun", "Vav", "Aleph", "Lamed"],
+  "funcao_estrutural": "Protetor da Saúde Espiritual",
+  "emocao_ativada": "Desconfiança no invisível",
+  "emocao_cura": "Confiança sagrada",
+  "tikun": "Ressignificar a espiritualidade como fonte de imunidade energética",
+  "corpo": {
+    "sefira": "Tiferet",
+    "canal": "Centro torácico",
+    "orgao": "Sistema imunológico (timo)"
+  },
+  "invocacao": {
+    "respiracao": "Inspira em ‘A-na’, sustenta em ‘U’, exala em ‘El’ com gratidão",
+    "mantra": "Ayin-Nun-Vav-Aleph-Lamed",
+    "ritual": "Fazer prece de proteção com mãos sobre o coração"
+  },
+  "identidade_arquetipica": {
+    "titulo": "O Médico do Invisível",
+    "descricao": "Traz cura pela fé, protegendo o corpo através do espírito.",
+    "analogias_hermeneuticas": {
+      "Jung": "A confiança no Self como base para a saúde integral",
+      "Maquiavel": "A fé bem direcionada é o escudo supremo",
+      "Mônica Bonfilho": "Anjo da imunidade espiritual e da confiança interior",
+      "Corpo do Verbo": "Tiferet sustentado por Vav entre Aleph e Ayin"
+    }
+  }
+},[
+  {
+    "id_anjo": 64,
+    "nome": "Mehiel",
+    "transliteracao": "מֵהִיֵּל",
+    "letras": ["Mem", "Hey", "Yod"],
+    "funcao_estrutural": "Amplificador do Intelecto Criativo",
+    "emocao_ativada": "insegurança intelectual",
+    "emocao_cura": "inspiração segura",
+    "tikun": "Corrige o uso fútil da inteligência e a arrogância mental",
+    "corpo": {
+      "sefira": "Hod",
+      "canal": "canal 26 – comunicação descendente",
+      "orgao": "hemisfério esquerdo cerebral"
+    },
+    "invocacao": {
+      "respiracao": "3 ciclos narina esquerda, foco no neocórtex",
+      "mantra": "Meh-Hee-Yel",
+      "ritual": "Acender vela azul clara e meditar sobre um fluxo de ideias vindas do alto"
+    },
+    "identidade_arquetipica": {
+      "titulo": "O Codificador Inspirado",
+      "descricao": "Aquele que recebe downloads divinos em forma de ideias, palavras, teorias e estruturas mentais elevadas",
+      "analogias_hermeneuticas": {
+        "jung": "A Persona do Intelectual Místico",
+        "monica_bonfilho": "Anjo da Inspiração Intelectual e Proteção dos Escritores",
+        "maquiavel": "O Estrategista que pensa com lucidez divina"
+      }
+    }
+  },
+  {
+    "id_anjo": 65,
+    "nome": "Damabiah",
+    "transliteracao": "דַמַבִיָה",
+    "letras": ["Dalet", "Mem", "Bet"],
+    "funcao_estrutural": "Protetor dos que Navegam as Emoções",
+    "emocao_ativada": "confusão emocional",
+    "emocao_cura": "entrega ao fluxo",
+    "tikun": "Corrige o medo de se entregar aos sentimentos profundos",
+    "corpo": {
+      "sefira": "Netzach",
+      "canal": "canal 27 – sensibilidade mística",
+      "orgao": "área do plexo solar"
+    },
+    "invocacao": {
+      "respiracao": "4 ciclos profundos abdominais, focando no plexo solar",
+      "mantra": "Da-Ma-Bi-Yah",
+      "ritual": "Banho de ervas seguido de contemplação da lua ou das águas em silêncio"
+    },
+    "identidade_arquetipica": {
+      "titulo": "O Navegador Emocional",
+      "descricao": "Aquele que conduz o barco da alma por entre as tempestades emocionais com confiança e fé",
+      "analogias_hermeneuticas": {
+        "jung": "O Arquétipo do Curador das Águas",
+        "monica_bonfilho": "Anjo da Proteção contra energias negativas emocionais",
+        "maquiavel": "O Capitão que conhece os mares da alma"
+      }
+    }
+  },
+  {
+    "id_anjo": 66,
+    "nome": "Manakel",
+    "transliteracao": "מָנָקֵל",
+    "letras": ["Mem", "Nun", "Kaf"],
+    "funcao_estrutural": "Regulador das Sombras Psicológicas",
+    "emocao_ativada": "autojulgamento severo",
+    "emocao_cura": "autoaceitação profunda",
+    "tikun": "Corrige a tendência a reprimir ou negar aspectos sombrios da psique",
+    "corpo": {
+      "sefira": "Yesod",
+      "canal": "canal 28 – reconciliação do inconsciente",
+      "orgao": "glândulas adrenais"
+    },
+    "invocacao": {
+      "respiracao": "5 ciclos rítmicos com retenção, focando na lombar",
+      "mantra": "Ma-Na-Kel",
+      "ritual": "Escrever as sombras em papel e queimá-las invocando o nome do anjo"
+    },
+    "identidade_arquetipica": {
+      "titulo": "O Guardião das Sombras",
+      "descricao": "Aquele que acolhe o lado negado da alma e o integra com lucidez",
+      "analogias_hermeneuticas": {
+        "jung": "O Integrador da Sombra",
+        "monica_bonfilho": "Anjo da Compreensão e Paz Interior",
+        "maquiavel": "O Conselheiro que sabe lidar com a imperfeição humana"
+      }
+    }
+  },
+  {
+    "id_anjo": 67,
+    "nome": "Eiael",
+    "transliteracao": "אֵיָאֵל",
+    "letras": ["Alef", "Yod", "Alef"],
+    "funcao_estrutural": "Elevador da Consciência Filosófica",
+    "emocao_ativada": "apatia existencial",
+    "emocao_cura": "fascínio pelo conhecimento espiritual",
+    "tikun": "Corrige a fuga do estudo profundo e da introspecção real",
+    "corpo": {
+      "sefira": "Chokhmah",
+      "canal": "canal 29 – sabedoria contemplativa",
+      "orgao": "hemisfério direito cerebral"
+    },
+    "invocacao": {
+      "respiracao": "6 ciclos narina direita com foco em luz violeta",
+      "mantra": "Ei-A-El",
+      "ritual": "Leitura contemplativa seguida de silêncio meditativo"
+    },
+    "identidade_arquetipica": {
+      "titulo": "O Filósofo Celeste",
+      "descricao": "Aquele que busca sabedoria em planos mais altos e desce para ensinar aos que vagam no escuro",
+      "analogias_hermeneuticas": {
+        "jung": "O Sábio Místico",
+        "monica_bonfilho": "Anjo do Saber e da Filosofia Divina",
+        "maquiavel": "O Conselheiro da Caverna de Platão"
+      }
+    }
+  },
+  {
+    "id_anjo": 68,
+    "nome": "Chabuiah",
+    "transliteracao": "חַבוּיָה",
+    "letras": ["Chet", "Bet", "Vav"],
+    "funcao_estrutural": "Redentor da Dor pela Força",
+    "emocao_ativada": "vulnerabilidade ferida",
+    "emocao_cura": "fortaleza compassiva",
+    "tikun": "Corrige a negação da dor e o endurecimento emocional",
+    "corpo": {
+      "sefira": "Gevurah",
+      "canal": "canal 30 – força com compaixão",
+      "orgao": "músculos das costas"
+    },
+    "invocacao": {
+      "respiracao": "4 ciclos fortes com tensão e relaxamento muscular",
+      "mantra": "Cha-Bu-Yah",
+      "ritual": "Postura de guerreiro com intenção de cura do próprio sofrimento"
+    },
+    "identidade_arquetipica": {
+      "titulo": "O Guerreiro do Coração",
+      "descricao": "Aquele que se fortalece acolhendo a própria dor, sem negar a ternura",
+      "analogias_hermeneuticas": {
+        "jung": "O Herói Ferido",
+        "monica_bonfilho": "Anjo da Coragem e Cura Emocional",
+        "maquiavel": "O Líder que governa com mão firme e alma curada"
+      }
+    }
+  },
+  {
+    "id_anjo": 69,
+    "nome": "Rochel",
+    "transliteracao": "רֹכֵל",
+    "letras": ["Resh", "Kaf", "Lamed"],
+    "funcao_estrutural": "Restaurador da Verdade Pessoal",
+    "emocao_ativada": "perda de identidade",
+    "emocao_cura": "reencontro com o nome interno",
+    "tikun": "Corrige a alienação da própria missão e a vida desconectada do propósito",
+    "corpo": {
+      "sefira": "Tiferet",
+      "canal": "canal 31 – revelação do Nome",
+      "orgao": "coração e timo"
+    },
+    "invocacao": {
+      "respiracao": "7 ciclos com foco no centro do peito",
+      "mantra": "Ro-Kel",
+      "ritual": "Pronunciar o próprio nome completo com intenção e escrever sua missão"
+    },
+    "identidade_arquetipica": {
+      "titulo": "O Guardião do Nome",
+      "descricao": "Aquele que devolve à alma o seu verdadeiro chamado, sua assinatura divina",
+      "analogias_hermeneuticas": {
+        "jung": "O Portador do Self",
+        "monica_bonfilho": "Anjo da Justiça Divina e Retorno da Verdade",
+        "maquiavel": "O Diplomata que conhece sua origem e poder"
+      }
+    }
+  },
+  {
+    "id_anjo": 70,
+    "nome": "Jabamiah",
+    "transliteracao": "יָבַמִיָה",
+    "letras": ["Yod", "Bet", "Mem"],
+    "funcao_estrutural": "Transmutador de Matéria em Espírito",
+    "emocao_ativada": "apego material denso",
+    "emocao_cura": "santificação do corpo",
+    "tikun": "Corrige o abuso da matéria como fim e não meio sagrado",
+    "corpo": {
+      "sefira": "Yesod",
+      "canal": "canal 32 – transubstanciação vibracional",
+      "orgao": "coluna vertebral inferior"
+    },
+    "invocacao": {
+      "respiracao": "3 ciclos com vibração sonora em ‘mmm’",
+      "mantra": "Ja-Ba-Mi-Yah",
+      "ritual": "Toque no próprio corpo com reverência enquanto evoca o nome"
+    },
+    "identidade_arquetipica": {
+      "titulo": "O Alquimista Encarnado",
+      "descricao": "Aquele que transforma corpo em templo e carne em verbo consciente",
+      "analogias_hermeneuticas": {
+        "jung": "O Místico Corporificado",
+        "monica_bonfilho": "Anjo da Alquimia e Milagres Físicos",
+        "maquiavel": "O Pragmático que sabe tornar o invisível visível"
+      }
+    }
+  },
+  {
+    "id_anjo": 71,
+    "nome": "Haiel",
+    "transliteracao": "הָיֵאֵל",
+    "letras": ["Hey", "Yod", "Alef"],
+    "funcao_estrutural": "Defensor da Integridade Moral",
+    "emocao_ativada": "corrupção de valores",
+    "emocao_cura": "fidelidade à alma",
+    "tikun": "Corrige a hipocrisia e a incoerência entre discurso e ação",
+    "corpo": {
+      "sefira": "Gevurah",
+      "canal": "canal 33 – escudo da verdade",
+      "orgao": "ombros e clavícula"
+    },
+    "invocacao": {
+      "respiracao": "6 ciclos com elevação dos ombros ao inspirar",
+      "mantra": "Ha-Yei-El",
+      "ritual": "Declarar em voz alta três verdades próprias que não negocia"
+    },
+    "identidade_arquetipica": {
+      "titulo": "O Escudeiro da Alma",
+      "descricao": "Aquele que protege o código de integridade espiritual mesmo diante da pressão externa",
+      "analogias_hermeneuticas": {
+        "jung": "O Guerreiro Ético",
+        "monica_bonfilho": "Anjo da Verdade, Justiça e Integridade",
+        "maquiavel": "O Comandante que não trai seus princípios"
+      }
+    }
+  },
+  {
+    "id_anjo": 72,
+    "nome": "Mumiah",
+    "transliteracao": "מוּמִיָה",
+    "letras": ["Mem", "Vav", "Mem"],
+    "funcao_estrutural": "Encerrador dos Ciclos com Sabedoria",
+    "emocao_ativada": "medo do fim",
+    "emocao_cura": "aceitação serena da morte e renascimento",
+    "tikun": "Corrige a estagnação por medo de mudança e finalizações",
+    "corpo": {
+      "sefira": "Malkuth",
+      "canal": "canal 34 – morte e renascimento",
+      "orgao": "planta dos pés"
+    },
+    "invocacao": {
+      "respiracao": "7 ciclos com os pés tocando o solo ou terra",
+      "mantra": "Mu-Mi-Yah",
+      "ritual": "Encerrar um ciclo com gratidão: escrever, enterrar ou dissolver um símbolo antigo"
+    },
+    "identidade_arquetipica": {
+      "titulo": "O Semeador Final",
+      "descricao": "Aquele que encerra com nobreza, para abrir espaço ao novo com humildade",
+      "analogias_hermeneuticas": {
+        "jung": "O Velho Sábio que colhe e planta",
+        "monica_bonfilho": "Anjo da Reencarnação e Finalizações",
+        "maquiavel": "O Estrategista que sabe a hora de sair da cena com honra"
+      }
+    }
+  }
+
 ]
 ]
