@@ -14,23 +14,7 @@
       "maquiavel": "O poder absoluto do Príncipe Fundador no momento antes da criação do seu principado. A pura 'Virtù' concentrada, a capacidade de criar um estado a partir do nada, usando apenas a força de sua vontade.",
       "lucia_helena": "O 'Uno' de Plotino. A fonte primeira, inefável e transcendente de onde tudo emana, mas que em si mesma não pode ser descrita ou dividida. O Bem de Platão."
     }
-  },
-  {
-    "id_letra": "ב",
-    "nome_letra": "Bet",
-    "valor_numerico": 2,
-    "pictograma_primordial": "Casa, tenda, interior, recipiente.",
-    "funcao_verbo": "O princípio da dualidade, da polaridade e da interioridade. A criação de um 'dentro' e um 'fora'. O recipiente que dá forma à energia de Aleph. O ato de abrigar e conter. A planta baixa da criação.",
-    "correspondencia_somatica": "A boca como o recipiente que contém a palavra. O estômago como o recipiente que contém o alimento. O corpo como a casa da alma.",
-    "arquetipo_principal": "O Recipiente Sagrado",
-    "palavras_chave": ["casa", "recipiente", "dualidade", "interior", "corpo", "forma", "manifestação"],
-    "analogias_hermeneuticas": {
-      "jung": "O arquétipo da Grande Mãe como o útero que recebe a semente da vida. A própria psique como o recipiente das experiências e dos arquétipos.",
-      "freud": "O Ego, a estrutura que se diferencia do Id para conter e mediar suas pulsões, criando a primeira divisão psíquica.",
-      "maquiavel": "A cidade ou a fortaleza. A estrutura física que um Príncipe constrói para abrigar seu poder e seu povo, definindo claramente suas fronteiras.",
-      "lucia_helena": "A matéria (Hylé) aristotélica, que serve como o substrato passivo que recebe a forma (Eidos). O corpo como o templo que precisa ser cuidado para abrigar a alma."
-    }
-  },{
+  }, {
     "id_letra": "ב",
     "nome_letra": "Bet",
     "valor_numerico": 2,
