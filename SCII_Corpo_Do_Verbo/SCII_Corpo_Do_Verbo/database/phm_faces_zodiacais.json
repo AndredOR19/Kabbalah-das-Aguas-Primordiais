@@ -1,0 +1,216 @@
+{
+    "id_signo": "aries",
+    "nome_signo": "Áries",
+    "titulo_arquetipico": "A Face do Pioneiro",
+    "palavras_chave": ["ação", "início", "coragem", "vontade", "impulso", "competição"],
+    "funcao_verbo": "A força primordial que rompe a inércia e inicia novos ciclos através de um ato de pura vontade.",
+    "quando_invocar": "Para superar a procrastinação, iniciar projetos, agir com coragem e afirmar a própria individualidade.",
+    "combinacao_exemplo": {
+      "com": "Touro",
+      "resultado": "O Empreendedor: A coragem de iniciar (Áries) com a capacidade de construir e sustentar (Touro)."
+    }
+  },{
+  "id_signo": "aries",
+  "nome_signo": "Áries",
+  "titulo_arquetipico": "A Face do Pioneiro",
+  "palavras_chave": ["ação", "início", "coragem", "vontade", "impulso", "competição", "liderança"],
+  "funcao_verbo": "A força primordial que rompe a inércia e inicia novos ciclos através de um ato de pura vontade. É a centelha do 'Eu Sou' que se afirma no mundo.",
+  "quando_invocar": "Para superar a procrastinação, iniciar projetos, agir com coragem, competir de forma saudável e afirmar a própria individualidade.",
+  "analogias_hermeneuticas": {
+      "jung": "O arquétipo do 'Herói' em sua fase inicial, o jovem que parte em sua jornada impulsionado por um chamado interior para a ação e para se diferenciar do coletivo.",
+      "freud": "A pulsão agressiva em sua forma mais pura. A manifestação direta do Id que busca se impor na realidade, sem a mediação ou o planejamento do Ego.",
+      "maquiavel": "O 'Príncipe Novo' que conquista um Estado pela força e audácia (virtù). É o ímpeto da conquista, a coragem de ser o primeiro a atacar e a tomar o que se deseja.",
+      "lucia_helena": "A virtude da Coragem (Andreia) em sua expressão mais ativa e assertiva. A força da alma que impulsiona o indivíduo a agir de acordo com a sua natureza, iniciando o caminho da virtude."
+    },
+  "combinacao_exemplo": {
+    "com": "Capricórnio",
+    "resultado": "O Estratega-Chefe: A coragem de iniciar a batalha (Áries) com a maestria de planejar a guerra e construir o império (Capricórnio)."
+  }
+},{
+  "id_signo": "touro",
+  "nome_signo": "Touro",
+  "titulo_arquetipico": "A Face do Construtor",
+  "palavras_chave": ["estabilidade", "matéria", "valor", "segurança", "paciência", "sensualidade", "recursos"],
+  "funcao_verbo": "A força que materializa o potencial, que constrói valor duradouro e que provê estabilidade e segurança através da paciência, da persistência e da conexão com o mundo físico.",
+  "quando_invocar": "Para materializar ideias, criar segurança financeira ou emocional, cultivar a paciência, construir bases sólidas para projetos e se conectar com o próprio corpo e com a natureza.",
+  "analogias_hermeneuticas": {
+      "jung": "O arquétipo da 'Grande Mãe' em seu aspecto de Terra nutridora. A Anima Mundi, a alma do mundo manifesta na matéria, que provê substância e segurança.",
+      "freud": "O 'princípio da realidade' em sua função construtiva. A capacidade do Ego de acumular e gerenciar recursos para garantir a segurança a longo prazo. Relaciona-se com a fase anal no aspecto da posse e do controle sobre o que tem valor.",
+      "maquiavel": "O Tesouro e a economia do Estado. A habilidade do Príncipe de construir uma fundação econômica sólida, pois a verdadeira força de um principado reside em seus recursos materiais e na sua capacidade de auto-sustentação.",
+      "lucia_helena": "A virtude da Temperança (Sophrosyne) aplicada ao mundo material. É a capacidade de encontrar valor no concreto, de construir com paciência e de desfrutar dos frutos da terra e do trabalho sem cair na avareza."
+    },
+  "combinacao_exemplo": {
+    "com": "Aquário",
+    "resultado": "O Inovador Sustentável: A visão de um novo futuro (Aquário) aliada à capacidade de construir uma fundação material e duradoura para essa mesma visão (Touro)."
+  }
+},{
+  "id_signo": "gemeos",
+  "nome_signo": "Gêmeos",
+  "titulo_arquetipico": "A Face do Mensageiro",
+  "palavras_chave": ["comunicação", "dualidade", "curiosidade", "intelecto", "conexão", "adaptabilidade", "informação"],
+  "funcao_verbo": "A força que conecta ideias e pessoas através da comunicação, da curiosidade e da troca de informações. É a ponte que une polaridades, o intelecto que busca entender e a mente que se adapta a múltiplas realidades.",
+  "quando_invocar": "Para melhorar a comunicação, aprender algo novo, ver uma situação por múltiplos ângulos, se adaptar a mudanças, criar redes de contatos e estimular a agilidade mental.",
+  "analogias_hermeneuticas": {
+      "jung": "O arquétipo do 'Puer Aeternus' (o eterno jovem) ou do 'Trickster'. A mente que dança entre os opostos, que se recusa a ser fixada em uma única verdade e que abre novos caminhos através da curiosidade e da palavra.",
+      "freud": "O processo de pensamento secundário do Ego. A capacidade de usar a linguagem e a lógica para conectar ideias, mediar a realidade e adiar a gratificação, navegando entre as demandas do Id e do Superego.",
+      "maquiavel": "A Diplomacia e a Espionagem. A rede de mensageiros e embaixadores de um Príncipe. A habilidade de usar a informação como uma arma, de negociar com aliados e de semear a discórdia entre os inimigos através da palavra.",
+      "lucia_helena": "A Dialética. O método filosófico de encontrar a verdade através do diálogo e do confronto de ideias opostas. É a mente do filósofo em sua busca ativa, conectando conceitos para construir um argumento sólido."
+    },
+  "combinacao_exemplo": {
+    "com": "Escorpião",
+    "resultado": "O Investigador Profundo: A capacidade de comunicar (Gêmeos) as verdades ocultas e transformadoras que foram descobertas nas profundezas (Escorpião)."
+  }
+},{
+  "id_signo": "cancer",
+  "nome_signo": "Câncer",
+  "titulo_arquetipico": "A Face do Guardião",
+  "palavras_chave": ["nutrição", "emoção", "proteção", "família", "passado", "memória", "raiz"],
+  "funcao_verbo": "A força que cria um espaço seguro para a alma, nutrindo as emoções e protegendo o que é vulnerável. É a raiz que nos conecta ao passado, à ancestralidade e à memória, criando o alicerce do sentimento de pertencimento.",
+  "quando_invocar": "Para fortalecer laços familiares, nutrir a si mesmo ou aos outros, criar um lar seguro, se conectar com as próprias emoções e curar feridas do passado.",
+  "analogias_hermeneuticas": {
+      "jung": "O arquétipo da 'Grande Mãe' em seu aspecto de nutrição e proteção. O útero psíquico, o lar da alma, que oferece segurança mas que, em sua sombra, pode se tornar a prisão que impede o crescimento.",
+      "freud": "A fase oral em seu aspecto de nutrição e dependência da figura materna. A formação do primeiro vínculo afetivo, que se torna o modelo para todos os relacionamentos futuros. O próprio Inconsciente como o 'útero' que guarda as memórias do passado.",
+      "maquiavel": "A Pátria. O conceito de 'terra-mãe' que um Príncipe deve proteger a todo custo. É o sentimento de pertencimento do povo, a força emocional que une uma nação e a torna disposta a lutar por sua sobrevivência.",
+      "lucia_helena": "A Memória (Mnemosyne), mãe das Musas. A conexão com o passado e com a tradição como a fonte de toda a sabedoria. É a alma que se lembra de sua origem e nutre essa lembrança para não se perder no mundo."
+    },
+  "combinacao_exemplo": {
+    "com": "Leão",
+    "resultado": "A Rainha-Mãe: A capacidade de proteger e nutrir sua linhagem (Câncer) com a nobreza e a generosidade de um coração soberano (Leão)."
+  }
+},{
+  "id_signo": "leao",
+  "nome_signo": "Leão",
+  "titulo_arquetipico": "A Face do Soberano",
+  "palavras_chave": ["criação", "liderança", "nobreza", "coração", "brilho", "autoconfiança", "generosidade"],
+  "funcao_verbo": "A força do coração individual que irradia sua luz e poder criativo únicos. É o princípio da autoexpressão nobre, da liderança carismática e da generosidade que inspira e centraliza a vida ao seu redor.",
+  "quando_invocar": "Para desenvolver a autoconfiança e o amor-próprio, para expressar a criatividade, assumir papéis de liderança com nobreza, agir com generosidade e se conectar com a alegria de ser quem se é.",
+  "analogias_hermeneuticas": {
+      "jung": "O arquétipo do 'Rei' ou do 'Sol'. O centro da consciência (o Ego) em sua plena realização e poder, irradiando sua luz sobre a totalidade da psique. A manifestação do Self como identidade central e criativa.",
+      "freud": "O 'Ego Ideal'. A instância narcísica da psique, a aspiração do Ego de ser perfeito, admirado e poderoso. Uma expressão saudável do amor-próprio e do princípio do prazer transformado em auto-expressão criativa.",
+      "maquiavel": "O Príncipe em sua máxima glória e majestade. Não apenas o estrategista, mas o líder carismático que inspira lealdade e admiração através de grandes feitos, generosidade e uma imagem pública poderosa. É o 'leão' que afugenta os lobos.",
+      "lucia_helena": "A virtude da Magnanimidade (Grandeza de Alma). A alma que, consciente de seu valor divino, age com nobreza, coragem e generosidade, expressando uma força criativa que espelha o ato criador do Logos."
+    },
+  "combinacao_exemplo": {
+    "com": "Peixes",
+    "resultado": "O Avatar Compassivo: A liderança nobre e o brilho pessoal (Leão) a serviço de um propósito universal de cura e compaixão (Peixes)."
+  }
+},{
+  "id_signo": "virgem",
+  "nome_signo": "Virgem",
+  "titulo_arquetipico": "A Face do Alquimista",
+  "palavras_chave": ["análise", "purificação", "serviço", "ordem", "aprimoramento", "método", "saúde"],
+  "funcao_verbo": "A força que analisa, discrimina e purifica para aprimorar a matéria. É o princípio da ordem funcional, do método e do serviço prático que busca transformar o caos em um sistema eficiente e saudável.",
+  "quando_invocar": "Para organizar a desordem (física ou mental), aprimorar a saúde e as rotinas, analisar problemas complexos, criar sistemas eficientes e encontrar propósito no trabalho e no serviço útil.",
+  "analogias_hermeneuticas": {
+      "jung": "O arquétipo do 'Alquimista' ou do 'Curador'. O processo de 'separatio' e 'purificatio' na obra alquímica, onde a matéria-prima da psique é analisada e purificada de suas impurezas antes de poder ser elevada.",
+      "freud": "O 'princípio da realidade' em sua função mais obsessiva e detalhista. A capacidade do Ego de impor ordem, limpeza e método, muitas vezes ligada à fase anal no seu aspecto de controle e perfeccionismo. É a própria essência do trabalho analítico.",
+      "maquiavel": "A Burocracia e a Administração do Estado. A rede de funcionários que organiza, cataloga e gerencia os recursos do principado. É a 'alquimia' de transformar impostos e matérias-primas em um exército eficiente e um governo funcional.",
+      "lucia_helena": "A virtude da Prudência (Phronesis) ou sabedoria prática. A capacidade de analisar as circunstâncias e aplicar os princípios éticos de forma metódica no dia a dia. É a purificação da alma através de pequenos e constantes atos de aprimoramento."
+    },
+  "combinacao_exemplo": {
+    "com": "Sagitário",
+    "resultado": "O Cientista-Filósofo: A busca por uma verdade universal (Sagitário) aliada à capacidade de analisá-la, testá-la e aplicá-la metodicamente no mundo real (Virgem)."
+  }
+},{
+  "id_signo": "libra",
+  "nome_signo": "Libra",
+  "titulo_arquetipico": "A Face do Diplomata",
+  "palavras_chave": ["harmonia", "justiça", "relacionamento", "equilíbrio", "beleza", "parceria", "diplomacia"],
+  "funcao_verbo": "A força que busca o equilíbrio e a justiça através do relacionamento e da harmonização dos opostos. É o princípio da parceria, da diplomacia e da beleza que emerge da proporção e da ordem social.",
+  "quando_invocar": "Para resolver conflitos, criar harmonia nos relacionamentos, tomar decisões justas, apreciar a beleza e a arte, e encontrar o ponto de equilíbrio entre necessidades opostas.",
+  "analogias_hermeneuticas": {
+      "jung": "A função da 'Anima' (no homem) e do 'Animus' (na mulher) como a ponte para o relacionamento com o outro e a busca pelo parceiro interior. É o arquétipo do 'Juiz' que pesa os opostos para encontrar a totalidade.",
+      "freud": "A função social do Ego em seu mais alto grau. A capacidade de mediar entre os próprios desejos (Id) e as necessidades do outro (refletidas no Superego) para manter a harmonia e os laços sociais.",
+      "maquiavel": "A arte da Aliança e da Diplomacia. A capacidade de um Príncipe de formar tratados, de criar um equilíbrio de poder entre os estados e de usar a aparência da justiça e da cooperação como uma ferramenta para fortalecer sua posição.",
+      "lucia_helena": "A virtude da Justiça (Dikaiosyne). O estado de uma alma onde todas as partes estão em harmonia. Socialmente, é a base da Pólis ideal, onde os cidadãos vivem em relações justas, espelhando a ordem do Cosmos (Logos)."
+    },
+  "combinacao_exemplo": {
+    "com": "Áries",
+    "resultado": "O Líder Justo: A coragem de agir e lutar por suas convicções (Áries) temperada pela busca incessante pela justiça e pelo bem comum (Libra)."
+  }
+},{
+  "id_signo": "escorpiao",
+  "nome_signo": "Escorpião",
+  "titulo_arquetipico": "A Face do Mago",
+  "palavras_chave": ["transformação", "poder", "profundidade", "cura", "regeneração", "segredo", "intensidade"],
+  "funcao_verbo": "A força que mergulha nas profundezas para confrontar a sombra, transmutar o veneno em remédio e catalisar a regeneração. É o princípio da morte e do renascimento, o poder que se revela ao se desapegar do que não serve mais.",
+  "quando_invocar": "Para enfrentar medos profundos, iniciar transformações radicais, curar feridas emocionais, desvendar segredos, investigar a verdade oculta e resgatar o poder pessoal.",
+  "analogias_hermeneuticas": {
+      "jung": "O arquétipo do 'Mago' ou do 'Curador Ferido'. É o confronto direto com a Sombra. O processo alquímico de 'putrefactio' e 'mortificatio', onde o velho Ego deve morrer para que o Self possa renascer purificado e com poder.",
+      "freud": "O domínio do Id em sua máxima potência, onde as pulsões de Vida (Eros) e Morte (Thanatos) se entrelaçam. É o poder do recalcado, o trauma, os desejos proibidos e a compulsão por desvendar o que está oculto.",
+      "maquiavel": "O uso do poder secreto. A espionagem, a conspiração, a eliminação cirúrgica de ameaças. É a capacidade do Príncipe de usar a 'crueldade bem empregada', destruindo o antigo para construir uma nova ordem, manipulando as forças invisíveis da psique humana.",
+      "lucia_helena": "A coragem filosófica de encarar a própria mortalidade. O exercício de 'morrer antes de morrer', desapegando-se das paixões e das posses para encontrar a essência imortal da alma. É a transformação através da autoconsciência radical."
+    },
+  "combinacao_exemplo": {
+    "com": "Gêmeos",
+    "resultado": "O Detetive da Alma: A capacidade de mergulhar fundo para descobrir a verdade oculta (Escorpião) com a habilidade de conectar as pistas e comunicar a complexa teia de fatos (Gêmeos)."
+  }
+},{
+  "id_signo": "sagitario",
+  "nome_signo": "Sagitário",
+  "titulo_arquetipico": "A Face do Explorador",
+  "palavras_chave": ["expansão", "verdade", "propósito", "filosofia", "otimismo", "aventura", "busca"],
+  "funcao_verbo": "A força que busca a verdade e o sentido através da expansão da consciência e da exploração de novos horizontes. É a flecha da intenção disparada em direção a um propósito maior, transcendendo fronteiras para descobrir as leis universais.",
+  "quando_invocar": "Para encontrar um sentido maior na vida, expandir os próprios horizontes (através de viagens, estudos ou fé), cultivar o otimismo e a esperança, e se lançar em novas aventuras.",
+  "analogias_hermeneuticas": {
+      "jung": "O arquétipo do 'Buscador' ou do 'Peregrino'. A jornada da consciência em direção a um significado superior, a busca por um mito pessoal ou uma filosofia de vida que ordene a experiência e aponte para o Self.",
+      "freud": "A sublimação da libido em sua forma mais elevada. A canalização da energia pulsional não para objetos imediatos, mas para buscas intelectuais, religiosas e filosóficas de longo alcance. A função idealista do Superego.",
+      "maquiavel": "A Expansão do Império. O impulso de um Príncipe para além de suas fronteiras, para explorar, conquistar e impor sua visão de mundo (sua 'verdade') a outros povos. É a busca por glória e por um legado que transcenda o tempo.",
+      "lucia_helena": "A essência do Filósofo ('amante da sabedoria'). A alma que não se contenta com o conhecido e lança-se em uma exploração vitalícia das grandes verdades universais, guiada pela confiança no Logos. É a busca pelo Sumo Bem."
+    },
+  "combinacao_exemplo": {
+    "com": "Virgem",
+    "resultado": "O Cientista Ético: A busca por uma verdade universal (Sagitário) com a capacidade de testar, comprovar e aplicar metodicamente essa verdade de forma prática e útil (Virgem)."
+  }
+},{
+  "id_signo": "capricornio",
+  "nome_signo": "Capricórnio",
+  "titulo_arquetipico": "A Face do Arquiteto",
+  "palavras_chave": ["estrutura", "maestria", "tempo", "responsabilidade", "ambição", "disciplina", "legado"],
+  "funcao_verbo": "A força que utiliza o tempo, a disciplina e a responsabilidade para construir estruturas de maestria no mundo material. É o princípio da ambição concretizada através do esforço paciente para criar um legado duradouro.",
+  "quando_invocar": "Para construir projetos de longo prazo, assumir responsabilidade, desenvolver disciplina e maestria, lidar com a autoridade (interna e externa) e focar na criação de um trabalho que resista ao tempo.",
+  "analogias_hermeneuticas": {
+      "jung": "O arquétipo do 'Senex', o Velho Sábio como o construtor do mundo. Aquele que domina as estruturas da sociedade e do tempo, e cuja individuação se manifesta na criação de uma obra concreta e duradoura.",
+      "freud": "O Superego em sua forma mais paternal e estruturante. A autoridade internalizada que nos impulsiona à realização e ao cumprimento do dever, governando o Ego com o princípio da realidade em sua máxima expressão.",
+      "maquiavel": "O Príncipe como o 'Fundador de Estados'. Não apenas conquistar, mas construir as instituições, leis e fortalezas que garantirão que o principado perdure. É a maestria sobre o tempo (Fortuna) através da habilidade (Virtù).",
+      "lucia_helena": "A construção paciente da 'cidadela interior'. A virtude da Perseverança que, aliada à Prudência, permite ao filósofo construir um caráter sólido que não se abala com as tempestades da vida. É a maestria de si mesmo como a maior das obras."
+    },
+  "combinacao_exemplo": {
+    "com": "Gêmeos",
+    "resultado": "O Arquiteto de Sistemas de Informação: A capacidade de construir estruturas complexas e duradouras (Capricórnio) com a genialidade de comunicar, conectar e gerenciar as informações que fluem dentro delas (Gêmeos)."
+  }
+},{
+  "id_signo": "aquario",
+  "nome_signo": "Aquário",
+  "titulo_arquetipico": "A Face do Visionário",
+  "palavras_chave": ["inovação", "comunidade", "futuro", "liberdade", "idealismo", "originalidade", "rede"],
+  "funcao_verbo": "A força que quebra as estruturas obsoletas (Capricórnio) para introduzir novas ideias e ideais para o coletivo. É o princípio da inovação que vislumbra um futuro baseado na liberdade, na verdade universal e na colaboração em rede.",
+  "quando_invocar": "Para inovar e encontrar soluções originais, para se libertar de padrões limitantes, para se conectar com grupos e amigos que partilham os mesmos ideais e para trabalhar por uma causa coletiva.",
+  "analogias_hermeneuticas": {
+      "jung": "O arquétipo do 'Revolucionário' ou do 'Libertador'. O impulso para romper com a Persona coletiva e as tradições sufocantes, trazendo uma visão do Self que é única e, ao mesmo tempo, universalmente humana.",
+      "freud": "O deslocamento da libido da estrutura familiar (Complexo de Édipo) para os grupos sociais e ideais abstratos. É a formação de um Superego baseado não na tradição paternal, mas em princípios humanitários e utópicos.",
+      "maquiavel": "O Conspirador ou o fundador de uma República. Aquele que se rebela contra o velho Príncipe (a velha ordem) para estabelecer um novo sistema baseado em ideais de liberdade ou de governo coletivo. A força da mudança radical.",
+      "lucia_helena": "O filósofo como o reformador social, a exemplo de Platão escrevendo 'A República'. É o uso da Razão para vislumbrar um modelo de sociedade ideal, baseado em verdades universais, mesmo que isso signifique romper com os costumes da Pólis atual."
+    },
+  "combinacao_exemplo": {
+    "com": "Leão",
+    "resultado": "O Líder da Causa: A capacidade de liderar com um coração nobre e carismático (Leão) a serviço de uma visão revolucionária para o bem de toda a comunidade (Aquário)."
+  }
+},{
+  "id_signo": "peixes",
+  "nome_signo": "Peixes",
+  "titulo_arquetipico": "A Face do Místico",
+  "palavras_chave": ["unidade", "compaixão", "transcendência", "imaginação", "sacrifício", "dissolução", "espiritualidade"],
+  "funcao_verbo": "A força que dissolve todas as fronteiras, retornando o ser individual à unidade da Fonte universal. É o princípio da compaixão, da imaginação e da transcendência, alcançado através da fé e do sacrifício do Ego.",
+  "quando_invocar": "Para se conectar com a espiritualidade, desenvolver a compaixão e a empatia, acessar a intuição e a imaginação, e praticar a arte do desapego, da entrega e da confiança no fluxo do universo.",
+  "analogias_hermeneuticas": {
+      "jung": "O próprio Inconsciente Coletivo. O sentimento oceânico de unidade que precede a formação do Ego e para o qual a psique anseia retornar. É a 'unio mystica', o objetivo final da obra alquímica, a dissolução no Self.",
+      "freud": "O 'princípio de Nirvana', a pulsão de morte (Thanatos) em seu aspecto de retorno a um estado inorgânico, sem tensão. O sentimento oceânico do bebê, antes da separação da mãe e da dolorosa formação do Ego.",
+      "maquiavel": "O caos da Fortuna em seu estado mais puro. As marés imprevisíveis da história e do sentimento popular que podem dissolver os Estados mais sólidos. A força à qual, no fim, até o Príncipe mais virtuoso deve se render.",
+      "lucia_helena": "A união final com o 'Uno'. A dissolução da alma individual na Fonte divina. É o objetivo do caminho místico da filosofia, que transcende a lógica (Logos) para alcançar a experiência direta da realidade (Gnosis)."
+    },
+  "combinacao_exemplo": {
+    "com": "Capricórnio",
+    "resultado": "O Líder Servidor: A capacidade de construir estruturas de poder no mundo material (Capricórnio) com o propósito compassivo de servir a um ideal universal e aliviar o sofrimento (Peixes)."
+  }
+}
