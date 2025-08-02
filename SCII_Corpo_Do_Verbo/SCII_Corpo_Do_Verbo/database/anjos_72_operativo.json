@@ -37,5 +37,773 @@
         "vovo": "É aquele avô que tem a mania de que tudo tem seu lugar e sua hora certa. Ele te ensina que antes de conversar com Deus, você precisa primeiro arrumar a sua cama e sentar direito na cadeira."
       }
     }
+  },[
+  {
+    "id_anjo": 1,
+    "nome_transliterado": "Vehuiah",
+    "nome_hebraico": "והויה",
+    "letras_raiz": ["Vav", "He", "Vav"],
+    "sigilo_funcional": "A Vontade (Vav) que se manifesta (He) como Vontade (Vav) pura. É o impulso primordial que rompe a inércia e inicia a criação. A vontade de querer.",
+    "dominio_buonfiglio": {
+      "graus_zodiaco": "0-5 de Áries",
+      "planeta_regente": "Marte",
+      "salmo_invocacao": "Salmo 3, Versículo 4"
+    },
+    "diagnostico_emocional": {
+      "sombra": "Impulsividade, raiva, precipitação, começar projetos e não terminar, tirania, impor a própria vontade à força.",
+      "luz": "Força de vontade, poder de iniciativa, coragem, liderança, superação de obstáculos e depressão, energia para recomeçar."
+    },
+    "acao_terapeutica_verbo": "Ativa a 'espinha dorsal' da Vontade (Vav), permitindo que o indivíduo saia da estagnação e manifeste (He) seu poder de iniciativa no mundo.",
+    "ritual_sintonizacao": {
+      "posicao_corporal": "Pé esquerdo à frente, punhos cerrados ao lado do corpo, pronto para arrancar em uma corrida.",
+      "vibracao_sonora": "VE-HU-IAH",
+      "visualizacao_sigilo": "Visualizar uma centelha de fogo explodindo a partir do peito e se projetando para a frente.",
+      "foco_emocional": "Sentir a certeza da vitória e a alegria do primeiro passo."
+    },
+    "identidade_arquetipica": {
+      "titulo_principal": "A Vontade Primordial",
+      "subtitulos": ["O Rompedor de Inércia", "O Pioneiro Divino"],
+      "descricao": "Representa a força cósmica do 'Fiat Lux', o impulso inicial que dá partida a todos os processos. É a vontade em seu estado mais puro e indiferenciado, a centelha que acende o motor da criação.",
+      "analogias_hermeneuticas": {
+        "jung": "O arquétipo do Herói no exato momento em que decide sair da vila e iniciar sua jornada. O impulso puro para a individuação.",
+        "freud": "A pulsão do Id em sua forma mais crua, a exigência de manifestação imediata, o princípio do prazer como força de iniciativa.",
+        "maquiavel": "A 'Virtù' do Príncipe Novo que, a partir do nada, decide conquistar seu próprio Estado pela audácia e pela força.",
+        "lucia_helena": "A virtude da Coragem (Andreia), a força de alma que impulsiona o ser a dar o primeiro passo no caminho da virtude."
+      }
+    }
+  },
+  {
+    "id_anjo": 2,
+    "nome_transliterado": "Jeliel",
+    "nome_hebraico": "יליאל",
+    "letras_raiz": ["Yod", "Lamed", "Yod"],
+    "sigilo_funcional": "A Semente de Luz (Yod) que direciona (Lamed) a Semente de Luz (Yod). É a sabedoria que direciona o amor, e o amor que direciona a sabedoria.",
+    "dominio_buonfiglio": {
+      "graus_zodiaco": "5-10 de Áries",
+      "planeta_regente": "Júpiter",
+      "salmo_invocacao": "Salmo 22, Versículo 20"
+    },
+    "diagnostico_emocional": {
+      "sombra": "Conflito nos relacionamentos, teimosia, paixão cega, autoritarismo, infidelidade, dificuldade em unir amor e razão.",
+      "luz": "Capacidade de pacificar conflitos, fidelidade, amor sábio, diplomacia, fertilidade, alegria nos relacionamentos."
+    },
+    "acao_terapeutica_verbo": "Ativa o 'Mestre Interior' (Lamed) para guiar a 'Semente de Luz' (Yod), harmonizando o coração e a mente para criar relacionamentos estáveis e sábios.",
+    "ritual_sintonizacao": {
+      "posicao_corporal": "Sentado, com as palmas das mãos unidas em frente ao coração.",
+      "vibracao_sonora": "YE-LI-EL",
+      "visualizacao_sigilo": "Visualizar dois pontos de luz (Yod) e um feixe de luz (Lamed) conectando-os, formando um triângulo de luz sobre o peito.",
+      "foco_emocional": "Sentir a serenidade do amor sábio e da lealdade."
+    },
+    "identidade_arquetipica": {
+      "titulo_principal": "O Amor Sábio",
+      "subtitulos": ["O Pacificador Divino", "O Elo Fiel"],
+      "descricao": "Representa a união perfeita entre o amor (a paixão, a semente) e a sabedoria (a direção, o propósito). É a força que estabiliza os relacionamentos e transforma a paixão em um vínculo duradouro e fiel.",
+      "analogias_hermeneuticas": {
+        "jung": "O arquétipo da 'União Sagrada' (Hieros Gamos), a integração da Anima e do Animus, onde a emoção e a razão se unem em um todo funcional.",
+        "freud": "A sublimação bem-sucedida da libido, onde o Ego consegue direcionar a pulsão para um objeto de amor estável e socialmente integrado.",
+        "maquiavel": "A Aliança Perfeita. O tratado entre dois Estados que não se baseia apenas na paixão do momento, mas em uma sabedoria estratégica de longo prazo.",
+        "lucia_helena": "A amizade filosófica (Philia). O amor baseado não na paixão, mas na admiração mútua pela virtude e pela busca da verdade."
+      }
+    }
+  },
+  {
+    "id_anjo": 3,
+    "nome_transliterado": "Sitael",
+    "nome_hebraico": "סיטאל",
+    "letras_raiz": ["Samekh", "Yod", "Tet"],
+    "sigilo_funcional": "O Suporte (Samekh) da Semente de Luz (Yod) sobre a Energia Potencial (Tet). É o poder de construir estruturas justas sobre a realidade material.",
+    "dominio_buonfiglio": {
+      "graus_zodiaco": "10-15 de Áries",
+      "planeta_regente": "Sol",
+      "salmo_invocacao": "Salmo 91, Versículo 2"
+    },
+    "diagnostico_emocional": {
+      "sombra": "Hipocrisia, construir castelos de areia, falta de planejamento, promessas não cumpridas, ser vítima de adversidades.",
+      "luz": "Capacidade de construir, planejar, executar, proteção contra adversidades, nobreza de caráter, manter a palavra."
+    },
+    "acao_terapeutica_verbo": "Ativa o 'Pilar do Mundo' (Samekh) no indivíduo, dando-lhe a estrutura para manifestar sua inspiração (Yod) e organizar sua energia vital (Tet).",
+    "ritual_sintonizacao": {
+      "posicao_corporal": "De pé, pernas afastadas, braços erguidos como se estivesse sustentando o céu.",
+      "vibracao_sonora": "SI-TA-EL",
+      "visualizacao_sigilo": "Visualizar-se construindo um templo de luz, pedra por pedra, com solidez e precisão.",
+      "foco_emocional": "Sentir a solidez, a responsabilidade e a alegria de construir algo que perdura."
+    },
+    "identidade_arquetipica": {
+      "titulo_principal": "O Mestre Construtor",
+      "subtitulos": ["O Arquiteto da Verdade", "A Fortaleza contra a Adversidade"],
+      "descricao": "Representa a capacidade de transformar a inspiração divina em estruturas materiais sólidas e duradouras. É a força do planejamento e da execução que nos protege do caos e da adversidade.",
+      "analogias_hermeneuticas": {
+        "jung": "O arquétipo do 'Arquiteto', a função do Self que ordena a psique e constrói as estruturas internas para a consciência habitar.",
+        "freud": "O 'Princípio da Realidade' em sua função mais construtiva, onde o Ego planeja e constrói defesas sólidas para proteger a psique.",
+        "maquiavel": "O Príncipe que não apenas conquista, mas constrói fortalezas, muralhas e instituições para proteger e administrar seu Estado.",
+        "lucia_helena": "A virtude da Prudência (Phronesis) em ação. A capacidade de planejar e construir uma vida virtuosa, uma 'cidadela interior' que protege a alma."
+      }
+    }
+  },
+  {
+    "id_anjo": 4,
+    "nome_transliterado": "Elemiah",
+    "nome_hebraico": "עלמיה",
+    "letras_raiz": ["Ayin", "Lamed", "Mem"],
+    "sigilo_funcional": "A Visão Profunda (Ayin) que direciona (Lamed) as Águas (Mem). É o poder de enxergar o fluxo do destino e dirigi-lo com a intenção.",
+    "dominio_buonfiglio": {
+      "graus_zodiaco": "15-20 de Áries",
+      "planeta_regente": "Vênus",
+      "salmo_invocacao": "Salmo 6, Versículo 5"
+    },
+    "diagnostico_emocional": {
+      "sombra": "Sentir-se perdido, sem poder sobre a própria vida, crises de poder, ser vítima de traições, tormento mental.",
+      "luz": "Poder sobre o próprio destino, capacidade de iniciar e liderar, descoberta de oportunidades e traidores, paz interior."
+    },
+    "acao_terapeutica_verbo": "Abre o 'Olho que Tudo Vê' (Ayin) para que o 'Mestre Interior' (Lamed) possa navegar e governar as 'Águas Primordiais' (Mem) da vida.",
+    "ritual_sintonizacao": {
+      "posicao_corporal": "De pé, como um timoneiro no leme de um navio, olhando para o horizonte.",
+      "vibracao_sonora": "E-LE-MIAH",
+      "visualizacao_sigilo": "Visualizar um olho no centro de um timão de navio, guiando-o por um oceano vasto, mas calmo.",
+      "foco_emocional": "Sentir o poder calmo e a certeza de quem está no comando do próprio caminho."
+    },
+    "identidade_arquetipica": {
+      "titulo_principal": "O Timoneiro Divino",
+      "subtitulos": ["O Mestre do Destino", "O Poder Oculto Revelado"],
+      "descricao": "Representa o poder da consciência de enxergar e navegar o fluxo do destino. É a força que nos permite tomar o leme da nossa vida, transformando o karma de uma prisão em um caminho.",
+      "analogias_hermeneuticas": {
+        "jung": "A função da 'Intuição' guiando a jornada da individuação, permitindo ao Ego navegar o 'oceano' do inconsciente coletivo.",
+        "freud": "O objetivo da análise: 'Onde era o Id, o Ego deve estar'. É a consciência (Ego) assumindo o controle sobre as correntes do inconsciente (Id).",
+        "maquiavel": "A 'Virtù' que domina a 'Fortuna'. A habilidade do Príncipe de ver as correntes da história e de agir para direcioná-las a seu favor.",
+        "lucia_helena": "A alma guiada pelo Logos. A capacidade do filósofo de usar a razão para guiar sua vida, em vez de ser arrastado pelas paixões e pelo acaso."
+      }
+    }
+  },
+  {
+    "id_anjo": 5,
+    "nome_transliterado": "Mahasiah",
+    "nome_hebraico": "מהשיה",
+    "letras_raiz": ["Mem", "He", "Shin"],
+    "sigilo_funcional": "As Águas (Mem) que se manifestam (He) como Fogo (Shin). É o poder de purificar o plano emocional/astral com o fogo do espírito. A alquimia da água e do fogo.",
+    "dominio_buonfiglio": {
+      "graus_zodiaco": "20-25 de Áries",
+      "planeta_regente": "Mercúrio",
+      "salmo_invocacao": "Salmo 34, Versículo 5"
+    },
+    "diagnostico_emocional": {
+      "sombra": "Ressentimento, incapacidade de perdoar, orgulho, libertinagem, dificuldade de aprendizado, carregar mágoas passadas.",
+      "luz": "Capacidade de retificar erros (próprios e alheios), perdão, paz interior, facilidade de aprendizado, harmonia.",
+    },
+    "acao_terapeutica_verbo": "Invoca o 'Fogo Purificador' (Shin) para consumir e transmutar as 'águas' estagnadas (Mem) das emoções negativas, manifestando (He) um novo estado de paz.",
+    "ritual_sintonizacao": {
+      "posicao_corporal": "Mãos em concha na frente do corpo, como se segurassem água. Então, elevá-las e abri-las para o céu, como se a água evaporasse em fogo.",
+      "vibracao_sonora": "MA-HA-SIAH",
+      "visualizacao_sigilo": "Visualizar uma chama violeta queimando sobre um lago de águas escuras, purificando-o.",
+      "foco_emocional": "Sentir o alívio do perdão e a leveza de se libertar de um peso antigo."
+    },
+    "identidade_arquetipica": {
+      "titulo_principal": "O Retificador Divino",
+      "subtitulos": ["O Purificador da Alma", "O Alquimista das Emoções"],
+      "descricao": "Representa a capacidade de corrigir os erros do passado e purificar o corpo emocional. É a força alquímica que une os opostos (água e fogo) para criar um estado de harmonia e paz.",
+      "analogias_hermeneuticas": {
+        "jung": "A integração da Sombra. O fogo da consciência que ilumina as águas do inconsciente, aceitando e transmutando os conteúdos sombrios.",
+        "freud": "A 'talking cure'. O fogo da palavra e da consciência que evapora as águas estagnadas do trauma recalcado, resolvendo o complexo.",
+        "maquiavel": "A Anistia ou o Perdão de Estado. A capacidade de um Príncipe de 'zerar o placar' após uma guerra civil para retificar a ordem social.",
+        "lucia_helena": "A 'Catarse'. A purificação das paixões através da filosofia e da tragédia, como descrito por Aristóteles."
+      }
+    }
+  },
+  {
+    "id_anjo": 6,
+    "nome_transliterado": "Lelahel",
+    "nome_hebraico": "ללהאל",
+    "letras_raiz": ["Lamed", "Lamed", "He"],
+    "sigilo_funcional": "A Direção (Lamed) que impulsiona (Lamed) a Manifestação (He). É a mais alta aspiração se tornando luz visível no mundo.",
+    "dominio_buonfiglio": {
+      "graus_zodiaco": "25-30 de Áries",
+      "planeta_regente": "Lua",
+      "salmo_invocacao": "Salmo 9, Versículo 12"
+    },
+    "diagnostico_emocional": {
+      "sombra": "Ambição desmedida, vaidade, orgulho espiritual, usar o próprio brilho para manipular, busca por fama a qualquer custo.",
+      "luz": "Brilho natural, fama por mérito, capacidade de curar, clareza mental, inspiração artística e científica, iluminação.",
+    },
+    "acao_terapeutica_verbo": "Ativa o 'Mestre Interior' (Lamed) em sua máxima potência, fazendo com que a luz da alma se manifeste (He) de forma visível e brilhante.",
+    "ritual_sintonizacao": {
+      "posicao_corporal": "De pé, braços abertos e erguidos para o céu, como uma antena recebendo e emanando luz.",
+      "vibracao_sonora": "LE-LA-HEL",
+      "visualizacao_sigilo": "Visualizar-se como um farol, com um feixe de luz poderoso emanando do topo da sua cabeça e do seu coração.",
+      "foco_emocional": "Sentir a alegria de ser um canal de luz e a responsabilidade de usar esse brilho para o bem."
+    },
+    "identidade_arquetipica": {
+      "titulo_principal": "O Espelho Divino",
+      "subtitulos": ["A Luz que Cura", "O Farol da Consciência"],
+      "descricao": "Representa a capacidade da alma de refletir a luz divina de forma tão pura que ela se torna uma fonte de cura, clareza e inspiração para os outros. É a fama que vem como consequência natural da maestria e do alinhamento.",
+      "analogias_hermeneuticas": {
+        "jung": "O arquétipo do 'Self' plenamente manifesto, cuja luz ilumina toda a psique e inspira o coletivo.",
+        "freud": "O 'Ego Ideal' realizado. O narcisismo transformado em uma fonte de inspiração e criatividade que beneficia a sociedade.",
+        "maquiavel": "A 'Glória' do Príncipe. A reputação brilhante que ele constrói através de grandes feitos, que serve para inspirar seu povo e ofuscar seus inimigos.",
+        "lucia_helena": "A alma do Sábio. Aquela que, tendo se alinhado com o Logos, se torna um 'farol' de razão e virtude para a Pólis."
+      }
+    }
+  },
+  {
+    "id_anjo": 7,
+    "nome_transliterado": "Achaiah",
+    "nome_hebraico": "אכאיה",
+    "letras_raiz": ["Aleph", "Kaph", "Aleph"],
+    "sigilo_funcional": "A Vontade Primordial (Aleph) que se realiza (Kaph) como Vontade Primordial (Aleph). É o poder da paciência para manifestar a ideia mais pura na matéria mais densa.",
+    "dominio_buonfiglio": {
+      "graus_zodiaco": "0-5 de Touro",
+      "planeta_regente": "Saturno",
+      "salmo_invocacao": "Salmo 103, Versículo 8"
+    },
+    "diagnostico_emocional": {
+      "sombra": "Impaciência, dificuldade de aprendizado, preguiça, revolta contra a lentidão da vida, negligência, falta de cuidado.",
+      "luz": "Paciência, capacidade de decifrar segredos da natureza, genialidade prática, perseverança, amor pelo trabalho minucioso."
+    },
+    "acao_terapeutica_verbo": "Conecta a 'Fonte Silenciosa' (Aleph) à 'Mão do Realizador' (Kaph), permitindo que a vontade mais pura tenha a paciência e a forma para se manifestar.",
+    "ritual_sintonizacao": {
+      "posicao_corporal": "Sentado, observando um objeto natural (uma planta, uma pedra) com máxima atenção e paciência.",
+      "vibracao_sonora": "A-CHA-IAH",
+      "visualizacao_sigilo": "Visualizar uma semente de luz (Aleph) caindo em uma mão em concha (Kaph) e germinando lentamente.",
+      "foco_emocional": "Sentir a calma, a paciência e a curiosidade de um cientista ou de um artesão."
+    },
+    "identidade_arquetipica": {
+      "titulo_principal": "O Decifrador Paciente",
+      "subtitulos": ["O Gênio da Natureza", "A Vontade que Persiste"],
+      "descricao": "Representa a virtude da paciência divina. É a capacidade de observar a natureza e o tempo para decifrar seus segredos e de persistir na manifestação de um ideal, não importa quão lento seja o processo.",
+      "analogias_hermeneuticas": {
+        "jung": "O arquétipo do 'Velho Sábio' como observador da natureza. A paciência da individuação, que leva uma vida inteira.",
+        "freud": "O trabalho da análise. Um processo longo e paciente de escuta e observação para decifrar os códigos do inconsciente.",
+        "maquiavel": "A estratégia de longo prazo. A paciência de um Príncipe que espera anos pelo momento certo para agir, acumulando recursos e conhecimento.",
+        "lucia_helena": "A atitude do filósofo natural. A observação paciente do Cosmos para compreender suas leis e viver em harmonia com elas."
+      }
+    }
+  },
+  {
+    "id_anjo": 8,
+    "nome_transliterado": "Cahetel",
+    "nome_hebraico": "כהתאל",
+    "letras_raiz": ["Kaph", "He", "Tav"],
+    "sigilo_funcional": "A Realização (Kaph) que se manifesta (He) como o Selo da Verdade (Tav). É o poder de manifestar a bênção e a abundância na matéria e selar a obra.",
+    "dominio_buonfiglio": {
+      "graus_zodiaco": "5-10 de Touro",
+      "planeta_regente": "Júpiter",
+      "salmo_invocacao": "Salmo 95, Versículo 6"
+    },
+    "diagnostico_emocional": {
+      "sombra": "Materialismo, avareza, orgulho da própria criação, esterilidade, medo da perda, dificuldade em agradecer.",
+      "luz": "Bênção, colheita farta, abundância, gratidão, capacidade de concretizar, proteção de colheitas (físicas e espirituais)."
+    },
+    "acao_terapeutica_verbo": "Ativa a 'Mão do Realizador' (Kaph) para manifestar (He) a colheita, selando-a (Tav) com a energia da gratidão e da abundância.",
+    "ritual_sintonizacao": {
+      "posicao_corporal": "De pé, com as mãos abertas para a frente, como se estivesse oferecendo e recebendo os frutos da terra.",
+      "vibracao_sonora": "CA-HE-TEL",
+      "visualizacao_sigilo": "Visualizar um campo fértil e dourado, pronto para a colheita, sob um sol abundante.",
+      "foco_emocional": "Sentir a gratidão profunda pela abundância e pela concretização do trabalho."
+    },
+    "identidade_arquetipica": {
+      "titulo_principal": "A Colheita Divina",
+      "subtitulos": ["O Abençoador da Terra", "A Fartura Manifestada"],
+      "descricao": "Representa a bênção da colheita, a concretização final do trabalho no plano material. É a força que transforma o esforço em abundância tangível e sela a obra com a marca da gratidão e da fertilidade divina.",
+      "analogias_hermeneuticas": {
+        "jung": "A fase final da obra alquímica, o 'rubedo', onde a Pedra Filosofal é encontrada e a abundância espiritual se manifesta.",
+        "freud": "A capacidade de 'amar e trabalhar'. O resultado de uma análise bem-sucedida, onde o indivíduo é capaz de colher os frutos de sua energia libidinal de forma saudável.",
+        "maquiavel": "Um Estado próspero e auto-suficiente. A colheita abundante que garante a estabilidade e a felicidade do povo, o selo final do sucesso de um Príncipe.",
+        "lucia_helena": "A Eudaimonia. A 'felicidade' ou 'florescimento' que é a consequência natural de uma vida virtuosa. A colheita das boas ações."
+      }
+    }
+  },{
+  "id_anjo": 9,
+  "nome_transliterado": "Haziel",
+  "nome_hebraico": "הזיאל",
+  "letras_raiz": ["He", "Zayin", "Yod"],
+  "sigilo_funcional": "A Manifestação da Vida (He) que empunha a Lâmina da Decisão (Zayin) para proteger e liberar a Semente de Luz (Yod). É a misericórdia que corta as amarras do passado.",
+  "dominio_buonfiglio": {
+    "graus_zodiaco": "0-5 de Gêmeos",
+    "planeta_regente": "Urano",
+    "salmo_invocacao": "Salmo 25, Versículo 6"
+  },
+  "diagnostico_emocional": {
+    "sombra": "Rancor, incapacidade de perdoar (a si e aos outros), manipulação emocional, falsas promessas, cobrança de 'dívidas' emocionais.",
+    "luz": "Misericórdia, perdão incondicional, reconciliação, anulação de karma negativo, obtenção da graça divina, amizade sincera."
+  },
+  "acao_terapeutica_verbo": "Ativa a 'Lâmina' da consciência (Zayin) não para punir, mas para 'cortar' os laços energéticos com erros do passado, permitindo que a pura 'Semente de Luz' (Yod) do ser se manifeste (He) livremente.",
+  "ritual_sintonizacao": {
+    "posicao_corporal": "Sentado, com a mão direita segurando o pulso esquerdo, como se estivesse impedindo uma ação de cobrança ou punição.",
+    "vibracao_sonora": "HA-ZI-EL",
+    "visualizacao_sigilo": "Visualizar uma espada de luz (Zayin) que corta correntes escuras presas ao seu coração (Yod), permitindo que ele brilhe livremente (He).",
+    "foco_emocional": "Sentir a libertação de um grande peso, a paz que vem do perdão genuíno."
+  },
+  "identidade_arquetipica": {
+    "titulo_principal": "A Misericórdia que Liberta",
+    "subtitulos": ["O Anulador de Dívidas", "O Amor Incondicional em Ação"],
+    "descricao": "Representa a força divina da misericórdia e do perdão. Não é uma compaixão passiva, mas um poder ativo que usa a discriminação (a espada) para anular os erros do passado e restaurar a harmonia original.",
+    "analogias_hermeneuticas": {
+      "jung": "O processo de aceitação da Sombra. A 'espada' da consciência que não luta contra a Sombra, mas corta a identificação do Ego com ela, permitindo o perdão e a integração.",
+      "freud": "O fim da análise, onde o Ego, através da compreensão, 'perdoa' as pulsões do Id e as exigências do Superego, 'cortando' o poder dos complexos e traumas infantis.",
+      "maquiavel": "A Anistia Estratégica. O ato de um Príncipe que, após uma vitória, perdoa seus antigos inimigos para garantir a paz e a lealdade futuras, 'cortando' o ciclo de vingança.",
+      "lucia_helena": "A virtude da Clemência. A capacidade da alma sábia de usar a razão (a espada) para se sobrepor ao desejo de punição, compreendendo a falibilidade humana e agindo com misericórdia para restaurar a ordem."
+    }
   }
+},{
+  "id_anjo": 10,
+  "nome_transliterado": "Aladiah",
+  "nome_hebraico": "אלדיה",
+  "letras_raiz": ["Aleph", "Lamed", "Dalet"],
+  "sigilo_funcional": "A Vontade Primordial (Aleph) que direciona (Lamed) a Estrutura (Dalet). É o poder de usar a força da Fonte para reconstruir a 'porta' ou a forma do corpo e da vida.",
+  "dominio_buonfiglio": {
+    "graus_zodiaco": "5-10 de Gêmeos",
+    "planeta_regente": "Mercúrio",
+    "salmo_invocacao": "Salmo 33, Versículo 22"
+  },
+  "diagnostico_emocional": {
+    "sombra": "Negligência com o próprio corpo, culpa, autopunição, carregar o peso de erros passados, moralidade excessiva, desleixo.",
+    "luz": "Cura de doenças, regeneração moral e física, segunda chance, perdão das próprias faltas, inocência recuperada."
+  },
+  "acao_terapeutica_verbo": "Invoca a Vontade da Fonte (Aleph) e a direciona (Lamed) para a 'porta' do corpo físico e da estrutura de vida (Dalet), promovendo a cura e a reconstrução.",
+  "ritual_sintonizacao": {
+    "posicao_corporal": "De pé, com as mãos espalmadas sobre uma área do corpo que necessita de cura, ou sobre o coração, simbolizando a cura da alma.",
+    "vibracao_sonora": "A-LA-DIAH",
+    "visualizacao_sigilo": "Visualizar uma luz branca e pura (Aleph) descendo como um raio (Lamed) e reconstruindo uma porta de luz (Dalet) onde antes havia uma brecha ou uma ruína.",
+    "foco_emocional": "Sentir a gratidão por uma segunda chance e a aceitação da cura, liberando a culpa."
+  },
+  "identidade_arquetipica": {
+    "titulo_principal": "O Curador Divino",
+    "subtitulos": ["A Segunda Chance", "O Reconstrutor da Forma"],
+    "descricao": "Representa a graça divina manifesta como cura e regeneração. É o poder que permite a reconstrução da forma, seja ela física, moral ou situacional, oferecendo uma oportunidade de recomeçar a partir de um estado de pureza.",
+    "analogias_hermeneuticas": {
+      "jung": "O arquétipo do 'Curador'. A capacidade da psique de se auto-regenerar, onde a energia do Self (Aleph) é direcionada para curar as feridas do Ego e reconstruir uma Persona mais saudável.",
+      "freud": "A resolução de um sintoma. A energia da pulsão (Aleph), uma vez compreendida e direcionada pela análise (Lamed), deixa de se manifestar como sintoma físico (uma 'falha' em Dalet) e a saúde é restaurada.",
+      "maquiavel": "A Reconstrução de um Estado após a guerra. A habilidade de um Príncipe de usar sua vontade (Aleph) e sua lei (Lamed) para reconstruir as cidades e as instituições (Dalet) de seu domínio.",
+      "lucia_helena": "A 'Metanoia', a transformação da mente. A capacidade da alma de, através da filosofia, usar a Vontade (Aleph) para reconstruir seus próprios hábitos e caráter (Dalet), curando-se dos vícios."
+    }
+  }
+},{
+  "id_anjo": 11,
+  "nome_transliterado": "Laoviah",
+  "nome_hebraico": "לאויה",
+  "letras_raiz": ["Lamed", "Aleph", "Vav"],
+  "sigilo_funcional": "O Mestre Interior (Lamed) que direciona a Vontade Primordial (Aleph) através do Eixo do Mundo (Vav). É o poder de conectar a mais alta aspiração à fonte de todo o poder e implementá-la na realidade.",
+  "dominio_buonfiglio": {
+    "graus_zodiaco": "10-15 de Gêmeos",
+    "planeta_regente": "Marte",
+    "salmo_invocacao": "Salmo 18, Versículo 47"
+  },
+  "diagnostico_emocional": {
+    "sombra": "Orgulho espiritual, arrogância, tormentos noturnos, insônia, ansiedade, falso profeta, usar o conhecimento para manipular.",
+    "luz": "Revelações em sonhos, vitória sobre a tristeza e os tormentos, alegria de viver, fama, amizade com os sábios, compreensão dos segredos do universo."
+  },
+  "acao_terapeutica_verbo": "Alinha o coração (Lamed) com a Fonte da Vida (Aleph) e canaliza essa união através da espinha dorsal da vontade (Vav), trazendo uma profunda paz que supera a ansiedade e a insônia.",
+  "ritual_sintonizacao": {
+    "posicao_corporal": "Deitado, em posição de sono, com as mãos sobre o coração, focando em uma respiração calma e profunda.",
+    "vibracao_sonora": "LA-O-VIAH",
+    "visualizacao_sigilo": "Visualizar uma luz dourada descendo do alto, entrando pelo topo da cabeça, preenchendo o coração (Lamed) e a respiração (Aleph) e se ancorando na coluna (Vav).",
+    "foco_emocional": "Sentir a alegria da compreensão e a paz profunda que dissipa todos os medos e tormentos."
+  },
+  "identidade_arquetipica": {
+    "titulo_principal": "A Vitória Iluminada",
+    "subtitulos": ["A Revelação que Liberta", "O Conquistador da Noite"],
+    "descricao": "Representa a vitória que não vem da luta externa, mas da iluminação interna. É o poder da revelação que liberta a alma de seus próprios tormentos (tristeza, insônia, medo), trazendo alegria e uma profunda compreensão da ordem cósmica.",
+    "analogias_hermeneuticas": {
+      "jung": "O momento da 'iluminação' na jornada da individuação, onde uma revelação vinda do Self (Aleph) é compreendida pela consciência (Lamed) e integrada na estrutura da vida (Vav), vencendo a 'noite escura da alma'.",
+      "freud": "A vitória da análise. O insight que conecta a pulsão (Aleph) a uma sublimação superior (Lamed) através da estrutura do Ego (Vav), resolvendo a neurose e a insônia que ela causava.",
+      "maquiavel": "O 'golpe de gênio' estratégico. A revelação (a espionagem bem-sucedida, a nova tática) que garante a vitória decisiva e traz glória e fama ao Príncipe, pacificando seu reino.",
+      "lucia_helena": "A experiência do 'insight' filosófico. A alegria e a paz que vêm quando a alma (Lamed), buscando o Bem (Aleph), finalmente compreende uma verdade universal e a integra em sua vida (Vav)."
+    }
+  }
+},{
+  "id_anjo": 12,
+  "nome_transliterado": "Hahahiah",
+  "nome_hebraico": "ההעיה",
+  "letras_raiz": ["He", "He", "Ayin"],
+  "sigilo_funcional": "A Manifestação da Vida (He) que se manifesta (He) como Visão Profunda (Ayin). É o poder de voltar a energia da vida para dentro, criando um refúgio interior para a contemplação dos mistérios.",
+  "dominio_buonfiglio": {
+    "graus_zodiaco": "15-20 de Gêmeos",
+    "planeta_regente": "Lua",
+    "salmo_invocacao": "Salmo 10, Versículo 1"
+  },
+  "diagnostico_emocional": {
+    "sombra": "Isolamento, escapismo, misantropia, depressão, dificuldade em lidar com a realidade material, guardar segredos obscuros.",
+    "luz": "Refúgio contra a adversidade, paz interior, introspecção profunda, compreensão dos mistérios divinos, capacidade de meditação, interpretação de sonhos."
+  },
+  "acao_terapeutica_verbo": "Direciona a energia de manifestação (duplo He) para o interior, ativando o 'Olho da Alma' (Ayin) e criando um santuário psíquico de paz e proteção.",
+  "ritual_sintonizacao": {
+    "posicao_corporal": "Sentado em posição de meditação, com as mãos em concha no colo, como se estivesse protegendo uma chama interior.",
+    "vibracao_sonora": "HA-HA-HIAH",
+    "visualizacao_sigilo": "Visualizar-se dentro de uma esfera de luz prateada, impenetrável ao caos e ao barulho do mundo exterior.",
+    "foco_emocional": "Sentir a segurança, o silêncio e a paz de estar em seu próprio santuário interior."
+  },
+  "identidade_arquetipica": {
+    "titulo_principal": "O Refúgio Interior",
+    "subtitulos": ["O Santuário da Alma", "O Eremita Contemplativo"],
+    "descricao": "Representa a capacidade de criar um espaço interior de paz e segurança, um refúgio contra as adversidades do mundo. É a força da meditação e da introspecção que revela os segredos divinos através do silêncio e da contemplação.",
+    "analogias_hermeneuticas": {
+      "jung": "A função da 'introversão' em seu aspecto mais profundo. O ato de retirar a energia psíquica (libido) do mundo externo para focar no mundo interior, permitindo o diálogo com os arquétipos e o Self.",
+      "freud": "O 'retorno ao útero'. Um recuo narcísico da realidade externa para o mundo interno da fantasia. Na sombra, é o escapismo; na luz, é a base para a autoanálise e a reorganização da psique.",
+      "maquiavel": "O 'retiro estratégico'. O momento em que um Príncipe se isola para planejar em segredo, analisar seus adversários e consolidar seu poder longe dos olhos do público. O poder que nasce do silêncio.",
+      "lucia_helena": "A 'cidadela interior' do Estoico. A capacidade do filósofo de se refugiar em sua própria alma, encontrando paz e ordem independentemente do caos externo. É a prática da meditação filosófica."
+    }
+  }
+},{
+  "id_anjo": 13,
+  "nome_transliterado": "Yesalel",
+  "nome_hebraico": "יזלאל",
+  "letras_raiz": ["Yod", "Zayin", "Lamed"],
+  "sigilo_funcional": "A Semente de Luz (Yod) que usa a Lâmina da Decisão (Zayin) para Direcionar (Lamed). É o poder de usar uma ação ou palavra decisiva para unir e direcionar um grupo sob um único propósito.",
+  "dominio_buonfiglio": {
+    "graus_zodiaco": "20-25 de Gêmeos",
+    "planeta_regente": "Sol",
+    "salmo_invocacao": "Salmo 98, Versículo 4"
+  },
+  "diagnostico_emocional": {
+    "sombra": "Infidelidade, traição, separação, ignorância, erro, mentira, dificuldade em manter amizades e alianças.",
+    "luz": "Fidelidade (conjugal e de amizade), lealdade, união, reconciliação, facilidade de aprendizado, memória e compreensão."
+  },
+  "acao_terapeutica_verbo": "Ativa a 'Semente de Luz' (Yod) da intenção pura, usando a 'Lâmina' do foco (Zayin) para direcionar (Lamed) a energia para a criação de vínculos leais e duradouros.",
+  "ritual_sintonizacao": {
+    "posicao_corporal": "De pé, com os braços cruzados sobre o peito, simbolizando um pacto de lealdade consigo mesmo e com os outros.",
+    "vibracao_sonora": "YE-ZA-LEL",
+    "visualizacao_sigilo": "Visualizar um ponto de luz (Yod) de onde partem feixes de luz (Lamed) que se conectam a outras pessoas, todos unidos por uma espada de luz (Zayin) no centro.",
+    "foco_emocional": "Sentir a força da lealdade, da amizade verdadeira e da confiança mútua."
+  },
+  "identidade_arquetipica": {
+    "titulo_principal": "O Vínculo Leal",
+    "subtitulos": ["O Unificador de Propósitos", "O Arquiteto de Alianças"],
+    "descricao": "Representa a força que cria e sustenta a lealdade e a fidelidade. É o poder de unir indivíduos, casais ou grupos sob um propósito comum, garantindo a coesão e a harmonia através de um compromisso consciente.",
+    "analogias_hermeneuticas": {
+      "jung": "A formação de um grupo coeso em torno de um arquétipo central. A 'espada' de uma crença compartilhada que une os indivíduos e os direciona para um objetivo comum, criando um campo psíquico unificado.",
+      "freud": "A canalização da libido para a formação de laços grupais. A 'espada' do Superego que corta os impulsos egoístas em favor da lealdade ao grupo, seja a família, a nação ou uma instituição.",
+      "maquiavel": "A criação do núcleo de poder de um Príncipe. A sua capacidade de usar ações decisivas (a espada) para forjar uma lealdade inabalável em seus capitães e conselheiros, a verdadeira fundação de seu Estado.",
+      "lucia_helena": "A 'Philia', a amizade filosófica. O vínculo que une as almas na busca comum pela Verdade, onde a 'espada' da razão corta a ignorância e fortalece a lealdade ao propósito compartilhado."
+    }
+  }
+},{
+  "id_anjo": 14,
+  "nome_transliterado": "Mebahel",
+  "nome_hebraico": "מבהאל",
+  "letras_raiz": ["Mem", "Bet", "He"],
+  "sigilo_funcional": "As Águas (Mem) contidas no Recipiente (Bet) que se manifestam (He). É o poder de conter o caos de uma situação dentro de uma estrutura de lei para que a verdade possa ser manifestada.",
+  "dominio_buonfiglio": {
+    "graus_zodiaco": "25-30 de Gêmeos",
+    "planeta_regente": "Mercúrio",
+    "salmo_invocacao": "Salmo 9, Versículo 10"
+  },
+  "diagnostico_emocional": {
+    "sombra": "Injustiça, opressão, calúnia, falso testemunho, processos legais perdidos, ser prisioneiro de situações ou mentiras.",
+    "luz": "Verdade, justiça, liberdade, libertação de opressores, proteção dos inocentes, vitória em processos legais, clareza."
+  },
+  "acao_terapeutica_verbo": "Cria um 'recipiente' de ordem (Bet) em torno de uma situação caótica ou de um fluxo emocional (Mem), permitindo que a verdade essencial se manifeste (He) e traga a libertação.",
+  "ritual_sintonizacao": {
+    "posicao_corporal": "De pé, com a mão direita erguida como em um juramento, e a esquerda sobre o coração, simbolizando o compromisso com a verdade.",
+    "vibracao_sonora": "ME-BA-HEL",
+    "visualizacao_sigilo": "Visualizar uma situação confusa (águas turvas) sendo contida dentro de um cubo de cristal (Bet), forçando a sujeira a decantar e a água a se tornar clara, revelando a verdade (He).",
+    "foco_emocional": "Sentir a força e a serenidade da verdade, e a certeza da justiça e da libertação."
+  },
+  "identidade_arquetipica": {
+    "titulo_principal": "O Veredito Justo",
+    "subtitulos": ["O Libertador dos Oprimidos", "A Verdade Contida"],
+    "descricao": "Representa a justiça divina em ação. É o poder que traz a verdade à luz, liberta os inocentes e restabelece a ordem. Atua contendo o caos dentro de uma estrutura de lei e discernimento para que o veredito correto possa se manifestar.",
+  "analogias_hermeneuticas": {
+      "jung": "O processo de 'individuação' como um ato de justiça para com a alma. Conter o caos do inconsciente (Mem) dentro do espaço seguro da análise (Bet) para que o Self (a verdade, He) possa emergir.",
+      "freud": "O trabalho do Ego (Bet) de conter as pulsões caóticas do Id (Mem) para permitir uma expressão (He) saudável e verdadeira da personalidade. A justiça como o equilíbrio entre as instâncias psíquicas.",
+      "maquiavel": "O Tribunal e a Lei. A capacidade de um Príncipe de criar um sistema legal (Bet) que contenha os conflitos sociais (Mem) e produza vereditos claros (He), manifestando sua justiça e mantendo a ordem.",
+      "lucia_helena": "A virtude da Justiça (Dikaiosyne). A capacidade da alma de conter suas paixões (Mem) dentro da casa da razão (Bet), permitindo que apenas as ações e palavras verdadeiras (He) se manifestem."
+    }
+  }
+},{
+  "id_anjo": 15,
+  "nome_transliterado": "Hariel",
+  "nome_hebraico": "הריאל",
+  "letras_raiz": ["He", "Resh", "Yod"],
+  "sigilo_funcional": "A Manifestação da Vida (He) que atua sobre a Consciência (Resh) para alinhá-la com a Semente de Luz (Yod). É o sopro divino que purifica a mente.",
+  "dominio_buonfiglio": {
+    "graus_zodiaco": "0-5 de Câncer",
+    "planeta_regente": "Lua",
+    "salmo_invocacao": "Salmo 94, Versículo 22"
+  },
+  "diagnostico_emocional": {
+    "sombra": "Crenças limitantes, fanatismo, vícios, dependências, confusão mental, conflito entre ciência e fé, ateísmo por revolta.",
+    "luz": "Purificação (mental e moral), fé renovada, clareza de pensamento, libertação de vícios, inspiração para as artes e ciências, harmonia entre lógica e espiritualidade."
+  },
+  "acao_terapeutica_verbo": "Invoca o 'Sopro da Vida' (He) para varrer as impurezas da 'cabeça' (Resh), realinhando o pensamento com a intenção divina pura (Yod).",
+  "ritual_sintonizacao": {
+    "posicao_corporal": "Sentado, com as mãos sobre a cabeça (Resh), como se estivesse recebendo uma bênção purificadora.",
+    "vibracao_sonora": "HA-RI-EL",
+    "visualizacao_sigilo": "Visualizar uma brisa de luz branca (He) entrando pelo topo da sua cabeça (Resh) e limpando toda a névoa mental, deixando apenas um ponto de luz brilhante (Yod) no centro.",
+    "foco_emocional": "Sentir a clareza, a pureza de intenção e a fé simples e inteligente, livre de dogmas."
+  },
+  "identidade_arquetipica": {
+    "titulo_principal": "A Mente Purificada",
+    "subtitulos": ["A Clareza da Fé", "O Libertador de Vícios"],
+    "descricao": "Representa o poder da purificação que age sobre a mente e as crenças. É a força que liberta de vícios e dogmas, harmonizando a fé com a ciência e restaurando a clareza do pensamento alinhado a um propósito divino.",
+  "analogias_hermeneuticas": {
+      "jung": "A purificação do Ego (Resh) de suas identificações falsas. O sopro do Self (He) que limpa a consciência, alinhando-a com sua verdadeira vocação (Yod), um passo crucial na individuação.",
+      "freud": "Uma sublimação bem-sucedida que liberta o Ego (Resh) de uma fixação (vício). A energia vital (He) é redirecionada de um objeto de compulsão para um objetivo criativo e consciente (Yod).",
+      "maquiavel": "A 'purga' do conselho de um Príncipe. O ato de remover conselheiros com ideias corruptas ou limitantes (purificação de Resh) para garantir que o Estado seja governado com uma visão clara e unificada (Yod).",
+      "lucia_helena": "A purificação da alma racional (Resh) através da filosofia. O sopro do Logos (He) que limpa a mente das falsas opiniões (doxa), alinhando-a com a semente da Verdade (Yod) e levando a uma vida virtuosa."
+    }
+  }
+},{
+  "id_anjo": 16,
+  "nome_transliterado": "Hekamiah",
+  "nome_hebraico": "הקמיה",
+  "letras_raiz": ["He", "Qoph", "Mem"],
+  "sigilo_funcional": "A Manifestação da Vida (He) que emerge da Provação do Subconsciente (Qoph) para ordenar as Águas (Mem). É o poder da lealdade que nasce da superação conjunta das trevas.",
+  "dominio_buonfiglio": {
+    "graus_zodiaco": "5-10 de Câncer",
+    "planeta_regente": "Júpiter",
+    "salmo_invocacao": "Salmo 88, Versículo 2"
+  },
+  "diagnostico_emocional": {
+    "sombra": "Traição, rebelião, sedição, oportunismo, atrair inimigos poderosos, sentimento de abandono, depressão.",
+    "luz": "Lealdade universal, liderança natural, vitória sobre inimigos e traidores, honra, franqueza, carisma para unificar."
+  },
+  "acao_terapeutica_verbo": "Traz à luz da manifestação (He) a força oculta no subconsciente (Qoph), permitindo ao indivíduo ordenar o caos emocional (Mem) e estabelecer uma autoridade baseada na lealdade.",
+  "ritual_sintonizacao": {
+    "posicao_corporal": "De pé, em posição de liderança, como um rei diante de seu exército leal, com a mão direita sobre o coração.",
+    "vibracao_sonora": "HE-KA-MIAH",
+    "visualizacao_sigilo": "Visualizar-se emergindo de um túnel escuro (Qoph) para um vale fértil com águas calmas (Mem), onde é recebido com honra e lealdade por seus aliados, sob a luz do sol (He).",
+    "foco_emocional": "Sentir a força da lealdade, o respeito mútuo e a honra de liderar e ser liderado por uma causa justa."
+  },
+  "identidade_arquetipica": {
+    "titulo_principal": "A Lealdade Forjada no Fogo",
+    "subtitulos": ["O Rei Legítimo", "O Pacificador de Rebeliões"],
+    "descricao": "Representa a lealdade que não é imposta, mas conquistada através da superação de grandes provações. É a força do líder que passou pela escuridão e emergiu com a autoridade para unificar seu povo e trazer ordem ao caos.",
+  "analogias_hermeneuticas": {
+      "jung": "O Ego que, tendo sobrevivido ao confronto com a Sombra primordial (Qoph), emerge com a autoridade do Self. Ele agora pode ordenar os conteúdos antes caóticos da psique (Mem) e manifestar (He) uma personalidade integrada e carismática.",
+      "freud": "A vitória do Ego sobre um trauma profundo (Qoph). Ao integrar o conteúdo recalcado, o Ego ganha domínio sobre o fluxo do Id (Mem) e pode se expressar (He) com autoridade, livre de rebeliões neuróticas internas.",
+      "maquiavel": "O Príncipe que sobrevive a uma conspiração ou a uma grande rebelião (Qoph). Ele emerge com uma autoridade inquestionável, capaz de pacificar as correntes de descontentamento (Mem) e manifestar (He) uma nova era de ordem e lealdade.",
+      "lucia_helena": "O filósofo que atravessou a 'noite escura da alma' (Qoph). Ele retorna com um entendimento direto do Logos, que lhe dá a autoridade para ordenar suas próprias paixões (Mem) e manifestar (He) uma vida de virtude exemplar, inspirando lealdade à filosofia."
+    }
+  }
+},{
+  "id_anjo": 17,
+  "nome_transliterado": "Lauviah",
+  "nome_hebraico": "לוויה",
+  "letras_raiz": ["Lamed", "Vav", "Vav"],
+  "sigilo_funcional": "O Mestre Interior (Lamed) que conecta (Vav) a Conexão (Vav). É o poder de se alinhar com o eixo do mundo para receber a revelação direta da ordem cósmica.",
+  "dominio_buonfiglio": {
+    "graus_zodiaco": "10-15 de Câncer",
+    "planeta_regente": "Saturno",
+    "salmo_invocacao": "Salmo 8, Versículo 2"
+  },
+  "diagnostico_emocional": {
+    "sombra": "Angústia, tristeza profunda, desespero, tormentos noturnos, premonições negativas, falta de fé na ordem do universo.",
+    "luz": "Revelações em sonhos, intuição aguçada, premonição, compreensão da ordem cósmica, alegria, paz de espírito, inspiração poética e artística."
+  },
+  "acao_terapeutica_verbo": "Alinha o coração (Lamed) com o duplo eixo da realidade (Vav-Vav), o micro e o macrocosmo, permitindo que a consciência receba informações diretamente da matriz do universo, trazendo paz e compreensão.",
+  "ritual_sintonizacao": {
+    "posicao_corporal": "Deitado ou sentado em meditação, com foco total na coluna vertebral (Vav) como uma antena que se estende do centro da Terra ao infinito.",
+    "vibracao_sonora": "LA-U-VIAH",
+    "visualizacao_sigilo": "Visualizar a própria coluna como um pilar de luz (Vav) que se conecta a outro pilar de luz cósmico (Vav), e o coração (Lamed) no ponto de encontro, recebendo e decodificando as vibrações.",
+    "foco_emocional": "Sentir uma profunda alegria e pertencimento, a certeza de fazer parte de uma ordem universal perfeita."
+  },
+  "identidade_arquetipica": {
+    "titulo_principal": "A Conexão Profética",
+    "subtitulos": ["A Intuição Estrutural", "O Decodificador da Ordem Cósmica"],
+    "descricao": "Representa a capacidade de obter revelações através de uma conexão direta com a estrutura do universo. É a intuição que não vem do sentimento, mas da compreensão súbita da ordem e da lógica oculta por trás dos eventos.",
+  "analogias_hermeneuticas": {
+      "jung": "A Sincronicidade. A compreensão súbita e intuitiva da conexão significativa entre o mundo interior e o exterior, o alinhamento do eixo pessoal (Vav) com o eixo do Self universal (Vav).",
+      "freud": "O 'insight' analítico. O momento em que o Ego (Lamed) subitamente compreende a conexão (Vav-Vav) entre um sintoma presente e sua causa recalcada no passado profundo.",
+      "maquiavel": "A intuição estratégica. A capacidade de um Príncipe de 'sentir' a estrutura oculta do poder e prever os movimentos do inimigo, não por espionagem, mas por uma profunda compreensão da natureza humana.",
+      "lucia_helena": "A contemplação do Logos. A alma do filósofo que, através da disciplina (Lamed), alinha seu microcosmo (Vav) com o macrocosmo (Vav), alcançando uma compreensão intuitiva e direta da ordem e da providência divinas."
+    }
+  }
+},{
+  "id_anjo": 18,
+  "nome_transliterado": "Caliel",
+  "nome_hebraico": "כליאל",
+  "letras_raiz": ["Kaph", "Lamed", "Yod"],
+  "sigilo_funcional": "A Mão do Realizador (Kaph) que direciona (Lamed) a Semente de Luz (Yod). É o poder de manifestar a verdade absoluta e a justiça divina através de um ato de discernimento.",
+  "dominio_buonfiglio": {
+    "graus_zodiaco": "15-20 de Câncer",
+    "planeta_regente": "Júpiter",
+    "salmo_invocacao": "Salmo 22, Versículo 20"
+  },
+  "diagnostico_emocional": {
+    "sombra": "Injustiça, corrupção, processos legais complicados, cinismo, usar a lei para benefício próprio, desonestidade.",
+    "luz": "Verdade absoluta, justiça divina, vitória sobre a adversidade, discernimento, inocência, capacidade de ver a verdade em qualquer situação."
+  },
+  "acao_terapeutica_verbo": "Ativa a 'Mão' da manifestação (Kaph) para que ela seja guiada (Lamed) pela pura 'Semente' da verdade divina (Yod), permitindo que o indivíduo se torne um canal da justiça.",
+  "ritual_sintonizacao": {
+    "posicao_corporal": "De pé, com a mão direita espalmada para a frente, como se estivesse parando uma injustiça, e a esquerda apontando para o céu.",
+    "vibracao_sonora": "CA-LI-EL",
+    "visualizacao_sigilo": "Visualizar uma balança dourada perfeitamente equilibrada, com uma pequena semente de luz (Yod) em cada prato, mantida em equilíbrio por uma mão firme (Kaph).",
+    "foco_emocional": "Sentir a imparcialidade, a clareza e a força inabalável da verdade."
+  },
+  "identidade_arquetipica": {
+    "titulo_principal": "O Trono da Verdade",
+    "subtitulos": ["O Juiz Divino", "A Justiça Inevitável"],
+    "descricao": "Representa a verdade em seu aspecto mais absoluto e inevitável. É a força que permite discernir o certo do errado para além de qualquer dúvida, manifestando o veredito da justiça divina no plano material.",
+  "analogias_hermeneuticas": {
+      "jung": "O arquétipo do 'Juiz'. A função superior da psique que, conectada ao Self (Yod), é capaz de julgar os próprios complexos e motivações com total imparcialidade, trazendo ordem ao caos interno.",
+      "freud": "O Superego em seu funcionamento ideal. Não como um tirano punitivo, mas como uma autoridade justa que internalizou a lei (Lamed) e a aplica para manifestar (Kaph) a verdade (Yod) sobre os impulsos do Id.",
+      "maquiavel": "A Lei Suprema do Estado. A capacidade de um Príncipe de se tornar a personificação da justiça, cujo veredito (manifestado por Kaph) é final e inquestionável porque todos reconhecem que ele é guiado por uma sabedoria superior (Lamed/Yod).",
+      "lucia_helena": "A alma do juiz-filósofo. Aquele que, através da disciplina, manifesta (Kaph) a lei do Logos (Lamed) inspirada pela ideia do Bem (Yod), tornando-se um pilar de justiça na Pólis."
+    }
+  }
+},{
+  "id_anjo": 19,
+  "nome_transliterado": "Leuviah",
+  "nome_hebraico": "לוויה",
+  "letras_raiz": ["Lamed", "Vav", "Vav"],
+  "sigilo_funcional": "O Mestre Interior (Lamed) que conecta (Vav) a Conexão (Vav). É o poder de se alinhar com o eixo do mundo para acessar a memória universal.",
+  "dominio_buonfiglio": {
+    "graus_zodiaco": "20-25 de Câncer",
+    "planeta_regente": "Saturno",
+    "salmo_invocacao": "Salmo 40, Versículo 2"
+  },
+  "diagnostico_emocional": {
+    "sombra": "Preso ao passado, amargura, frustração, pessimismo, sentir-se vítima das circunstâncias, incapacidade de superar perdas.",
+    "luz": "Acesso à memória universal (Registros Akáshicos), superação do passado, modéstia, paciência, compreensão do karma, aceitação."
+  },
+  "acao_terapeutica_verbo": "Alinha o coração (Lamed) com o duplo eixo do tempo (Vav-Vav), o passado e o futuro, permitindo que a consciência acesse a memória de vidas passadas e se liberte de seus condicionamentos, encontrando a paz no presente.",
+  "ritual_sintonizacao": {
+    "posicao_corporal": "Sentado, com as mãos repousando sobre os joelhos, em uma postura de aceitação e paciência, como um ancião sábio.",
+    "vibracao_sonora": "LE-U-VIAH",
+    "visualizacao_sigilo": "Visualizar-se em uma vasta biblioteca, onde cada livro é uma vida. Com calma, você encontra o seu livro (passado) e o lê com compreensão, sem julgamento, e depois o coloca de volta na prateleira, livre.",
+    "foco_emocional": "Sentir a serenidade da aceitação, a paz de compreender o passado sem ser prisioneiro dele."
+  },
+  "identidade_arquetipica": {
+    "titulo_principal": "A Memória Cósmica",
+    "subtitulos": ["O Guardião dos Registros", "A Paciência que Liberta"],
+    "descricao": "Representa o acesso à memória universal e a capacidade de se libertar das amarras do passado através da compreensão. É a força da paciência e da modéstia que nos permite aceitar nossa história kármica e seguir em frente.",
+  "analogias_hermeneuticas": {
+      "jung": "O acesso ao Inconsciente Coletivo, não como um oceano caótico, mas como uma biblioteca ordenada de arquétipos e memórias. A capacidade de compreender o próprio mito pessoal à luz da história da humanidade.",
+      "freud": "O trabalho de 'recordar, repetir e elaborar'. A capacidade de acessar as memórias recalcadas da infância (os registros akáshicos pessoais) e, através da elaboração, libertar-se de sua influência compulsiva no presente.",
+      "maquiavel": "O estudo da História. A capacidade de um Príncipe de aprender com os erros e acertos dos líderes do passado para tomar decisões mais sábias no presente. A memória como a maior fonte de sabedoria estratégica.",
+      "lucia_helena": "A Anamnese de Platão. O ato de 'recordar' as verdades que a alma já conhecia antes de encarnar. A filosofia como o caminho para acessar a memória da nossa verdadeira natureza divina e nos libertarmos da prisão da ignorância."
+    }
+  }
+},{
+  "id_anjo": 20,
+  "nome_transliterado": "Pahaliah",
+  "nome_hebraico": "פהליה",
+  "letras_raiz": ["Pe", "He", "Lamed"],
+  "sigilo_funcional": "A Palavra (Pe) que manifesta (He) o Ensinamento Superior (Lamed). É o poder de expressar a lei divina e de alinhar a própria vida a uma vocação espiritual.",
+  "dominio_buonfiglio": {
+    "graus_zodiaco": "25-30 de Câncer",
+    "planeta_regente": "Mercúrio",
+    "salmo_invocacao": "Salmo 120, Versículo 2"
+  },
+  "diagnostico_emocional": {
+    "sombra": "Libertinagem, vida desregrada, falta de vocação, fanatismo, ateísmo militante, conflito com a espiritualidade, hipocrisia.",
+    "luz": "Redenção, descoberta da vocação espiritual, pureza de propósito, moralidade, força para resistir às tentações, compreensão da teologia."
+  },
+  "acao_terapeutica_verbo": "Ativa a 'boca' (Pe) para que ela se torne um canal de manifestação (He) do 'Mestre Interior' (Lamed), alinhando as palavras e ações com o propósito da alma.",
+  "ritual_sintonizacao": {
+    "posicao_corporal": "De joelhos, em uma postura de humildade e devoção, com as mãos unidas em prece.",
+    "vibracao_sonora": "PA-HA-LIAH",
+    "visualizacao_sigilo": "Visualizar um livro sagrado (Lamed) aberto, de onde emana uma luz que preenche sua boca (Pe) e se manifesta como uma aura brilhante ao seu redor (He).",
+    "foco_emocional": "Sentir o chamado da sua verdadeira vocação, a alegria de encontrar seu lugar na ordem divina e a força para viver de acordo com seus princípios."
+  },
+  "identidade_arquetipica": {
+    "titulo_principal": "O Verbo Vocacional",
+    "subtitulos": ["O Guardião da Fé", "A Redenção pela Palavra"],
+    "descricao": "Representa o poder de encontrar e viver uma vocação espiritual, combatendo as forças do materialismo e da descrença através da força da palavra e de uma vida reta. É a energia da redenção que realinha o ser com a lei divina.",
+  "analogias_hermeneuticas": {
+      "jung": "A descoberta da 'vocação' como a expressão do Self. O Ego (a boca, Pe) que, ao se conectar com o arquétipo do Velho Sábio (Lamed), manifesta (He) no mundo a sua verdadeira função, seu mito pessoal.",
+      "freud": "A sublimação bem-sucedida da libido em uma vocação religiosa ou espiritual. A energia do Id é canalizada pelas exigências do Superego (Lamed) e expressa através da fala e do comportamento (Pe/He).",
+      "maquiavel": "A Religião como instrumento do Estado. A habilidade do Príncipe de usar a 'palavra' dos sacerdotes (Pe) para manifestar (He) uma ordem moral e divina (Lamed) que mantenha o povo unido e virtuoso.",
+      "lucia_helena": "O filósofo-mestre. Aquele que, tendo compreendido o Logos (Lamed), usa a palavra (Pe) para manifestar (He) esse ensinamento, cumprindo sua vocação de guiar outras almas para a verdade."
+    }
+  }
+},{
+  "id_anjo": 21,
+  "nome_transliterado": "Nelchael",
+  "nome_hebraico": "נלכאל",
+  "letras_raiz": ["Nun", "Lamed", "Kaph"],
+  "sigilo_funcional": "A Alma (Nun) que é direcionada (Lamed) para a Realização (Kaph). É o poder da alma que se submete à disciplina do estudo para manifestar o conhecimento.",
+  "dominio_buonfiglio": {
+    "graus_zodiaco": "0-5 de Leão",
+    "planeta_regente": "Saturno",
+    "salmo_invocacao": "Salmo 31, Versículo 15"
+  },
+  "diagnostico_emocional": {
+    "sombra": "Ignorância, preconceito, mente fechada, erro, ser vítima de calúnia, de feitiços ou de influências negativas.",
+    "luz": "Desejo de aprender, domínio sobre o estudo (matemática, ciências exatas, filosofia), destruição de feitiços e energias negativas, libertação da ignorância."
+  },
+  "acao_terapeutica_verbo": "Direciona a energia da alma (Nun) através do foco do aprendizado (Lamed), permitindo que a mente realize (Kaph) seu potencial e anule as influências da ignorância.",
+  "ritual_sintonizacao": {
+    "posicao_corporal": "Sentado em uma mesa de estudos, com as mãos sobre um livro aberto (ou um símbolo do conhecimento), em postura de concentração.",
+    "vibracao_sonora": "NEL-CHA-EL",
+    "visualizacao_sigilo": "Visualizar a própria alma (um peixe de luz, Nun) sendo guiada por um facho de luz (Lamed) até uma mão aberta (Kaph) que contém uma esfera de conhecimento.",
+    "foco_emocional": "Sentir a alegria da descoberta, a clareza do aprendizado e a força que o conhecimento confere contra a negatividade."
+  },
+  "identidade_arquetipica": {
+    "titulo_principal": "O Erudito Focado",
+    "subtitulos": ["O Destruidor de Ilusões", "O Mestre do Estudo"],
+    "descricao": "Representa o poder do conhecimento focado para destruir a ignorância e as energias negativas que nela se baseiam. É a força da alma que se dedica à disciplina do estudo para manifestar a sabedoria e se libertar de influências externas.",
+  "analogias_hermeneuticas": {
+      "jung": "O trabalho consciente de aprender a linguagem dos símbolos. A alma (Nun) que, guiada pelo arquétipo do Sábio (Lamed), aprende a realizar (Kaph) a interpretação dos sonhos, 'destruindo o feitiço' do desconhecido.",
+      "freud": "O processo da psicanálise. O paciente (Nun) que, guiado pelo analista (Lamed), realiza (Kaph) a compreensão de seus complexos, 'destruindo o feitiço' da neurose ao trazer sua causa à luz.",
+      "maquiavel": "A educação de um Príncipe. O governante (Nun) que se dedica ao estudo da história e da guerra (Lamed) para obter a capacidade (Kaph) de governar com eficácia, destruindo as 'ilusões' criadas por seus inimigos.",
+      "lucia_helena": "O caminho do discípulo-filósofo. A alma (Nun) que aceita a disciplina do estudo (Lamed) para realizar (Kaph) as virtudes em sua vida, destruindo o 'feitiço' da ignorância e das falsas opiniões."
+    }
+  }
+},{
+  "id_anjo": 22,
+  "nome_transliterado": "Yeiayel",
+  "nome_hebraico": "יייאל",
+  "letras_raiz": ["Yod", "Yod", "Yod"],
+  "sigilo_funcional": "A Semente de Luz (Yod) que é a Semente de Luz (Yod) que é a Semente de Luz (Yod). É a concentração máxima da vontade divina em um único ponto, manifestando-se como sorte, renome e poder.",
+  "dominio_buonfiglio": {
+    "graus_zodiaco": "5-10 de Leão",
+    "planeta_regente": "Júpiter",
+    "salmo_invocacao": "Salmo 121, Versículo 5"
+  },
+  "diagnostico_emocional": {
+    "sombra": "Ambição desmedida, tirania, egoísmo, má sorte, perdas financeiras, mau uso da influência e do poder.",
+    "luz": "Fortuna, renome, sucesso nos negócios e em viagens, diplomacia, filantropia, generosidade, proteção contra o mal."
+  },
+  "acao_terapeutica_verbo": "Concentra a intenção, a ação e o resultado em um único ponto (triplo Yod), alinhando a vontade pessoal com a vontade divina para manifestar sucesso e proteção.",
+  "ritual_sintonizacao": {
+    "posicao_corporal": "De pé, com as mãos unidas em frente ao peito e os dedos indicadores apontando para cima, como uma única flecha de intenção.",
+    "vibracao_sonora": "YE-YA-YEL",
+    "visualizacao_sigilo": "Visualizar três pequenas chamas (Yod) se unindo em uma única grande chama trina, poderosa e brilhante, no centro do seu ser.",
+    "foco_emocional": "Sentir a certeza inabalável do sucesso, a gratidão pela fortuna e a responsabilidade de usar o poder com generosidade."
+  },
+  "identidade_arquetipica": {
+    "titulo_principal": "A Tríplice Fagulha",
+    "subtitulos": ["A Fortuna Manifesta", "O Ponto de Poder"],
+    "descricao": "Representa a concentração máxima do poder criador. É a sorte que advém do alinhamento perfeito entre intenção, ação e o fluxo divino. Governa o renome, a fortuna e a capacidade de liderar com influência e generosidade.",
+  "analogias_hermeneuticas": {
+      "jung": "A Sincronicidade em sua máxima expressão. O momento em que a intenção do Self (Yod) se alinha perfeitamente com um evento no mundo (Yod), revelando um significado profundo (Yod) e transformador. O arquétipo do 'Milagre'.",
+      "freud": "A Libido perfeitamente focada. A totalidade da energia psíquica (Yod) concentrada em um único ato criativo (Yod) que resulta em sucesso e gratificação suprema (Yod). O oposto da neurose (energia dividida).",
+      "maquiavel": "A jogada de mestre. O momento em que a Virtù do Príncipe (Yod) se alinha perfeitamente com a Fortuna (Yod), resultando em uma vitória espetacular que lhe confere glória e poder duradouros (Yod).",
+      "lucia_helena": "A perfeita coerência entre pensamento, palavra e ação. A alma que, alinhada ao Logos (Yod), age de forma virtuosa (Yod) e, como consequência, atinge o florescimento e a felicidade (Eudaimonia, Yod)."
+    }
+  }
+},{
+  "id_anjo": 23,
+  "nome_transliterado": "Melahel",
+  "nome_hebraico": "מלהאל",
+  "letras_raiz": ["Mem", "Lamed", "He"],
+  "sigilo_funcional": "As Águas (Mem) que são direcionadas (Lamed) para a Manifestação (He). É o poder de compreender o fluxo da vida na natureza e direcioná-lo para a cura.",
+  "dominio_buonfiglio": {
+    "graus_zodiaco": "10-15 de Leão",
+    "planeta_regente": "Saturno",
+    "salmo_invocacao": "Salmo 121, Versículo 8"
+  },
+  "diagnostico_emocional": {
+    "sombra": "Charlatanismo, uso de 'curas' falsas, poluição, destruição da natureza, doenças, desrespeito pela vida.",
+    "luz": "Capacidade de cura (especialmente com plantas e água), conhecimento da natureza, proteção contra doenças e pragas, fertilidade da terra."
+  },
+  "acao_terapeutica_verbo": "Conecta a consciência com o fluxo da vida na natureza (Mem), permitindo que a sabedoria (Lamed) se manifeste (He) como um ato de cura.",
+  "ritual_sintonizacao": {
+    "posicao_corporal": "Sentado na terra, com as palmas das mãos tocando o solo ou uma planta, em atitude de escuta.",
+    "vibracao_sonora": "ME-LA-HEL",
+    "visualizacao_sigilo": "Visualizar a seiva de uma planta (Mem) subindo por seu caule, guiada por uma intenção de cura (Lamed), e se manifestando como uma flor ou fruto saudável (He).",
+    "foco_emocional": "Sentir o amor e o respeito pela natureza, a gratidão pelo poder de cura das plantas e a conexão com toda a vida."
+  },
+  "identidade_arquetipica": {
+    "titulo_principal": "O Curandeiro da Natureza",
+    "subtitulos": ["O Mestre das Ervas", "A Sabedoria da Terra"],
+    "descricao": "Representa o poder de cura inerente à natureza. É a força que compreende as leis das plantas, das águas e dos ciclos naturais, e as utiliza para restaurar a saúde e o equilíbrio no corpo e no ambiente.",
+  "analogias_hermeneuticas": {
+      "jung": "O arquétipo do 'Curador Natural' ou do 'Xamã', que entende a linguagem da Anima Mundi (a alma do mundo, Mem) e a direciona (Lamed) para manifestar a cura (He).",
+      "freud": "Uma relação saudável com o princípio da realidade em sua forma natural. A libido (Mem) sublimada no cuidado com a vida (jardinagem, medicina), direcionada (Lamed) para uma manifestação (He) criativa e curadora.",
+      "maquiavel": "O controle sobre os recursos naturais de um Estado (agricultura, fontes de água). A sabedoria de um Príncipe que direciona (Lamed) o fluxo da natureza (Mem) para manifestar (He) um povo saudável e bem alimentado.",
+      "lucia_helena": "A filosofia vivida em harmonia com a Natureza (Physis). O sábio que compreende as leis do Cosmos (Mem), direciona sua vida (Lamed) de acordo com elas e manifesta (He) uma existência equilibrada e saudável."
+    }
+  }
+},
+]
 ]
