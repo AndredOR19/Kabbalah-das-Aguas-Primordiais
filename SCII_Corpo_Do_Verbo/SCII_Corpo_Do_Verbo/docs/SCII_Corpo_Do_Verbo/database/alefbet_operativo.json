@@ -30,5 +30,320 @@
       "maquiavel": "A cidade ou a fortaleza. A estrutura física que um Príncipe constrói para abrigar seu poder e seu povo, definindo claramente suas fronteiras.",
       "lucia_helena": "A matéria (Hylé) aristotélica, que serve como o substrato passivo que recebe a forma (Eidos). O corpo como o templo que precisa ser cuidado para abrigar a alma."
     }
-  }
+  },{
+    "id_letra": "ב",
+    "nome_letra": "Bet",
+    "valor_numerico": 2,
+    "pictograma_primordial": "Casa, tenda, interior, recipiente.",
+    "funcao_verbo": "O princípio da dualidade, da polaridade e da interioridade. A criação de um 'dentro' e um 'fora'. O recipiente que dá forma à energia de Aleph. O ato de abrigar e conter. A planta baixa da criação.",
+    "correspondencia_somatica": "A boca como o recipiente que contém a palavra. O estômago como o recipiente que contém o alimento. O corpo como a casa da alma.",
+    "arquetipo_principal": "O Recipiente Sagrado",
+    "palavras_chave": ["casa", "recipiente", "dualidade", "interior", "corpo", "forma", "manifestação"],
+    "analogias_hermeneuticas": {
+      "jung": "O arquétipo da Grande Mãe como o útero que recebe a semente da vida. A própria psique como o recipiente das experiências e dos arquétipos.",
+      "freud": "O Ego, a estrutura que se diferencia do Id para conter e mediar suas pulsões, criando a primeira divisão psíquica.",
+      "maquiavel": "A cidade ou a fortaleza. A estrutura física que um Príncipe constrói para abrigar seu poder e seu povo, definindo claramente suas fronteiras.",
+      "lucia_helena": "A matéria (Hylé) aristotélica, que serve como o substrato passivo que recebe a forma (Eidos). O corpo como o templo que precisa ser cuidado para abrigar a alma."
+    }
+  },{
+    "id_letra": "ג",
+    "nome_letra": "Gimel",
+    "valor_numerico": 3,
+    "pictograma_primordial": "Camelo, pé, o ato de caminhar, carregar.",
+    "funcao_verbo": "O princípio do movimento, do fluxo e da transição que conecta polaridades. É a energia que atravessa o abismo entre dois pontos, carregando os recursos necessários. Representa a jornada, o esforço contínuo e a recompensa (gamul) que resulta desse movimento.",
+    "correspondencia_somatica": "As pernas, quadris e o sistema locomotor. A capacidade do corpo de se mover no espaço, de transportar seu próprio peso e de superar a inércia. Governa o caminhar, o fluxo sanguíneo e a circulação da energia vital.",
+    "arquetipo_principal": "O Viajante do Abismo",
+    "palavras_chave": ["movimento", "fluxo", "jornada", "travessia", "camelo", "recompensa", "transição", "dar", "receber", "superação"],
+    "analogias_hermeneuticas": {
+      "jung": "A jornada do Ego através do inconsciente. O camelo é o próprio Ego, que deve carregar o peso de suas experiências e da Sombra (a carga) através do deserto da psique para alcançar a integração (o oásis).",
+      "freud": "O fluxo da libido. A energia psíquica que se move de um objeto de desejo para outro, superando os obstáculos impostos pelo Superego. A própria dinâmica da pulsão.",
+      "maquiavel": "A logística do poder. A capacidade de um Príncipe mover seus exércitos e recursos (a carga do camelo) através de territórios hostis (o deserto da fortuna) para alcançar um objetivo estratégico. É o princípio da mobilidade e da projeção de força.",
+      "lucia_helena": "A jornada da alma de volta à sua origem. O filósofo como o viajante que atravessa o deserto das aparências e opiniões, nutrido apenas pela sua busca pela Verdade, que é a sua única água e recompensa."
+    }
+  },{
+    "id_letra": "ד",
+    "nome_letra": "Dalet",
+    "valor_numerico": 4,
+    "pictograma_primordial": "Porta de uma tenda, entrada.",
+    "funcao_verbo": "O princípio da estrutura, da estabilidade e do mundo material (as 4 direções, os 4 elementos). É a porta que serve como ponto de decisão e transição entre o 'dentro' e o 'fora'. Representa a escolha, o caminho a ser tomado e a forma manifestada.",
+    "correspondencia_somatica": "A estrutura óssea que dá forma ao corpo, especialmente a pélvis e a caixa torácica, que são os 'portais' estruturais do tronco. Também os 'portais' do rosto: olhos, narinas, boca, que permitem a entrada e saída de informação e energia.",
+    "arquetipo_principal": "O Guardião do Limiar",
+    "palavras_chave": ["porta", "portal", "decisão", "estrutura", "estabilidade", "matéria", "limiar", "entrada", "saída", "caminho", "escolha"],
+    "analogias_hermeneuticas": {
+      "jung": "O Guardião do Limiar, o arquétipo que se encontra na entrada de uma nova fase da jornada da individuação, forçando o herói a provar seu valor antes de cruzar para o desconhecido.",
+      "freud": "O mecanismo de censura do Ego, a 'porta' que decide quais conteúdos do inconsciente podem passar para a consciência e quais devem ser barrados. A própria estrutura da repressão.",
+      "maquiavel": "Um ponto estratégico de controle: um portão de cidade, uma ponte, uma passagem na montanha. Um Príncipe sábio domina as 'portas' de seu Estado, controlando o fluxo de recursos, informações e ameaças.",
+      "lucia_helena": "O livre-arbítrio (prohairesis) do estoicismo. Cada momento é uma 'porta' que nos oferece a escolha de agir com virtude ou com vício. Dalet é a estrutura da realidade que nos força a escolher o nosso caminho."
+    }
+  },{
+    "id_letra": "ה",
+    "nome_letra": "He",
+    "valor_numerico": 5,
+    "pictograma_primordial": "Homem de braços erguidos, janela, sopro, revelação.",
+    "funcao_verbo": "O princípio da manifestação e da expressão da vida. É o sopro divino (prana) que anima a forma. Representa a revelação, a graça, os cinco sentidos e a capacidade de experienciar o mundo manifesto. É a letra da vida universal.",
+    "correspondencia_somatica": "Os cinco sentidos (visão, audição, tato, olfato, paladar) como as 'janelas' do corpo para a realidade. O ato da fala como a expressão do pensamento. A pele como o órgão que interage com o todo do ambiente.",
+    "arquetipo_principal": "O Sopro da Vida",
+    "palavras_chave": ["vida", "manifestação", "expressão", "revelação", "sopro", "graça", "sentidos", "janela"],
+    "analogias_hermeneuticas": {
+      "jung": "O arquétipo da 'Anima' ou da 'Alma', a força que dá vida e expressão ao mundo interior, a ponte entre o Ego e o Self. É o momento da revelação simbólica, o 'insight'.",
+      "freud": "A expressão sublimada da libido. A energia do Id que, ao passar pelas estruturas do Ego/Superego, se manifesta no mundo como arte, fala e expressão criativa.",
+      "maquiavel": "A 'aparência' ou a 'reputação' de um Príncipe. A forma como ele se manifesta e é percebido por seus súditos e inimigos. Uma ferramenta de poder que deve ser cuidadosamente cultivada e expressa.",
+      "lucia_helena": "A manifestação do Logos no mundo sensível. É a beleza e a ordem do Cosmos que podemos perceber através dos nossos sentidos, a prova visível da inteligência divina que estrutura a realidade."
+    }
+  },{
+    "id_letra": "ו",
+    "nome_letra": "Vav",
+    "valor_numerico": 6,
+    "pictograma_primordial": "Prego, gancho, estaca de tenda.",
+    "funcao_verbo": "O princípio da conexão, da continuação e da implementação da vontade. É o gancho que une o espiritual ao material. Representa a espinha dorsal, o eixo que transmite a intenção para a ação. É o 'E' conjuntivo, ligando causa e efeito.",
+    "correspondencia_somatica": "A coluna vertebral, o eixo central do corpo que conecta o cérebro (céu) ao resto do corpo (terra). A medula espinhal como o canal de transmissão dos impulsos nervosos (vontade). A própria postura ereta.",
+    "arquetipo_principal": "O Eixo do Mundo",
+    "palavras_chave": ["conexão", "implementação", "vontade", "espinha", "continuação", "ponte", "gancho", "ação"],
+    "analogias_hermeneuticas": {
+      "jung": "O eixo Ego-Self. A conexão consciente que um indivíduo deve forjar entre sua identidade pessoal (Ego) e sua totalidade arquetípica (Self) para se tornar completo.",
+      "freud": "O princípio da realidade em ação. A função do Ego que 'prega' as demandas do Id na realidade externa, forçando a pulsão a se conectar com um objeto real no mundo.",
+      "maquiavel": "O 'braço direito' de um Príncipe, o seu general ou ministro de confiança. O conector que transforma a vontade do soberano em ação militar ou política concreta no território.",
+      "lucia_helena": "A coerência entre o pensamento e a ação. É a virtude de 'pregar' seus princípios filosóficos em suas ações diárias, criando uma ponte inquebrável entre o que se acredita e o que se faz."
+    }
+  },{
+    "id_letra": "ז",
+    "nome_letra": "Zayin",
+    "valor_numerico": 7,
+    "pictograma_primordial": "Arma, espada, enxada, ferramenta de corte.",
+    "funcao_verbo": "O princípio da cisão, da discriminação e da escolha. É a força que corta, separa e define, permitindo a análise e a ação focada. Representa o poder de 'cortar o supérfluo' para alcançar um objetivo ou de se defender de forças antagônicas.",
+    "correspondencia_somatica": "Os braços e as mãos como as 'armas' do corpo, as ferramentas que executam os cortes e as ações precisas no mundo. O sistema nervoso simpático (luta ou fuga), que prepara o corpo para a ação decisiva. O poder de foco do olhar.",
+    "arquetipo_principal": "A Lâmina da Decisão",
+    "palavras_chave": ["corte", "decisão", "escolha", "arma", "espada", "foco", "discriminação", "análise", "limite"],
+    "analogias_hermeneuticas": {
+      "jung": "A função do 'Pensamento' (Thinking) em sua forma mais cortante. A capacidade de analisar, categorizar e discriminar entre os conteúdos da psique. É o arquétipo do 'Guerreiro' que deve lutar contra a Sombra para defender a consciência.",
+      "freud": "O ato de 'castração simbólica'. O corte que o Superego impõe sobre os desejos do Id, separando o permitido do proibido. É a faca da análise que disseca um sonho ou um lapso de linguagem para encontrar seu significado oculto.",
+      "maquiavel": "A guerra. O uso decisivo da força militar (a espada) para eliminar um rival, conquistar um território ou impor a ordem. É a capacidade de tomar decisões difíceis e 'cortar' membros corruptos do Estado para garantir sua sobrevivência.",
+      "lucia_helena": "A espada da verdade do filósofo. A capacidade da razão (Logos) de cortar as ilusões dos sentidos e as falácias da opinião para chegar à essência. É a virtude da coragem de tomar uma decisão ética, mesmo que seja dolorosa."
+    }
+  },{
+    "id_letra": "ח",
+    "nome_letra": "Chet",
+    "valor_numerico": 8,
+    "pictograma_primordial": "Cerca, parede, muro, barreira.",
+    "funcao_verbo": "O princípio da separação, da proteção e da delimitação. Cria um espaço seguro e individualizado, separando o interior do exterior. Representa o limite, o santuário, o corpo como invólucro da alma e a capacidade de conter energia vital.",
+    "correspondencia_somatica": "A pele como a cerca do corpo, que separa o eu do mundo. A caixa torácica e o crânio como as muralhas que protegem os órgãos vitais. O sistema imunológico como o exército que defende as fronteiras do corpo.",
+    "arquetipo_principal": "O Guardião da Fronteira",
+    "palavras_chave": ["cerca", "proteção", "limite", "santuário", "separação", "individualidade", "contenção", "segurança"],
+    "analogias_hermeneuticas": {
+      "jung": "A criação do 'temenos', o espaço sagrado ou círculo mágico onde o trabalho psicológico pode ocorrer com segurança. É a função do Ego de criar uma persona funcional que protege o Self vulnerável do mundo exterior.",
+      "freud": "A barreira de contato e a repressão em seu aspecto protetor. A capacidade da psique de 'murar' conteúdos traumáticos para proteger a integridade do Ego, ainda que isso gere seus próprios sintomas.",
+      "maquiavel": "As muralhas de uma cidade ou as fronteiras de uma nação. A primeira e mais importante tarefa de um Príncipe é garantir a segurança de seu território, estabelecendo fronteiras claras e intransponíveis para seus inimigos.",
+      "lucia_helena": "O corpo como o templo da alma, que deve ser protegido e cuidado. A disciplina ética como a 'cerca' que protege a alma das influências do vício e do caos, criando um espaço interior para o cultivo da virtude."
+    }
+  },{
+    "id_letra": "ט",
+    "nome_letra": "Tet",
+    "valor_numerico": 9,
+    "pictograma_primordial": "Serpente enrolada, cesto, recipiente.",
+    "funcao_verbo": "O princípio da energia potencial, da força vital (kundalini) e do 'bem oculto'. Representa o poder latente contido dentro de uma forma, a bondade intrínseca da criação e a capacidade de autorreflexão e introversão.",
+    "correspondencia_somatica": "O sistema digestivo, especialmente os intestinos, que se assemelham a uma serpente enrolada e processam a energia para o corpo. O útero, como o recipiente que contém e nutre a vida potencial. A energia da base da coluna.",
+    "arquetipo_principal": "A Serpente Enrolada",
+    "palavras_chave": ["potencial", "serpente", "energia vital", "bem oculto", "introversão", "útero", "proteção", "gestação"],
+    "analogias_hermeneuticas": {
+      "jung": "O arquétipo da serpente como símbolo da energia psíquica primordial, o inconsciente e o poder de cura e transformação. É a energia da Sombra que, quando integrada, se torna a maior fonte de poder do Self.",
+      "freud": "A Libido em seu estado puro, a pulsão de vida (Eros) contida no Id. É a energia sexual fundamental que, embora oculta e reprimida, é a fonte de toda a motivação humana.",
+      "maquiavel": "O 'tesouro' ou os 'recursos secretos' de um Estado. O poder latente de uma nação (economia, população, tecnologia) que não está em uso ativo, mas que pode ser mobilizado em tempos de necessidade para garantir a vitória.",
+      "lucia_helena": "A alma humana (psique). A centelha divina que está 'contida' dentro do vaso de barro do corpo. O bem intrínseco que existe em cada ser e que é a meta do filósofo descobrir e manifestar através da virtude."
+    }
+  },{
+    "id_letra": "י",
+    "nome_letra": "Yod",
+    "valor_numerico": 10,
+    "pictograma_primordial": "Mão, braço, ação, fazer, semente.",
+    "funcao_verbo": "O princípio da concentração da vontade em um único ponto. É a semente divina, a fagulha de intenção que contém o potencial de toda uma árvore. Representa a ação precisa, a manifestação do poder criador em sua forma mais essencial e o início de um novo ciclo em um nível superior.",
+    "correspondencia_somatica": "As mãos e os dedos, que executam as ações mais precisas e delicadas. A glândula pineal, o 'ponto' no centro do cérebro associado à visão espiritual. O espermatozoide como a 'semente' que carrega o potencial da vida.",
+    "arquetipo_principal": "A Semente de Luz",
+    "palavras_chave": ["semente", "fagulha", "ponto", "mão", "intenção", "criação", "potência", "essência"],
+    "analogias_hermeneuticas": {
+      "jung": "O arquétipo do Self manifestado como um ponto de luz no centro do mandala da psique. A imagem de Deus no homem, a semente da individuação que o Ego deve encontrar e servir.",
+      "freud": "O ponto de fixação da libido. A 'semente' de um complexo ou de um trauma, o núcleo energético minúsculo ao redor do qual toda uma estrutura neurótica é construída.",
+      "maquiavel": "A Vontade do Príncipe. Aquele ponto de intenção pura e inabalável que é a semente de todas as suas conquistas. É a ideia inicial e genial de uma campanha, antes mesmo da mobilização de qualquer exército.",
+      "lucia_helena": "A centelha do Logos divino em cada alma. A 'semente' da razão e da virtude que é a nossa verdadeira essência e que temos o dever de cultivar até que se torne uma árvore completa."
+    }
+  },{
+    "id_letra": "כ",
+    "nome_letra": "Kaph",
+    "valor_numerico": 20,
+    "pictograma_primordial": "Palma da mão, mão curvada, ato de conter.",
+    "funcao_verbo": "O princípio da realização e da manifestação do potencial. É o recipiente que recebe e dá forma à semente de Yod. Representa a capacidade de conter, de moldar e de realizar uma força ou intenção no mundo material.",
+    "correspondencia_somatica": "As palmas das mãos, os pés (as 'palmas' que tocam o chão). Os órgãos internos que são recipientes, como o coração, os rins e a bexiga, que contêm e processam as forças vitais do corpo.",
+    "arquetipo_principal": "A Mão do Realizador",
+    "palavras_chave": ["realização", "manifestação", "recipiente", "conter", "moldar", "potencial", "forma", "palma"],
+    "analogias_hermeneuticas": {
+      "jung": "A função da 'Sensação' (Sensation). A capacidade da psique de receber a realidade concreta, de 'pegar' o mundo como ele é. É o arquétipo do 'Artesão' ou 'Construtor', que pega uma ideia (Yod) e a transforma em um objeto real.",
+      "freud": "A capacidade do Ego de 'conter' as pulsões do Id e dar-lhes uma forma de expressão aceitável no mundo real. É o ato de transformar um desejo bruto em uma ação concreta e realizada.",
+      "maquiavel": "A conquista e administração de um território. Não basta ter a vontade de conquistar (Yod), é preciso ter a capacidade de 'segurar' e governar o território (Kaph). Representa o controle efetivo sobre os recursos e o poder manifestado.",
+      "lucia_helena": "A prática da virtude. Não basta conhecer a teoria do Bem (Yod), é preciso ter a capacidade de realizar atos virtuosos na vida diária (Kaph). É a mão que executa o que a mente filosófica concebe."
+    }
+  },{
+    "id_letra": "ל",
+    "nome_letra": "Lamed",
+    "valor_numerico": 30,
+    "pictograma_primordial": "Cajado de pastor, aguilhão de boi, ferramenta para direcionar.",
+    "funcao_verbo": "O princípio do ensino, do aprendizado e do movimento direcionado por um propósito. É a força que impele a consciência para um nível superior. Representa a autoridade, a direção, a aspiração e o ato de guiar e ser guiado.",
+    "correspondencia_somatica": "O coração como o 'mestre' do corpo, que bombeia a vida e representa a aspiração superior. O sistema nervoso central, que 'dirige' as ações do corpo. A capacidade de estender os braços para ensinar ou apontar uma direção.",
+    "arquetipo_principal": "O Mestre Interior",
+    "palavras_chave": ["ensino", "direção", "propósito", "aprender", "guiar", "cajado", "autoridade", "aspiração"],
+    "analogias_hermeneuticas": {
+      "jung": "O arquétipo do 'Velho Sábio' (Senex). A figura interna que aparece em sonhos e visões para guiar o Ego na jornada da individuação, apontando o caminho para o Self.",
+      "freud": "O Superego. A instância psíquica internalizada (a partir dos pais e da sociedade) que 'dirige', proíbe e estabelece as metas para o Ego, funcionando como um mestre ou juiz interno.",
+      "maquiavel": "A Lei. As instituições e leis que um Príncipe estabelece para 'dirigir' o comportamento de seu povo. A autoridade não vem apenas da força (Zayin), mas da capacidade de estabelecer uma direção clara para o Estado.",
+      "lucia_helena": "O próprio Logos. A razão divina que permeia e ordena o universo, servindo como o guia supremo para a conduta do filósofo. Aprender (Lamed) é o ato de alinhar a própria razão com a Razão universal."
+    }
+  },{
+    "id_letra": "מ",
+    "nome_letra": "Mem",
+    "valor_numerico": 40,
+    "pictograma_primordial": "Água, ondas, correnteza.",
+    "funcao_verbo": "O princípio do fluxo, do tempo e do inconsciente. Representa as 'Águas Primordiais': as emoções, a intuição, a memória e a matriz da qual a consciência individual emerge. É a força da vida em seu estado fluido e adaptável.",
+    "correspondencia_somatica": "O sangue, a linfa e todos os fluidos corporais. O sistema circulatório e o sistema límbico (o 'cérebro emocional'). O líquido amniótico que nutre a vida no útero.",
+    "arquetipo_principal": "O Oceano Primordial",
+    "palavras_chave": ["água", "fluxo", "emoção", "inconsciente", "tempo", "memória", "intuição", "vida", "matriz"],
+    "analogias_hermeneuticas": {
+      "jung": "O Inconsciente Coletivo. O vasto oceano psíquico que contém todos os arquétipos e memórias da humanidade, do qual a consciência individual (a ilha) emerge.",
+      "freud": "O Id em seu aspecto mais fundamental. O oceano das pulsões, desejos e memórias recalcadas. A fonte de toda a energia psíquica, que flui e pressiona constantemente o Ego.",
+      "maquiavel": "A 'Fortuna'. A correnteza imprevisível dos eventos, o caos da história que um Príncipe deve aprender a navegar, construindo diques e canais (leis e exércitos) para direcionar o fluxo a seu favor.",
+      "lucia_helena": "O fluxo do tempo e do devir. O mundo sensível, que está em constante mudança, em oposição ao mundo inteligível e eterno das Ideias. A tarefa do filósofo é não se deixar levar pela correnteza das paixões e aparências."
+    }
+  },{
+    "id_letra": "נ",
+    "nome_letra": "Nun",
+    "valor_numerico": 50,
+    "pictograma_primordial": "Peixe, semente, movimento na água.",
+    "funcao_verbo": "O princípio da alma individual, da fertilidade e da regeneração. É a centelha de consciência que se move e sobrevive nas águas do inconsciente. Representa a resiliência, a capacidade de superar a 'queda' (morte) e emergir novamente (renascimento).",
+    "correspondencia_somatica": "O sistema reprodutivo, tanto masculino quanto feminino, como o portador da 'semente' da vida. A medula óssea, onde o sangue (vida) é constantemente regenerado. A capacidade do corpo de se curar e se regenerar após uma doença ou ferimento.",
+    "arquetipo_principal": "A Alma Sobrevivente",
+    "palavras_chave": ["alma", "peixe", "regeneração", "fertilidade", "resiliência", "queda", "renascimento", "profundezas"],
+    "analogias_hermeneuticas": {
+      "jung": "O arquétipo do peixe como um símbolo do Self ou da própria Cristo-figura, que emerge das profundezas do inconsciente para trazer a salvação e a renovação para o Ego. Representa a jornada da alma através da noite escura.",
+      "freud": "O conteúdo recalcado que sobrevive no Id. A memória ou desejo que, apesar de 'submerso', continua a ter uma vida própria e a emergir em sonhos e sintomas, buscando perpetuamente a sua expressão.",
+      "maquiavel": "Um agente secreto ou espião. Aquele que 'nada nas águas' do território inimigo para colher informações e sobreviver em um ambiente hostil. Sua força não está no confronto direto, mas na adaptabilidade e na capacidade de emergir no momento certo.",
+      "lucia_helena": "A alma do discípulo-filósofo, que mergulha corajosamente nas 'águas' do mundo material e das paixões, mas que, através da filosofia, consegue manter sua integridade e 'nadar' em direção à verdade, sem se afogar."
+    }
+  },{
+    "id_letra": "ס",
+    "nome_letra": "Samekh",
+    "valor_numerico": 60,
+    "pictograma_primordial": "Suporte, escora, pilar, espinho (no sentido de estrutura de um peixe).",
+    "funcao_verbo": "O princípio do suporte, da sustentação e da proteção circular. Representa a confiança na estrutura da realidade, o ciclo contínuo e a força que nos ampara nos momentos de dificuldade. É a estrutura que permite o movimento sem colapso.",
+    "correspondencia_somatica": "O esqueleto como a estrutura de suporte do corpo. A coluna vertebral em sua função de sustentação (diferente de Vav, que é a conexão). O sistema imunológico como o suporte que protege contra o caos.",
+    "arquetipo_principal": "O Pilar do Mundo",
+    "palavras_chave": ["suporte", "sustentação", "proteção", "círculo", "confiança", "estrutura", "ciclo", "apoio"],
+    "analogias_hermeneuticas": {
+      "jung": "O arquétipo do 'Mandala' ou do Self como o centro ordenador e sustentador da psique. A estrutura arquetípica da totalidade que ampara o Ego e dá um sentido cíclico e ordenado à jornada da vida.",
+      "freud": "Os mecanismos de defesa do Ego. As estruturas psíquicas (racionalização, projeção, etc.) que 'suportam' o Ego contra a ansiedade gerada pelos conflitos entre o Id e o Superego.",
+      "maquiavel": "As instituições do Estado: as leis, o tesouro, a burocracia. A estrutura invisível que 'sustenta' o poder do Príncipe e permite que o Estado funcione de forma contínua e estável, mesmo em tempos de crise.",
+      "lucia_helena": "A confiança no Logos. A crença filosófica na ordem e na providência do Cosmos, que serve como o suporte fundamental para a alma do sábio enfrentar as adversidades da vida sem desespero."
+    }
+  },{
+    "id_letra": "ע",
+    "nome_letra": "Ayin",
+    "valor_numerico": 70,
+    "pictograma_primordial": "Olho, ver, perceber, fonte de água.",
+    "funcao_verbo": "O princípio da percepção profunda e da visão para além da superfície. É a capacidade de decodificar a realidade, de ver a causa por trás do efeito e de compreender as correntes ocultas. Representa a clarividência, o insight e a fonte da sabedoria.",
+    "correspondencia_somatica": "Os olhos físicos e o nervo óptico. A glândula pituitária, associada ao 'terceiro olho'. A capacidade do cérebro de interpretar estímulos visuais e transformá-los em compreensão.",
+    "arquetipo_principal": "O Olho que Tudo Vê",
+    "palavras_chave": ["visão", "percepção", "olho", "insight", "clarividência", "fonte", "compreensão", "revelação"],
+    "analogias_hermeneuticas": {
+      "jung": "A função da 'Intuição' (Intuition). A capacidade de perceber as possibilidades e os padrões arquetípicos ocultos no inconsciente, vendo para além dos fatos concretos.",
+      "freud": "O 'olho' do analista. A capacidade de ver através dos mecanismos de defesa do paciente para perceber o conteúdo recalcado no Id. O ato de tornar consciente o que era inconsciente através do 'olhar' analítico.",
+      "maquiavel": "A 'visão estratégica'. A capacidade de um Príncipe de perceber as verdadeiras intenções de seus rivais, de prever os movimentos do inimigo e de enxergar as oportunidades ocultas no caos da 'Fortuna'.",
+      "lucia_helena": "O 'olho da alma' de Platão. A capacidade da razão de se desviar das sombras da caverna (mundo sensível) e olhar diretamente para a luz das Ideias (mundo inteligível), percebendo a verdadeira realidade."
+    }
+  },{
+    "id_letra": "פ",
+    "nome_letra": "Pe",
+    "valor_numerico": 80,
+    "pictograma_primordial": "Boca, fala, expressão.",
+    "funcao_verbo": "O princípio da palavra e da comunicação. É o portal da expressão, através do qual o mundo interior se manifesta no exterior. Representa o poder criador e destruidor da fala, a comunicação, o discurso e a persuasão.",
+    "correspondencia_somatica": "A boca, os lábios, a língua, as cordas vocais. Todo o aparato da fonação. A capacidade de articular o som e dar-lhe significado.",
+    "arquetipo_principal": "O Verbo Manifesto",
+    "palavras_chave": ["boca", "palavra", "fala", "comunicação", "expressão", "verbo", "discurso", "persuasão"],
+    "analogias_hermeneuticas": {
+      "jung": "A função da 'Persona'. A 'boca' através da qual o Ego se comunica com o mundo exterior. A máscara social que escolhemos para expressar (ou ocultar) nosso verdadeiro Self.",
+      "freud": "A fase oral. A boca como o primeiro centro de prazer e de interação com o mundo. O ato da fala como uma sublimação da pulsão oral, onde as palavras se tornam o meio de obter satisfação e controle.",
+      "maquiavel": "A Oratória e a Propaganda. A 'boca' do Príncipe. A habilidade de usar o discurso para persuadir o povo, enganar os inimigos e construir uma narrativa de poder. A palavra como a mais sutil e poderosa das armas.",
+      "lucia_helena": "A expressão do Logos. A capacidade do filósofo de usar a palavra não para expressar opiniões (doxa), mas para articular a verdade (episteme). A fala como uma ferramenta para ensinar a virtude e guiar outras almas."
+    }
+  },{
+    "id_letra": "צ",
+    "nome_letra": "Tzadi",
+    "valor_numerico": 90,
+    "pictograma_primordial": "Anzol, gancho de pesca, homem deitado de lado (esperando para caçar).",
+    "funcao_verbo": "O princípio da justiça, da retidão e da 'caça' pela verdade. É a força que busca e captura o que está oculto, trazendo a luz à tona. Representa a ação focada e justa, a esperança e a realização do que é correto.",
+    "correspondencia_somatica": "O sistema nervoso periférico, os 'ganchos' que se estendem pelo corpo para capturar sensações. A medula espinhal em sua função de ligar o cérebro aos nervos. O ato de focar a intenção para um ponto específico do corpo ou da realidade.",
+    "arquetipo_principal": "O Caçador Justo",
+    "palavras_chave": ["justiça", "retidão", "caça", "anzol", "busca", "verdade", "esperança", "ação correta"],
+    "analogias_hermeneuticas": {
+      "jung": "A busca consciente pelos conteúdos do inconsciente. O Ego como o 'caçador' que, através da análise de sonhos e da imaginação ativa, 'pesca' os arquétipos e os traz para a luz da consciência.",
+      "freud": "O método da associação livre. O analista 'lança o anzol' de uma palavra ou imagem e espera para ver qual conteúdo recalcado do Id 'morde a isca', revelando-se.",
+      "maquiavel": "A espionagem e a coleta de informações. O ato de 'caçar' os segredos e as fraquezas do inimigo para garantir uma vantagem estratégica. É a justiça do Estado, que 'caça' os criminosos para manter a ordem.",
+      "lucia_helena": "A busca do filósofo pela verdade. Uma 'caça' paciente e justa, usando a razão como 'anzol' para pescar as Ideias puras do oceano das aparências e opiniões falsas."
+    }
+  },{
+    "id_letra": "ק",
+    "nome_letra": "Qoph",
+    "valor_numerico": 100,
+    "pictograma_primordial": "Nuca, fundo de uma agulha, sol no horizonte.",
+    "funcao_verbo": "O princípio do subconsciente e dos ciclos primordiais. Representa a necessidade de passar por provações e descer às profundezas da psique para encontrar a santidade (Qedoshá). É o paradoxo do sagrado contido no profano, a luz que emerge da escuridão mais densa.",
+    "correspondencia_somatica": "O cérebro reptiliano (tronco cerebral e cerebelo), que governa os instintos de sobrevivência e os ritmos automáticos do corpo. A nuca e a base do crânio. O sistema endócrino e os ciclos hormonais.",
+    "arquetipo_principal": "O Olho da Agulha",
+    "palavras_chave": ["subconsciente", "provação", "paradoxo", "ciclo", "profundezas", "santidade", "nuca", "sobrevivência"],
+    "analogias_hermeneuticas": {
+      "jung": "A descida ao Inconsciente Coletivo, o confronto com a Sombra em sua forma mais primordial e terrível. É o 'nigredo' da alquimia, a fase de escuridão e putrefação necessária para que o ouro da individuação seja criado.",
+      "freud": "O Id em sua forma mais pura e primitiva. Os instintos de sobrevivência, agressão e sexo antes de qualquer elaboração pelo Ego. É o 'fundo do poço' da psique, onde residem os conteúdos mais profundamente recalcados.",
+      "maquiavel": "A 'necessidade' (necessità). As circunstâncias extremas que forçam um Príncipe a abandonar a moralidade convencional para garantir a sobrevivência do Estado. É o teste final de sua 'Virtù', onde ele deve usar o 'veneno' para alcançar a 'medicina'.",
+      "lucia_helena": "A Caverna de Platão. O mundo das sombras e das aparências, a mais profunda escuridão da ignorância. Qoph representa a dificuldade de sair da caverna, a 'passagem apertada' pela qual o filósofo deve se espremer para alcançar a luz do conhecimento verdadeiro."
+    }
+  },{
+    "id_letra": "ר",
+    "nome_letra": "Resh",
+    "valor_numerico": 200,
+    "pictograma_primordial": "Cabeça de um homem, perfil, líder.",
+    "funcao_verbo": "O princípio da consciência individual, do intelecto e da liderança. Representa a mente que organiza a realidade, a personalidade formada e a capacidade de governar a si mesmo e aos outros. É o ápice do desenvolvimento do Ego.",
+    "correspondencia_somatica": "A cabeça e o cérebro, especificamente o neocórtex, responsável pelo pensamento racional, pela linguagem e pela autoconsciência. O rosto como a expressão da individualidade.",
+    "arquetipo_principal": "O Rei Consciente",
+    "palavras_chave": ["cabeça", "consciência", "intelecto", "líder", "ego", "personalidade", "governo", "razão"],
+    "analogias_hermeneuticas": {
+      "jung": "O Ego plenamente desenvolvido. A consciência individual que se tornou o centro funcional da personalidade. O perigo é a inflação do Ego, que se esquece de sua conexão com o Self e acredita ser o todo.",
+      "freud": "O Ego em sua função de mestre da psique. A instância que, tendo mediado os conflitos, agora governa com a autoridade da razão sobre as pulsões do Id e as proibições do Superego.",
+      "maquiavel": "O próprio Príncipe em sua majestade. A 'cabeça' do Estado. Aquele que não apenas age, mas pensa estrategicamente, personificando a vontade e a inteligência do seu domínio.",
+      "lucia_helena": "A alma racional. A parte mais elevada da alma humana, que é capaz de contemplar as verdades eternas e governar as partes inferiores (emocional e apetitiva) com a rédea da razão e da virtude."
+    }
+  },{
+    "id_letra": "ש",
+    "nome_letra": "Shin",
+    "valor_numerico": 300,
+    "pictograma_primordial": "Dente, fogo, consumir, transformar.",
+    "funcao_verbo": "O princípio da transformação ígnea e da purificação. É o fogo do Espírito que consome o supérfluo, purifica a essência e eleva a matéria. Representa a paixão divina, a energia dinâmica e o poder de mudança.",
+    "correspondencia_somatica": "O metabolismo e o 'fogo' digestivo que transformam o alimento em energia. O coração como o centro da 'paixão' e do calor corporal. A febre como o fogo que purifica o corpo de invasores.",
+    "arquetipo_principal": "O Fogo Purificador",
+    "palavras_chave": ["fogo", "transformação", "purificação", "paixão", "espírito", "dente", "consumir", "energia"],
+    "analogias_hermeneuticas": {
+      "jung": "A função da 'Intuição' em seu aspecto mais dinâmico e transformador. O 'fogo' da revelação que queima velhas estruturas psíquicas para dar lugar a uma nova consciência. O arquétipo do 'Trickster' ou do 'Dionísio', cuja energia ígnea dissolve e recria.",
+      "freud": "A pulsão de morte (Thanatos) em seu aspecto de desconstrução, ou a Libido (Eros) em sua forma de paixão avassaladora. É o fogo do Id que ameaça consumir as estruturas do Ego.",
+      "maquiavel": "A 'guerra total' ou a 'revolução'. O fogo que um Príncipe deve usar para 'purificar' um Estado corrupto, queimando as velhas instituições para construir novas. Uma ferramenta perigosa, mas por vezes necessária para a transformação completa.",
+      "lucia_helena": "O fogo da inspiração divina. O entusiasmo (en-theos, ter um deus dentro) que inflama a alma do filósofo e o impele na busca pela sabedoria. É o poder do Logos que, como um fogo, consome a ignorância."
+    }
+  },{
+    "id_letra": "ת",
+    "nome_letra": "Tav",
+    "valor_numerico": 400,
+    "pictograma_primordial": "Marca, sinal, cruz, monumento.",
+    "funcao_verbo": "O princípio da conclusão, da totalidade e da verdade manifestada. É o selo que completa e valida toda a criação. Representa a perfeição, a integração de todos os opostos e a aliança final entre o espírito e a matéria.",
+    "correspondencia_somatica": "O corpo inteiro como um todo integrado. A assinatura genética (DNA) que contém o 'sinal' de toda a estrutura. A consciência da totalidade corporal, a integração de todos os sistemas em um único ser funcional.",
+    "arquetipo_principal": "O Selo da Verdade",
+    "palavras_chave": ["conclusão", "totalidade", "verdade", "perfeição", "selo", "aliança", "marca", "integração"],
+    "analogias_hermeneuticas": {
+      "jung": "O arquétipo do Self realizado. O resultado final da jornada de individuação, onde o Ego e o Inconsciente, a Sombra e a Persona, Anima e Animus, estão todos integrados em um todo funcional e completo. É o 'Lapis', a Pedra Filosofal.",
+      "freud": "O fim da análise. O ponto teórico em que os conflitos foram resolvidos e os conteúdos recalcados foram integrados à consciência do Ego, resultando em um indivíduo capaz de 'amar e trabalhar'.",
+      "maquiavel": "O Estado unificado e seguro. O resultado final de todas as ações do Príncipe. A nação que está em paz internamente e segura externamente, com todas as suas instituições funcionando em harmonia. A obra completa do estadista.",
+      "lucia_helena": "A realização da sabedoria (sophia). O estado em que a alma do filósofo não apenas conhece a verdade, mas *vive* a verdade em total harmonia, integrando conhecimento, ética e ação. É a união final com o Logos."
+    }
+  },
 ]
