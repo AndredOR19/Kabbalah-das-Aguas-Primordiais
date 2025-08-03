@@ -1,0 +1,50 @@
+{
+  "versao_modelo": "1.0.0",
+  "indice_imanencia": {
+    "descricao": "Mede o grau de foco na realidade imanente (0) versus busca ativa do mistério (1)",
+    "variaveis": ["linguagem", "nível de abstração", "valor atribuído ao sagrado", "uso de analogias científicas", "presença de despersonalização cósmica"],
+    "intervalo": "0.00 - 1.00"
+  },
+  "tipos_ateus": [
+    {
+      "id": "ateu_cientifico",
+      "nome": "Ateu Científico",
+      "caracteristicas": ["empirismo radical", "rejeição do sobrenatural", "vocabulário técnico", "admiração por leis naturais"],
+      "indice_imanencia": 0.15,
+      "exemplos": ["Richard Dawkins", "Stephen Hawking"],
+      "letras_chave": ["מ", "ד", "ט"],
+      "notas": "Foco absoluto no tangível, embora use linguagem que toca o numinoso."
+    },
+    {
+      "id": "ateu_existencialista",
+      "nome": "Ateu Existencialista",
+      "caracteristicas": ["sofrimento como revelador", "ética sem transcendência", "busca de sentido no vazio"],
+      "indice_imanencia": 0.35,
+      "exemplos": ["Albert Camus", "Jean-Paul Sartre"],
+      "letras_chave": ["ש", "ח", "נ"],
+      "notas": "Alto grau de contato com o abismo simbólico. Usa a dor como espelho."
+    },
+    {
+      "id": "ateu_numinoso",
+      "nome": "Ateu Numinoso",
+      "caracteristicas": ["maravilha cósmica", "espiritualidade sem divindade", "cosmo como templo"],
+      "indice_imanencia": 0.62,
+      "exemplos": ["Carl Sagan", "Baruch Spinoza"],
+      "letras_chave": ["א", "ס", "ר"],
+      "notas": "Busca o mistério com reverência, mas sem recorrer a entidades."
+    },
+    {
+      "id": "ateu_cinico",
+      "nome": "Ateu Cínico",
+      "caracteristicas": ["descrença como arma política", "negação sistemática", "ironia ou sarcasmo religioso"],
+      "indice_imanencia": 0.10,
+      "exemplos": ["Christopher Hitchens"],
+      "letras_chave": ["ק", "ז", "ע"],
+      "notas": "Foco na crítica. Negação funciona como rebote emocional contra a religião institucional."
+    }
+  ],
+  "ajustes_dinamicos": {
+    "fatores_temporais": ["idade", "fase da vida", "eventos de ruptura"],
+    "ajuste_por_ambiente": ["contexto cultural", "nível educacional", "trauma religioso prévio"]
+  }
+}
