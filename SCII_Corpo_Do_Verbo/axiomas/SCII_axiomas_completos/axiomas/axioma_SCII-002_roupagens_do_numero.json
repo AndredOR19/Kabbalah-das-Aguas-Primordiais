@@ -1,0 +1,38 @@
+{
+  "id_axioma": "SCII-002",
+  "nome": "As Roupagens do Número – Linguagens do Verbo",
+  "descricao": "Este axioma declara que toda análise numerológica legítima é uma leitura de camadas do Verbo, cada uma traduzindo o mesmo princípio em uma linguagem. As diferentes tradições numerológicas (pitagórica, caldeia, cabalística) são entendidas como roupagens que vestem a mesma essência e se entrelaçam no Sistema de Correspondência Integrada e Inteligente (SCII).",
+  "estruturas_primarias": [
+    {
+      "nome": "Numerologia Pitagórica",
+      "descricao": "Trabalha com valores numéricos baseados no alfabeto latino (A=1, ..., Z=26). Foca na jornada da personalidade, destino, alma e expressão. Atua como espelho psicológico da alma encarnada."
+    },
+    {
+      "nome": "Numerologia Caldeia",
+      "descricao": "Foca nas vibrações ocultas dos nomes e situações. Usa os números 1 a 8 (excluindo o 9 como número sagrado). Atua como diagnóstico energético de fundo kármico e vibracional imediato."
+    },
+    {
+      "nome": "Numerologia Cabalística",
+      "descricao": "Baseada nas 22 letras hebraicas e sua guematria. Cada número é uma força viva, atuando na Árvore da Vida como canal de manifestação do Verbo. Atua como arquitetura da alma e do universo."
+    }
+  ],
+  "associacoes_simbolicas": [
+    {
+      "numero": 5,
+      "planeta": "Mercúrio",
+      "signo": "Gêmeos",
+      "atributos": [
+        "Comunicação",
+        "Movimento",
+        "Intelecto",
+        "Curiosidade",
+        "Dualidade",
+        "Adaptabilidade"
+      ],
+      "funcao_simbólica": "O número 5 é o mensageiro entre planos, regido por Mercúrio e pelo signo de Gêmeos. É o arquétipo da ponte, o ponto médio entre os extremos. Onde há 5, há uma busca, uma viagem e uma conexão em curso."
+    }
+  ],
+  "chave_verbal": "Todo número é um espelho do Verbo vestido com linguagem.",
+  "modo_de_uso": "Usar este axioma para cruzamento entre numerologias e leitura vibracional de nomes, datas e palavras-chave. Aplicável a diagnósticos pessoais, previsão de ciclos e criação de sigilos vibracionais integrados.",
+  "ativo": true
+}
