@@ -11,6 +11,9 @@ Este diretório contém os axiomas fundamentais do SCII. Eles representam os pri
 - [SCII-005 – A Matriz Somática da Letra Hebraica](axiomas/axioma_SCII-005_matriz_somatica_letra.json)
 - [SCII-006 – O Ouroboros como Ciclo de Não-Ato](axiomas/axioma_SCII-006_ouroboros_ciclo_nao_ato.json)
 - [SCII-007 – A Letra Perdida e o Enigma do Operador](axiomas/axioma_SCII-007_letra_perdida_enigma_operador.json)
+- [SCII-008 – O Caminho do Raio como Descarga da Vontade Divina](axiomas/axioma_SCII-008_caminho_raio_vontade_divina.json)
+- [SCII-009 – O Corpo como Altar da Criação](axiomas/axioma_SCII-009_corpo_altar_criacao.json)
+- [SCII-010 – O Verbo como Tecnologia Primordial](axiomas/axioma_SCII-010_verbo_tecnologia_primordial.json)
 
 ## Instruções
 
