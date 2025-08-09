@@ -286,7 +286,7 @@ original_url: {post['url']}
 
 def main():
     archiver = BlogArchiver(
-        'https://ocorpodoverbo.blogspot.com',
+        'https://kabbalahdasaguasprimordiais.blogspot.com',
         '/home/andre/O corpo do verbo/O-Corpo-do-Verbo--4/blogspot'
     )
     
