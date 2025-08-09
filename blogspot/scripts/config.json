@@ -1,0 +1,37 @@
+{
+  "blog_url": "https://kabbalahdasaguasprimordiais.blogspot.com",
+  "archive_settings": {
+    "download_images": true,
+    "compress_images": true,
+    "create_thumbnails": true,
+    "max_image_width": 1200,
+    "thumbnail_width": 300
+  },
+  "metadata": {
+    "blog_title": "Kabbalah das Águas Primordiais",
+    "author": "André de Oliveira Rodrigues",
+    "description": "Portal da Kabbalah das Águas Primordiais",
+    "categories": [
+      "Kabbalah",
+      "Consciência",
+      "Práticas",
+      "Estudos",
+      "Oráculo"
+    ],
+    "default_tags": [
+      "KabbalahDasÁguasPrimordiais",
+      "CorpoDoVerbo",
+      "SCII"
+    ]
+  },
+  "export_formats": [
+    "markdown",
+    "html",
+    "pdf"
+  ],
+  "backup": {
+    "enabled": true,
+    "frequency": "daily",
+    "keep_versions": 7
+  }
+}

@@ -1,0 +1,5 @@
+beautifulsoup4>=4.9.3
+requests>=2.25.1
+html2text>=2020.1.16
+python-frontmatter>=1.0.0
+PyYAML>=5.4.1
