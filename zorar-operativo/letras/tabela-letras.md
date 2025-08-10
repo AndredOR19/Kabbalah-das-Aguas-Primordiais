@@ -12,7 +12,7 @@ Cada letra do alfabeto hebraico é uma entidade viva, ativa na Criação. Esta t
 | 6     | ו     | Vav      | 6     | Ar-Fogo  | Conexão, canal entre Céu e Terra               | Coluna vertebral              | Canal          |
 | 7     | ז     | Zayin    | 7     | Fogo     | Arma espiritual, corte, discernimento          | Espada / língua aguda         | Corte          |
 | 8     | ח     | Chet     | 8     | Água     | Vida, passagem estreita, transição             | Traqueia / eixo entre mundos  | Chaim          |
-| 9     | ט     | Tet      | 9     | Terra    | Ocultamento do bem, gestação [REDACTED]           | Útero simbólico / cavidade    | Tov            |
+| 9     | ט     | Tet      | 9     | Terra    | Ocultamento do bem, gestação secreta           | Útero simbólico / cavidade    | Tov            |
 | 10    | י     | Yod      | 10    | Fogo     | Semente, ponto criador, origem de tudo         | Dedo indicador / faísca       | Yesh           |
 | 11    | כ     | Kaf      | 20    | Terra    | Poder de moldar, palma que recebe              | Mão direita                   | Kli            |
 | 12    | ל     | Lamed    | 30    | Ar       | Ensino, elevação, bastão de disciplina         | Coluna cervical               | Limud          |

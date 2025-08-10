@@ -12,7 +12,7 @@ if __name__ == "__main__":
     symmap_dir = "../data/symmap"
     data_root_dir = "../data"
     openai.organization = "your orgranization name"
-    openai.api_key = "your api key"
+    openai.api_key = "[REDACTED]"
     symptom = pd.read_excel(os.path.join(symmap_dir, "symmap_tcm_symptom.xlsx"))
     example = []
     for group_name, group in symptom.groupby("Symptom_definition"):
