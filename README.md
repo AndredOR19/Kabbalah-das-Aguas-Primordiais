@@ -16,10 +16,17 @@ Ele é estruturado para guiar tanto humanos quanto inteligências artificiais no
 
 ## 📂 Organização
 - **documentos/textos-fundamentais/** → Teses, artigos e explicações completas do método.
+- **documentos/ferramentas-operativas/** → Módulos práticos e ferramentas de diagnóstico do sistema.
 - **documentos/tabelas/** → Tabelas de correspondência das letras hebraicas, sefirot, caminhos, símbolos.
 - **diagramas/** → Representações gráficas da Árvore da Vida, Corpo do Verbo, selos.
 - **exemplos/** → Casos práticos, orações, aplicações do método.
 - **scripts/** → Ferramentas futuras para automação de cálculos e consultas.
+
+## 🛠️ Ferramentas Operativas
+A Kabbalah das Águas Primordiais não é apenas um sistema filosófico, mas um conjunto de tecnologias para a engenharia da consciência. Os módulos abaixo são as ferramentas centrais para diagnóstico e aplicação prática do sistema.
+
+* **[Módulo de Diagnóstico Vibracional: A Tríade do Fluxo Consciente](./documentos/ferramentas-operativas/diagnostico_vibracional_triade.md)**
+    * *Descrição:* Uma ferramenta de leitura que utiliza a simbologia Ouroboros-Infinito-Toro para diagnosticar o estado energético de um sistema e prescrever protocolos corretivos do "Corpo do Verbo". É a principal interface do "Barômetro da Alma".
 
 ## ⚠ Licença e Ética
 Uso permitido apenas para fins não comerciais, com citação obrigatória do autor, sob a licença:  
