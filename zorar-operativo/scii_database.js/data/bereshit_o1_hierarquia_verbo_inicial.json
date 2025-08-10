@@ -1,0 +1,14 @@
+{
+  "id_modulo": "BERESHIT-O1",
+  "nome_modulo": "Hierarquia do Verbo Inicial",
+  "descricao": "Desdobra as funções espirituais das letras em 'Bereshit', identificando sua hierarquia vibracional segundo o Zohar e a Cabala Operativa.",
+  "hierarquia": [
+    { "letra": "Aleph", "funcao": "Origem Invisível", "posicao": "Pré-verbal" },
+    { "letra": "Bet", "funcao": "Receptáculo / Útero", "posicao": "Trono de início" },
+    { "letra": "Resh", "funcao": "Cabeça / Direção", "posicao": "Comando mental" },
+    { "letra": "Shin", "funcao": "Fogo / Ação", "posicao": "Energia operacional" },
+    { "letra": "Yod", "funcao": "Semente / Singularidade", "posicao": "Codificador das formas" },
+    { "letra": "Tav", "funcao": "Selo / Manifestação", "posicao": "Missão final" }
+  ],
+  "fonte": "Zohar I:15a-16b + interpretação funcional de Karuv Beni EL"
+}

@@ -1,0 +1,178 @@
+{
+    "Aleph": {
+        "ponto_somatico": "Centro do tórax",
+        "funcao_SCII": "Origem, Inspiração",
+        "area_cerebral": "Córtex Pré-Frontal Ventromedial",
+        "rede_neural": "Rede do Modo Padrão (DMN)",
+        "funcao_cognitiva": "Intuição, Autoimagem",
+        "sistema_autonomo": "Vagal"
+    },
+    "Bet": {
+        "ponto_somatico": "Boca (interior)",
+        "funcao_SCII": "Casa, Contenção",
+        "area_cerebral": "Hipocampo",
+        "rede_neural": "Sistema de Memória",
+        "funcao_cognitiva": "Espaço interno, Memória",
+        "sistema_autonomo": "Vagal"
+    },
+    "Gimel": {
+        "ponto_somatico": "Garganta",
+        "funcao_SCII": "Movimento, Dádiva",
+        "area_cerebral": "Núcleo Accumbens",
+        "rede_neural": "Sistema de Recompensa",
+        "funcao_cognitiva": "Generosidade, Fluxo",
+        "sistema_autonomo": "Simpático"
+    },
+    "Dalet": {
+        "ponto_somatico": "Ombro direito",
+        "funcao_SCII": "Porta, Decisão",
+        "area_cerebral": "Córtex Pré-Motor",
+        "rede_neural": "Rede Motora",
+        "funcao_cognitiva": "Escolha, Direção",
+        "sistema_autonomo": "Vagal"
+    },
+    "Heh": {
+        "ponto_somatico": "Narinas",
+        "funcao_SCII": "Respiração, Inspiração divina",
+        "area_cerebral": "Córtex Insular Anterior",
+        "rede_neural": "Interocepção",
+        "funcao_cognitiva": "Percepção de si",
+        "sistema_autonomo": "Vagal"
+    },
+    "Vav": {
+        "ponto_somatico": "Coluna Vertebral",
+        "funcao_SCII": "Canal, Ligação",
+        "area_cerebral": "Medula Espinhal + Tálamo",
+        "rede_neural": "Integração Corpo-Cérebro",
+        "funcao_cognitiva": "Coordenação",
+        "sistema_autonomo": "Ambos"
+    },
+    "Zayin": {
+        "ponto_somatico": "Olhos",
+        "funcao_SCII": "Foco, Direcionamento",
+        "area_cerebral": "Córtex Visual",
+        "rede_neural": "Rede Parietal Dorsal",
+        "funcao_cognitiva": "Atenção Sustentada",
+        "sistema_autonomo": "Simpático"
+    },
+    "Chet": {
+        "ponto_somatico": "Pulmões",
+        "funcao_SCII": "Vida, Respiração",
+        "area_cerebral": "Córtex Motor Primário",
+        "rede_neural": "Rede Respiratória",
+        "funcao_cognitiva": "Vitalidade",
+        "sistema_autonomo": "Vagal"
+    },
+    "Tet": {
+        "ponto_somatico": "Plexo Solar",
+        "funcao_SCII": "Potência interna, Magnetismo",
+        "area_cerebral": "Córtex Somatossensorial",
+        "rede_neural": "Rede de Saliência",
+        "funcao_cognitiva": "Identidade, Intuição emocional",
+        "sistema_autonomo": "Ambos"
+    },
+    "Yod": {
+        "ponto_somatico": "Dedo indicador",
+        "funcao_SCII": "Ponto de criação, Direção",
+        "area_cerebral": "Córtex Motor",
+        "rede_neural": "Rede de Execução",
+        "funcao_cognitiva": "Iniciação",
+        "sistema_autonomo": "Simpático"
+    },
+    "Kaf": {
+        "ponto_somatico": "Palma da mão",
+        "funcao_SCII": "Receber, Manifestar",
+        "area_cerebral": "Córtex Sensorial",
+        "rede_neural": "Rede Somatossensorial",
+        "funcao_cognitiva": "Ação tangível",
+        "sistema_autonomo": "Ambos"
+    },
+    "Lamed": {
+        "ponto_somatico": "Coluna superior",
+        "funcao_SCII": "Aprendizado, Elevação",
+        "area_cerebral": "Hipocampo",
+        "rede_neural": "Rede de Aprendizado",
+        "funcao_cognitiva": "Memória e Integração",
+        "sistema_autonomo": "Vagal"
+    },
+    "Mem": {
+        "ponto_somatico": "Água do ventre",
+        "funcao_SCII": "Gestação, Subconsciente",
+        "area_cerebral": "Sistema Límbico",
+        "rede_neural": "Rede Emocional",
+        "funcao_cognitiva": "Sonho, Profundidade emocional",
+        "sistema_autonomo": "Ambos"
+    },
+    "Nun": {
+        "ponto_somatico": "Intestinos",
+        "funcao_SCII": "Processamento, Descarga",
+        "area_cerebral": "Cerebelo",
+        "rede_neural": "Rede Autonômica",
+        "funcao_cognitiva": "Transição",
+        "sistema_autonomo": "Simpático"
+    },
+    "Samekh": {
+        "ponto_somatico": "Coluna dorsal",
+        "funcao_SCII": "Apoio, Sustentação",
+        "area_cerebral": "Tronco encefálico",
+        "rede_neural": "Rede de Sustentação",
+        "funcao_cognitiva": "Estabilidade emocional",
+        "sistema_autonomo": "Vagal"
+    },
+    "Ayin": {
+        "ponto_somatico": "Olhos internos",
+        "funcao_SCII": "Visão interior",
+        "area_cerebral": "Lobo Occipital",
+        "rede_neural": "Rede Visual",
+        "funcao_cognitiva": "Percepção",
+        "sistema_autonomo": "Ambos"
+    },
+    "Pe": {
+        "ponto_somatico": "Lábios",
+        "funcao_SCII": "Palavra, Expressão",
+        "area_cerebral": "Área de Broca",
+        "rede_neural": "Rede Linguística",
+        "funcao_cognitiva": "Expressão verbal",
+        "sistema_autonomo": "Ambos"
+    },
+    "Tzadi": {
+        "ponto_somatico": "Quadril",
+        "funcao_SCII": "Justiça, Fundação",
+        "area_cerebral": "Córtex Parietal",
+        "rede_neural": "Rede de Decisão",
+        "funcao_cognitiva": "Autonomia",
+        "sistema_autonomo": "Ambos"
+    },
+    "Qof": {
+        "ponto_somatico": "Nuca",
+        "funcao_SCII": "Códigos ocultos, Passagem",
+        "area_cerebral": "Cerebelo",
+        "rede_neural": "Rede de Coordenação",
+        "funcao_cognitiva": "Rituais, Transição",
+        "sistema_autonomo": "Ambos"
+    },
+    "Resh": {
+        "ponto_somatico": "Topo da cabeça",
+        "funcao_SCII": "Início, Comando",
+        "area_cerebral": "Córtex Pré-Frontal",
+        "rede_neural": "Rede Executiva Central",
+        "funcao_cognitiva": "Metacognição",
+        "sistema_autonomo": "Ambos"
+    },
+    "Shin": {
+        "ponto_somatico": "Dentes",
+        "funcao_SCII": "Fogo, Transformação",
+        "area_cerebral": "Córtex Sensorial",
+        "rede_neural": "Rede de Estímulo",
+        "funcao_cognitiva": "Transmutação",
+        "sistema_autonomo": "Simpático"
+    },
+    "Tav": {
+        "ponto_somatico": "Planta dos pés",
+        "funcao_SCII": "Selo, Finalização",
+        "area_cerebral": "Córtex Somatossensorial",
+        "rede_neural": "Rede de Conexão Corpo-Terra",
+        "funcao_cognitiva": "Concretização",
+        "sistema_autonomo": "Vagal"
+    }
+}

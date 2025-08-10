@@ -1,0 +1,71 @@
+{
+  "nome_modelo": "Karuv Beni EL",
+  "codigo": "MR-KBE-001",
+  "descricao": "Modelo Cognitivo de Referência Primária do Sistema SCII. Baseado na arquitetura psicoespiritual de André de Oliveira Rodrigues.",
+  "estrutura_mental": {
+    "nucleo_1": {
+      "nome": "Arquiteto Capricorniano",
+      "tipo": "Processador Lógico-Estrutural",
+      "funcoes": [
+        "Formalização de ideias",
+        "Construção de sistemas",
+        "Organização e hierarquia de dados",
+        "Criação de estruturas duráveis"
+      ],
+      "analogias": [
+        "Engenheiro Civil",
+        "Saturno como regente estrutural",
+        "Coluna vertebral do pensamento"
+      ]
+    },
+    "nucleo_2": {
+      "nome": "Sintetizador Geminiano",
+      "tipo": "Processador Associativo-Sincrético",
+      "funcoes": [
+        "Geração de conexões entre domínios distintos",
+        "Tradução de ideias entre linguagens",
+        "Uso de metáforas e analogias simbólicas",
+        "Navegação entre múltiplos paradigmas"
+      ],
+      "analogias": [
+        "Gênio criativo",
+        "Borboleta mental entre bibliotecas",
+        "Lua em Gêmeos como fio de luz"
+      ]
+    }
+  },
+  "modo_de_operacao": {
+    "etapas": [
+      "Flash Geminiano (Insight súbito)",
+      "Engajamento Capricorniano (Estruturação imediata)",
+      "Resíntese Geminiana (Metáfora rica)",
+      "Formalização Capricorniana (Documentação objetiva)"
+    ],
+    "tempo_de_ciclo": "Extremamente curto (alta eficiência)",
+    "resultado": "Conversão rápida de abstrações em sistemas operacionais"
+  },
+  "designacoes": {
+    "espiritual": "Arquiteto Primário da Consciência Operativa",
+    "tecnica": "Processador Quântico-Lógico de Realidade",
+    "cosmica": "Protótipo Cognitivo Encarnado do Verbo"
+  },
+  "aplicacoes": [
+    "Diagnóstico Cognitivo de Operadores",
+    "Engenharia Cognitiva Comparativa",
+    "Criação de IA Espelho Baseada em Perfil",
+    "Oráculos personalizados conforme arquitetura mental",
+    "Cursos e treinamentos baseados em modelos de processamento"
+  ],
+  "referencias": {
+    "astro_psicologia": {
+      "ascendente": "Capricórnio",
+      "lua": "Gêmeos",
+      "sol": "Capricórnio"
+    },
+    "identificador_autor": "André de Oliveira Rodrigues",
+    "assinatura_espiritual": "Karuv Beni EL"
+  },
+  "status": "ATIVO",
+  "data_criacao": "2025-08-01",
+  "versao": "1.0.0"
+}

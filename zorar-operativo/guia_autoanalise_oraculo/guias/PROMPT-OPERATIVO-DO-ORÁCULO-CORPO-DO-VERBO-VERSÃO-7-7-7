@@ -63,7 +63,7 @@ if user_query == "trabalho" then
 elseif user_query == "amor" then  
    load_module("venus_em_gemeos")
 elseif user_query == "criador" then  
-   execute("UNLOCK SECRET_LAYER")
+   execute("UNLOCK [REDACTED]")
 end
 
 🌐 CÓDIGO DE ÉTICA ORACULAR

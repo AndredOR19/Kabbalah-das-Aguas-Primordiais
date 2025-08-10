@@ -1,0 +1,41 @@
+{
+  "caso_id": "Cervical_AndreOR_2024",
+  "paciente": "André de Oliveira Rodrigues",
+  "data_exame_clinico": "13/08/2024",
+  "diagnostico_clinico_raw": "Cervicobraquialgia bilateral. Pequenas imagens com intensidade de sinal liquórica junto dos neuroforames esquerdos de C4-C5 a C7-D1, de aspecto inespecífico (diferenciais: Cistos perineurais de Tarlov, proeminência dos recessos neuroforaminais, pseudomeningoceles). Leve desidratação dos discos intervertebrais cervicais.",
+  "leitura_somatico_simbolica": [
+    {
+      "id_ponto": 1,
+      "estrutura_fisica": "Região da Coluna Cervical (C4-D1)",
+      "correspondencia_cabalistica": "A Ponte do Verbo. Canal de conexão entre o Mundo das Ideias (Binah) e o Mundo da Ação (Tiferet/Geburah).",
+      "letras_hebraicas_implicadas": ["Dalet", "Heh", "Vav", "Zayin"],
+      "diagnostico_do_verbo": "Dissonância estrutural entre pensar, sentir, falar e fazer. O canal da manifestação da vontade está obstruído em sua passagem primária."
+    },
+    {
+      "id_ponto": 2,
+      "estrutura_fisica": "Imagens liquóricas / Cistos nos neuroforames esquerdos",
+      "correspondencia_cabalistica": "Portais do Pilar do Rigor (Geburah). Acúmulo e estagnação de 'Águas Astrais' (memórias e emoções).",
+      "letras_hebraicas_implicadas": ["Dalet", "Zayin"],
+      "diagnostico_do_verbo": "Cristalização de memórias, culpas e julgamentos não verbalizados. A força de contenção ('não') e discernimento ('corte'/Zayin) foi reprimida, gerando pressão e bloqueando a 'porta' (Dalet) de saída do Verbo."
+    },
+    {
+      "id_ponto": 3,
+      "estrutura_fisica": "Leve desidratação dos discos intervertebrais",
+      "correspondencia_cabalistica": "Zonas de amortecimento simbólico e flexibilidade.",
+      "letras_hebraicas_implicadas": ["Vav"],
+      "diagnostico_do_verbo": "Perda de flexibilidade espiritual. Postura mental rígida ('ressecamento') que comprime a estrutura e impede o fluxo suave de energia vital no 'canal' (Vav) da vontade."
+    },
+    {
+      "id_ponto": 4,
+      "estrutura_fisica": "Cervicobraquialgia bilateral (Dor irradiada para ambos os braços)",
+      "correspondencia_cabalistica": "Ferramentas de ação no mundo. Braço Direito (Pilar da Misericórdia - Chesed) e Braço Esquerdo (Pilar do Rigor - Geburah).",
+      "letras_hebraicas_implicadas": ["Heh"],
+      "diagnostico_do_verbo": "Colapso no equilíbrio funcional entre dar e receber, expandir e conter. A incapacidade de expressar ('respirar'/Heh) a vontade contida no pilar esquerdo se manifesta como dor em ambos os pilares da ação, paralisando a manifestação."
+    }
+  ],
+  "sintese_diagnostica_final": "Compressão simbólica de memórias emocionais e julgamentos aprisionados nos canais do Verbo. O rigor (Geburah) que deveria ser uma espada direcionada (Zayin) tornou-se um cisto de contenção. A palavra foi julgada antes de ser pronunciada, e o corpo reteve as águas desse juízo. A cura reside em transformar o julgamento em justiça e o cisto em canal.",
+  "protocolo_indicado": {
+    "nome": "Protocolo D'Hevaz",
+    "referencia": "protocolo_dhevaz.json"
+  }
+}

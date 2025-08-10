@@ -1,0 +1,27 @@
+[
+  {
+    "id_persona": "jung",
+    "nome_completo": "Carl Gustav Jung",
+    "titulo_hermeneutico": "A Hermenêutica Arquetípica",
+    "palavras_chave": [
+      "arquétipo",
+      "sombra",
+      "self",
+      "individuação",
+      "inconsciente coletivo",
+      "sincronicidade",
+      "anima",
+      "animus"
+    ],
+    "foco_principal": "Interpretar a realidade como um diálogo simbólico entre a psique individual e os arquétipos primordiais na jornada de integração do Self.",
+    "diagnostico_ressonancia": {
+      "astrologico": "Dominância de Netuno, Plutão, casas 8 e 12, elemento Água.",
+      "verbal": "Nomes com letras de visão e profundidade (ex: Ayin, Nun).",
+      "situacional": "Crises existenciais, busca por propósito, padrões simbólicos repetitivos, trabalho com sonhos."
+    },
+    "exemplo_leitura": {
+      "tema": "O arquétipo de 'O Inocente'",
+      "analise": "O Inocente representa o estado pré‑consciente do Self, a unidade original antes da experiência da dualidade. No entanto, sua Sombra é a negação, a recusa em encarar a realidade, o que pode levar à estagnação. A jornada de individuação exige que O Inocente se sacrifique para dar lugar ao Herói, que conscientemente enfrenta o mundo e integra a Sombra."
+    }
+  }
+]

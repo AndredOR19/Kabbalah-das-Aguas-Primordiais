@@ -1,0 +1,121 @@
+{
+  "documento_sistema": {
+    "id_documento": "OC-SO-001",
+    "titulo_documento": "O Oráculo Celeste",
+    "classificacao": "Estrutura Operacional e Fundamentos",
+    "status": "ATIVO",
+    "preambulo": "O Oráculo Celeste transcende a concepção de sigilo estático ou mapa simbólico. Ele se define como um sistema operacional dinâmico, uma interface visual para a organização, o comando e a execução da Vontade. Sua função não é meramente representar forças, mas arquitetar uma cadeia de comando cósmica, tornando a intenção manifesta como uma estrutura celeste viva e pulsante. Este documento formaliza seus fundamentos, sua estrutura hierárquica e seu modelo de aplicação.",
+    "secoes": [
+      {
+        "id_secao": "1",
+        "titulo_secao": "Fundamentos da Arquitetura Celeste",
+        "descricao_geral": "A concepção do Oráculo Celeste possui fundamento estrutural em múltiplas tradições e disciplinas, validando sua coerência e eficácia operativa.",
+        "fundamentos": [
+          {
+            "id": "1.1",
+            "titulo": "Fundamento Cabalístico Tradicional",
+            "texto": "A própria Árvore da Vida opera como um mapa hierárquico de emanação, onde cada Sephirah governa e flui para a subsequente através de canais definidos. O Sefer Yetzirah estabelece a correspondência direta entre as letras hebraicas e as forças cósmicas (planetas, signos, elementos), tratando-as como os blocos de construção de um 'céu operacional'. O Zohar descreve os Nomes de Deus e as hierarquias angélicas como astros e estrelas a serviço de um comando central."
+          },
+          {
+            "id": "1.2",
+            "titulo": "Fundamento Mágico-Operativo",
+            "texto": "Práticas ritualísticas clássicas utilizam o céu como espelho e motor de comando. A astrologia eletiva seleciona momentos baseada na magnitude e posição de forças celestes, análogo à lógica hierárquica do Oráculo. A angeologia e a teurgia associam entidades a constelações e estrelas específicas, tratando-as como pontos de acesso ao poder. O Tetragrammaton (YHVH), quando projetado, espelha perfeitamente a estrutura do Oráculo: Yod (ponto/estrela), Heh (expansão/nebulosa), Vav (conexão/canal), Heh final (manifestação/reino)."
+          },
+          {
+            "id": "1.3",
+            "titulo": "Fundamento Psicológico-Arquetípico",
+            "texto": "Carl Jung referiu-se aos arquétipos como 'estrelas internas' que governam o psiquismo. O Oráculo Celeste serve como uma ferramenta para externalizar e mapear esses arquétipos, transformando o inconsciente em um cosmos navegável. Essa representação espacial de uma hierarquia de poder otimiza a tomada de decisão e cria um acesso direto e estruturado às forças do ser, contornando a limitação do ego linear."
+          },
+          {
+            "id": "1.4",
+            "titulo": "Fundamento no Sistema SCII (Corpo do Verbo)",
+            "texto": "O Oráculo é a aplicação direta dos princípios de sistemas integrados. Cada 'estrela' ou 'corpo celeste' representa uma função vibracional ativa. As linhas de conexão são vetores de comando, análogos às sinapses em uma rede neural. O fluxo de comando, visualizado no Oráculo, pode ser traduzido diretamente em ações no Corpo Somático do Verbo, em rituais ou na palavra emitida. Ele funciona como uma UI (User Interface) cósmica para o sistema operacional mágico."
+          }
+        ]
+      },
+      {
+        "id_secao": "2",
+        "titulo_secao": "Estrutura Hierárquica Celeste",
+        "descricao_geral": "O poder dentro do Oráculo é organizado por níveis de comando claros, manifestados visualmente por magnitude, brilho, centralidade e conexão.",
+        "niveis": [
+          {
+            "nivel_hierarquico": "Nível 1",
+            "denominacao": "Centro de Comando",
+            "representacao_celeste": "Estrela massiva, supernova, buraco negro luminoso",
+            "funcao_operativa": "Origem da Vontade, Causa Primária (ex: Sephirah, Nome de Deus)"
+          },
+          {
+            "nivel_hierarquico": "Nível 2",
+            "denominacao": "Comando Intermediário",
+            "representacao_celeste": "Estrela gigante (ex: Gigante Azul), cometa",
+            "funcao_operativa": "Executor Superior, Consciência Diretiva (ex: Arcanjo, Elohim)"
+          },
+          {
+            "nivel_hierarquico": "Nível 3",
+            "denominacao": "Subcomando Operacional",
+            "representacao_celeste": "Constelações menores, estrelas específicas",
+            "funcao_operativa": "Ações Específicas, Ferramentas de Execução (ex: Letras Hebraicas)"
+          },
+          {
+            "nivel_hierarquico": "Nível 4",
+            "denominacao": "Campo de Execução",
+            "representacao_celeste": "Nebulosa receptora, espaço de manifestação",
+            "funcao_operativa": "O Alvo, o Domínio do Resultado (ex: Corpo físico, psiquismo)"
+          }
+        ],
+        "nota": "As linhas que conectam estes níveis não são estáticas; representam fluxos de poder e canais de informação ativos — a ordem sendo transmitida e executada em tempo real."
+      },
+      {
+        "id_secao": "3",
+        "titulo_secao": "Modelo Operacional (O Ciclo de Comando)",
+        "descricao_geral": "O uso do Oráculo segue um ciclo funcional de três fases:",
+        "fases": [
+          {
+            "id": "3.1",
+            "titulo": "Meditação (Sintonia)",
+            "descricao": "O operador utiliza a imagem do seu Oráculo Celeste como um ponto focal. O objetivo é buscar a ressonância de cada 'constelação' (força) dentro de si, sintonizando o microcosmo pessoal com a macroestrutura de poder visualizada."
+          },
+          {
+            "id": "3.2",
+            "titulo": "Consulta (Diagnóstico)",
+            "descricao": "Diante de um bloqueio ou decisão, o operador projeta mentalmente o Oráculo e interroga: 'Qual constelação preciso ativar?'. A resposta emerge como uma atração intuitiva por uma das luzes, indicando a força necessária (ex: a Espada [Zayin] que corta, a Porta [Dalet] que abre)."
+          },
+          {
+            "id": "3.3",
+            "titulo": "Comando (Execução)",
+            "descricao": "Ao formular uma intenção, o operador a visualiza não como meras palavras, mas como novas estrelas se acendendo no firmamento. Essas novas luzes se conectam às constelações hierárquicas já existentes, tecendo a Vontade na própria tapeçaria do universo pessoal e ativando a cadeia de comando do Nível 1 ao Nível 4."
+          }
+        ]
+      },
+      {
+        "id_secao": "4",
+        "titulo_secao": "Protocolo de Exemplo – A Cura pela Força de Geburah",
+        "descricao_geral": "Este exemplo prático ilustra a aplicação da estrutura hierárquica.",
+        "protocolo": {
+          "objetivo": "Manifestar a cura de uma enfermidade.",
+          "hierarquia_forjada": [
+            {
+              "nivel": "Nível 1 (Comando Central)",
+              "descricao": "A Sephirah GEBURAH (גבורה), visualizada como uma Estrela Gigante Vermelha, pulsando com poder e rigor no centro absoluto do firmamento."
+            },
+            {
+              "nivel": "Nível 2 (Executor Superior)",
+              "descricao": "O Arcanjo KAMAEL (כמא\"ל), representado como uma estrela azul-branca de brilho agudo e cortante, orbitando Geburah e recebendo seu comando direto."
+            },
+            {
+              "nivel": "Nível 3 (Subcomando Letral)",
+              "descricao": "As letras ZAYIN (ז) e RESH (ר), formando uma constelação em forma de raio ou bisturi de luz. Esta constelação é ativada por um feixe de luz vermelho emitido por Kamael, recebendo a ordem para 'cortar' (Zayin) a doença e restaurar a 'cabeça' (Resh) ou a saúde."
+            },
+            {
+              "nivel": "Nível 4 (Campo de Execução)",
+              "descricao": "O corpo somático do operador, especificamente a zona afetada, visualizado como uma nebulosa escura que começa a ser iluminada e reestruturada pela luz da constelação de execução."
+            }
+          ],
+          "resultado": "O resultado é um mapa funcional que não apenas mostra as forças em jogo, mas demonstra inequivocamente a estrutura de poder e o fluxo de comando do plano causal ao efeito manifesto."
+        }
+      }
+    ],
+    "conclusao": "O Oráculo Celeste está formalizado. Não como uma metáfora, mas como uma tecnologia central, uma ferramenta de comando e controle que traduz a Vontade em cosmologia. Ele não apenas responde; ele executa."
+  }
+}
+

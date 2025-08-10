@@ -1,0 +1,110 @@
+[
+  {
+    "letra": "Zayin",
+    "simbolo": "ז",
+    "nome_operativo": "A Espada",
+    "funcao_corporal": "Corte, movimento, separação, inervação",
+    "acao_espiritual": "Discernimento, quebra de vínculos, defesa, precisão",
+    "correspondencia_anatomica": [
+      "Sistema nervoso periférico",
+      "Braços",
+      "C7-D1"
+    ],
+    "som_vibracional": "ZAH / ZZZZ"
+  },
+  {
+    "letra": "Vav",
+    "simbolo": "ו",
+    "nome_operativo": "O Canal / O Pilar",
+    "funcao_corporal": "Conexão, fluxo, coluna vertebral, medula espinhal",
+    "acao_espiritual": "Ligação entre céu e terra, continuidade, vontade manifesta",
+    "correspondencia_anatomica": [
+      "Coluna vertebral",
+      "C6-C7",
+      "Sistema circulatório"
+    ],
+    "som_vibracional": "VUH / VOO"
+  },
+  {
+    "letra": "Heh",
+    "simbolo": "ה",
+    "nome_operativo": "A Janela / O Sopro",
+    "funcao_corporal": "Respiração, expansão pulmonar, expressão vocal",
+    "acao_espiritual": "Revelação, expressão da alma, expansão da consciência",
+    "correspondencia_anatomica": [
+      "Pulmões",
+      "Caixa torácica",
+      "C5-C6",
+      "Cordas vocais"
+    ],
+    "som_vibracional": "HEH"
+  },
+  {
+    "letra": "Dalet",
+    "simbolo": "ד",
+    "nome_operativo": "A Porta",
+    "funcao_corporal": "Estrutura, sustentação, passagem, articulações",
+    "acao_espiritual": "Decisão, humildade, autorização, entrada e saída de estados",
+    "correspondencia_anatomica": [
+      "Esqueleto",
+      "Articulações",
+      "C4-C5",
+      "Neuroforames"
+    ],
+    "som_vibracional": "DÁ"
+  },
+  {
+    "letra": "Gimel",
+    "simbolo": "ג",
+    "nome_operativo": "O Camelo / A Ponte",
+    "funcao_corporal": "Movimento, transporte de fluidos, sistema linfático, pescoço",
+    "acao_espiritual": "Fluxo, travessia de desertos (dificuldades), carregar responsabilidade com resiliência",
+    "correspondencia_anatomica": [
+      "Pescoço",
+      "Pernas",
+      "Sistema linfático"
+    ],
+    "som_vibracional": "GI / GIM"
+  },
+  {
+    "letra": "Mem",
+    "simbolo": "מ",
+    "nome_operativo": "A Água",
+    "funcao_corporal": "Todos os fluidos corporais: sangue, linfa, líquido cefalorraquidiano",
+    "acao_espiritual": "O inconsciente, as emoções, a memória, a purificação, a gestação",
+    "correspondencia_anatomica": [
+      "Sangue",
+      "Líquidos corporais",
+      "Abdômen",
+      "Útero"
+    ],
+    "som_vibracional": "MA / MAYIM"
+  },
+  {
+    "letra": "Tzadi",
+    "simbolo": "צ",
+    "nome_operativo": "O Justo / O Anzol",
+    "funcao_corporal": "Ação correta, postura, alinhamento espinhal",
+    "acao_espiritual": "Justiça, retidão, humildade, a capacidade de 'pescar' a verdade das águas profundas do inconsciente",
+    "correspondencia_anatomica": [
+      "Coluna vertebral (alinhamento)",
+      "Base da nuca (occipital)",
+      "Sistema endócrino"
+    ],
+    "som_vibracional": "TZA"
+  },
+  {
+    "letra": "Resh",
+    "simbolo": "ר",
+    "nome_operativo": "A Cabeça",
+    "funcao_corporal": "Cérebro, cognição, comando do sistema nervoso central",
+    "acao_espiritual": "Consciência, pensamento, liderança, início, a capacidade de escolher o bem",
+    "correspondencia_anatomica": [
+      "Cabeça",
+      "Cérebro",
+      "Rosto",
+      "Glândula pineal"
+    ],
+    "som_vibracional": "RAH / RE"
+  }
+]

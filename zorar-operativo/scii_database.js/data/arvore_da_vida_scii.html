@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SCII - Árvore da Vida Interativa</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #0b1a23;
+      color: #e0f7fa;
+      margin: 0;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    h1 {
+      color: #a7ffeb;
+      text-align: center;
+    }
+    .tree-container {
+      position: relative;
+      width: 800px;
+      height: 1000px;
+      margin: 40px auto;
+      background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Old_Tree_of_Life.svg/1200px-Old_Tree_of_Life.svg.png') no-repeat center;
+      background-size: contain;
+      background-position: center;
+    }
+    .sephira {
+      position: absolute;
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      color: white;
+      font-weight: bold;
+      text-align: center;
+      box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+      transition: all 0.3s ease;
+      text-shadow: 1px 1px 3px black;
+    }
+    .sephira:hover {
+      transform: scale(1.1);
+      box-shadow: 0 0 25px rgba(255, 255, 255, 0.8);
+    }
+    #kether { top: 10%; left: 50%; transform: translateX(-50%); background: #8e24aa; }
+    #chokmah { top: 25%; left: 30%; background: #e91e63; }
+    #binah { top: 25%; right: 30%; background: #5c6bc0; }
+    #chesed { top: 40%; left: 30%; background: #42a5f5; }
+    #gebura { top: 40%; right: 30%; background: #ef5350; }
+    #tipha { top: 55%; left: 50%; transform: translateX(-50%); background: #ffca28; }
+    #netzach { top: 70%; left: 30%; background: #66bb6a; }
+    #hod { top: 70%; right: 30%; background: #29b6f6; }
+    #yesod { top: 85%; left: 50%; transform: translateX(-50%); background: #7e57c2; }
+    #malkuth { bottom: 5%; left: 50%; transform: translateX(-50%); background: #795548; }
+
+    .info-panel {
+      width: 80%;
+      max-width: 900px;
+      background: #112b35;
+      border: 1px solid #4db6ac;
+      border-radius: 12px;
+      padding: 20px;
+      margin-top: 20px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+    }
+    .info-panel h2 {
+      color: #4db6ac;
+      margin-top: 0;
+    }
+    .info-item {
+      margin-bottom: 10px;
+    }
+    .info-item strong {
+      color: #80deea;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>SCII - Sistema de Correspondência Integrada e Inteligente</h1>
+  <p style="text-align: center; max-width: 800px;">
+    Clique em qualquer <strong>Sefirah</strong> da Árvore da Vida para ver suas correspondências com Letras Hebraicas, Planetas, Chakras e mais.
+  </p>
+
+  <div class="tree-container">
+    <div class="sephira" id="kether" onclick="showInfo('Kether')">Kether<br><small>Coroa</small></div>
+    <div class="sephira" id="chokmah" onclick="showInfo('Chokmah')">Chokmah<br><small>Sabedoria</small></div>
+    <div class="sephira" id="binah" onclick="showInfo('Binah')">Binah<br><small>Entendimento</small></div>
+    <div class="sephira" id="chesed" onclick="showInfo('Chesed')">Chesed<br><small>Misericórdia</small></div>
+    <div class="sephira" id="gebura" onclick="showInfo('Geburah')">Geburah<br><small>Força</small></div>
+    <div class="sephira" id="tipha" onclick="showInfo('Tiphareth')">Tiphareth<br><small>Beleza</small></div>
+    <div class="sephira" id="netzach" onclick="showInfo('Netzach')">Netzach<br><small>Vitória</small></div>
+    <div class="sephira" id="hod" onclick="showInfo('Hod')">Hod<br><small>Glória</small></div>
+    <div class="sephira" id="yesod" onclick="showInfo('Yesod')">Yesod<br><small>Fundamento</small></div>
+    <div class="sephira" id="malkuth" onclick="showInfo('Malkuth')">Malkuth<br><small>O Reino</small></div>
+  </div>
+
+  <div class="info-panel" id="infoPanel">
+    <p><em>Selecione uma Sefirah para começar.</em></p>
+  </div>
+
+  <script>
+    const sciiData = {
+      "metadata": {
+        "version": "1.0.0",
+        "last_updated": "2025-07-28",
+        "description": "Base de Dados Estruturada para o Sistema de Correspondência Integrada e Inteligente (SCII). Mapeia as relações entre Letras Hebraicas, Planetas, Sephirot e Chakras."
+      },
+      "letras": {
+        "Aleph": {
+          "valor_gemátrico": 1,
+          "pictograma": "Touro / Cabeça de Boi",
+          "som": "Silenciosa (portadora de vogal)",
+          "elemento_primordial": "Ar",
+          "planeta": "Urano",
+          "astro_secundario": "O Louco (Tarot)",
+          "funcao_corpo_somatico": "Respiração, Prana, Diafragma, sistema nervoso autônomo",
+          "acao_espiritual": "Potencial puro, o 'ainda não', Vontade Primordial, Unidade, o sopro que inicia",
+          "caminho_arvore_vida": "1-2 (Kether-Chokmah)",
+          "diagnostico_bloqueio": "Paralisia por excesso de potencial, falta de iniciativa, desconexão com o propósito, ansiedade generalizada, incapacidade de começar.",
+          "comando_ritualistico": "Inalar o potencial do todo, expirar a ação no particular."
+        },
+        "Beth": {
+          "valor_gemátrico": 2,
+          "pictograma": "Casa / Tenda / Recipiente",
+          "som": "B / V",
+          "elemento_primordial": "Matéria (como recipiente)",
+          "planeta": "Mercúrio",
+          "astro_secundario": "O Mago (Tarot)",
+          "funcao_corpo_somatico": "Boca, o recipiente do Verbo, sistema digestivo, o corpo como casa da alma",
+          "acao_espiritual": "Interiorização, criação de um espaço interno, delimitação, foco, a primeira contração",
+          "caminho_arvore_vida": "1-3 (Kether-Binah)",
+          "diagnostico_bloqueio": "Dispersão, falta de foco, incapacidade de materializar ideias, falar sem agir, sentir-se 'sem casa' ou desprotegido.",
+          "comando_ritualistico": "Construir o Templo interior, dar um corpo à Palavra."
+        },
+        "Gimel": {
+          "valor_gemátrico": 3,
+          "pictograma": "Camelo / Pé",
+          "som": "G (forte)",
+          "elemento_primordial": "Movimento",
+          "planeta": "Lua",
+          "astro_secundario": "A Sacerdotisa (Tarot)",
+          "funcao_corpo_somatico": "Pés, pernas, sistema circulatório, o fluxo dos fluidos corporais",
+          "acao_espiritual": "Jornada, transição, fluxo e refluxo, carregar e descarregar, a dinâmica da vida",
+          "caminho_arvore_vida": "1-6 (Kether-Tiphareth)",
+          "diagnostico_bloqueio": "Estagnação, medo de mudar, apego ao passado, inconstância emocional, incapacidade de seguir em frente ou de retornar.",
+          "comando_ritualistico": "Atravessar o deserto das ilusões, confiar no fluxo."
+        },
+        "Daleth": {
+          "valor_gemátrico": 4,
+          "pictograma": "Porta / Ventre",
+          "som": "D",
+          "elemento_primordial": "Estrutura",
+          "planeta": "Vênus",
+          "astro_secundario": "A Imperatriz (Tarot)",
+          "funcao_corpo_somatico": "Útero, órgãos reprodutores, a 'porta' do corpo (boca, narinas, etc.)",
+          "acao_espiritual": "Materialização, fertilidade, nutrição, a passagem entre mundos, a estrutura que permite a manifestação",
+          "caminho_arvore_vida": "2-3 (Chokmah-Binah)",
+          "diagnostico_bloqueio": "Infertilidade (física ou criativa), dificuldade em receber ou dar, apego excessivo à matéria, instabilidade.",
+          "comando_ritualistico": "Abrir a porta para a abundância, nutrir a criação."
+        },
+        "He": {
+          "valor_gemátrico": 5,
+          "pictograma": "Janela / Homem em adoração",
+          "som": "H (aspirado)",
+          "elemento_primordial": "Visão / Revelação",
+          "planeta": "Marte",
+          "astro_secundario": "O Imperador (Tarot - como estrutura da visão)",
+          "funcao_corpo_somatico": "Olhos, visão, sistema nervoso central",
+          "acao_espiritual": "Revelação, percepção, contemplação, a janela da alma, a estrutura da consciência",
+          "caminho_arvore_vida": "2-6 (Chokmah-Tiphareth)",
+          "diagnostico_bloqueio": "Cegueira (física ou espiritual), falta de perspectiva, teimosia, incapacidade de ver a verdade, fanatismo.",
+          "comando_ritualistico": "Ver além da forma, contemplar a essência."
+        },
+        "Vav": {
+          "valor_gemátrico": 6,
+          "pictograma": "Gancho / Prego",
+          "som": "V / U / O",
+          "elemento_primordial": "Conexão",
+          "planeta": "Touro (Zodíaco)",
+          "astro_secundario": "O Hierofante (Tarot)",
+          "funcao_corpo_somatico": "Ouvido, coluna vertebral (o que conecta céu e terra no corpo)",
+          "acao_espiritual": "Conectar o superior e o inferior, unir, ligar, a tradição que conecta gerações, o Verbo que se faz carne",
+          "caminho_arvore_vida": "2-4 (Chokmah-Chesed)",
+          "diagnostico_bloqueio": "Desconexão espiritual, sentimento de abandono, incapacidade de ouvir a intuição, quebra de tradições, conflito entre mente e coração.",
+          "comando_ritualistico": "Ser o prego que une o Céu e a Terra."
+        },
+        "Zayin": {
+          "valor_gemátrico": 7,
+          "pictograma": "Espada / Arado",
+          "som": "Z",
+          "elemento_primordial": "Discernimento / Corte",
+          "planeta": "Gêmeos (Zodíaco)",
+          "astro_secundario": "Os Amantes (Tarot)",
+          "funcao_corpo_somatico": "Sistema motor, músculos e tendões que executam a decisão",
+          "acao_espiritual": "Escolha, decisão, discernimento, cortar o supérfluo, a vitória através da clareza mental",
+          "caminho_arvore_vida": "3-6 (Binah-Tiphareth)",
+          "diagnostico_bloqueio": "Indecisão, paralisia analítica, conflito interno, agressividade mal direcionada, incapacidade de fazer escolhas.",
+          "comando_ritualistico": "Empunhar a espada da mente para cortar os nós da dúvida."
+        },
+        "Cheth": {
+          "valor_gemátrico": 8,
+          "pictograma": "Cerca / Muro",
+          "som": "CH (gutural)",
+          "elemento_primordial": "Proteção / Limite",
+          "planeta": "Câncer (Zodíaco)",
+          "astro_secundario": "A Carruagem (Tarot)",
+          "funcao_corpo_somatico": "Caixa torácica, pele, o campo energético (aura)",
+          "acao_espiritual": "Delimitar o espaço sagrado, proteção, trabalho interior, a dinâmica entre o dentro e o fora",
+          "caminho_arvore_vida": "3-5 (Binah-Geburah)",
+          "diagnostico_bloqueio": "Isolamento, vulnerabilidade excessiva, construção de muros emocionais, medo do mundo exterior, estagnação por excesso de proteção.",
+          "comando_ritualistico": "Construir a cerca do campo que será cultivado."
+        },
+        "Teth": {
+          "valor_gemátrico": 9,
+          "pictograma": "Serpente / Cesto",
+          "som": "T (forte)",
+          "elemento_primordial": "Energia Kundalini / Potencial oculto",
+          "planeta": "Leão (Zodíaco)",
+          "astro_secundario": "A Força (Tarot)",
+          "funcao_corpo_somatico": "Intestinos, sistema digestivo inferior, energia sexual primordial",
+          "acao_espiritual": "Transformação da energia primordial, sabedoria oculta, o bem contido no mal, a serpente da sabedoria",
+          "caminho_arvore_vida": "4-5 (Chesed-Geburah)",
+          "diagnostico_bloqueio": "Repressão da energia vital/sexual, vergonha, culpa, sabedoria não utilizada, auto-sabotagem, veneno (fofoca, maledicência).",
+          "comando_ritualistico": "Domar a serpente interior, transformar veneno em remédio."
+        },
+        "Yod": {
+          "valor_gemátrico": 10,
+          "pictograma": "Mão / Braço / Semente",
+          "som": "Y / I",
+          "elemento_primordial": "A Semente do Potencial",
+          "planeta": "Virgem (Zodíaco)",
+          "astro_secundario": "O Eremita (Tarot)",
+          "funcao_corpo_somatico": "Mãos, dedos, a capacidade de fazer e manipular",
+          "acao_espiritual": "O ponto de partida, a semente de toda a criação, a ação concentrada, o poder da manifestação na mão",
+          "caminho_arvore_vida": "4-6 (Chesed-Tiphareth)",
+          "diagnostico_bloqueio": "Incapacidade de agir, complexo de inferioridade, perfeccionismo paralisante, projetos não iniciados, falta de atenção aos detalhes.",
+          "comando_ritualistico": "Plantar a semente da Vontade no solo da Ação."
+        },
+        "Kaph": {
+          "valor_gemátrico": 20,
+          "pictograma": "Palma da Mão (aberta)",
+          "som": "K / KH",
+          "elemento_primordial": "Recepção / Realização",
+          "planeta": "Júpiter",
+          "astro_secundario": "A Roda da Fortuna (Tarot)",
+          "funcao_corpo_somatico": "Fígado, rins, sistemas de filtragem e processamento",
+          "acao_espiritual": "Receber e conter a força, o ciclo de dar e receber, a palma da mão que abençoa ou que segura",
+          "caminho_arvore_vida": "4-7 (Chesed-Netzach)",
+          "diagnostico_bloqueio": "Incapacidade de receber, avareza, ganância, estagnação por não deixar fluir, medo da mudança (ciclos).",
+          "comando_ritualistico": "Abrir a mão para receber, fechar para realizar."
+        },
+        "Lamed": {
+          "valor_gemátrico": 30,
+          "pictograma": "Aguilhão de Boi / Cajado de Pastor",
+          "som": "L",
+          "elemento_primordial": "Direção / Ensino",
+          "planeta": "Libra (Zodíaco)",
+          "astro_secundario": "A Justiça (Tarot)",
+          "funcao_corpo_somatico": "Vesícula biliar, o impulso para a ação correta",
+          "acao_espiritual": "Aprender e ensinar, a autoridade que vem do conhecimento, direção, propósito, o aguilhão que move",
+          "caminho_arvore_vida": "5-6 (Geburah-Tiphareth)",
+          "diagnostico_bloqueio": "Falta de direção, autoritarismo, recusa em aprender, desequilíbrio, injustiça (cometida ou sofrida).",
+          "comando_ritualistico": "Aprender para ensinar, ensinar para aprender."
+        },
+        "Mem": {
+          "valor_gemátrico": 40,
+          "pictograma": "Água",
+          "som": "M",
+          "elemento_primordial": "Água",
+          "planeta": "Netuno",
+          "astro_secundario": "O Enforcado (Tarot)",
+          "funcao_corpo_somatico": "Sangue, linfa, todos os fluidos corporais, o inconsciente",
+          "acao_espiritual": "O inconsciente, as águas primordiais, o fluxo das emoções, sacrifício, intuição profunda",
+          "caminho_arvore_vida": "5-8 (Geburah-Hod)",
+          "diagnostico_bloqueio": "Afogamento emocional, instabilidade, medo do inconsciente, sacrifício inútil, falta de intuição.",
+          "comando_ritualistico": "Mergulhar nas águas da alma sem se afogar."
+        },
+        "Nun": {
+          "valor_gemátrico": 50,
+          "pictograma": "Peixe / Serpente do Mar",
+          "som": "N",
+          "elemento_primordial": "Perpetuação / Movimento nas profundezas",
+          "planeta": "Escorpião (Zodíaco)",
+          "astro_secundario": "A Morte (Tarot)",
+          "funcao_corpo_somatico": "Sistema reprodutor, DNA, a herança genética",
+          "acao_espiritual": "Transformação profunda, renascimento, a continuidade da vida através da morte, instinto",
+          "caminho_arvore_vida": "6-7 (Tiphareth-Netzach)",
+          "diagnostico_bloqueio": "Medo da morte e da mudança, estagnação, putrefação (física ou psíquica), crises de identidade, vícios.",
+          "comando_ritualistico": "Morrer para o que se foi, nascer para o que se é."
+        },
+        "Samekh": {
+          "valor_gemátrico": 60,
+          "pictograma": "Escora / Suporte",
+          "som": "S",
+          "elemento_primordial": "Suporte / Estrutura Cíclica",
+          "planeta": "Sagitário (Zodíaco)",
+          "astro_secundario": "A Temperança (Tarot)",
+          "funcao_corpo_somatico": "Esqueleto, a estrutura de suporte do corpo",
+          "acao_espiritual": "Suporte, confiança, o ciclo que se completa e se sustenta, a espinha dorsal da fé (confiança)",
+          "caminho_arvore_vida": "6-9 (Tiphareth-Yesod)",
+          "diagnostico_bloqueio": "Falta de apoio (interno ou externo), desconfiança, ciclo vicioso, falta de fé em si mesmo e na vida.",
+          "comando_ritualistico": "Ser a escora do seu próprio Templo."
+        },
+        "Ayin": {
+          "valor_gemátrico": 70,
+          "pictograma": "Olho",
+          "som": "Gutural (silenciosa)",
+          "elemento_primordial": "Percepção Interior",
+          "planeta": "Capricórnio (Zodíaco)",
+          "astro_secundario": "O Diabo (Tarot)",
+          "funcao_corpo_somatico": "Olhos (aspecto interno), glândula pineal",
+          "acao_espiritual": "Ver a realidade como ela é, desmascarar a ilusão da matéria, a visão interior que percebe as correntes",
+          "caminho_arvore_vida": "6-8 (Tiphareth-Hod)",
+          "diagnostico_bloqueio": "Materialismo, apego, vícios, ilusão, ver apenas a superfície, ignorância voluntária, ser escravo das aparências.",
+          "comando_ritualistico": "Abrir o olho interior para dissolver as correntes da ilusão."
+        },
+        "Pe": {
+          "valor_gemátrico": 80,
+          "pictograma": "Boca",
+          "som": "P / F",
+          "elemento_primordial": "Palavra / Expressão",
+          "planeta": "Marte",
+          "astro_secundario": "A Torre (Tarot)",
+          "funcao_corpo_somatico": "Boca, cordas vocais, a capacidade de expressão",
+          "acao_espiritual": "O poder da palavra para criar ou destruir, a expressão da verdade que quebra estruturas falsas",
+          "caminho_arvore_vida": "7-8 (Netzach-Hod)",
+          "diagnostico_bloqueio": "Comunicação destrutiva (fofoca, mentira), incapacidade de se expressar, explosões de raiva, repressão.",
+          "comando_ritualistico": "Que a Palavra seja a expressão da Vontade, e não do ego."
+        },
+        "Tzadi": {
+          "valor_gemátrico": 90,
+          "pictograma": "Anzol / Homem de joelhos",
+          "som": "TZ",
+          "elemento_primordial": "A Caça Justa / Humildade",
+          "planeta": "Aquário (Zodíaco)",
+          "astro_secundario": "A Estrela (Tarot)",
+          "funcao_corpo_somatico": "Sistema nervoso, os 'ganchos' sinápticos",
+          "acao_espiritual": "A busca pela verdade, a 'pesca' no inconsciente, esperança, meditação, a humildade necessária para receber a revelação",
+          "caminho_arvore_vida": "7-9 (Netzach-Yesod)",
+          "diagnostico_bloqueio": "Falsa esperança, arrogância espiritual, rebeldia sem causa, desconexão com a comunidade, idealismo impraticável.",
+          "comando_ritualistico": "Lançar o anzol da meditação nas águas da esperança."
+        },
+        "Qoph": {
+          "valor_gemátrico": 100,
+          "pictograma": "Nuca / Fundo da Cabeça",
+          "som": "Q",
+          "elemento_primordial": "O Inconsciente Profundo",
+          "planeta": "Peixes (Zodíaco)",
+          "astro_secundario": "A Lua (Tarot)",
+          "funcao_corpo_somatico": "Cérebro reptiliano, o subconsciente, sono e sonhos",
+          "acao_espiritual": "A jornada noturna da alma, os medos primordiais, as ilusões do caminho, a travessia perigosa do inconsciente",
+          "caminho_arvore_vida": "7-10 (Netzach-Malkuth)",
+          "diagnostico_bloqueio": "Medos, fobias, pesadelos, ilusões, autoengano, perigo de se perder no mundo astral ou na loucura.",
+          "comando_ritualistico": "Atravessar a noite escura da alma com a bússola da Vontade."
+        },
+        "Resh": {
+          "valor_gemátrico": 200,
+          "pictograma": "Cabeça de Homem",
+          "som": "R",
+          "elemento_primordial": "A Consciência Individual",
+          "planeta": "Sol",
+          "astro_secundario": "O Sol (Tarot)",
+          "funcao_corpo_somatico": "Cérebro, a cabeça como centro da individualidade",
+          "acao_espiritual": "A consciência desperta, a inteligência, a individualidade, a capacidade de organizar e governar",
+          "caminho_arvore_vida": "8-9 (Hod-Yesod)",
+          "diagnostico_bloqueio": "Ego inflado, arrogância, falta de clareza mental, tirania, incapacidade de ver o todo por focar apenas em si.",
+          "comando_ritualistico": "Que a cabeça se curve ao coração, e o Sol ilumine o todo."
+        },
+        "Shin": {
+          "valor_gemátrico": 300,
+          "pictograma": "Dente / Fogo",
+          "som": "SH / S",
+          "elemento_primordial": "Fogo",
+          "planeta": "Plutão",
+          "astro_secundario": "O Julgamento (Tarot)",
+          "funcao_corpo_somatico": "Metabolismo, temperatura corporal, o 'fogo' digestivo",
+          "acao_espiritual": "O fogo do espírito que transforma e purifica, o julgamento que discerne o real do irreal, a ressurreição",
+          "caminho_arvore_vida": "8-10 (Hod-Malkuth)",
+          "diagnostico_bloqueio": "Febre (física ou psíquica), destruição pela raiva, crítica destrutiva, culpa paralisante, medo do julgamento.",
+          "comando_ritualistico": "Ser consumido pelo Fogo Divino para renascer em Espírito."
+        },
+        "Tav": {
+          "valor_gemátrico": 400,
+          "pictograma": "Cruz / Marca / Sinal",
+          "som": "T",
+          "elemento_primordial": "Terra",
+          "planeta": "Saturno",
+          "astro_secundario": "O Mundo (Tarot)",
+          "funcao_corpo_somatico": "Todo o corpo físico como a 'cruz' da matéria",
+          "acao_espiritual": "A obra completa, a manifestação final, o selo da verdade, a integração de todos os elementos, o fim de um ciclo e o começo de outro",
+          "caminho_arvore_vida": "9-10 (Yesod-Malkuth)",
+          "diagnostico_bloqueio": "Fardo pesado, estagnação final, apego ao resultado, incapacidade de completar ciclos, resistência à matéria.",
+          "comando_ritualistico": "Assinar a Obra com o selo da Verdade encarnada."
+        }
+      },
+      "planetas": {
+        "Saturno": {
+          "principio": "Estrutura, Limite, Karma, Tempo, Disciplina, Construção, Morte, Maturidade",
+          "letras_associadas": ["Tav"],
+          "sephira": "Binah",
+          "palavra_chave": "Responsabilidade",
+          "arquetipo": "O Velho Sábio / O Construtor / O Ceifador",
+          "diagnostico": "Restrição, cobrança kármica, necessidade de maturidade, fim de ciclo, lições duras mas necessárias, construção de bases sólidas."
+        },
+        "Júpiter": {
+          "principio": "Expansão, Abundância, Benevolência, Sabedoria, Oportunidade, Fé",
+          "letras_associadas": ["Kaph"],
+          "sephira": "Chesed",
+          "palavra_chave": "Oportunidade",
+          "arquetipo": "O Rei Benevolente / O Guru",
+          "diagnostico": "Crescimento, sorte, necessidade de generosidade, expansão de horizontes, excesso de confiança, dogmatismo."
+        },
+        "Marte": {
+          "principio": "Ação, Energia, Coragem, Conflito, Desejo, Força de Vontade",
+          "letras_associadas": ["Pe", "He"],
+          "sephira": "Geburah",
+          "palavra_chave": "Ação",
+          "arquetipo": "O Guerreiro / O Atleta",
+          "diagnostico": "Necessidade de agir, confrontos, raiva, energia para projetos, acidentes, cortes, inflamações."
+        },
+        "Sol": {
+          "principio": "Consciência, Vitalidade, Ego, Centro, Propósito, Realeza",
+          "letras_associadas": ["Resh"],
+          "sephira": "Tiphareth",
+          "palavra_chave": "Propósito",
+          "arquetipo": "O Herói / O Rei",
+          "diagnostico": "Clareza de propósito, vitalidade, necessidade de reconhecimento, orgulho, foco no coração e na cura."
+        },
+        "Vênus": {
+          "principio": "Amor, Harmonia, Beleza, Relacionamentos, Valores, Atração",
+          "letras_associadas": ["Daleth"],
+          "sephira": "Netzach",
+          "palavra_chave": "Harmonia",
+          "arquetipo": "A Amante / A Artista",
+          "diagnostico": "Questões de relacionamento, necessidade de beleza e harmonia, valores pessoais, preguiça, sensualidade, finanças."
+        },
+        "Mercúrio": {
+          "principio": "Comunicação, Intelecto, Troca, Dualidade, Adaptação, Viagens Curtas",
+          "letras_associadas": ["Beth"],
+          "sephira": "Hod",
+          "palavra_chave": "Conexão",
+          "arquetipo": "O Mensageiro / O Mago / O Trapaceiro",
+          "diagnostico": "Necessidade de clareza na comunicação, aprendizado, negociação, dispersão mental, mentiras, truques."
+        },
+        "Lua": {
+          "principio": "Inconsciente, Emoções, Intuição, Ciclos, Memória, O Feminino",
+          "letras_associadas": ["Gimel"],
+          "sephira": "Yesod",
+          "palavra_chave": "Intuição",
+          "arquetipo": "A Mãe / A Sacerdotisa",
+          "diagnostico": "Flutuações emocionais, necessidade de cuidar do lar e da família, intuição aguçada, hábitos e padrões do passado."
+        }
+      },
+      "sephirot": {
+        "Kether": {
+          "numero": 1,
+          "nome": "Coroa",
+          "imagem_magica": "Um rei antigo visto de perfil",
+          "planeta_associado": "Urano/Netuno (começo de tudo)",
+          "virtude": "Realização, perfeição da Unidade",
+          "vicio": "N/A",
+          "ponto_corpo_somatico": "Coroa, acima do topo da cabeça",
+          "experiencia_espiritual": "União com Deus, o Ponto Primordial"
+        },
+        "Chokmah": {
+          "numero": 2,
+          "nome": "Sabedoria",
+          "imagem_magica": "Uma figura masculina barbada",
+          "planeta_associado": "Zodíaco/Urano",
+          "virtude": "Devoção",
+          "vicio": "N/A",
+          "ponto_corpo_somatico": "Lado esquerdo da testa",
+          "experiencia_espiritual": "A visão de Deus face a face"
+        },
+        "Binah": {
+          "numero": 3,
+          "nome": "Entendimento",
+          "imagem_magica": "Uma mulher madura, uma matrona",
+          "planeta_associado": "Saturno",
+          "virtude": "Silêncio, estrutura",
+          "vicio": "Inércia, avareza",
+          "ponto_corpo_somatico": "Lado direito da testa",
+          "experiencia_espiritual": "A visão da dor"
+        },
+        "Chesed": {
+          "numero": 4,
+          "nome": "Misericórdia",
+          "imagem_magica": "Um rei poderoso e coroado em seu trono",
+          "planeta_associado": "Júpiter",
+          "virtude": "Obediência, generosidade",
+          "vicio": "Hipocrisia, tirania, glutonaria",
+          "ponto_corpo_somatico": "Braço esquerdo",
+          "experiencia_espiritual": "A visão do amor"
+        },
+        "Geburah": {
+          "numero": 5,
+          "nome": "Força/Julgamento",
+          "imagem_magica": "Um poderoso guerreiro em sua carruagem",
+          "planeta_associado": "Marte",
+          "virtude": "Energia, coragem",
+          "vicio": "Crueldade, destruição",
+          "ponto_corpo_somatico": "Braço direito",
+          "experiencia_espiritual": "A visão do poder"
+        },
+        "Tiphareth": {
+          "numero": 6,
+          "nome": "Beleza/Harmonia",
+          "imagem_magica": "Um rei majestoso, uma criança, um deus sacrificado",
+          "planeta_associado": "Sol",
+          "virtude": "Devoção à Grande Obra",
+          "vicio": "Orgulho",
+          "ponto_corpo_somatico": "Plexo solar, coração",
+          "experiencia_espiritual": "A visão da harmonia de todas as coisas"
+        },
+        "Netzach": {
+          "numero": 7,
+          "nome": "Vitória",
+          "imagem_magica": "Uma bela mulher nua",
+          "planeta_associado": "Vênus",
+          "virtude": "Abertura, altruísmo",
+          "vicio": "Impureza, luxúria",
+          "ponto_corpo_somatico": "Quadril esquerdo, perna esquerda",
+          "experiencia_espiritual": "A visão da beleza triunfante"
+        },
+        "Hod": {
+          "numero": 8,
+          "nome": "Glória/Esplendor",
+          "imagem_magica": "Um hermafrodita",
+          "planeta_associado": "Mercúrio",
+          "virtude": "Veracidade",
+          "vicio": "Falsidade, desonestidade",
+          "ponto_corpo_somatico": "Quadril direito, perna direita",
+          "experiencia_espiritual": "A visão do esplendor"
+        },
+        "Yesod": {
+          "numero": 9,
+          "nome": "Fundamento",
+          "imagem_magica": "Um homem belo e forte, nu",
+          "planeta_associado": "Lua",
+          "virtude": "Independência",
+          "vicio": "Ociosidade",
+          "ponto_corpo_somatico": "Órgãos genitais",
+          "experiencia_espiritual": "A visão do mecanismo do universo"
+        },
+        "Malkuth": {
+          "numero": 10,
+          "nome": "O Reino",
+          "imagem_magica": "Uma jovem mulher coroada e sentada em um trono",
+          "planeta_associado": "Terra",
+          "virtude": "Discriminação",
+          "vicio": "Inércia, avareza",
+          "ponto_corpo_somatico": "Pés, ânus",
+          "experiencia_espiritual": "A visão do Sagrado Anjo Guardião"
+        }
+      },
+      "chakras": {
+        "Muladhara": {
+          "nome": "Chakra Básico",
+          "localizacao": "Base da coluna, períneo",
+          "cor": "Vermelho",
+          "elemento_associado": "Terra",
+          "funcao_psicologica": "Sobrevivência, estabilidade, segurança material, instintos primários",
+          "letras_hebraicas_relacionadas": ["Tav"],
+          "planeta_regente": "Saturno",
+          "diagnostico_bloqueio": "Insegurança financeira, medo, falta de 'chão', desconexão com o corpo, ganância, fadiga crônica."
+        },
+        "Svadhisthana": {
+          "nome": "Chakra Sacral",
+          "localizacao": "Abaixo do umbigo",
+          "cor": "Laranja",
+          "elemento_associado": "Água",
+          "funcao_psicologica": "Emoções, criatividade, sexualidade, prazer, fluxo",
+          "letras_hebraicas_relacionadas": ["Mem", "Nun"],
+          "planeta_regente": "Lua",
+          "diagnostico_bloqueio": "Culpa, repressão sexual, instabilidade emocional, falta de criatividade, vícios, problemas de bexiga/rins."
+        },
+        "Manipura": {
+          "nome": "Chakra do Plexo Solar",
+          "localizacao": "Acima do umbigo, 'boca do estômago'",
+          "cor": "Amarelo",
+          "elemento_associado": "Fogo",
+          "funcao_psicologica": "Poder pessoal, vontade, autoestima, identidade, metabolismo",
+          "letras_hebraicas_relacionadas": ["Shin", "Resh"],
+          "planeta_regente": "Sol / Marte",
+          "diagnostico_bloqueio": "Baixa autoestima, vitimização, abuso de poder, raiva, problemas digestivos, úlceras."
+        },
+        "Anahata": {
+          "nome": "Chakra Cardíaco",
+          "localizacao": "Centro do peito",
+          "cor": "Verde / Rosa",
+          "elemento_associado": "Ar",
+          "funcao_psicologica": "Amor, compaixão, relacionamentos, cura, equilíbrio",
+          "letras_hebraicas_relacionadas": ["Aleph", "Vav"],
+          "planeta_regente": "Vênus / Sol",
+          "diagnostico_bloqueio": "Dificuldade em amar (a si e aos outros), solidão, ciúmes, pesar, problemas cardíacos/pulmonares."
+        },
+        "Vishuddha": {
+          "nome": "Chakra Laríngeo",
+          "localizacao": "Garganta",
+          "cor": "Azul claro",
+          "elemento_associado": "Éter / Som",
+          "funcao_psicologica": "Comunicação, expressão da verdade, criatividade através do som, clariaudiência",
+          "letras_hebraicas_relacionadas": ["Pe", "Beth"],
+          "planeta_regente": "Mercúrio",
+          "diagnostico_bloqueio": "Dificuldade de se expressar, medo de falar a verdade, fofoca, problemas de tireoide, dor de garganta."
+        },
+        "Ajna": {
+          "nome": "Chakra Frontal / Terceiro Olho",
+          "localizacao": "Entre as sobrancelhas",
+          "cor": "Azul índigo",
+          "elemento_associado": "Luz / Mente",
+          "funcao_psicologica": "Intuição, imaginação, sabedoria, clarividência, percepção",
+          "letras_hebraicas_relacionadas": ["Ayin", "He"],
+          "planeta_regente": "Júpiter / Netuno",
+          "diagnostico_bloqueio": "Falta de intuição, confusão mental, pesadelos, dores de cabeça, ilusão, dificuldade de visualização."
+        },
+        "Sahasrara": {
+          "nome": "Chakra Coronário",
+          "localizacao": "Topo da cabeça",
+          "cor": "Violeta / Branco / Dourado",
+          "elemento_associado": "Consciência Pura",
+          "funcao_psicologica": "Conexão espiritual, unidade, transcendência, sabedoria divina",
+          "letras_hebraicas_relacionadas": ["Yod", "Kether (como conceito)"],
+          "planeta_regente": "N/A (Conexão com o Divino)",
+          "diagnostico_bloqueio": "Depressão espiritual, cinismo, desconexão com o sagrado, materialismo excessivo, sentimento de solidão existencial."
+        }
+      }
+    };
+
+    function showInfo(sephiraName) {
+      const s = sciiData.sephirot[sephiraName];
+      const letras = Object.keys(sciiData.letras).filter(l => 
+        sciiData.letras[l].caminho_arvore_vida.includes(`${s.numero}-`) || 
+        sciiData.letras[l].caminho_arvore_vida.includes(`-${s.numero}`)
+      );
+      const chakra = Object.values(sciiData.chakras).find(c => 
+        c.letras_hebraicas_relacionadas.some(l => letras.includes(l))
+      );
+      const planeta = sciiData.planetas[s.planeta_associado.split(' ')[0]];
+
+      let html = `
+        <h2>${s.nome} (${sephiraName})</h2>
+        <div class="info-item"><strong>Número:</strong> ${s.numero}</div>
+        <div class="info-item"><strong>Imagem Mágica:</strong> ${s.imagem_magica}</div>
+        <div class="info-item"><strong>Planeta Associado:</strong> ${s.planeta_associado}</div>
+        <div class="info-item"><strong>Virtude:</strong> ${s.virtude}</div>
+        <div class="info-item"><strong>Vício:</strong> ${s.vicio}</div>
+        <div class="info-item"><strong>Localização no Corpo:</strong> ${s.ponto_corpo_somatico}</div>
+        <div class="info-item"><strong>Experiência Espiritual:</strong> ${s.experiencia_espiritual}</div>
+      `;
+
+      if (letras.length > 0) {
+        html += `<div class="info-item"><strong>Letras Hebraicas Ligadas:</strong> ${letras.join(', ')}</div>`;
+      }
+      if (chakra) {
+        html += `<div class="info-item"><strong>Chakra Relacionado:</strong> ${chakra.nome} (${chakra.cor})</div>`;
+      }
+      if (planeta) {
+        html += `<div class="info-item"><strong>Princípio do Planeta:</strong> ${planeta.principio}</div>`;
+      }
+
+      document.getElementById('infoPanel').innerHTML = html;
+    }
+  </script>
+</body>
+</html>

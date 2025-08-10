@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SCII - Árvore da Vida Interativa</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #0b1a23;
+      color: #e0f7fa;
+      line-height: 1.6;
+      padding: 10px;
+    }
+    h1, h2, h3 {
+      text-align: center;
+      color: #a7ffeb;
+    }
+    .header {
+      margin-bottom: 20px;
+    }
+    .search-box {
+      display: flex;
+      justify-content: center;
+      margin: 15px auto;
+      max-width: 600px;
+    }
+    .search-box input {
+      width: 70%;
+      padding: 10px;
+      border: none;
+      border-radius: 8px 0 0 8px;
+      outline: none;
+    }
+    .search-box button {
+      width: 30%;
+      padding: 10px;
+      background: #4db6ac;
+      color: #000;
+      border: none;
+      border-radius: 0 8px 8px 0;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    .tree-container {
+      position: relative;
+      width: 100%;
+      height: 80vw;
+      max-width: 900px;
+      max-height: 900px;
+      margin: 20px auto;
+      background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Old_Tree_of_Life.svg/1200px-Old_Tree_of_Life.svg.png') no-repeat center;
+      background-size: contain;
+      background-position: center;
+    }
+    .sephira {
+      position: absolute;
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      color: white;
+      font-weight: bold;
+      text-align: center;
+      box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+      transition: all 0.3s ease;
+      text-shadow: 1px 1px 3px black;
+      z-index: 2;
+    }
+    .sephira:hover {
+      transform: scale(1.15);
+      box-shadow: 0 0 25px rgba(255, 255, 255, 0.8);
+      z-index: 3;
+    }
+    #kether { top: 8%; left: 50%; transform: translateX(-50%); background: #8e24aa; }
+    #chokmah { top: 25%; left: 25%; background: #e91e63; }
+    #binah { top: 25%; right: 25%; background: #5c6bc0; }
+    #chesed { top: 45%; left: 25%; background: #42a5f5; }
+    #gebura { top: 45%; right: 25%; background: #ef5350; }
+    #tipha { top: 60%; left: 50%; transform: translateX(-50%); background: #ffca28; }
+    #netzach { top: 75%; left: 25%; background: #66bb6a; }
+    #hod { top: 75%; right: 25%; background: #29b6f6; }
+    #yesod { top: 88%; left: 50%; transform: translateX(-50%); background: #7e57c2; }
+    #malkuth { bottom: 5%; left: 50%; transform: translateX(-50%); background: #795548; }
+
+    .path {
+      position: absolute;
+      background: rgba(255, 255, 255, 0.2);
+      height: 6px;
+      border-radius: 3px;
+      transform-origin: 0 0;
+      z-index: 1;
+      opacity: 0.5;
+    }
+    .path.active {
+      background: #4db6ac;
+      opacity: 1;
+      box-shadow: 0 0 10px #4db6ac;
+      transition: all 0.5s;
+    }
+
+    .info-panel {
+      width: 90%;
+      max-width: 900px;
+      margin: 20px auto;
+      background: #112b35;
+      border: 1px solid #4db6ac;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+    }
+    .info-item {
+      margin-bottom: 12px;
+    }
+    .info-item strong {
+      color: #80deea;
+    }
+    .btn-group {
+      text-align: center;
+      margin: 15px 0;
+    }
+    .btn {
+      padding: 10px 20px;
+      margin: 0 10px;
+      background: #4db6ac;
+      color: #000;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    .btn:hover {
+      background: #64d8be;
+    }
+    .meditation-mode {
+      background: #0d3b44;
+      padding: 15px;
+      border-radius: 10px;
+      margin-top: 20px;
+      text-align: center;
+    }
+    .meditation-text {
+      font-size: 1.3em;
+      margin: 20px 0;
+      color: #a7ffeb;
+    }
+    @media (max-width: 600px) {
+      .tree-container {
+        height: 120vw;
+      }
+      .sephira {
+        width: 60px;
+        height: 60px;
+        font-size: 0.8em;
+      }
+      .search-box input, .search-box button {
+        padding: 8px;
+        font-size: 0.9em;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <h1>SCII - Sistema de Correspondência Integrada e Inteligente</h1>
+    <p>Clique em uma Sefirah, use a busca ou ative o modo meditação.</p>
+  </div>
+
+  <div class="search-box">
+    <input type="text" id="searchInput" placeholder="Buscar: Letra, Chakra, Planeta..." />
+    <button onclick="searchEntity()">Buscar</button>
+  </div>
+
+  <div class="tree-container" id="tree">
+    <div class="sephira" id="kether" onclick="showInfo('Kether')">Kether<br><small>Coroa</small></div>
+    <div class="sephira" id="chokmah" onclick="showInfo('Chokmah')">Chokmah<br><small>Sabedoria</small></div>
+    <div class="sephira" id="binah" onclick="showInfo('Binah')">Binah<br><small>Entendimento</small></div>
+    <div class="sephira" id="chesed" onclick="showInfo('Chesed')">Chesed<br><small>Misericórdia</small></div>
+    <div class="sephira" id="gebura" onclick="showInfo('Geburah')">Geburah<br><small>Força</small></div>
+    <div class="sephira" id="tipha" onclick="showInfo('Tiphareth')">Tiphareth<br><small>Beleza</small></div>
+    <div class="sephira" id="netzach" onclick="showInfo('Netzach')">Netzach<br><small>Vitória</small></div>
+    <div class="sephira" id="hod" onclick="showInfo('Hod')">Hod<br><small>Glória</small></div>
+    <div class="sephira" id="yesod" onclick="showInfo('Yesod')">Yesod<br><small>Fundamento</small></div>
+    <div class="sephira" id="malkuth" onclick="showInfo('Malkuth')">Malkuth<br><small>O Reino</small></div>
+
+    <!-- Caminhos -->
+    <div class="path" id="path-1-2" style="top:18%; left:48%; width:22%; transform:rotate(30deg);"></div>
+    <div class="path" id="path-1-3" style="top:18%; right:48%; width:22%; transform:rotate(-30deg);"></div>
+    <div class="path" id="path-1-6" style="top:12%; left:50%; width:2%; height:50%;"></div>
+    <div class="path" id="path-2-3" style="top:25%; left:32%; width:36%;"></div>
+    <div class="path" id="path-2-4" style="top:34%; left:27%; width:22%; transform:rotate(30deg);"></div>
+    <div class="path" id="path-2-6" style="top:30%; left:35%; width:22%; transform:rotate(-20deg);"></div>
+    <div class="path" id="path-3-5" style="top:34%; right:27%; width:22%; transform:rotate(150deg);"></div>
+    <div class="path" id="path-3-6" style="top:30%; right:35%; width:22%; transform:rotate(200deg);"></div>
+    <div class="path" id="path-4-5" style="top:45%; left:30%; width:40%;"></div>
+    <div class="path" id="path-4-6" style="top:50%; left:35%; width:22%; transform:rotate(-20deg);"></div>
+    <div class="path" id="path-4-7" style="top:50%; left:30%; width:22%; transform:rotate(20deg);"></div>
+    <div class="path" id="path-5-6" style="top:50%; right:30%; width:22%; transform:rotate(160deg);"></div>
+    <div class="path" id="path-5-8" style="top:50%; right:35%; width:22%; transform:rotate(200deg);"></div>
+    <div class="path" id="path-6-7" style="top:65%; left:30%; width:22%; transform:rotate(30deg);"></div>
+    <div class="path" id="path-6-8" style="top:65%; right:30%; width:22%; transform:rotate(150deg);"></div>
+    <div class="path" id="path-6-9" style="top:68%; left:50%; width:2%; height:20%;"></div>
+    <div class="path" id="path-7-8" style="top:75%; left:32%; width:36%;"></div>
+    <div class="path" id="path-7-9" style="top:80%; left:30%; width:22%; transform:rotate(30deg);"></div>
+    <div class="path" id="path-7-10" style="top:80%; left:35%; width:22%; transform:rotate(-20deg);"></div>
+    <div class="path" id="path-8-9" style="top:80%; right:30%; width:22%; transform:rotate(150deg);"></div>
+    <div class="path" id="path-8-10" style="top:80%; right:35%; width:22%; transform:rotate(200deg);"></div>
+    <div class="path" id="path-9-10" style="top:88%; left:50%; width:2%; height:15%;"></div>
+  </div>
+
+  <div class="info-panel" id="infoPanel">
+    <p><em>Selecione uma Sefirah, use a busca ou clique em um botão abaixo.</em></p>
+  </div>
+
+  <div class="btn-group">
+    <button class="btn" onclick="activateMeditationMode()">🧘 Modo Meditação</button>
+    <button class="btn" onclick="exportReport()">📤 Exportar Relatório</button>
+  </div>
+
+  <div id="meditationContainer" class="meditation-mode" style="display:none;">
+    <h3>✨ Modo Meditação Ativo</h3>
+    <p id="meditationText" class="meditation-text">Aguarde...</p>
+    <button class="btn" onclick="stopMeditation()">Parar</button>
+  </div>
+
+  <script>
+    // === DADOS (mesmo do arquivo fornecido) ===
+    const sciiData = /* [mesmo objeto JSON do arquivo] */;
+
+    // === MOSTRAR INFORMAÇÕES ===
+    function showInfo(sephiraName) {
+      clearActivePaths();
+      const s = sciiData.sephirot[sephiraName];
+      const letras = Object.keys(sciiData.letras).filter(l => 
+        sciiData.letras[l].caminho_arvore_vida.includes(`${s.numero}-`) || 
+        sciiData.letras[l].caminho_arvore_vida.includes(`-${s.numero}`)
+      );
+      const chakra = Object.values(sciiData.chakras).find(c => 
+        c.letras_hebraicas_relacionadas.some(l => letras.includes(l))
+      );
+      const planeta = sciiData.planetas[s.planeta_associado.split(' ')[0]];
+
+      let html = `
+        <h2>${s.nome} (${sephiraName})</h2>
+        <div class="info-item"><strong>Número:</strong> ${s.numero}</div>
+        <div class="info-item"><strong>Imagem Mágica:</strong> ${s.imagem_magica}</div>
+        <div class="info-item"><strong>Planeta Associado:</strong> ${s.planeta_associado}</div>
+        <div class="info-item"><strong>Virtude:</strong> ${s.virtude}</div>
+        <div class="info-item"><strong>Vício:</strong> ${s.vicio}</div>
+        <div class="info-item"><strong>Localização no Corpo:</strong> ${s.ponto_corpo_somatico}</div>
+        <div class="info-item"><strong>Experiência Espiritual:</strong> ${s.experiencia_espiritual}</div>
+      `;
+
+      if (letras.length > 0) {
+        const letraData = letras.map(l => {
+          const lt = sciiData.letras[l];
+          return `${l} (${lt.valor_gemátrico}) - ${lt.acao_espiritual}`;
+        }).join('<br>');
+        html += `<div class="info-item"><strong>Letras Hebraicas:</strong><br>${letraData}</div>`;
+        highlightPathsByLetters(letras);
+      }
+      if (chakra) {
+        html += `<div class="info-item"><strong>Chakra:</strong> ${chakra.nome} (${chakra.cor})</div>`;
+      }
+      if (planeta) {
+        html += `<div class="info-item"><strong>Princípio do Planeta:</strong> ${planeta.principio}</div>`;
+      }
+
+      document.getElementById('infoPanel').innerHTML = html;
+    }
+
+    // === DESTACAR CAMINHOS ===
+    function highlightPathsByLetters(letras) {
+      clearActivePaths();
+      letras.forEach(l => {
+        const caminho = sciiData.letras[l].caminho_arvore_vida;
+        const match = caminho.match(/(\d+)-(\d+)/);
+        if (match) {
+          const pathId = `path-${match[1]}-${match[2]}`;
+          const path = document.getElementById(pathId);
+          if (path) path.classList.add('active');
+        }
+      });
+    }
+
+    function clearActivePaths() {
+      document.querySelectorAll('.path').forEach(p => p.classList.remove('active'));
+    }
+
+    // === BUSCA ===
+    function searchEntity() {
+      const term = document.getElementById('searchInput').value.trim().toLowerCase();
+      if (!term) return;
+
+      // Buscar em letras
+      for (let l in sciiData.letras) {
+        if (l.toLowerCase() === term || sciiData.letras[l].elemento_primordial.toLowerCase().includes(term)) {
+          showInfoByLetter(l);
+          return;
+        }
+      }
+      // Buscar em chakras
+      for (let c in sciiData.chakras) {
+        if (sciiData.chakras[c].nome.toLowerCase().includes(term)) {
+          showChakraInfo(sciiData.chakras[c]);
+          return;
+        }
+      }
+      // Buscar em planetas
+      for (let p in sciiData.planetas) {
+        if (p.toLowerCase().includes(term)) {
+          showPlanetaInfo(p);
+          return;
+        }
+      }
+      alert(`Nada encontrado para "${term}".`);
+    }
+
+    function showInfoByLetter(letra) {
+      const l = sciiData.letras[letra];
+      const caminho = l.caminho_arvore_vida.match(/(\d+)-(\d+)/);
+      if (caminho) {
+        const sephiraMap = {
+          1: 'Kether', 2: 'Chokmah', 3: 'Binah', 4: 'Chesed', 5: 'Geburah',
+          6: 'Tiphareth', 7: 'Netzach', 8: 'Hod', 9: 'Yesod', 10: 'Malkuth'
+        };
+        const sephiraNum = caminho[1] === '1' ? caminho[1] : caminho[2];
+        const sephiraName = sephiraMap[sephiraNum];
+        showInfo(sephiraName);
+      }
+    }
+
+    function showChakraInfo(chakra) {
+      let html = `<h2>${chakra.nome}</h2>`;
+      html += `<div class="info-item"><strong>Localização:</strong> ${chakra.localizacao}</div>`;
+      html += `<div class="info-item"><strong>Cor:</strong> ${chakra.cor}</div>`;
+      html += `<div class="info-item"><strong>Função Psicológica:</strong> ${chakra.funcao_psicologica}</div>`;
+      html += `<div class="info-item"><strong>Planeta Regente:</strong> ${chakra.planeta_regente}</div>`;
+      html += `<div class="info-item"><strong>Letras:</strong> ${chakra.letras_hebraicas_relacionadas.join(', ')}</div>`;
+      html += `<div class="info-item"><strong>Diagnóstico de Bloqueio:</strong> ${chakra.diagnostico_bloqueio}</div>`;
+      document.getElementById('infoPanel').innerHTML = html;
+    }
+
+    function showPlanetaInfo(nome) {
+      const p = sciiData.planetas[nome];
+      let html = `<h2>${nome}</h2>`;
+      html += `<div class="info-item"><strong>Princípio:</strong> ${p.principio}</div>`;
+      html += `<div class="info-item"><strong>Letras:</strong> ${p.letras_associadas.join(', ')}</div>`;
+      html += `<div class="info-item"><strong>Sefirah:</strong> ${p.sephira}</div>`;
+      html += `<div class="info-item"><strong>Arquétipo:</strong> ${p.arquetipo}</div>`;
+      document.getElementById('infoPanel').innerHTML = html;
+    }
+
+    // === MODO MEDITAÇÃO ===
+    function activateMeditationMode() {
+      const letras = Object.keys(sciiData.letras);
+      const randomLetra = letras[Math.floor(Math.random() * letras.length)];
+      const comando = sciiData.letras[randomLetra].comando_ritualistico;
+      
+      document.getElementById('meditationContainer').style.display = 'block';
+      document.getElementById('meditationText').textContent = comando;
+      
+      // Atualiza a cada 8 segundos
+      window.meditationInterval = setInterval(() => {
+        const novaLetra = letras[Math.floor(Math.random() * letras.length)];
+        const novoComando = sciiData.letras[novaLetra].comando_ritualistico;
+        document.getElementById('meditationText').textContent = novoComando;
+      }, 8000);
+    }
+
+    function stopMeditation() {
+      clearInterval(window.meditationInterval);
+      document.getElementById('meditationContainer').style.display = 'none';
+    }
+
+    // === EXPORTAR RELATÓRIO ===
+    function exportReport() {
+      const panel = document.getElementById('infoPanel');
+      const content = panel.innerText;
+      const blob = new Blob([content], { type: 'text/plain' });
+      const a = document.createElement('a');
+      a.download = `relatorio_scii_${new Date().toISOString().slice(0,10)}.txt`;
+      a.href = URL.createObjectURL(blob);
+      a.click();
+    }
+  </script>
+</body>
+</html>

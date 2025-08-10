@@ -1,0 +1,76 @@
+{
+  "nome_operativo": "Protocolo Multicorpo DeHVaZ",
+  "codigo_sigilo": "דְּהַוַּז",
+  "objetivo_primario": "Liberação total do Canal do Verbo bloqueado em C4–C7 e reintegração da Palavra Autêntica em todos os planos do Ser.",
+  "niveis_de_execucao": [
+    {
+      "corpo": "Físico",
+      "abordagem": "Tesla: A Frequência Cura",
+      "diagnostico": "Congestão vibracional de baixa frequência, perda de ressonância harmônica.",
+      "acoes": [
+        {
+          "id": "F1",
+          "descricao": "Ativação por Frequência Sonora",
+          "instrucao": "Ouvir frequência de 432Hz (ou 528Hz como reforço) por 7 minutos, deitado, com a nuca sobre um pano azul."
+        },
+        {
+          "id": "F2",
+          "descricao": "Ativação Tátil e Somática",
+          "instrucao": "Enquanto ouve a frequência, desenhar o sigilo ד–ה–ו–ז com os dedos sobre a região cervical em espiral (da base até a nuca)."
+        }
+      ],
+      "formula_sonora": "ZAH – VUH – HEH – DÁ (Entoar 7 vezes)"
+    },
+    {
+      "corpo": "Emocional",
+      "abordagem": "Freud: Liberação da Culpa Arquetípica",
+      "diagnostico": "Memórias afetivas reprimidas e culpa inconsciente cristalizadas como sintoma.",
+      "acoes": [
+        {
+          "id": "E1",
+          "descricao": "Escrita de Liberação Simbólica",
+          "instrucao": "Escrever três frases que nunca foram ditas, representando emoções presas (Ex: 'Eu deveria ter dito não.')."
+        },
+        {
+          "id": "E2",
+          "descricao": "Ritual de Purgação",
+          "instrucao": "Queimar ou rasgar as frases escritas enquanto entoa 'ZAYIN' lentamente. Finalizar com o gesto de abrir os braços e a declaração: 'Agora o Verbo é livre. A emoção é limpa. O corpo respira.'"
+        }
+      ]
+    },
+    {
+      "corpo": "Mental",
+      "abordagem": "Jung: A Espada do Self",
+      "diagnostico": "Conflito arquetípico entre o Guerreiro (Zayin) e o Sábio (Heh); dissonância entre o Self e a Persona.",
+      "acoes": [
+        {
+          "id": "M1",
+          "descricao": "Meditação Guiada de Integração",
+          "instrucao": "Visualizar uma Espada (Zayin) subindo pela cervical, transformando-se em uma Pena dourada (Heh) na nuca, que escreve no ar: 'Eu sou o Verbo da minha Verdade'. Dissolver a imagem em luz."
+        }
+      ]
+    },
+    {
+      "corpo": "Espiritual",
+      "abordagem": "Cabala do Verbo Encarnado",
+      "diagnostico": "Ciclo da Criação (Dalet-Heh-Vav-Zayin) interrompido no estágio da manifestação.",
+      "acoes": [
+        {
+          "id": "S1",
+          "descricao": "Rito de Ativação do Canal",
+          "instrucao": "Em pé, com braços em 'T', visualizar cada letra em sua posição no corpo (Zayin na base do pescoço, Vav na garganta, Heh nas costelas, Dalet na nuca)."
+        },
+        {
+          "id": "S2",
+          "descricao": "Declaração Final de Poder",
+          "instrucao": "Proclamar em voz firme: 'Zayin corta, Vav conduz, Heh expande, Dalet abre. Eu sou a passagem do Verbo. O Verbo me atravessa. O Verbo me transforma. E onde havia dor, agora há direção.'"
+        }
+      ]
+    }
+  ],
+  "finalizacao_protocolo": {
+    "duracao": "7 dias",
+    "acao_diaria": "Contemplar o sigilo דְּהַוַּז (impresso ou desenhado).",
+    "rito_de_encerramento": "No final do 7º dia, queimar o papel com o sigilo junto com alecrim e declarar: 'Cortei. Canalizei. Expandiu. Abriu. Estou livre.'"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id_modulo": "ALF-O1",
+  "nome_modulo": "Mapeador Aleph Funcional",
+  "descricao": "Identifica qual letra em um nome ou palavra exerce a função vibracional de Aleph (origem), mesmo que não seja a letra Aleph formal. Permite análise simbólica, linguística e ritualística cruzada.",
+  "versao": "1.0.0",
+  "autor": "Karuv Beni EL (André de Oliveira Rodrigues)",
+  "campos_entrada": {
+    "nome_completo": "string",
+    "transliteracao_fonetica": "string",
+    "idioma_ou_cultura": "string",
+    "missao_vibracional": "string",
+    "contexto_ritual_ou_operativo": "string"
+  },
+  "processamento": {
+    "analise_posicional": "Verifica a primeira letra fonética, gráfica e vibracional.",
+    "checagem_arquetipica": "Identifica qual letra exerce o papel de gênese, com base na missão e símbolo do nome.",
+    "analise_idioma": "Relaciona o alfabeto de origem ao idioma de destino para verificar se há equivalência simbólica.",
+    "verificacao_de_missao": "Atribui a função Aleph à letra mais próxima da origem vibracional se o operador for um iniciador."
+  },
+  "saida": {
+    "letra_fisica_inicial": "string",
+    "letra_funcional_ativa": "string",
+    "letra_corada_como_aleph": "string",
+    "justificativa": "string"
+  },
+  "exemplo": {
+    "nome_completo": "André de Oliveira Rodrigues",
+    "transliteracao_fonetica": "אנדרי",
+    "idioma_ou_cultura": "Grego",
+    "missao_vibracional": "Origem vibracional do Verbo",
+    "contexto_ritual_ou_operativo": "Nome mágico",
+    "resultado": {
+      "letra_fisica_inicial": "Aleph (א)",
+      "letra_funcional_ativa": "Nun (נ)",
+      "letra_corada_como_aleph": "Nun (נ)",
+      "justificativa": "Nun exerce o papel de canal de gênese no nome 'אנדרי', traduzindo o impulso iniciador no plano vibracional do operador."
+    }
+  },
+  "observacoes": "Este módulo integra-se diretamente ao SCII para rastrear a origem vibracional de nomes adaptados a diferentes culturas. Pode ser usado para mapear nomes mágicos, traduções ritualísticas, e interpretações interculturais."
+}

@@ -1,0 +1,52 @@
+{
+  "André": {
+    "data_nascimento": "1979-12-31",
+    "idade": 45,
+    "ciclo_etario": {
+      "faixa": "42–49",
+      "sefira": "Chesed",
+      "palavra_chave": "Expansão / Generosidade",
+      "missao": "Transbordar"
+    }
+  },
+  "Teresinha": {
+    "data_nascimento": "1979-09-04",
+    "idade": 45,
+    "ciclo_etario": {
+      "faixa": "42–49",
+      "sefira": "Chesed",
+      "palavra_chave": "Expansão / Generosidade",
+      "missao": "Transbordar"
+    }
+  },
+  "Yasmim": {
+    "data_nascimento": "1999-08-28",
+    "idade": 25,
+    "ciclo_etario": {
+      "faixa": "21–28",
+      "sefira": "Netzach",
+      "palavra_chave": "Desejo / Vontade",
+      "missao": "Buscar"
+    }
+  },
+  "Ayumi": {
+    "data_nascimento": "2012-04-09",
+    "idade": 13,
+    "ciclo_etario": {
+      "faixa": "7–14",
+      "sefira": "Yesod",
+      "palavra_chave": "Emoção / Instinto",
+      "missao": "Enraizar-se"
+    }
+  },
+  "Aylla": {
+    "data_nascimento": "2021-02-03",
+    "idade": 4,
+    "ciclo_etario": {
+      "faixa": "0–7",
+      "sefira": "Malkuth",
+      "palavra_chave": "Corpo",
+      "missao": "Encarnar"
+    }
+  }
+}
