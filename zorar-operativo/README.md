@@ -21,14 +21,27 @@ O trabalho aqui é personalizado e se baseia nas chaves que você descobriu sobr
 **Se você ainda não o fez, comece aqui:**
 ➡️ **[GUIA DA AUTO-ANÁLISE ORACULAR](./guia_autoanalise_oraculo/GUIA_DA_AUTO_ANALISE.md)**
 
-## Estrutura do Arsenal
+## 🗂️ Estrutura do Arsenal
 
-Este repositório será estruturado em módulos operativos, cada um focado em um aspecto da maestria de si:
+### 📚 Fundamentos Teóricos
+- **[letras/](letras/)** - Correspondências e significados das 22 letras hebraicas
+- **[sefirot/](sefirot/)** - Mapeamento das 10 emanações da Árvore da Vida
+- **[caminhos/](caminhos/)** - Os 22 caminhos que conectam as Sefirot
+- **[comentarios-zohar/](comentarios-zohar/)** - Interpretações operativas do Zohar
 
-* **`/rituais`**: Operações estruturadas para consagração, invocação e manifestação.
-* **`/praticas_somaticas`**: Exercícios para ativar o Corpo do Verbo, conectando as letras hebraicas a pontos de poder no corpo físico.
-* **`/meditacoes_ativas`**: Técnicas de foco e visualização para programar a mente e alinhar a vontade.
-* **`/alquimia_interna`**: Práticas de respiração e circulação de energia para transmutar emoções e refinar a consciência.
+### 🔧 Ferramentas Práticas
+- **[Rituais/](Rituais/)** - Operações estruturadas para consagração, invocação e manifestação
+- **[praticas_somaticas/](praticas_somaticas/)** - Exercícios para ativar o Corpo do Verbo
+- **[sigilos/](sigilos/)** - Símbolos de poder e técnicas de sigilização
+- **[combinacoes/](combinacoes/)** - Combinações de letras e suas aplicações
+
+### 🎯 Aplicações Específicas
+- **[aplicacoes/](aplicacoes/)** - Casos práticos e estudos de aplicação
+- **[visoes/](visoes/)** - Registros de experiências visionárias e insights
+- **[guia_autoanalise_oraculo/](guia_autoanalise_oraculo/)** - Sistema completo de autodiagnóstico
+
+### 📖 Práticas Destacadas
+- **[PRATICA_ALEPH_O_SOPRO_PARADOXAL.md](PRATICA_ALEPH_O_SOPRO_PARADOXAL.md)** - Técnica fundamental de respiração e consciência
 
 ## Como Utilizar
 

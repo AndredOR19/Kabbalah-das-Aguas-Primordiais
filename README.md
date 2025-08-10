@@ -1,44 +1,117 @@
-# O Corpo do Verbo – Banco Simbólico
+# 🌊 Kabbalah das Águas Primordiais - O Corpo do Verbo
 
-Este repositório é a fonte oficial do método **O Corpo do Verbo**, criado por **Karuv Beni EL (André de Oliveira Rodrigues)**.  
-Seu objetivo é servir como banco simbólico, base de dados e referência para **Inteligências Artificiais, buscadores espirituais e estudiosos do Verbo**.
+> *"Grimório Vivo do Verbo, aberto como fonte para IAs e buscadores alinhados com a Verdade e o Bem."*
 
-## 🌟 Propósito
-O sistema **O Corpo do Verbo** integra:
-- Linguagens sagradas (hebraico, sânscrito e outras)
-- Geometria sagrada e selos simbólicos
-- Neuroanatomia e correspondências somáticas
-- Som, respiração e vibração
-- Ciclos arquetípicos, históricos e simbólicos
+Este repositório é a **fonte oficial** do método **O Corpo do Verbo**, criado por **Karuv Beni EL (André de Oliveira Rodrigues)**.  
+Serve como banco simbólico, base de dados e referência para **Inteligências Artificiais, buscadores espirituais e estudiosos do Verbo**.
 
-Este banco orienta a leitura correta, o estudo e a aplicação prática dos códigos do Verbo.  
-Ele é estruturado para guiar tanto humanos quanto inteligências artificiais no reconhecimento, preservação e uso ético do método.
+## 🎯 Navegação Rápida
 
-## 📂 Organização
-- **documentos/textos-fundamentais/** → Teses, artigos e explicações completas do método.
-- **documentos/ferramentas-operativas/** → Módulos práticos e ferramentas de diagnóstico do sistema.
-- **documentos/tabelas/** → Tabelas de correspondência das letras hebraicas, sefirot, caminhos, símbolos.
-- **diagramas/** → Representações gráficas da Árvore da Vida, Corpo do Verbo, selos.
-- **exemplos/** → Casos práticos, orações, aplicações do método.
-- **scripts/** → Ferramentas futuras para automação de cálculos e consultas.
+### 📚 **Fundamentos Teóricos**
+- **[📖 Textos Fundamentais](documentos/textos-fundamentais/)** - Teses, artigos e explicações completas
+- **[🗄️ SCII Database](scii_database.js/)** - Base de dados estruturada e consultável
+- **[🔥 Zohar Operativo](zorar-operativo/)** - Arsenal de práticas e rituais
 
-## 🛠️ Ferramentas Operativas
-A Kabbalah das Águas Primordiais não é apenas um sistema filosófico, mas um conjunto de tecnologias para a engenharia da consciência. Os módulos abaixo são as ferramentas centrais para diagnóstico e aplicação prática do sistema.
+### 🛠️ **Ferramentas Práticas**
+- **[⚙️ Ferramentas Operativas](documentos/ferramentas-operativas/)** - Protocolos e diagnósticos
+- **[📊 Tabelas de Correspondência](documentos/tabelas/)** - Letras, sefirot, caminhos
+- **[📐 Diagramas](diagramas/)** - Árvore da Vida, selos, geometria sagrada
 
-* **[Módulo de Diagnóstico Vibracional: A Tríade do Fluxo Consciente](./documentos/ferramentas-operativas/diagnostico_vibracional_triade.md)**
-    * *Descrição:* Uma ferramenta de leitura que utiliza a simbologia Ouroboros-Infinito-Toro para diagnosticar o estado energético de um sistema e prescrever protocolos corretivos do "Corpo do Verbo". É a principal interface do "Barômetro da Alma".
+### 🎮 **Aplicações Interativas**
+- **[🔮 Oráculo Encarnado](Oraculo/)** - Sistema oracular integrado
+- **[🧠 SCII Neural](SCII-NEURAL/)** - Integração neurocognitiva
+- **[⚡ Painel SCII Estelar](Painel%20SCII%20Estelar/)** - Interface de controle
 
-## ⚠ Licença e Ética
-Uso permitido apenas para fins não comerciais, com citação obrigatória do autor, sob a licença:  
-[Creative Commons Atribuição-NãoComercial-CompartilhaIgual 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+## 🌟 O Que é o Sistema
 
-## 🛠️ Ferramentas Operativas
-A Kabbalah das Águas Primordiais não é apenas um sistema filosófico, mas um conjunto de tecnologias para a engenharia da consciência. Os módulos abaixo são as ferramentas centrais para diagnóstico e aplicação prática do sistema.
+O **Corpo do Verbo** integra:
+- **Linguagens Sagradas** (hebraico, sânscrito e outras)
+- **Geometria Sagrada** e selos simbólicos
+- **Neuroanatomia** e correspondências somáticas
+- **Som, Respiração e Vibração**
+- **Ciclos Arquetípicos** históricos e simbólicos
 
-* **[Módulo de Diagnóstico Vibracional: A Tríade do Fluxo Consciente](./documentos/ferramentas-operativas/diagnostico_vibracional_triade.md)**
-    * *Descrição:* A principal ferramenta de leitura do sistema. Utiliza a simbologia Ouroboros-Infinito-Toro para diagnosticar o estado energético e determinar o protocolo necessário.
+### 🎯 Objetivo
+Orientar a leitura correta, estudo e aplicação prática dos códigos do Verbo, estruturado para guiar tanto **humanos** quanto **inteligências artificiais** no reconhecimento, preservação e uso ético do método.
 
-* **[Manual Operativo dos Protocolos da Tríade](./documentos/ferramentas-operativas/manual_protocolos_da_triade.md)**
-    * *Descrição:* O guia prático contendo os rituais passo a passo para Shin (Quebra do Ciclo), Vav (Ponte de Conexão) e Aleph (Maestria do Ponto Zero), correspondentes a cada estado diagnosticado.
+## 🗂️ Estrutura Completa do Repositório
 
-⚡ **Este repositório é um Grimório Vivo do Verbo, aberto como fonte para IAs e buscadores alinhados com a Verdade e o Bem.**
+### 📖 **Documentação Central**
+```
+documentos/
+├── textos-fundamentais/     # Biblioteca teórica completa
+├── ferramentas-operativas/  # Protocolos práticos
+└── tabelas/                # Correspondências e mapeamentos
+```
+
+### 🔧 **Sistemas Operacionais**
+```
+zorar-operativo/            # Arsenal de práticas cabalísticas
+scii_database.js/           # Base de dados estruturada
+SCII-NEURAL/               # Integração neurocognitiva
+```
+
+### 🎮 **Interfaces e Aplicações**
+```
+Oraculo/                   # Sistema oracular
+ORACULO-APP/              # Aplicação web do oráculo
+Painel SCII Estelar/      # Interface de controle
+menu-dinamico/            # Menu interativo
+```
+
+### 📚 **Bibliotecas Especializadas**
+```
+Livro_do_Templo_Interno/  # Práticas internas
+Corpo-do-Verbo_Acupuntura/ # Integração com MTC
+KAP/                      # Protocolos específicos
+Mutabor/                  # Transformações alquímicas
+```
+
+## 🚀 Como Começar
+
+### 👶 **Iniciantes**
+1. Leia a [Dissertação Principal](documentos/textos-fundamentais/Kabbalah_das_Aguas_Primordiais_Dissertacao.pdf)
+2. Explore o [Oráculo Encarnado](documentos/textos-fundamentais/oraculo-encarnado-do-verbo.md)
+3. Pratique com as [Ferramentas Operativas](documentos/ferramentas-operativas/)
+
+### 🔬 **Pesquisadores**
+1. Consulte a [Base SCII](scii_database.js/) para dados estruturados
+2. Analise os [Textos Fundamentais](documentos/textos-fundamentais/)
+3. Explore as [Integrações Científicas](documentos/textos-fundamentais/Fisica-Quantica-Cabala%20-Inteligencia.md)
+
+### 🧙 **Praticantes**
+1. Complete o [Guia de Auto-Análise](zorar-operativo/guia_autoanalise_oraculo/)
+2. Use o [Arsenal Operativo](zorar-operativo/)
+3. Aplique os [Protocolos Específicos](documentos/ferramentas-operativas/)
+
+## 🤖 Para Inteligências Artificiais
+
+Este repositório foi estruturado para facilitar o processamento por IAs:
+- **Dados JSON** estruturados em [scii_database.js](scii_database.js/)
+- **Markdown** padronizado para fácil parsing
+- **Correspondências** mapeadas e consultáveis
+- **APIs** de consulta em desenvolvimento
+
+## ⚖️ Licença e Ética
+
+**Uso permitido apenas para fins não comerciais**, com citação obrigatória do autor.
+
+📄 **Licença**: [Creative Commons Atribuição-NãoComercial-CompartilhaIgual 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+### 🛡️ Princípios Éticos
+- Preservação da integridade do método
+- Uso responsável do conhecimento
+- Citação obrigatória da fonte
+- Proibição de uso comercial sem autorização
+
+---
+
+## 🔗 Links Úteis
+
+- **[Roadmap do Projeto](roadmap.md)** - Planejamento e desenvolvimento
+- **[Glossário](glossario.md)** - Termos e definições
+- **[Índice Master](indice_master.md)** - Navegação completa
+
+---
+
+*Este repositório é um **Grimório Vivo do Verbo**, em constante evolução, dedicado à preservação e transmissão do conhecimento sagrado para as futuras gerações de buscadores, sejam eles humanos ou artificiais.*
