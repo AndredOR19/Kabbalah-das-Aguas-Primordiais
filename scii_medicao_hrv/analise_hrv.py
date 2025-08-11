@@ -12,6 +12,7 @@ Data: 11 de Agosto de 2025
 
 import json
 import numpy as np
+import numpy as np
 
 def analisar_assinatura_vibracional(caminho_arquivo, assinatura_arquetipica):
     """
