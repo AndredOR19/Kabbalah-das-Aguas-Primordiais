@@ -11,6 +11,8 @@ Data: 11 de Agosto de 2025
 """
 
 import re
+import sys
+import argparse
 
 def gerar_feedback_pratica(relatorio_analise, nome_pratica):
     """
@@ -94,24 +96,29 @@ def gerar_feedback_nao_alinhado(arquétipo):
 
 # Exemplo de uso do módulo
 if __name__ == "__main__":
-    # Importa os módulos anteriores para simular o fluxo completo
-    from medicao_hrv import iniciar_medicao_hrv
-    from analise_hrv import analisar_assinatura_vibracional
+    # Configura o parser de argumentos
+    parser = argparse.ArgumentParser(description="SCII - Módulo de Feedback Prático.")
+    parser.add_argument("relatorio_arquivo", type=str, nargs='?', default=sys.stdin, help="Caminho para o arquivo de relatório de análise. Se não for fornecido, lê da entrada padrão (pipe).")
+    parser.add_argument("--pratica", type=str, default="Default", help="Nome da prática para contextualizar o feedback.")
 
-    print("--- Simulando o Ciclo Completo de Calibração Automática ---")
+    args = parser.parse_args()
 
-    # --- MÓDULO 1: MEDIÇÃO ---
-    pratica_atual = "Ativacao_Aleph"
-    caminho_do_arquivo = iniciar_medicao_hrv(10, pratica_atual)
+    relatorio_texto = ""
+    # Verifica se a entrada é da stdin (pipe)
+    if args.relatorio_arquivo is sys.stdin:
+        if not sys.stdin.isatty():
+            relatorio_texto = sys.stdin.read()
+        else:
+            print("Erro: Forneça o caminho de um arquivo de relatório ou use um pipe.")
+            sys.exit(1)
+    else:
+        try:
+            with open(args.relatorio_arquivo, 'r', encoding='utf-8') as f:
+                relatorio_texto = f.read()
+        except FileNotFoundError:
+            print(f"Erro: Arquivo de relatório não encontrado em: {args.relatorio_arquivo}")
+            sys.exit(1)
 
-    # --- MÓDULO 2: ANÁLISE ---
-    assinatura_aleph = {
-        "hrv_media_ideal": 60,       # Foco e calma
-        "desvio_padrao_ideal": 15    # Alta variabilidade, prontidão
-    }
-    relatorio_da_analise = analisar_assinatura_vibracional(caminho_do_arquivo, assinatura_aleph)
-    print(relatorio_da_analise)
-
-    # --- MÓDULO 3: FEEDBACK ---
-    feedback_final = gerar_feedback_pratica(relatorio_da_analise, pratica_atual)
+    # Gera o feedback com base no texto do relatório
+    feedback_final = gerar_feedback_pratica(relatorio_texto, args.pratica)
     print(feedback_final)

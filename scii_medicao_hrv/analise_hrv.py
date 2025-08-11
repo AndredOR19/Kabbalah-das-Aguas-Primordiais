@@ -12,7 +12,27 @@ Data: 11 de Agosto de 2025
 
 import json
 import numpy as np
-import numpy as np
+import argparse
+
+# --- BANCO DE DADOS DE ASSINATURAS ARQUETÍPICAS ---
+ASSINATURAS = {
+    "Ativacao_Aleph": {
+        "hrv_media_ideal": 60.0,
+        "desvio_padrao_ideal": 15.0
+    },
+    "Meditacao_Tiferet": {
+        "hrv_media_ideal": 75.0,
+        "desvio_padrao_ideal": 12.0
+    },
+    "Contemplacao_Binah": {
+        "hrv_media_ideal": 80.0,
+        "desvio_padrao_ideal": 8.0
+    },
+    "Default": {
+        "hrv_media_ideal": 65.0,
+        "desvio_padrao_ideal": 10.0
+    }
+}
 
 def analisar_assinatura_vibracional(caminho_arquivo, assinatura_arquetipica):
     """
@@ -102,27 +122,18 @@ def gerar_feedback_textual(status):
 
 # Exemplo de uso do módulo
 if __name__ == "__main__":
-    # Importa o módulo de medição para gerar um arquivo de exemplo
-    from medicao_hrv import iniciar_medicao_hrv
+    # Configura o parser de argumentos
+    parser = argparse.ArgumentParser(description="SCII - Módulo de Análise de Assinatura Vibracional.")
+    parser.add_argument("caminho_arquivo", type=str, help="Caminho para o arquivo JSON de medição de HRV.")
+    parser.add_argument("--pratica", type=str, default="Default", help="Nome da prática para selecionar a assinatura arquetípica correta.")
 
-    print("--- Gerando dados de exemplo para análise ---")
-    # Parâmetros para a medição de exemplo
-    duracao_exemplo = 15
-    pratica_exemplo = "Meditacao_Tiferet"
+    args = parser.parse_args()
 
-    # Gera um novo arquivo de medição
-    caminho_arquivo_exemplo = iniciar_medicao_hrv(duracao_exemplo, pratica_exemplo)
+    # Seleciona a assinatura arquetípica com base no nome da prática
+    assinatura = ASSINATURAS.get(args.pratica, ASSINATURAS["Default"])
 
-    # Define a assinatura arquetípica para a prática "Meditacao_Tiferet"
-    # Tiferet representa equilíbrio e harmonia, então esperamos uma HRV média
-    # mais alta e um desvio padrão moderado.
-    assinatura_tiferet = {
-        "hrv_media_ideal": 75,       # Média mais alta, indicando relaxamento
-        "desvio_padrao_ideal": 12    # Variabilidade saudável
-    }
-
-    # Analisa os dados gerados
-    relatorio_final = analisar_assinatura_vibracional(caminho_arquivo_exemplo, assinatura_tiferet)
+    # Analisa os dados do arquivo fornecido
+    relatorio_final = analisar_assinatura_vibracional(args.caminho_arquivo, assinatura)
 
     # Imprime o relatório final
     print(relatorio_final)

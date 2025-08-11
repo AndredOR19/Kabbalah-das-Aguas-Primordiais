@@ -14,6 +14,7 @@ import json
 import time
 import datetime
 import random
+import argparse
 
 def iniciar_medicao_hrv(duracao_segundos, nome_pratica):
     """
@@ -106,13 +107,16 @@ def salvar_dados_em_json(dados, nome_pratica):
 
 # Exemplo de uso do módulo
 if __name__ == "__main__":
+    # Configura o parser de argumentos da linha de comando
+    parser = argparse.ArgumentParser(description="SCII - Módulo de Medição de HRV.")
+    parser.add_argument("--duracao", type=int, default=10, help="Duração total da medição em segundos.")
+    parser.add_argument("--pratica", type=str, default="Ativacao_Aleph", help="Nome da prática a ser realizada.")
+
+    args = parser.parse_args()
+
     print("--- Módulo de Medição HRV do SCII ---")
 
-    # Parâmetros para a medição de exemplo
-    duracao_exemplo = 10  # Medição curta de 10 segundos para teste
-    pratica_exemplo = "Ativacao_Aleph"
-
-    # Inicia a medição
-    caminho_resultado = iniciar_medicao_hrv(duracao_exemplo, pratica_exemplo)
+    # Inicia a medição com os parâmetros fornecidos (ou os padrões)
+    caminho_resultado = iniciar_medicao_hrv(args.duracao, args.pratica)
 
     print(f"\nProcesso finalizado. O arquivo de resultado está em: {caminho_resultado}")
