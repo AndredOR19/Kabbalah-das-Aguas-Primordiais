@@ -15,6 +15,9 @@ import subprocess
 import json
 import os
 
+# Importa a função de tipificação do nosso novo módulo
+from personality_classifier.tipificar_perfil import obter_perfil_verbo
+
 # Inicializa a aplicação Flask
 app = Flask(__name__)
 
@@ -114,6 +117,51 @@ def index():
     return "API do Oráculo Universal SCII está no ar. Use o endpoint /api/calibrar para interagir."
 
 # --- Execução da API ---
+
+# --- ENDPOINT DE TIPIFICAÇÃO DE PERFIL ---
+
+@app.route('/api/tipificar', methods=['POST'])
+def tipificar_texto():
+    """
+    Endpoint para receber um texto e retornar o Perfil-Verbo.
+
+    JSON de Entrada (Exemplo):
+    {
+        "texto": "Eu busco estabilidade e ordem. Quero construir uma base sólida..."
+    }
+
+    JSON de Saída (Exemplo):
+    {
+        "status": "sucesso",
+        "perfil_verbo": { ... dicionário completo do perfil ... }
+    }
+    """
+    print("Recebida requisição em /api/tipificar")
+
+    # Validar a entrada
+    dados_entrada = request.json
+    if not dados_entrada or 'texto' not in dados_entrada:
+        return jsonify({"status": "erro", "mensagem": "Parâmetro 'texto' é obrigatório."}), 400
+
+    texto_usuario = dados_entrada['texto']
+
+    try:
+        # Chamar a função do motor de tipificação
+        perfil_resultante = obter_perfil_verbo(texto_usuario)
+
+        if "erro" in perfil_resultante:
+            return jsonify({"status": "erro", "mensagem": perfil_resultante['erro']}), 500
+
+        # Montar a resposta de sucesso
+        resposta = {
+            "status": "sucesso",
+            "perfil_verbo": perfil_resultante
+        }
+        return jsonify(resposta), 200
+
+    except Exception as e:
+        print(f"Erro inesperado durante a tipificação: {str(e)}")
+        return jsonify({"status": "erro", "mensagem": "Ocorreu um erro inesperado no servidor durante a tipificação.", "detalhes": str(e)}), 500
 
 if __name__ == '__main__':
     # Executa o servidor Flask. O host '0.0.0.0' torna a API acessível
