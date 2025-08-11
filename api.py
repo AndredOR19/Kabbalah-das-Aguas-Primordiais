@@ -46,11 +46,12 @@ def calibrar_pratica():
 
     # 1. Validar a entrada
     dados_entrada = request.json
-    if not dados_entrada or 'duracao' not in dados_entrada or 'pratica' not in dados_entrada:
-        return jsonify({"status": "erro", "mensagem": "Parâmetros 'duracao' e 'pratica' são obrigatórios."}), 400
+    if not dados_entrada or 'duracao' not in dados_entrada or 'pratica' not in dados_entrada or 'tema' not in dados_entrada:
+        return jsonify({"status": "erro", "mensagem": "Parâmetros 'duracao', 'pratica' e 'tema' são obrigatórios."}), 400
 
     duracao = dados_entrada['duracao']
     pratica = dados_entrada['pratica']
+    tema = dados_entrada['tema']
 
     try:
         # --- ETAPA 1: MEDIÇÃO ---
@@ -74,7 +75,7 @@ def calibrar_pratica():
 
         # --- ETAPA 3: FEEDBACK ---
         resultado_feedback = subprocess.run(
-            ['python3', 'scii_medicao_hrv/feedback_pratico.py', f'--pratica={pratica}'],
+            ['python3', 'scii_medicao_hrv/feedback_pratico.py', f'--pratica={pratica}', f'--tema={tema}'],
             input=relatorio_analise, capture_output=True, text=True, check=True
         )
         feedback_pratico = resultado_feedback.stdout

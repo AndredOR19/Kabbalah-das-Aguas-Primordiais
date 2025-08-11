@@ -14,13 +14,14 @@ import re
 import sys
 import argparse
 
-def gerar_feedback_pratica(relatorio_analise, nome_pratica):
+def gerar_feedback_pratica(relatorio_analise, nome_pratica, tema_consulta):
     """
     Gera um feedback prático com base no relatório de análise.
 
     Args:
         relatorio_analise (str): O texto do relatório gerado pelo Módulo 2.
         nome_pratica (str): O nome da prática para contextualizar o feedback.
+        tema_consulta (str): O tema da consulta do usuário (ex: "Amor", "Carreira").
 
     Returns:
         str: Uma instrução clara e construtiva para a próxima prática.
@@ -41,9 +42,9 @@ def gerar_feedback_pratica(relatorio_analise, nome_pratica):
 
     # 2. Gera o feedback com base no status
     if status_alinhamento == "Alinhado":
-        feedback = gerar_feedback_alinhado(arquétipo)
+        feedback = gerar_feedback_alinhado(arquétipo, tema_consulta)
     else:
-        feedback = gerar_feedback_nao_alinhado(arquétipo)
+        feedback = gerar_feedback_nao_alinhado(arquétipo, tema_consulta)
 
     # 3. Formata a saída para o usuário
     output = f"""
@@ -58,41 +59,54 @@ def gerar_feedback_pratica(relatorio_analise, nome_pratica):
 
     return output
 
-def gerar_feedback_alinhado(arquétipo):
+def gerar_feedback_alinhado(arquétipo, tema):
     """
     Gera uma mensagem de validação e foco para um relatório "Alinhado".
 
     Args:
         arquétipo (str): O nome do arquétipo da prática (ex: "Aleph").
+        tema (str): O tema da consulta do usuário.
 
     Returns:
         str: A mensagem de feedback positivo.
     """
-    # Mensagens personalizadas por arquétipo
-    feedbacks = {
-        "Aleph": "O sistema confirma um forte alinhamento com a energia do Aleph. Para a próxima prática, mantenha o foco na intenção de Unidade e Conexão, visualizando o Vav como a ponte entre o céu e a terra.",
-        "Tiferet": "Ressonância com Tiferet estabelecida. O equilíbrio foi alcançado. Para a próxima sessão, concentre-se em irradiar essa harmonia do coração para o resto do corpo.",
-        "Default": "O alinhamento foi bem-sucedido. Continue com a mesma intenção e foco na próxima prática para aprofundar a conexão."
-    }
-    return feedbacks.get(arquétipo, feedbacks["Default"])
+    # Lógica para cruzar arquétipo e tema
+    base_feedback = f"O sistema confirma um forte alinhamento com a energia de {arquétipo}. "
+    
+    if tema == "Amor":
+        contexto = f"Isso indica uma base sólida e coerente para manifestar harmonia em seus relacionamentos. Mantenha essa vibração de equilíbrio."
+    elif tema == "Carreira":
+        contexto = f"Sua vibração está propícia para novos começos e para tomar decisões com clareza e força. Confie na sua prontidão."
+    elif tema == "Autoconhecimento":
+        contexto = f"A ressonância indica que você está em um estado receptivo para insights profundos. Continue a explorar seu mundo interior com essa mesma estabilidade."
+    else:
+        contexto = "Continue com a mesma intenção e foco na próxima prática para aprofundar a conexão."
 
-def gerar_feedback_nao_alinhado(arquétipo):
+    return base_feedback + contexto
+
+def gerar_feedback_nao_alinhado(arquétipo, tema):
     """
     Gera uma mensagem de ajuste e direcionamento para um relatório "Não Alinhado".
 
     Args:
         arquétipo (str): O nome do arquétipo da prática (ex: "Aleph").
+        tema (str): O tema da consulta do usuário.
 
     Returns:
         str: A mensagem de feedback corretivo.
     """
-    # Mensagens personalizadas por arquétipo
-    feedbacks = {
-        "Aleph": "O sistema detectou um desvio no alinhamento com o Aleph. Para a próxima prática, direcione sua atenção para a respiração, visualizando o ar como a fonte da vida e a energia que preenche o seu corpo. Foque menos na forma da letra e mais na sua essência de 'ar primordial'.",
-        "Tiferet": "Desvio detectado. A energia de Tiferet requer um relaxamento mais profundo. Na próxima vez, solte a tensão dos ombros e do maxilar antes de começar. A harmonia nasce da entrega, não do esforço.",
-        "Default": "Desvio detectado. Reavalie seu ambiente e estado interno. Certifique-se de que não há distrações e que sua intenção está clara antes de iniciar a próxima medição."
-    }
-    return feedbacks.get(arquétipo, feedbacks["Default"])
+    base_feedback = f"O sistema detectou um desvio no alinhamento com {arquétipo} em sua consulta sobre {tema}. "
+
+    if tema == "Amor":
+        contexto = f"A instabilidade vibracional sugere que questões emocionais não resolvidas podem estar interferindo em seus relacionamentos. Antes da próxima prática, medite sobre o que significa 'segurança emocional' para você."
+    elif tema == "Carreira":
+        contexto = f"A vibração dispersa indica uma falta de foco ou clareza em seus objetivos profissionais. Para a próxima prática, escreva em um papel uma única meta profissional e medite sobre ela antes de iniciar."
+    elif tema == "Autoconhecimento":
+        contexto = f"O desvio sugere que a mente está muito agitada para permitir uma introspecção verdadeira. Foque na respiração para acalmar o fluxo de pensamentos antes de mergulhar em questões profundas."
+    else:
+        contexto = "Reavalie seu ambiente e estado interno. Certifique-se de que não há distrações e que sua intenção está clara."
+
+    return base_feedback + contexto
 
 # Exemplo de uso do módulo
 if __name__ == "__main__":
@@ -100,6 +114,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="SCII - Módulo de Feedback Prático.")
     parser.add_argument("relatorio_arquivo", type=str, nargs='?', default=sys.stdin, help="Caminho para o arquivo de relatório de análise. Se não for fornecido, lê da entrada padrão (pipe).")
     parser.add_argument("--pratica", type=str, default="Default", help="Nome da prática para contextualizar o feedback.")
+    parser.add_argument("--tema", type=str, default="Autoconhecimento", help="O tema da consulta do usuário.")
 
     args = parser.parse_args()
 
@@ -120,5 +135,5 @@ if __name__ == "__main__":
             sys.exit(1)
 
     # Gera o feedback com base no texto do relatório
-    feedback_final = gerar_feedback_pratica(relatorio_texto, args.pratica)
+    feedback_final = gerar_feedback_pratica(relatorio_texto, args.pratica, args.tema)
     print(feedback_final)
