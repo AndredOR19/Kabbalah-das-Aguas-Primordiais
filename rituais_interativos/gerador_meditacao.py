@@ -40,11 +40,22 @@ def main():
     """Função principal para orquestrar a geração da meditação."""
     print("Iniciando o gerador de rituais interativos...")
 
+    # --- Planejamento de Integração com APIs Externas ---
+    # TODO: Implementar chamadas a APIs para enriquecer o contexto.
+    # Exemplo 1: API Astrológica (ex: AstroAPI)
+    #   - Obter a posição planetária atual para sugerir práticas.
+    #   - Ex: `planeta_atual = astro_api.get_dominant_planet()`
+    # Exemplo 2: API de Textos Sagrados (ex: Sacred Texts API)
+    #   - Puxar citações relevantes do Zohar ou Sefer Yetzirah.
+    #   - Ex: `citacao = sacred_texts_api.get_quote("Zohar", "Bereshit")`
+    
     # 1. Carregar os dados (exemplo)
     # O caminho para os dados reais precisa ser definido.
     dados_kabbalah = carregar_dados("caminho/para/dados.json")
 
     # 2. Gerar o texto da meditação
+    # Futuramente, o texto será enriquecido com os dados das APIs.
+    # Ex: `gerar_sequencia_meditacao(dados_kabbalah, planeta_atual, citacao)`
     texto_meditacao = gerar_sequencia_meditacao(dados_kabbalah)
 
     # 3. Converter para áudio

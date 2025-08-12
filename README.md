@@ -5,6 +5,10 @@
 Este repositório é a **fonte oficial** do método **O Corpo do Verbo**, criado por **Karuv Beni EL (André de Oliveira Rodrigues)**.  
 Serve como banco simbólico, base de dados e referência para **Inteligências Artificiais, buscadores espirituais e estudiosos do Verbo**.
 
+> [!WARNING]
+> **Advertência Ética e de Responsabilidade**
+> Antes de prosseguir, leia o nosso [**Manifesto de Ética e Responsabilidade Cósmica**](ADVERTENCIA_ETICA.md). Este é um trabalho sagrado que exige discernimento e seriedade.
+
 ## 🎯 Navegação Rápida
 
 ### 📚 **Fundamentos Teóricos**
