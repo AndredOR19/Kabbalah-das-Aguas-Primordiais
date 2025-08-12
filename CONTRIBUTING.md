@@ -70,9 +70,14 @@ Este é um **projeto sagrado** dedicado à preservação e transmissão do conhe
 - Seja **preciso** e **respeitoso**
 - Evite **linguagem coloquial** em textos fundamentais
 
-## 🛡️ Princípios Éticos
-
-### 📚 **Integridade do Conhecimento**
+#### 🔬 **Abordagem Filosófica e Teórica**
+- **Profundidade sobre Superficialidade:** Ao trabalhar com dados, especialmente os arquivos JSON, é crucial ir além da simples tradução. Busque compreender o contexto e a profundidade dos ensinamentos que informam o método "O Corpo do Verbo".
+- **Contexto nas Fontes Clássicas:** O método "O Corpo do Verbo" é um sistema único. Fontes primárias como o Zohar e o Sefer Yetzirah, assim como as obras de pesquisadores como **Moshe Idel**, não *definem* nosso método, mas o *complementam*. Elas servem para fornecer um contexto rico e justificar as pontes que este trabalho cria com a tradição. Ao contribuir, use essas fontes para enriquecer a compreensão, mantendo sempre a estrutura do método "O Corpo do Verbo" como o eixo central. Consulte as análises em `documentos/analises_fontes/`.
+- **Foco na Kabbalah Experiencial:** A perspectiva de autores como Idel é valiosa por enfatizar a dimensão experiencial, que é um pilar para o desenvolvimento dos módulos de aplicação prática deste repositório.
+ 
+ ## 🛡️ Princípios Éticos
+ 
+ ### 📚 **Integridade do Conhecimento**
 - **Preserve** a essência dos ensinamentos
 - **Cite** todas as fontes utilizadas
 - **Respeite** a tradição e o método original
