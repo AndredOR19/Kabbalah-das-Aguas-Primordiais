@@ -1,0 +1,107 @@
+{
+  "metadata": {
+    "nome": "Maria Santos",
+    "data_nascimento": "20/07/1985",
+    "hora_nascimento": "10:15",
+    "local": "London, United Kingdom",
+    "timestamp_calculo": "2025-08-12T17:19:15.550646",
+    "versao_scii": "5.0"
+  },
+  "luminares": {
+    "sol": {
+      "signo": "Can",
+      "graus": 117.6,
+      "casa": "Eleventh_House",
+      "elemento": "Água",
+      "modalidade": "Cardinal"
+    },
+    "lua": {
+      "signo": "Leo",
+      "graus": 147.57,
+      "casa": "Twelfth_House",
+      "elemento": "Fogo",
+      "modalidade": "Fixo"
+    },
+    "ascendente": {
+      "signo": "Vir",
+      "graus": 170.64,
+      "elemento": "Terra",
+      "modalidade": "Mutável"
+    }
+  },
+  "planetas": {
+    "mercury": {
+      "signo": "Leo",
+      "graus": 143.0,
+      "casa": "Eleventh_House",
+      "elemento": "Fogo",
+      "modalidade": "Fixo"
+    },
+    "venus": {
+      "signo": "Gem",
+      "graus": 75.36,
+      "casa": "Ninth_House",
+      "elemento": "Ar",
+      "modalidade": "Mutável"
+    },
+    "mars": {
+      "signo": "Can",
+      "graus": 116.9,
+      "casa": "Eleventh_House",
+      "elemento": "Água",
+      "modalidade": "Cardinal"
+    },
+    "jupiter": {
+      "signo": "Aqu",
+      "graus": 313.94,
+      "casa": "Fifth_House",
+      "elemento": "Ar",
+      "modalidade": "Fixo"
+    },
+    "saturn": {
+      "signo": "Sco",
+      "graus": 231.49,
+      "casa": "Third_House",
+      "elemento": "Água",
+      "modalidade": "Fixo"
+    },
+    "uranus": {
+      "signo": "Sag",
+      "graus": 254.42,
+      "casa": "Third_House",
+      "elemento": "Fogo",
+      "modalidade": "Mutável"
+    },
+    "neptune": {
+      "signo": "Cap",
+      "graus": 271.55,
+      "casa": "Fourth_House",
+      "elemento": "Terra",
+      "modalidade": "Cardinal"
+    },
+    "pluto": {
+      "signo": "Sco",
+      "graus": 211.94,
+      "casa": "Second_House",
+      "elemento": "Água",
+      "modalidade": "Fixo"
+    }
+  },
+  "elementos_dominantes": {
+    "Fogo": 4,
+    "Terra": 3,
+    "Ar": 2,
+    "Água": 5
+  },
+  "modalidades_dominantes": {
+    "Cardinal": 4,
+    "Fixo": 6,
+    "Mutável": 4
+  },
+  "assinatura_cosmica": {
+    "trindade_principal": "Can-Leo-Vir",
+    "elemento_dominante": "Água",
+    "modalidade_dominante": "Fixo",
+    "codigo_cosmico": "CANLEOVIR"
+  }
+}

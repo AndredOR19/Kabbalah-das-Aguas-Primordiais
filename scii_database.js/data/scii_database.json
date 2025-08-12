@@ -1,295 +1,471 @@
 {
   "metadata": {
-    "version": "1.0.0",
-    "last_updated": "2025-07-28",
-    "description": "Base de Dados Estruturada para o Sistema de Correspondência Integrada e Inteligente (SCII). Mapeia as relações entre Letras Hebraicas, Planetas, Sephirot e Chakras."
+    "version": "2.0.0",
+    "last_updated": "2025-01-27",
+    "description": "SCII-Core: Base de Dados Unificada para integração entre Sismógrafo Emocional e Atlas Anatômico 3D. Mapeia correspondências completas entre Letras Hebraicas, Anatomia, Emoções e Estados Psicofisiológicos."
   },
   "letras": {
     "Aleph": {
+      "id": "ALEPH_001",
       "valor_gemátrico": 1,
+      "letra_hebraica": "א",
+      "nome_anatomico": "Sistema Respiratório",
+      "id_mesh_3d": "Respiratory_System_Mesh",
       "pictograma": "Touro / Cabeça de Boi",
       "som": "Silenciosa (portadora de vogal)",
       "elemento_primordial": "Ar",
       "planeta": "Urano",
       "astro_secundario": "O Louco (Tarot)",
       "funcao_corpo_somatico": "Respiração, Prana, Diafragma, sistema nervoso autônomo",
+      "emocoes_associadas": ["ansiedade", "paralisia_criativa", "desconexão", "potencial_bloqueado", "falta_de_iniciativa", "respiração_superficial", "hiperventilação"],
+      "estados_chave": ["hrv_irregular", "respiração_acelerada", "foco_disperso", "energia_estagnada", "criatividade_bloqueada", "ansiedade_generalizada"],
       "acao_espiritual": "Potencial puro, o 'ainda não', Vontade Primordial, Unidade, o sopro que inicia",
+      "funcao_espiritual": "Iniciação do sopro vital, conexão com o potencial infinito",
       "caminho_arvore_vida": "1-2 (Kether-Chokmah)",
       "diagnostico_bloqueio": "Paralisia por excesso de potencial, falta de iniciativa, desconexão com o propósito, ansiedade generalizada, incapacidade de começar.",
-      "comando_ritualistico": "Inalar o potencial do todo, expirar a ação no particular."
+      "comando_ritualistico": "Inalar o potencial do todo, expirar a ação no particular.",
+      "pratica_sugerida": "Respiração consciente, meditação do sopro primordial"
     },
     "Beth": {
+      "id": "BETH_002",
       "valor_gemátrico": 2,
+      "letra_hebraica": "ב",
+      "nome_anatomico": "Sistema Digestivo",
+      "id_mesh_3d": "Digestive_System_Mesh",
       "pictograma": "Casa / Tenda / Recipiente",
       "som": "B / V",
       "elemento_primordial": "Matéria (como recipiente)",
       "planeta": "Mercúrio",
       "astro_secundario": "O Mago (Tarot)",
       "funcao_corpo_somatico": "Boca, o recipiente do Verbo, sistema digestivo, o corpo como casa da alma",
+      "emocoes_associadas": ["dispersão", "falta_de_foco", "insegurança", "desorganização", "falar_sem_agir", "desamparo", "instabilidade"],
+      "estados_chave": ["digestão_irregular", "foco_baixo", "energia_dispersa", "comunicação_confusa", "materialização_bloqueada", "instabilidade_emocional"],
       "acao_espiritual": "Interiorização, criação de um espaço interno, delimitação, foco, a primeira contração",
+      "funcao_espiritual": "Criação do recipiente sagrado para o Verbo",
       "caminho_arvore_vida": "1-3 (Kether-Binah)",
       "diagnostico_bloqueio": "Dispersão, falta de foco, incapacidade de materializar ideias, falar sem agir, sentir-se 'sem casa' ou desprotegido.",
-      "comando_ritualistico": "Construir o Templo interior, dar um corpo à Palavra."
+      "comando_ritualistico": "Construir o Templo interior, dar um corpo à Palavra.",
+      "pratica_sugerida": "Meditação de contenção, exercícios de foco e concentração"
     },
     "Gimel": {
+      "id": "GIMEL_003",
       "valor_gemátrico": 3,
+      "letra_hebraica": "ג",
+      "nome_anatomico": "Sistema Circulatório",
+      "id_mesh_3d": "Circulatory_System_Mesh",
       "pictograma": "Camelo / Pé",
       "som": "G (forte)",
       "elemento_primordial": "Movimento",
       "planeta": "Lua",
       "astro_secundario": "A Sacerdotisa (Tarot)",
       "funcao_corpo_somatico": "Pés, pernas, sistema circulatório, o fluxo dos fluidos corporais",
+      "emocoes_associadas": ["estagnação", "medo_de_mudança", "apego_ao_passado", "inconstância_emocional", "resistência_ao_fluxo", "instabilidade", "nostalgia_paralisante"],
+      "estados_chave": ["circulação_lenta", "fluxo_energético_bloqueado", "resistência_à_mudança", "instabilidade_emocional", "movimento_restrito", "adaptação_difícil"],
       "acao_espiritual": "Jornada, transição, fluxo e refluxo, carregar e descarregar, a dinâmica da vida",
+      "funcao_espiritual": "Mediação entre mundos, fluxo da vida",
       "caminho_arvore_vida": "1-6 (Kether-Tiphareth)",
       "diagnostico_bloqueio": "Estagnação, medo de mudar, apego ao passado, inconstância emocional, incapacidade de seguir em frente ou de retornar.",
-      "comando_ritualistico": "Atravessar o deserto das ilusões, confiar no fluxo."
+      "comando_ritualistico": "Atravessar o deserto das ilusões, confiar no fluxo.",
+      "pratica_sugerida": "Caminhadas meditativas, exercícios de fluxo e movimento"
     },
     "Daleth": {
+      "id": "DALETH_004",
       "valor_gemátrico": 4,
+      "letra_hebraica": "ד",
+      "nome_anatomico": "Sistema Reprodutor",
+      "id_mesh_3d": "Reproductive_System_Mesh",
       "pictograma": "Porta / Ventre",
       "som": "D",
       "elemento_primordial": "Estrutura",
       "planeta": "Vênus",
       "astro_secundario": "A Imperatriz (Tarot)",
       "funcao_corpo_somatico": "Útero, órgãos reprodutores, a 'porta' do corpo (boca, narinas, etc.)",
+      "emocoes_associadas": ["infertilidade_criativa", "bloqueio_receptivo", "apego_material", "instabilidade_estrutural", "dificuldade_de_nutrir", "fechamento_emocional", "rigidez"],
+      "estados_chave": ["criatividade_bloqueada", "receptividade_baixa", "estrutura_instável", "nutrição_deficiente", "materialização_difícil", "fertilidade_comprometida"],
       "acao_espiritual": "Materialização, fertilidade, nutrição, a passagem entre mundos, a estrutura que permite a manifestação",
+      "funcao_espiritual": "Portal de manifestação, nutrição da criação",
       "caminho_arvore_vida": "2-3 (Chokmah-Binah)",
       "diagnostico_bloqueio": "Infertilidade (física ou criativa), dificuldade em receber ou dar, apego excessivo à matéria, instabilidade.",
-      "comando_ritualistico": "Abrir a porta para a abundância, nutrir a criação."
+      "comando_ritualistico": "Abrir a porta para a abundância, nutrir a criação.",
+      "pratica_sugerida": "Meditações de abertura, práticas de nutrição e acolhimento"
     },
     "He": {
+      "id": "HE_005",
       "valor_gemátrico": 5,
+      "letra_hebraica": "ה",
+      "nome_anatomico": "Sistema Visual",
+      "id_mesh_3d": "Visual_System_Mesh",
       "pictograma": "Janela / Homem em adoração",
       "som": "H (aspirado)",
       "elemento_primordial": "Visão / Revelação",
       "planeta": "Marte",
       "astro_secundario": "O Imperador (Tarot - como estrutura da visão)",
       "funcao_corpo_somatico": "Olhos, visão, sistema nervoso central",
+      "emocoes_associadas": ["cegueira_espiritual", "falta_de_perspectiva", "teimosia", "fanatismo", "visão_limitada", "rigidez_mental", "negação"],
+      "estados_chave": ["visão_turva", "perspectiva_limitada", "rigidez_cognitiva", "negação_da_realidade", "fanatismo", "cegueira_emocional"],
       "acao_espiritual": "Revelação, percepção, contemplação, a janela da alma, a estrutura da consciência",
+      "funcao_espiritual": "Janela da percepção, revelação da verdade",
       "caminho_arvore_vida": "2-6 (Chokmah-Tiphareth)",
       "diagnostico_bloqueio": "Cegueira (física ou espiritual), falta de perspectiva, teimosia, incapacidade de ver a verdade, fanatismo.",
-      "comando_ritualistico": "Ver além da forma, contemplar a essência."
+      "comando_ritualistico": "Ver além da forma, contemplar a essência.",
+      "pratica_sugerida": "Meditação contemplativa, exercícios de abertura de perspectiva"
     },
     "Vav": {
+      "id": "VAV_006",
       "valor_gemátrico": 6,
+      "letra_hebraica": "ו",
+      "nome_anatomico": "Coluna Vertebral",
+      "id_mesh_3d": "Spinal_Column_Mesh",
       "pictograma": "Gancho / Prego",
       "som": "V / U / O",
       "elemento_primordial": "Conexão",
       "planeta": "Touro (Zodíaco)",
       "astro_secundario": "O Hierofante (Tarot)",
       "funcao_corpo_somatico": "Ouvido, coluna vertebral (o que conecta céu e terra no corpo)",
+      "emocoes_associadas": ["desconexão_espiritual", "abandono", "surdez_intuitiva", "quebra_de_tradições", "conflito_interno", "desalinhamento", "isolamento"],
+      "estados_chave": ["desalinhamento_postural", "desconexão_energética", "conflito_mente_coração", "isolamento_espiritual", "tradições_perdidas", "comunicação_bloqueada"],
       "acao_espiritual": "Conectar o superior e o inferior, unir, ligar, a tradição que conecta gerações, o Verbo que se faz carne",
+      "funcao_espiritual": "Eixo de conexão entre céu e terra",
       "caminho_arvore_vida": "2-4 (Chokmah-Chesed)",
       "diagnostico_bloqueio": "Desconexão espiritual, sentimento de abandono, incapacidade de ouvir a intuição, quebra de tradições, conflito entre mente e coração.",
-      "comando_ritualistico": "Ser o prego que une o Céu e a Terra."
+      "comando_ritualistico": "Ser o prego que une o Céu e a Terra.",
+      "pratica_sugerida": "Alinhamento postural, meditação de conexão vertical"
     },
     "Zayin": {
+      "id": "ZAYIN_007",
       "valor_gemátrico": 7,
+      "letra_hebraica": "ז",
+      "nome_anatomico": "Sistema Muscular",
+      "id_mesh_3d": "Muscular_System_Mesh",
       "pictograma": "Espada / Arado",
       "som": "Z",
       "elemento_primordial": "Discernimento / Corte",
       "planeta": "Gêmeos (Zodíaco)",
       "astro_secundario": "Os Amantes (Tarot)",
       "funcao_corpo_somatico": "Sistema motor, músculos e tendões que executam a decisão",
+      "emocoes_associadas": ["indecisão", "paralisia_analítica", "conflito_interno", "agressividade_mal_direcionada", "dúvida_constante", "tensão_muscular", "rigidez_mental"],
+      "estados_chave": ["tensão_muscular_alta", "decisão_bloqueada", "conflito_interno_ativo", "rigidez_corporal", "movimento_restrito", "escolha_difícil"],
       "acao_espiritual": "Escolha, decisão, discernimento, cortar o supérfluo, a vitória através da clareza mental",
+      "funcao_espiritual": "Espada do discernimento, execução da vontade",
       "caminho_arvore_vida": "3-6 (Binah-Tiphareth)",
       "diagnostico_bloqueio": "Indecisão, paralisia analítica, conflito interno, agressividade mal direcionada, incapacidade de fazer escolhas.",
-      "comando_ritualistico": "Empunhar a espada da mente para cortar os nós da dúvida."
+      "comando_ritualistico": "Empunhar a espada da mente para cortar os nós da dúvida.",
+      "pratica_sugerida": "Exercícios de decisão, práticas de discernimento"
     },
     "Cheth": {
+      "id": "CHETH_008",
       "valor_gemátrico": 8,
+      "letra_hebraica": "ח",
+      "nome_anatomico": "Caixa Torácica",
+      "id_mesh_3d": "Ribcage_Mesh",
       "pictograma": "Cerca / Muro",
       "som": "CH (gutural)",
       "elemento_primordial": "Proteção / Limite",
       "planeta": "Câncer (Zodíaco)",
       "astro_secundario": "A Carruagem (Tarot)",
       "funcao_corpo_somatico": "Caixa torácica, pele, o campo energético (aura)",
+      "emocoes_associadas": ["isolamento", "vulnerabilidade_excessiva", "muros_emocionais", "medo_do_exterior", "proteção_excessiva", "claustrofobia", "defensividade"],
+      "estados_chave": ["respiração_restrita", "proteção_ativa", "isolamento_energético", "campo_áurico_contraído", "defensividade_alta", "vulnerabilidade_percebida"],
       "acao_espiritual": "Delimitar o espaço sagrado, proteção, trabalho interior, a dinâmica entre o dentro e o fora",
+      "funcao_espiritual": "Proteção do espaço sagrado interior",
       "caminho_arvore_vida": "3-5 (Binah-Geburah)",
       "diagnostico_bloqueio": "Isolamento, vulnerabilidade excessiva, construção de muros emocionais, medo do mundo exterior, estagnação por excesso de proteção.",
-      "comando_ritualistico": "Construir a cerca do campo que será cultivado."
+      "comando_ritualistico": "Construir a cerca do campo que será cultivado.",
+      "pratica_sugerida": "Exercícios de abertura gradual, práticas de proteção consciente"
     },
     "Teth": {
+      "id": "TETH_009",
       "valor_gemátrico": 9,
+      "letra_hebraica": "ט",
+      "nome_anatomico": "Intestinos",
+      "id_mesh_3d": "Intestinal_System_Mesh",
       "pictograma": "Serpente / Cesto",
       "som": "T (forte)",
       "elemento_primordial": "Energia Kundalini / Potencial oculto",
       "planeta": "Leão (Zodíaco)",
       "astro_secundario": "A Força (Tarot)",
       "funcao_corpo_somatico": "Intestinos, sistema digestivo inferior, energia sexual primordial",
+      "emocoes_associadas": ["repressão_sexual", "vergonha", "culpa", "sabedoria_não_utilizada", "auto_sabotagem", "veneno_emocional", "maledicência"],
+      "estados_chave": ["energia_vital_reprimida", "digestão_bloqueada", "kundalini_adormecida", "toxicidade_interna", "sabedoria_oculta", "transformação_necessária"],
       "acao_espiritual": "Transformação da energia primordial, sabedoria oculta, o bem contido no mal, a serpente da sabedoria",
+      "funcao_espiritual": "Transformação da energia primordial, alquimia interior",
       "caminho_arvore_vida": "4-5 (Chesed-Geburah)",
       "diagnostico_bloqueio": "Repressão da energia vital/sexual, vergonha, culpa, sabedoria não utilizada, auto-sabotagem, veneno (fofoca, maledicência).",
-      "comando_ritualistico": "Domar a serpente interior, transformar veneno em remédio."
+      "comando_ritualistico": "Domar a serpente interior, transformar veneno em remédio.",
+      "pratica_sugerida": "Práticas de transformação energética, alquimia emocional"
     },
     "Yod": {
+      "id": "YOD_010",
       "valor_gemátrico": 10,
+      "letra_hebraica": "י",
+      "nome_anatomico": "Mãos",
+      "id_mesh_3d": "Hands_Mesh",
       "pictograma": "Mão / Braço / Semente",
       "som": "Y / I",
       "elemento_primordial": "A Semente do Potencial",
       "planeta": "Virgem (Zodíaco)",
       "astro_secundario": "O Eremita (Tarot)",
       "funcao_corpo_somatico": "Mãos, dedos, a capacidade de fazer e manipular",
+      "emocoes_associadas": ["incapacidade_de_agir", "complexo_de_inferioridade", "perfeccionismo_paralisante", "projetos_não_iniciados", "falta_de_detalhes", "impotência", "procrastinação"],
+      "estados_chave": ["ação_bloqueada", "perfeccionismo_ativo", "iniciativa_baixa", "habilidade_manual_restrita", "manifestação_difícil", "detalhamento_excessivo"],
       "acao_espiritual": "O ponto de partida, a semente de toda a criação, a ação concentrada, o poder da manifestação na mão",
+      "funcao_espiritual": "Semente da manifestação, poder da ação concentrada",
       "caminho_arvore_vida": "4-6 (Chesed-Tiphareth)",
       "diagnostico_bloqueio": "Incapacidade de agir, complexo de inferioridade, perfeccionismo paralisante, projetos não iniciados, falta de atenção aos detalhes.",
-      "comando_ritualistico": "Plantar a semente da Vontade no solo da Ação."
+      "comando_ritualistico": "Plantar a semente da Vontade no solo da Ação.",
+      "pratica_sugerida": "Exercícios manuais, práticas de manifestação concreta"
     },
     "Kaph": {
+      "id": "KAPH_020",
       "valor_gemátrico": 20,
+      "letra_hebraica": "כ",
+      "nome_anatomico": "Fígado",
+      "id_mesh_3d": "Liver_Mesh",
       "pictograma": "Palma da Mão (aberta)",
       "som": "K / KH",
       "elemento_primordial": "Recepção / Realização",
       "planeta": "Júpiter",
       "astro_secundario": "A Roda da Fortuna (Tarot)",
       "funcao_corpo_somatico": "Fígado, rins, sistemas de filtragem e processamento",
+      "emocoes_associadas": ["frustração", "raiva_reprimida", "estagnação", "crescimento_expansivo", "avareza", "incapacidade_de_receber", "medo_da_mudança"],
+      "estados_chave": ["foco_baixo", "hrv_baixo", "fluxo_criativo", "digestão_lenta", "toxicidade_emocional", "ciclos_interrompidos"],
       "acao_espiritual": "Receber e conter a força, o ciclo de dar e receber, a palma da mão que abençoa ou que segura",
+      "funcao_espiritual": "Filtro emocional e energético, processamento de experiências",
       "caminho_arvore_vida": "4-7 (Chesed-Netzach)",
       "diagnostico_bloqueio": "Incapacidade de receber, avareza, ganância, estagnação por não deixar fluir, medo da mudança (ciclos).",
-      "comando_ritualistico": "Abrir a mão para receber, fechar para realizar."
+      "comando_ritualistico": "Abrir a mão para receber, fechar para realizar.",
+      "pratica_sugerida": "Práticas de desintoxicação emocional, exercícios de generosidade"
     },
     "Lamed": {
+      "id": "LAMED_030",
       "valor_gemátrico": 30,
+      "letra_hebraica": "ל",
+      "nome_anatomico": "Vesícula Biliar",
+      "id_mesh_3d": "Gallbladder_Mesh",
       "pictograma": "Aguilhão de Boi / Cajado de Pastor",
       "som": "L",
       "elemento_primordial": "Direção / Ensino",
       "planeta": "Libra (Zodíaco)",
       "astro_secundario": "A Justiça (Tarot)",
       "funcao_corpo_somatico": "Vesícula biliar, o impulso para a ação correta",
+      "emocoes_associadas": ["falta_de_direção", "autoritarismo", "recusa_em_aprender", "desequilíbrio", "injustiça", "amargura", "rigidez_mental"],
+      "estados_chave": ["direção_perdida", "desequilíbrio_hormonal", "digestão_de_gorduras_difícil", "autoridade_questionada", "aprendizado_bloqueado", "justiça_distorcida"],
       "acao_espiritual": "Aprender e ensinar, a autoridade que vem do conhecimento, direção, propósito, o aguilhão que move",
+      "funcao_espiritual": "Cajado da direção, autoridade do conhecimento",
       "caminho_arvore_vida": "5-6 (Geburah-Tiphareth)",
       "diagnostico_bloqueio": "Falta de direção, autoritarismo, recusa em aprender, desequilíbrio, injustiça (cometida ou sofrida).",
-      "comando_ritualistico": "Aprender para ensinar, ensinar para aprender."
+      "comando_ritualistico": "Aprender para ensinar, ensinar para aprender.",
+      "pratica_sugerida": "Práticas de equilíbrio, exercícios de liderança consciente"
     },
     "Mem": {
+      "id": "MEM_040",
       "valor_gemátrico": 40,
+      "letra_hebraica": "מ",
+      "nome_anatomico": "Sistema Linfático",
+      "id_mesh_3d": "Lymphatic_System_Mesh",
       "pictograma": "Água",
       "som": "M",
       "elemento_primordial": "Água",
       "planeta": "Netuno",
       "astro_secundario": "O Enforcado (Tarot)",
       "funcao_corpo_somatico": "Sangue, linfa, todos os fluidos corporais, o inconsciente",
+      "emocoes_associadas": ["afogamento_emocional", "instabilidade", "medo_do_inconsciente", "sacrifício_inútil", "intuição_bloqueada", "fluidez_perdida", "estagnação_emocional"],
+      "estados_chave": ["fluxo_emocional_bloqueado", "intuição_baixa", "instabilidade_humor", "retenção_líquida", "toxinas_emocionais", "sacrifício_desnecessário"],
       "acao_espiritual": "O inconsciente, as águas primordiais, o fluxo das emoções, sacrifício, intuição profunda",
+      "funcao_espiritual": "Purificação emocional, fluxo do inconsciente",
       "caminho_arvore_vida": "5-8 (Geburah-Hod)",
       "diagnostico_bloqueio": "Afogamento emocional, instabilidade, medo do inconsciente, sacrifício inútil, falta de intuição.",
-      "comando_ritualistico": "Mergulhar nas águas da alma sem se afogar."
+      "comando_ritualistico": "Mergulhar nas águas da alma sem se afogar.",
+      "pratica_sugerida": "Meditação aquática, práticas de purificação emocional"
     },
     "Nun": {
+      "id": "NUN_050",
       "valor_gemátrico": 50,
+      "letra_hebraica": "נ",
+      "nome_anatomico": "DNA/Sistema Genético",
+      "id_mesh_3d": "Genetic_System_Mesh",
       "pictograma": "Peixe / Serpente do Mar",
       "som": "N",
       "elemento_primordial": "Perpetuação / Movimento nas profundezas",
       "planeta": "Escorpião (Zodíaco)",
       "astro_secundario": "A Morte (Tarot)",
       "funcao_corpo_somatico": "Sistema reprodutor, DNA, a herança genética",
+      "emocoes_associadas": ["medo_da_morte", "medo_da_mudança", "estagnação", "putrefação_psíquica", "crises_de_identidade", "vícios", "resistência_à_transformação"],
+      "estados_chave": ["transformação_bloqueada", "identidade_em_crise", "padrões_viciosos", "herança_genética_ativa", "instinto_reprimido", "renascimento_necessário"],
       "acao_espiritual": "Transformação profunda, renascimento, a continuidade da vida através da morte, instinto",
+      "funcao_espiritual": "Serpente da transformação, continuidade genética",
       "caminho_arvore_vida": "6-7 (Tiphareth-Netzach)",
       "diagnostico_bloqueio": "Medo da morte e da mudança, estagnação, putrefação (física ou psíquica), crises de identidade, vícios.",
-      "comando_ritualistico": "Morrer para o que se foi, nascer para o que se é."
+      "comando_ritualistico": "Morrer para o que se foi, nascer para o que se é.",
+      "pratica_sugerida": "Práticas de transformação profunda, rituais de renascimento"
     },
     "Samekh": {
+      "id": "SAMEKH_060",
       "valor_gemátrico": 60,
+      "letra_hebraica": "ס",
+      "nome_anatomico": "Sistema de Suporte",
+      "id_mesh_3d": "Support_System_Mesh",
       "pictograma": "Escora / Suporte",
       "som": "S",
       "elemento_primordial": "Suporte / Estrutura Cíclica",
       "planeta": "Sagitário (Zodíaco)",
       "astro_secundario": "A Temperança (Tarot)",
       "funcao_corpo_somatico": "Esqueleto, a estrutura de suporte do corpo",
+      "emocoes_associadas": ["falta_de_apoio", "desconfiança", "ciclo_vicioso", "falta_de_fé", "insegurança_estrutural", "dependência_excessiva", "colapso_interno"],
+      "estados_chave": ["suporte_inadequado", "confiança_baixa", "estrutura_instável", "ciclos_viciosos_ativos", "fé_abalada", "temperança_perdida"],
       "acao_espiritual": "Suporte, confiança, o ciclo que se completa e se sustenta, a espinha dorsal da fé (confiança)",
+      "funcao_espiritual": "Escora do templo interior, estrutura da confiança",
       "caminho_arvore_vida": "6-9 (Tiphareth-Yesod)",
       "diagnostico_bloqueio": "Falta de apoio (interno ou externo), desconfiança, ciclo vicioso, falta de fé em si mesmo e na vida.",
-      "comando_ritualistico": "Ser a escora do seu próprio Templo."
+      "comando_ritualistico": "Ser a escora do seu próprio Templo.",
+      "pratica_sugerida": "Exercícios de confiança, práticas de auto-suporte"
     },
     "Ayin": {
+      "id": "AYIN_070",
       "valor_gemátrico": 70,
+      "letra_hebraica": "ע",
+      "nome_anatomico": "Glândula Pineal",
+      "id_mesh_3d": "Pineal_Gland_Mesh",
       "pictograma": "Olho",
       "som": "Gutural (silenciosa)",
       "elemento_primordial": "Percepção Interior",
       "planeta": "Capricórnio (Zodíaco)",
       "astro_secundario": "O Diabo (Tarot)",
       "funcao_corpo_somatico": "Olhos (aspecto interno), glândula pineal",
+      "emocoes_associadas": ["materialismo", "apego", "vícios", "ilusão", "superficialidade", "ignorância_voluntária", "escravidão_das_aparências"],
+      "estados_chave": ["visão_interior_bloqueada", "apego_material_forte", "vícios_ativos", "ilusão_persistente", "pineal_calcificada", "percepção_limitada"],
       "acao_espiritual": "Ver a realidade como ela é, desmascarar a ilusão da matéria, a visão interior que percebe as correntes",
+      "funcao_espiritual": "Olho interior, percepção da realidade oculta",
       "caminho_arvore_vida": "6-8 (Tiphareth-Hod)",
       "diagnostico_bloqueio": "Materialismo, apego, vícios, ilusão, ver apenas a superfície, ignorância voluntária, ser escravo das aparências.",
-      "comando_ritualistico": "Abrir o olho interior para dissolver as correntes da ilusão."
+      "comando_ritualistico": "Abrir o olho interior para dissolver as correntes da ilusão.",
+      "pratica_sugerida": "Meditação do terceiro olho, práticas de desapego"
     },
     "Pe": {
+      "id": "PE_080",
       "valor_gemátrico": 80,
+      "letra_hebraica": "פ",
+      "nome_anatomico": "Sistema Vocal",
+      "id_mesh_3d": "Vocal_System_Mesh",
       "pictograma": "Boca",
       "som": "P / F",
       "elemento_primordial": "Palavra / Expressão",
       "planeta": "Marte",
       "astro_secundario": "A Torre (Tarot)",
       "funcao_corpo_somatico": "Boca, cordas vocais, a capacidade de expressão",
+      "emocoes_associadas": ["comunicação_destrutiva", "fofoca", "mentira", "incapacidade_de_expressão", "explosões_de_raiva", "repressão_vocal", "palavras_ferinas"],
+      "estados_chave": ["expressão_bloqueada", "comunicação_tóxica", "raiva_explosiva", "verdade_reprimida", "palavra_destrutiva", "torre_do_ego_ativa"],
       "acao_espiritual": "O poder da palavra para criar ou destruir, a expressão da verdade que quebra estruturas falsas",
+      "funcao_espiritual": "Torre da expressão, poder criador da palavra",
       "caminho_arvore_vida": "7-8 (Netzach-Hod)",
       "diagnostico_bloqueio": "Comunicação destrutiva (fofoca, mentira), incapacidade de se expressar, explosões de raiva, repressão.",
-      "comando_ritualistico": "Que a Palavra seja a expressão da Vontade, e não do ego."
+      "comando_ritualistico": "Que a Palavra seja a expressão da Vontade, e não do ego.",
+      "pratica_sugerida": "Exercícios de comunicação consciente, práticas de expressão autêntica"
     },
     "Tzadi": {
+      "id": "TZADI_090",
       "valor_gemátrico": 90,
+      "letra_hebraica": "צ",
+      "nome_anatomico": "Sistema Nervoso",
+      "id_mesh_3d": "Nervous_System_Mesh",
       "pictograma": "Anzol / Homem de joelhos",
       "som": "TZ",
       "elemento_primordial": "A Caça Justa / Humildade",
       "planeta": "Aquário (Zodíaco)",
       "astro_secundario": "A Estrela (Tarot)",
       "funcao_corpo_somatico": "Sistema nervoso, os 'ganchos' sinápticos",
+      "emocoes_associadas": ["falsa_esperança", "arrogância_espiritual", "rebeldia_sem_causa", "desconexão_comunitária", "idealismo_impraticável", "ansiedade_espiritual", "busca_obsessiva"],
+      "estados_chave": ["sistema_nervoso_hiperestimulado", "esperança_distorcida", "arrogância_ativa", "desconexão_social", "idealismo_excessivo", "meditação_bloqueada"],
       "acao_espiritual": "A busca pela verdade, a 'pesca' no inconsciente, esperança, meditação, a humildade necessária para receber a revelação",
+      "funcao_espiritual": "Anzol da busca espiritual, estrela da esperança",
       "caminho_arvore_vida": "7-9 (Netzach-Yesod)",
       "diagnostico_bloqueio": "Falsa esperança, arrogância espiritual, rebeldia sem causa, desconexão com a comunidade, idealismo impraticável.",
-      "comando_ritualistico": "Lançar o anzol da meditação nas águas da esperança."
+      "comando_ritualistico": "Lançar o anzol da meditação nas águas da esperança.",
+      "pratica_sugerida": "Meditação humilde, práticas de conexão comunitária"
     },
     "Qoph": {
+      "id": "QOPH_100",
       "valor_gemátrico": 100,
+      "letra_hebraica": "ק",
+      "nome_anatomico": "Cérebro Reptiliano",
+      "id_mesh_3d": "Reptilian_Brain_Mesh",
       "pictograma": "Nuca / Fundo da Cabeça",
       "som": "Q",
       "elemento_primordial": "O Inconsciente Profundo",
       "planeta": "Peixes (Zodíaco)",
       "astro_secundario": "A Lua (Tarot)",
       "funcao_corpo_somatico": "Cérebro reptiliano, o subconsciente, sono e sonhos",
+      "emocoes_associadas": ["medos_primordiais", "fobias", "pesadelos", "ilusões", "autoengano", "perigo_astral", "loucura_iminente"],
+      "estados_chave": ["inconsciente_ativo", "medos_profundos", "sonhos_perturbadores", "ilusões_persistentes", "instintos_primitivos", "travessia_noturna"],
       "acao_espiritual": "A jornada noturna da alma, os medos primordiais, as ilusões do caminho, a travessia perigosa do inconsciente",
+      "funcao_espiritual": "Lua do inconsciente, guardião dos medos primordiais",
       "caminho_arvore_vida": "7-10 (Netzach-Malkuth)",
       "diagnostico_bloqueio": "Medos, fobias, pesadelos, ilusões, autoengano, perigo de se perder no mundo astral ou na loucura.",
-      "comando_ritualistico": "Atravessar a noite escura da alma com a bússola da Vontade."
+      "comando_ritualistico": "Atravessar a noite escura da alma com a bússola da Vontade.",
+      "pratica_sugerida": "Trabalho com sonhos, práticas de enfrentamento de medos"
     },
     "Resh": {
+      "id": "RESH_200",
       "valor_gemátrico": 200,
+      "letra_hebraica": "ר",
+      "nome_anatomico": "Cérebro",
+      "id_mesh_3d": "Brain_Mesh",
       "pictograma": "Cabeça de Homem",
       "som": "R",
       "elemento_primordial": "A Consciência Individual",
       "planeta": "Sol",
       "astro_secundario": "O Sol (Tarot)",
       "funcao_corpo_somatico": "Cérebro, a cabeça como centro da individualidade",
+      "emocoes_associadas": ["ego_inflado", "arrogância", "falta_de_clareza_mental", "tirania", "egocentrismo", "orgulho_excessivo", "individualismo_tóxico"],
+      "estados_chave": ["consciência_egóica_ativa", "clareza_mental_baixa", "arrogância_alta", "liderança_tirânica", "foco_excessivo_no_eu", "sol_do_ego_brilhando"],
       "acao_espiritual": "A consciência desperta, a inteligência, a individualidade, a capacidade de organizar e governar",
+      "funcao_espiritual": "Sol da consciência individual, centro do comando",
       "caminho_arvore_vida": "8-9 (Hod-Yesod)",
       "diagnostico_bloqueio": "Ego inflado, arrogância, falta de clareza mental, tirania, incapacidade de ver o todo por focar apenas em si.",
-      "comando_ritualistico": "Que a cabeça se curve ao coração, e o Sol ilumine o todo."
+      "comando_ritualistico": "Que a cabeça se curve ao coração, e o Sol ilumine o todo.",
+      "pratica_sugerida": "Práticas de humildade, exercícios de clareza mental"
     },
     "Shin": {
+      "id": "SHIN_300",
       "valor_gemátrico": 300,
+      "letra_hebraica": "ש",
+      "nome_anatomico": "Sistema Metabólico",
+      "id_mesh_3d": "Metabolic_System_Mesh",
       "pictograma": "Dente / Fogo",
       "som": "SH / S",
       "elemento_primordial": "Fogo",
       "planeta": "Plutão",
       "astro_secundario": "O Julgamento (Tarot)",
       "funcao_corpo_somatico": "Metabolismo, temperatura corporal, o 'fogo' digestivo",
+      "emocoes_associadas": ["febre_emocional", "raiva_destrutiva", "crítica_destrutiva", "culpa_paralisante", "medo_do_julgamento", "transformação_forçada", "purificação_dolorosa"],
+      "estados_chave": ["metabolismo_acelerado", "temperatura_elevada", "transformação_intensa", "purificação_ativa", "julgamento_interno", "renascimento_espiritual"],
       "acao_espiritual": "O fogo do espírito que transforma e purifica, o julgamento que discerne o real do irreal, a ressurreição",
+      "funcao_espiritual": "Transformação pelo fogo, purificação espiritual",
       "caminho_arvore_vida": "8-10 (Hod-Malkuth)",
       "diagnostico_bloqueio": "Febre (física ou psíquica), destruição pela raiva, crítica destrutiva, culpa paralisante, medo do julgamento.",
-      "comando_ritualistico": "Ser consumido pelo Fogo Divino para renascer em Espírito."
+      "comando_ritualistico": "Ser consumido pelo Fogo Divino para renascer em Espírito.",
+      "pratica_sugerida": "Práticas de transformação pelo fogo, purificação energética"
     },
     "Tav": {
+      "id": "TAV_400",
       "valor_gemátrico": 400,
+      "letra_hebraica": "ת",
+      "nome_anatomico": "Esqueleto",
+      "id_mesh_3d": "Skeletal_System_Mesh",
       "pictograma": "Cruz / Marca / Sinal",
       "som": "T",
       "elemento_primordial": "Terra",
       "planeta": "Saturno",
       "astro_secundario": "O Mundo (Tarot)",
       "funcao_corpo_somatico": "Todo o corpo físico como a 'cruz' da matéria",
+      "emocoes_associadas": ["fardo_pesado", "estagnação_final", "apego_ao_resultado", "resistência_à_matéria", "incompletude", "peso_existencial", "materialização_forçada"],
+      "estados_chave": ["estrutura_rígida", "completude_forçada", "materialização_final", "ciclo_incompleto", "peso_corporal", "densidade_excessiva"],
       "acao_espiritual": "A obra completa, a manifestação final, o selo da verdade, a integração de todos os elementos, o fim de um ciclo e o começo de outro",
+      "funcao_espiritual": "Selo da obra completa, integração final",
       "caminho_arvore_vida": "9-10 (Yesod-Malkuth)",
       "diagnostico_bloqueio": "Fardo pesado, estagnação final, apego ao resultado, incapacidade de completar ciclos, resistência à matéria.",
-      "comando_ritualistico": "Assinar a Obra com o selo da Verdade encarnada."
+      "comando_ritualistico": "Assinar a Obra com o selo da Verdade encarnada.",
+      "pratica_sugerida": "Práticas de integração, exercícios de completude e encerramento"
     }
   },
   "planetas": {
@@ -523,8 +699,7 @@
       "planeta_regente": "N/A (Conexão com o Divino)",
       "diagnostico_bloqueio": "Depressão espiritual, cinismo, desconexão com o sagrado, materialismo excessivo, sentimento de solidão existencial."
     }
-  }
-}
+  },
   "arcanos": {
     "0_O_Louco": {
       "numero": 0,
@@ -768,51 +943,198 @@
       "virtude": "Completude",
       "desafio": "Fim de ciclo, espera pelo novo"
     }
-  }
-# Expandir os dados para todas as 22 letras com campos adicionais padronizados
-
-letras_originais = [
-    {"Letra": "Aleph", "valor": 1, "polaridade": "neutra", "frase": "Eu sou a respiração que dá início ao mundo.", "psico": "Impulso criativo, iniciativa consciente", "sigilo": "A1-RPA-12"},
-    {"Letra": "Beth", "valor": 2, "polaridade": "passiva", "frase": "Eu contenho o Verbo e o torno mundo.", "psico": "Foco, interiorização, delimitação", "sigilo": "B2-BOC-13"},
-    {"Letra": "Gimel", "valor": 3, "polaridade": "ativa", "frase": "Eu caminho entre os mundos, levando o fluxo da vida.", "psico": "Mobilidade, adaptação, fluxo emocional", "sigilo": "G3-PES-16"},
-    {"Letra": "Daleth", "valor": 4, "polaridade": "passiva", "frase": "Eu sou a porta por onde nasce a Criação.", "psico": "Nutrição, acolhimento, materialização", "sigilo": "D4-UTR-23"},
-    {"Letra": "He", "valor": 5, "polaridade": "ativa", "frase": "Eu vejo através do véu e revelo a essência.", "psico": "Percepção, contemplação, clareza", "sigilo": "H5-OLH-26"},
-    {"Letra": "Vav", "valor": 6, "polaridade": "neutra", "frase": "Eu uno o Céu e a Terra com o prego do Verbo.", "psico": "Conexão, escuta, aliança", "sigilo": "V6-CLN-24"},
-    {"Letra": "Zayin", "valor": 7, "polaridade": "ativa", "frase": "Eu corto as ilusões com a espada do discernimento.", "psico": "Decisão, foco, clareza", "sigilo": "Z7-MSC-36"},
-    {"Letra": "Cheth", "valor": 8, "polaridade": "passiva", "frase": "Eu protejo o que é sagrado com minha cerca luminosa.", "psico": "Proteção, contenção, interiorização", "sigilo": "CH8-CXT-35"},
-    {"Letra": "Teth", "valor": 9, "polaridade": "ativa", "frase": "Eu domo a serpente do instinto com sabedoria.", "psico": "Força vital, transformação, domínio", "sigilo": "T9-INT-45"},
-    {"Letra": "Yod", "valor": 10, "polaridade": "ativa", "frase": "Eu sou a semente divina plantada na ação.", "psico": "Concretização, precisão, habilidade", "sigilo": "Y10-MND-46"},
-    {"Letra": "Kaph", "valor": 20, "polaridade": "passiva", "frase": "Eu recebo o ciclo e o abençoo com minha palma.", "psico": "Abertura, generosidade, ciclos", "sigilo": "K20-PAL-47"},
-    {"Letra": "Lamed", "valor": 30, "polaridade": "ativa", "frase": "Eu ensino com o cajado da verdade.", "psico": "Direção, orientação, liderança", "sigilo": "L30-VSB-56"},
-    {"Letra": "Mem", "valor": 40, "polaridade": "passiva", "frase": "Eu sou o mar da alma e o silêncio que nutre.", "psico": "Emoções profundas, intuição, inconsciente", "sigilo": "M40-AGU-58"},
-    {"Letra": "Nun", "valor": 50, "polaridade": "passiva", "frase": "Eu sou o ciclo oculto que transforma e renasce.", "psico": "Mudança, instinto, morte e vida", "sigilo": "N50-DNA-59"},
-    {"Letra": "Samekh", "valor": 60, "polaridade": "neutra", "frase": "Eu sou o suporte da alma e a espinha da fé.", "psico": "Confiança, estrutura, perseverança", "sigilo": "S60-ESC-67"},
-    {"Letra": "Ayin", "valor": 70, "polaridade": "passiva", "frase": "Eu vejo o oculto por trás das aparências.", "psico": "Introspecção, revelação, discernimento", "sigilo": "A70-OCU-74"},
-    {"Letra": "Pe", "valor": 80, "polaridade": "ativa", "frase": "Eu falo a verdade que quebra as torres falsas.", "psico": "Expressão, comunicação, impacto", "sigilo": "P80-BOC-79"},
-    {"Letra": "Tzadi", "valor": 90, "polaridade": "neutra", "frase": "Eu pesco no inconsciente a estrela da esperança.", "psico": "Esperança, meditação, humildade", "sigilo": "TZ90-ESP-83"},
-    {"Letra": "Qoph", "valor": 100, "polaridade": "passiva", "frase": "Eu navego a noite da alma com intuição profunda.", "psico": "Sonhos, medos, mistério", "sigilo": "Q100-NUC-92"},
-    {"Letra": "Resh", "valor": 200, "polaridade": "ativa", "frase": "Eu ilumino a mente com o Sol da Consciência.", "psico": "Clareza, liderança, razão", "sigilo": "R200-CAB-95"},
-    {"Letra": "Shin", "valor": 300, "polaridade": "ativa", "frase": "Eu sou o fogo que julga e purifica.", "psico": "Transformação, julgamento, paixão", "sigilo": "SH300-FGO-96"},
-    {"Letra": "Tav", "valor": 400, "polaridade": "neutra", "frase": "Eu selo a Obra com o corpo do mundo.", "psico": "Síntese, realização, encarnação", "sigilo": "T400-MTR-99"}
-]
-
-# Transformar em dicionário estilo JSON
-letras_dict = {
-    item["Letra"]: {
-        "valor_gemátrico": item["valor"],
-        "polaridade": item["polaridade"],
-        "frase_poder": item["frase"],
-        "funcao_psicologica": item["psico"],
-        "sigilo_ascii": item["sigilo"]
+  },
+  "ponte_sismografo_atlas": {
+    "mapeamento_emocoes_anatomia": {
+      "frustração": {
+        "sistema_anatomico": "Fígado",
+        "letra_hebraica": "כ",
+        "nome_letra": "Kaph",
+        "id_mesh_3d": "Liver_Mesh",
+        "intensidade_base": 0.7,
+        "cor_visualizacao": "#FF6B35"
+      },
+      "raiva_reprimida": {
+        "sistema_anatomico": "Fígado",
+        "letra_hebraica": "כ",
+        "nome_letra": "Kaph",
+        "id_mesh_3d": "Liver_Mesh",
+        "intensidade_base": 0.8,
+        "cor_visualizacao": "#FF4500"
+      },
+      "ansiedade": {
+        "sistema_anatomico": "Sistema Respiratório",
+        "letra_hebraica": "א",
+        "nome_letra": "Aleph",
+        "id_mesh_3d": "Respiratory_System_Mesh",
+        "intensidade_base": 0.6,
+        "cor_visualizacao": "#87CEEB"
+      },
+      "paralisia_criativa": {
+        "sistema_anatomico": "Sistema Respiratório",
+        "letra_hebraica": "א",
+        "nome_letra": "Aleph",
+        "id_mesh_3d": "Respiratory_System_Mesh",
+        "intensidade_base": 0.5,
+        "cor_visualizacao": "#B0C4DE"
+      },
+      "dispersão": {
+        "sistema_anatomico": "Sistema Digestivo",
+        "letra_hebraica": "ב",
+        "nome_letra": "Beth",
+        "id_mesh_3d": "Digestive_System_Mesh",
+        "intensidade_base": 0.4,
+        "cor_visualizacao": "#DDA0DD"
+      },
+      "estagnação": {
+        "sistema_anatomico": "Sistema Circulatório",
+        "letra_hebraica": "ג",
+        "nome_letra": "Gimel",
+        "id_mesh_3d": "Circulatory_System_Mesh",
+        "intensidade_base": 0.6,
+        "cor_visualizacao": "#8B4513"
+      },
+      "indecisão": {
+        "sistema_anatomico": "Sistema Muscular",
+        "letra_hebraica": "ז",
+        "nome_letra": "Zayin",
+        "id_mesh_3d": "Muscular_System_Mesh",
+        "intensidade_base": 0.5,
+        "cor_visualizacao": "#FFD700"
+      },
+      "isolamento": {
+        "sistema_anatomico": "Caixa Torácica",
+        "letra_hebraica": "ח",
+        "nome_letra": "Cheth",
+        "id_mesh_3d": "Ribcage_Mesh",
+        "intensidade_base": 0.7,
+        "cor_visualizacao": "#696969"
+      },
+      "vergonha": {
+        "sistema_anatomico": "Intestinos",
+        "letra_hebraica": "ט",
+        "nome_letra": "Teth",
+        "id_mesh_3d": "Intestinal_System_Mesh",
+        "intensidade_base": 0.8,
+        "cor_visualizacao": "#8B0000"
+      },
+      "afogamento_emocional": {
+        "sistema_anatomico": "Sistema Linfático",
+        "letra_hebraica": "מ",
+        "nome_letra": "Mem",
+        "id_mesh_3d": "Lymphatic_System_Mesh",
+        "intensidade_base": 0.9,
+        "cor_visualizacao": "#4682B4"
+      },
+      "febre_emocional": {
+        "sistema_anatomico": "Sistema Metabólico",
+        "letra_hebraica": "ש",
+        "nome_letra": "Shin",
+        "id_mesh_3d": "Metabolic_System_Mesh",
+        "intensidade_base": 0.9,
+        "cor_visualizacao": "#FF0000"
+      },
+      "fardo_pesado": {
+        "sistema_anatomico": "Esqueleto",
+        "letra_hebraica": "ת",
+        "nome_letra": "Tav",
+        "id_mesh_3d": "Skeletal_System_Mesh",
+        "intensidade_base": 0.8,
+        "cor_visualizacao": "#2F4F4F"
+      },
+      "falta_de_direção": {
+        "sistema_anatomico": "Vesícula Biliar",
+        "letra_hebraica": "ל",
+        "nome_letra": "Lamed",
+        "id_mesh_3d": "Gallbladder_Mesh",
+        "intensidade_base": 0.6,
+        "cor_visualizacao": "#DAA520"
+      },
+      "medo_da_mudança": {
+        "sistema_anatomico": "DNA/Sistema Genético",
+        "letra_hebraica": "נ",
+        "nome_letra": "Nun",
+        "id_mesh_3d": "Genetic_System_Mesh",
+        "intensidade_base": 0.7,
+        "cor_visualizacao": "#8B008B"
+      },
+      "falta_de_apoio": {
+        "sistema_anatomico": "Sistema de Suporte",
+        "letra_hebraica": "ס",
+        "nome_letra": "Samekh",
+        "id_mesh_3d": "Support_System_Mesh",
+        "intensidade_base": 0.6,
+        "cor_visualizacao": "#A0522D"
+      },
+      "materialismo": {
+        "sistema_anatomico": "Glândula Pineal",
+        "letra_hebraica": "ע",
+        "nome_letra": "Ayin",
+        "id_mesh_3d": "Pineal_Gland_Mesh",
+        "intensidade_base": 0.8,
+        "cor_visualizacao": "#4B0082"
+      },
+      "comunicação_destrutiva": {
+        "sistema_anatomico": "Sistema Vocal",
+        "letra_hebraica": "פ",
+        "nome_letra": "Pe",
+        "id_mesh_3d": "Vocal_System_Mesh",
+        "intensidade_base": 0.7,
+        "cor_visualizacao": "#DC143C"
+      },
+      "arrogância_espiritual": {
+        "sistema_anatomico": "Sistema Nervoso",
+        "letra_hebraica": "צ",
+        "nome_letra": "Tzadi",
+        "id_mesh_3d": "Nervous_System_Mesh",
+        "intensidade_base": 0.6,
+        "cor_visualizacao": "#FF1493"
+      },
+      "medos_primordiais": {
+        "sistema_anatomico": "Cérebro Reptiliano",
+        "letra_hebraica": "ק",
+        "nome_letra": "Qoph",
+        "id_mesh_3d": "Reptilian_Brain_Mesh",
+        "intensidade_base": 0.9,
+        "cor_visualizacao": "#191970"
+      },
+      "ego_inflado": {
+        "sistema_anatomico": "Cérebro",
+        "letra_hebraica": "ר",
+        "nome_letra": "Resh",
+        "id_mesh_3d": "Brain_Mesh",
+        "intensidade_base": 0.8,
+        "cor_visualizacao": "#FFD700"
+      }
+    },
+    "estados_fisiologicos": {
+      "hrv_baixo": {
+        "sistemas_afetados": ["Liver_Mesh", "Respiratory_System_Mesh"],
+        "intensidade_multiplicador": 1.2,
+        "duracao_visualizacao": 3000
+      },
+      "respiração_acelerada": {
+        "sistemas_afetados": ["Respiratory_System_Mesh", "Ribcage_Mesh"],
+        "intensidade_multiplicador": 1.5,
+        "duracao_visualizacao": 2000
+      },
+      "tensão_muscular_alta": {
+        "sistemas_afetados": ["Muscular_System_Mesh", "Skeletal_System_Mesh"],
+        "intensidade_multiplicador": 1.3,
+        "duracao_visualizacao": 4000
+      },
+      "digestão_lenta": {
+        "sistemas_afetados": ["Digestive_System_Mesh", "Intestinal_System_Mesh"],
+        "intensidade_multiplicador": 0.8,
+        "duracao_visualizacao": 5000
+      }
+    },
+    "configuracao_ponte": {
+      "intervalo_atualizacao_ms": 1000,
+      "threshold_emocional": 0.3,
+      "fade_duration_ms": 2000,
+      "max_intensidade": 1.0,
+      "debug_mode": true
     }
-    for item in letras_originais
+  }
 }
-
-# Salvar como JSON
-json_output = json.dumps(letras_dict, ensure_ascii=False, indent=2)
-
-# Salvar localmente para exportação
-with open("/mnt/data/letras_expandido_scii.json", "w", encoding="utf-8") as f:
-    f.write(json_output)
-
-"/mnt/data/letras_expandido_scii.json"

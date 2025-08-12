@@ -1,0 +1,24 @@
+{
+  "name": "Maria Santos",
+  "year": 1985,
+  "month": 7,
+  "day": 20,
+  "hour": 10,
+  "minute": 15,
+  "city": "London",
+  "nation": "United Kingdom",
+  "sun": {
+    "sign": "Can",
+    "abs_pos": 117.598501458584,
+    "house": "Eleventh_House"
+  },
+  "moon": {
+    "sign": "Leo",
+    "abs_pos": 147.5675946632612,
+    "house": "Twelfth_House"
+  },
+  "first_house": {
+    "sign": "Vir",
+    "abs_pos": 170.63763696584783
+  }
+}

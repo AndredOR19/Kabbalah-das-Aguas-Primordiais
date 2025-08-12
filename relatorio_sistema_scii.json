@@ -1,0 +1,27 @@
+{
+  "timestamp": "2025-08-12T17:23:55.023968",
+  "versao_scii": "5.0",
+  "componentes": {
+    "ponte_scii": true,
+    "atlas_3d": true,
+    "chave_dos_ceus": true,
+    "integrador_astral": true,
+    "servidor_atlas": true,
+    "demo_completa": true
+  },
+  "arquivos_gerados": {
+    "mapas_astrais": 3,
+    "resumos_astrais": 1,
+    "perfis_integrados": 1
+  },
+  "capacidades": [
+    "Mapeamento emocional → anatômico",
+    "Visualização 3D em tempo real",
+    "Cálculo de mapas astrais natais",
+    "Integração astrologia → cabala → anatomia",
+    "Análise de correspondências cósmicas",
+    "Perfis psicossomáticos integrados",
+    "Biofeedback visual emocional",
+    "Servidor web para Atlas 3D"
+  ]
+}

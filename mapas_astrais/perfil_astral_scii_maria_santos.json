@@ -1,0 +1,105 @@
+{
+  "metadata": {
+    "nome": "Maria Santos",
+    "data_nascimento": "20/07/1985",
+    "hora_nascimento": "10:15",
+    "local": "London, United Kingdom",
+    "timestamp_integracao": "2025-08-12T17:22:48.044720",
+    "versao_scii": "5.0"
+  },
+  "assinatura_cosmica": {
+    "trindade_principal": "Can-Leo-Vir",
+    "elemento_dominante": "Água",
+    "modalidade_dominante": "Fixo",
+    "codigo_cosmico": "CANLEOVIR"
+  },
+  "correspondencias_luminares": {
+    "sol": {
+      "signo": "Can",
+      "letra_hebraica": "ח",
+      "sistema_anatomico": "Caixa Torácica",
+      "funcao_espiritual": "Proteção do espaço sagrado interior"
+    },
+    "lua": {
+      "signo": "Leo",
+      "letra_hebraica": "ט",
+      "sistema_anatomico": "Intestinos",
+      "funcao_espiritual": "Transformação da energia primordial, alquimia interior"
+    },
+    "ascendente": {
+      "signo": "Vir",
+      "letra_hebraica": "י",
+      "sistema_anatomico": "Mãos",
+      "funcao_espiritual": "Semente da manifestação, poder da ação concentrada"
+    }
+  },
+  "correspondencias_planetas": {
+    "mercury": {
+      "signo": "Leo",
+      "letra_planeta": "ב",
+      "letra_signo": "ט",
+      "sistema_planeta": "Sistema Digestivo",
+      "sistema_signo": "Intestinos"
+    },
+    "venus": {
+      "signo": "Gem",
+      "letra_planeta": "ד",
+      "letra_signo": "ז",
+      "sistema_planeta": "Sistema Reprodutor",
+      "sistema_signo": "Sistema Muscular"
+    },
+    "mars": {
+      "signo": "Can",
+      "letra_planeta": "פ",
+      "letra_signo": "ח",
+      "sistema_planeta": "Sistema Vocal",
+      "sistema_signo": "Caixa Torácica"
+    },
+    "jupiter": {
+      "signo": "Aqu",
+      "letra_planeta": "כ",
+      "letra_signo": "צ",
+      "sistema_planeta": "Fígado",
+      "sistema_signo": "Sistema Nervoso"
+    },
+    "saturn": {
+      "signo": "Sco",
+      "letra_planeta": "ת",
+      "letra_signo": "נ",
+      "sistema_planeta": "Esqueleto",
+      "sistema_signo": "DNA/Sistema Genético"
+    },
+    "uranus": {
+      "signo": "Sag",
+      "letra_planeta": "א",
+      "letra_signo": "ס",
+      "sistema_planeta": "Sistema Respiratório",
+      "sistema_signo": "Sistema de Suporte"
+    },
+    "neptune": {
+      "signo": "Cap",
+      "letra_planeta": "מ",
+      "letra_signo": "ע",
+      "sistema_planeta": "Sistema Linfático",
+      "sistema_signo": "Glândula Pineal"
+    },
+    "pluto": {
+      "signo": "Sco",
+      "letra_planeta": "ש",
+      "letra_signo": "נ",
+      "sistema_planeta": "Sistema Metabólico",
+      "sistema_signo": "DNA/Sistema Genético"
+    }
+  },
+  "sistemas_anatomicos_ativados": [
+    "Intestinos",
+    "Caixa Torácica",
+    "Mãos"
+  ],
+  "letras_hebraicas_dominantes": [
+    "י",
+    "ט",
+    "ח"
+  ],
+  "perfil_psicossomatico": {}
+}
