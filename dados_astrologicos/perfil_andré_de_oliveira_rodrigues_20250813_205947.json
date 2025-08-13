@@ -1,0 +1,721 @@
+{
+  "dados_basicos": {
+    "nome": "André de Oliveira Rodrigues",
+    "data_nascimento": "1985-03-15T14:30:00",
+    "idade_atual": 40.41341546885695,
+    "local_nascimento": "São Paulo, SP, Brasil"
+  },
+  "mapa_natal": {
+    "dados_basicos": {
+      "ascendente": {
+        "signo": "Capricórnio",
+        "correspondencia": {
+          "letra": "LetraHebraica.AYIN",
+          "elemento": "Terra",
+          "qualidade": "Cardinal",
+          "regente": "Saturno",
+          "corpo_somatico": "Joelhos, Ossos",
+          "caminho_arvore": "Tiferet-Hod",
+          "funcao_operativa": "Estrutura, Autoridade"
+        },
+        "funcao_operativa": "Máscara da Alma, Portal de Manifestação"
+      },
+      "sol": {
+        "signo": "Peixes",
+        "correspondencia": {
+          "letra": "LetraHebraica.QOPH",
+          "elemento": "Água",
+          "qualidade": "Mutável",
+          "regente": "Netuno",
+          "corpo_somatico": "Pés, Sistema Linfático",
+          "caminho_arvore": "Netzach-Malkuth",
+          "funcao_operativa": "Dissolução, Compaixão"
+        },
+        "funcao_operativa": "Núcleo do Ser, Irradiação Central"
+      },
+      "lua": {
+        "signo": "Gêmeos",
+        "correspondencia": {
+          "letra": "LetraHebraica.ZAYIN",
+          "elemento": "Ar",
+          "qualidade": "Mutável",
+          "regente": "Mercúrio",
+          "corpo_somatico": "Pulmões, Braços",
+          "caminho_arvore": "Binah-Tiferet",
+          "funcao_operativa": "Comunicação, Dualidade"
+        },
+        "funcao_operativa": "Espelho da Alma, Receptividade Emocional"
+      }
+    },
+    "estrutura_sefirotica": {
+      "Sol": {
+        "sefira": "Tiferet",
+        "signo": "Peixes",
+        "letra_hebraica": "ק",
+        "corpo_somatico": "Coração, Plexo Solar",
+        "funcao_operativa": "Centro da Vontade, Irradiação do Ser"
+      },
+      "Lua": {
+        "sefira": "Yesod",
+        "signo": "Gêmeos",
+        "letra_hebraica": "ז",
+        "corpo_somatico": "Estômago, Sistema Linfático",
+        "funcao_operativa": "Espelho da Alma, Receptividade"
+      },
+      "Mercúrio": {
+        "sefira": "Hod",
+        "signo": "Aquário",
+        "letra_hebraica": "צ",
+        "corpo_somatico": "Sistema Nervoso, Pulmões",
+        "funcao_operativa": "Comunicação do Verbo, Ponte Mental"
+      },
+      "Vênus": {
+        "sefira": "Netzach",
+        "signo": "Áries",
+        "letra_hebraica": "ה",
+        "corpo_somatico": "Garganta, Rins",
+        "funcao_operativa": "Harmonia e Beleza, Atração Magnética"
+      },
+      "Marte": {
+        "sefira": "Gevurah",
+        "signo": "Touro",
+        "letra_hebraica": "ו",
+        "corpo_somatico": "Músculos, Sistema Circulatório",
+        "funcao_operativa": "Força de Vontade, Corte Preciso"
+      },
+      "Júpiter": {
+        "sefira": "Chesed",
+        "signo": "Aquário",
+        "letra_hebraica": "צ",
+        "corpo_somatico": "Fígado, Quadris",
+        "funcao_operativa": "Expansão Benevolente, Sabedoria"
+      },
+      "Saturno": {
+        "sefira": "Binah",
+        "signo": "Escorpião",
+        "letra_hebraica": "נ",
+        "corpo_somatico": "Ossos, Joelhos",
+        "funcao_operativa": "Estrutura e Limite, Cristalização"
+      },
+      "Urano": {
+        "sefira": "Keter",
+        "signo": "Sagitário",
+        "letra_hebraica": "ס",
+        "corpo_somatico": "Sistema Nervoso Central, Coroa",
+        "funcao_operativa": "Iluminação Súbita, Revolução Interior"
+      },
+      "Netuno": {
+        "sefira": "Chokmah",
+        "signo": "Capricórnio",
+        "letra_hebraica": "ע",
+        "corpo_somatico": "Glândula Pineal, Sistema Endócrino",
+        "funcao_operativa": "Intuição Pura, Dissolução do Ego"
+      },
+      "Plutão": {
+        "sefira": "Gevurah",
+        "signo": "Escorpião",
+        "letra_hebraica": "נ",
+        "corpo_somatico": "Órgãos Reprodutivos, Intestinos",
+        "funcao_operativa": "Morte e Renascimento, Alquimia Interior"
+      }
+    },
+    "ativacoes_somaticas": [
+      {
+        "planeta": "Sol",
+        "signo": "Peixes",
+        "regiao_corporal": "Coração, Plexo Solar",
+        "tipo_ativacao": "Centro da Vontade, Irradiação do Ser",
+        "ritual_sugerido": "Meditação Solar, Respiração Dourada"
+      },
+      {
+        "planeta": "Lua",
+        "signo": "Gêmeos",
+        "regiao_corporal": "Estômago, Sistema Linfático",
+        "tipo_ativacao": "Espelho da Alma, Receptividade",
+        "ritual_sugerido": "Banho Lunar, Meditação das Marés"
+      },
+      {
+        "planeta": "Mercúrio",
+        "signo": "Aquário",
+        "regiao_corporal": "Sistema Nervoso, Pulmões",
+        "tipo_ativacao": "Comunicação do Verbo, Ponte Mental",
+        "ritual_sugerido": "Recitação de Mantras, Respiração Consciente"
+      },
+      {
+        "planeta": "Vênus",
+        "signo": "Áries",
+        "regiao_corporal": "Garganta, Rins",
+        "tipo_ativacao": "Harmonia e Beleza, Atração Magnética",
+        "ritual_sugerido": "Canto Sagrado, Oferendas Florais"
+      },
+      {
+        "planeta": "Marte",
+        "signo": "Touro",
+        "regiao_corporal": "Músculos, Sistema Circulatório",
+        "tipo_ativacao": "Força de Vontade, Corte Preciso",
+        "ritual_sugerido": "Exercícios Marciais, Jejum Purificador"
+      },
+      {
+        "planeta": "Júpiter",
+        "signo": "Aquário",
+        "regiao_corporal": "Fígado, Quadris",
+        "tipo_ativacao": "Expansão Benevolente, Sabedoria",
+        "ritual_sugerido": "Estudo Sagrado, Atos de Generosidade"
+      },
+      {
+        "planeta": "Saturno",
+        "signo": "Escorpião",
+        "regiao_corporal": "Ossos, Joelhos",
+        "tipo_ativacao": "Estrutura e Limite, Cristalização",
+        "ritual_sugerido": "Disciplina Ascética, Meditação Silenciosa"
+      },
+      {
+        "planeta": "Urano",
+        "signo": "Sagitário",
+        "regiao_corporal": "Sistema Nervoso Central, Coroa",
+        "tipo_ativacao": "Iluminação Súbita, Revolução Interior",
+        "ritual_sugerido": "Meditação do Vazio, Respiração Paradoxal"
+      },
+      {
+        "planeta": "Netuno",
+        "signo": "Capricórnio",
+        "regiao_corporal": "Glândula Pineal, Sistema Endócrino",
+        "tipo_ativacao": "Intuição Pura, Dissolução do Ego",
+        "ritual_sugerido": "Sonhos Lúcidos, Contemplação Oceânica"
+      },
+      {
+        "planeta": "Plutão",
+        "signo": "Escorpião",
+        "regiao_corporal": "Órgãos Reprodutivos, Intestinos",
+        "tipo_ativacao": "Morte e Renascimento, Alquimia Interior",
+        "ritual_sugerido": "Jejum Transformador, Meditação da Morte"
+      }
+    ],
+    "caminhos_ativos": [
+      {
+        "casa": 1,
+        "nome": "Casa da Identidade",
+        "caminho": "Malkuth-Yesod",
+        "signo": "Capricórnio",
+        "funcao_operativa": "Manifestação do Ser"
+      },
+      {
+        "casa": 2,
+        "nome": "Casa dos Recursos",
+        "caminho": "Malkuth-Hod",
+        "signo": "Aquário",
+        "funcao_operativa": "Materialização dos Valores"
+      },
+      {
+        "casa": 3,
+        "nome": "Casa da Comunicação",
+        "caminho": "Yesod-Hod",
+        "signo": "Peixes",
+        "funcao_operativa": "Expressão do Pensamento"
+      },
+      {
+        "casa": 4,
+        "nome": "Casa das Raízes",
+        "caminho": "Malkuth-Netzach",
+        "signo": "Áries",
+        "funcao_operativa": "Fundamento Emocional"
+      },
+      {
+        "casa": 5,
+        "nome": "Casa da Criatividade",
+        "caminho": "Yesod-Tiferet",
+        "signo": "Touro",
+        "funcao_operativa": "Expressão Criativa"
+      },
+      {
+        "casa": 6,
+        "nome": "Casa do Serviço",
+        "caminho": "Hod-Tiferet",
+        "signo": "Gêmeos",
+        "funcao_operativa": "Purificação e Trabalho"
+      },
+      {
+        "casa": 7,
+        "nome": "Casa das Parcerias",
+        "caminho": "Netzach-Tiferet",
+        "signo": "Câncer",
+        "funcao_operativa": "União e Equilíbrio"
+      },
+      {
+        "casa": 8,
+        "nome": "Casa da Transformação",
+        "caminho": "Yesod-Netzach",
+        "signo": "Leão",
+        "funcao_operativa": "Morte e Renascimento"
+      },
+      {
+        "casa": 9,
+        "nome": "Casa da Sabedoria",
+        "caminho": "Tiferet-Chesed",
+        "signo": "Virgem",
+        "funcao_operativa": "Expansão da Consciência"
+      },
+      {
+        "casa": 10,
+        "nome": "Casa da Realização",
+        "caminho": "Tiferet-Binah",
+        "signo": "Libra",
+        "funcao_operativa": "Cristalização do Propósito"
+      },
+      {
+        "casa": 11,
+        "nome": "Casa dos Ideais",
+        "caminho": "Chesed-Chokmah",
+        "signo": "Escorpião",
+        "funcao_operativa": "Visão do Futuro"
+      },
+      {
+        "casa": 12,
+        "nome": "Casa do Inconsciente",
+        "caminho": "Binah-Keter",
+        "signo": "Sagitário",
+        "funcao_operativa": "Dissolução e Transcendência"
+      }
+    ],
+    "rituais_recomendados": [
+      {
+        "tipo": "Ritual Planetário",
+        "planeta": "Sol",
+        "ritual": "Meditação Solar, Respiração Dourada",
+        "objetivo": "Centro da Vontade, Irradiação do Ser",
+        "frequencia": "Semanal"
+      },
+      {
+        "tipo": "Ritual Planetário",
+        "planeta": "Lua",
+        "ritual": "Banho Lunar, Meditação das Marés",
+        "objetivo": "Espelho da Alma, Receptividade",
+        "frequencia": "Semanal"
+      },
+      {
+        "tipo": "Ritual Planetário",
+        "planeta": "Mercúrio",
+        "ritual": "Recitação de Mantras, Respiração Consciente",
+        "objetivo": "Comunicação do Verbo, Ponte Mental",
+        "frequencia": "Semanal"
+      },
+      {
+        "tipo": "Ritual Planetário",
+        "planeta": "Vênus",
+        "ritual": "Canto Sagrado, Oferendas Florais",
+        "objetivo": "Harmonia e Beleza, Atração Magnética",
+        "frequencia": "Semanal"
+      },
+      {
+        "tipo": "Ritual Planetário",
+        "planeta": "Marte",
+        "ritual": "Exercícios Marciais, Jejum Purificador",
+        "objetivo": "Força de Vontade, Corte Preciso",
+        "frequencia": "Semanal"
+      },
+      {
+        "tipo": "Ritual Planetário",
+        "planeta": "Júpiter",
+        "ritual": "Estudo Sagrado, Atos de Generosidade",
+        "objetivo": "Expansão Benevolente, Sabedoria",
+        "frequencia": "Semanal"
+      },
+      {
+        "tipo": "Ritual Planetário",
+        "planeta": "Saturno",
+        "ritual": "Disciplina Ascética, Meditação Silenciosa",
+        "objetivo": "Estrutura e Limite, Cristalização",
+        "frequencia": "Semanal"
+      },
+      {
+        "tipo": "Ritual Planetário",
+        "planeta": "Urano",
+        "ritual": "Meditação do Vazio, Respiração Paradoxal",
+        "objetivo": "Iluminação Súbita, Revolução Interior",
+        "frequencia": "Semanal"
+      },
+      {
+        "tipo": "Ritual Planetário",
+        "planeta": "Netuno",
+        "ritual": "Sonhos Lúcidos, Contemplação Oceânica",
+        "objetivo": "Intuição Pura, Dissolução do Ego",
+        "frequencia": "Semanal"
+      },
+      {
+        "tipo": "Ritual Planetário",
+        "planeta": "Plutão",
+        "ritual": "Jejum Transformador, Meditação da Morte",
+        "objetivo": "Morte e Renascimento, Alquimia Interior",
+        "frequencia": "Semanal"
+      }
+    ]
+  },
+  "ciclos_planetarios": {
+    "saturno": {
+      "fase": "Período de Integração",
+      "detalhes": {
+        "significado": "Período de assimilação das lições",
+        "oportunidade": "Aplicar estruturas aprendidas",
+        "ritual": "Prática Consistente"
+      },
+      "posicao_exata": 10.953415468856946
+    },
+    "jupiter": {
+      "retornos_completos": 3,
+      "posicao_atual": 4.833415468856948,
+      "retornos_proximos": [],
+      "fase_atual": {
+        "nome": "Crescimento",
+        "significado": "Desenvolvimento das oportunidades",
+        "acao": "Nutrir e desenvolver projetos"
+      }
+    }
+  },
+  "transitos_anuais": {
+    "periodo": {
+      "inicio": "13/08/2025",
+      "fim": "13/08/2026",
+      "duracao_dias": 365
+    },
+    "transitos_principais": [
+      {
+        "planeta": "Júpiter",
+        "aspecto": "Trígono",
+        "planeta_natal": "Sol",
+        "data_exata": "2025-09-12 20:59:47.831480",
+        "interpretacao": "Período de expansão solar, crescimento da autoestima",
+        "oportunidades": [
+          "Reconhecimento profissional",
+          "Crescimento pessoal"
+        ],
+        "rituais": [
+          "Meditação Solar Matinal",
+          "Afirmações de Abundância"
+        ]
+      },
+      {
+        "planeta": "Saturno",
+        "aspecto": "Quadratura",
+        "planeta_natal": "Lua",
+        "data_exata": "2025-09-27 20:59:47.831480",
+        "interpretacao": "Reestruturação emocional, disciplina dos sentimentos",
+        "desafios": [
+          "Controle emocional",
+          "Responsabilidade afetiva"
+        ],
+        "rituais": [
+          "Jejum Emocional",
+          "Meditação da Disciplina"
+        ]
+      }
+    ],
+    "janelas_temporais": [
+      "JanelaTransito(nome='Portal de Expansão Jupiteriana', periodo_inicio=datetime.datetime(2025, 9, 7, 20, 59, 47, 831480), periodo_fim=datetime.datetime(2025, 9, 17, 20, 59, 47, 831480), planetas_envolvidos=['Júpiter', 'Sol'], temas_principais=['Crescimento', 'Reconhecimento', 'Abundância'], rituais_recomendados=['Ritual Solar', 'Oferendas de Gratidão'], intensidade_geral='Alta')",
+      "JanelaTransito(nome='Reestruturação Saturnina', periodo_inicio=datetime.datetime(2025, 9, 22, 20, 59, 47, 831480), periodo_fim=datetime.datetime(2025, 10, 2, 20, 59, 47, 831480), planetas_envolvidos=['Saturno', 'Lua'], temas_principais=['Disciplina', 'Estrutura', 'Responsabilidade'], rituais_recomendados=['Meditação Silenciosa', 'Exercícios de Foco'], intensidade_geral='Média-Alta')"
+    ],
+    "rituais_periodo": {
+      "rituais_diarios": [
+        "Meditação matinal com letra hebraica do dia",
+        "Respiração consciente ao meio-dia",
+        "Contemplação noturna dos trânsitos"
+      ],
+      "rituais_semanais": [
+        "Domingo: Ritual Solar (Resh ר)",
+        "Segunda: Ritual Lunar (Gimel ג)",
+        "Terça: Ritual Marciano (Peh פ)",
+        "Quarta: Ritual Mercurial (Bet ב)",
+        "Quinta: Ritual Jupiteriano (Kaph כ)",
+        "Sexta: Ritual Venusiano (Dalet ד)",
+        "Sábado: Ritual Saturnino (Tav ת)"
+      ],
+      "rituais_especiais": [
+        {
+          "data": "2025-09-12 20:59:47.831480",
+          "nome": "Ritual de Expansão Jupiteriana",
+          "descricao": "Cerimônia de abertura para abundância"
+        },
+        {
+          "data": "2025-09-27 20:59:47.831480",
+          "nome": "Ritual de Estruturação Saturnina",
+          "descricao": "Cerimônia de disciplina e foco"
+        }
+      ]
+    },
+    "temas_dominantes": [
+      {
+        "tema": "Expansão e Crescimento",
+        "planeta_regente": "Júpiter",
+        "sefira": "Chesed",
+        "manifestacao": "Oportunidades de crescimento profissional e pessoal",
+        "desafio": "Não se dispersar em muitas direções",
+        "ritual_chave": "Meditação da Abundância Focada"
+      },
+      {
+        "tema": "Estruturação e Disciplina",
+        "planeta_regente": "Saturno",
+        "sefira": "Binah",
+        "manifestacao": "Necessidade de organizar e disciplinar aspectos da vida",
+        "desafio": "Não se tornar rígido demais",
+        "ritual_chave": "Exercícios de Flexibilidade Estruturada"
+      }
+    ]
+  },
+  "integracao_scii": {
+    "letras_hebraicas_ativas": [
+      {
+        "letra": "ק",
+        "planeta": "Sol",
+        "funcao": "Centro da Vontade, Irradiação do Ser"
+      },
+      {
+        "letra": "ז",
+        "planeta": "Lua",
+        "funcao": "Espelho da Alma, Receptividade"
+      },
+      {
+        "letra": "צ",
+        "planeta": "Mercúrio",
+        "funcao": "Comunicação do Verbo, Ponte Mental"
+      },
+      {
+        "letra": "ה",
+        "planeta": "Vênus",
+        "funcao": "Harmonia e Beleza, Atração Magnética"
+      },
+      {
+        "letra": "ו",
+        "planeta": "Marte",
+        "funcao": "Força de Vontade, Corte Preciso"
+      },
+      {
+        "letra": "צ",
+        "planeta": "Júpiter",
+        "funcao": "Expansão Benevolente, Sabedoria"
+      },
+      {
+        "letra": "נ",
+        "planeta": "Saturno",
+        "funcao": "Estrutura e Limite, Cristalização"
+      },
+      {
+        "letra": "ס",
+        "planeta": "Urano",
+        "funcao": "Iluminação Súbita, Revolução Interior"
+      },
+      {
+        "letra": "ע",
+        "planeta": "Netuno",
+        "funcao": "Intuição Pura, Dissolução do Ego"
+      },
+      {
+        "letra": "נ",
+        "planeta": "Plutão",
+        "funcao": "Morte e Renascimento, Alquimia Interior"
+      }
+    ],
+    "sefirot_dominantes": [
+      {
+        "sefira": "Tiferet",
+        "planeta": "Sol",
+        "ativacao": "Coração, Plexo Solar"
+      },
+      {
+        "sefira": "Yesod",
+        "planeta": "Lua",
+        "ativacao": "Estômago, Sistema Linfático"
+      },
+      {
+        "sefira": "Hod",
+        "planeta": "Mercúrio",
+        "ativacao": "Sistema Nervoso, Pulmões"
+      },
+      {
+        "sefira": "Netzach",
+        "planeta": "Vênus",
+        "ativacao": "Garganta, Rins"
+      },
+      {
+        "sefira": "Gevurah",
+        "planeta": "Marte",
+        "ativacao": "Músculos, Sistema Circulatório"
+      },
+      {
+        "sefira": "Chesed",
+        "planeta": "Júpiter",
+        "ativacao": "Fígado, Quadris"
+      },
+      {
+        "sefira": "Binah",
+        "planeta": "Saturno",
+        "ativacao": "Ossos, Joelhos"
+      },
+      {
+        "sefira": "Keter",
+        "planeta": "Urano",
+        "ativacao": "Sistema Nervoso Central, Coroa"
+      },
+      {
+        "sefira": "Chokmah",
+        "planeta": "Netuno",
+        "ativacao": "Glândula Pineal, Sistema Endócrino"
+      },
+      {
+        "sefira": "Gevurah",
+        "planeta": "Plutão",
+        "ativacao": "Órgãos Reprodutivos, Intestinos"
+      }
+    ],
+    "caminhos_prioritarios": [],
+    "ativacoes_somaticas": [],
+    "rituais_integrativos": [
+      {
+        "tema": "Expansão e Crescimento",
+        "sefira": "Chesed",
+        "ritual": "Meditação da Abundância Focada",
+        "periodo": "Atual"
+      },
+      {
+        "tema": "Estruturação e Disciplina",
+        "sefira": "Binah",
+        "ritual": "Exercícios de Flexibilidade Estruturada",
+        "periodo": "Atual"
+      }
+    ]
+  },
+  "protocolo_ritual_personalizado": {
+    "rituais_diarios": {
+      "manha": [
+        {
+          "nome": "Ativação Sol",
+          "descricao": "Meditação Solar, Respiração Dourada",
+          "regiao_corporal": "Coração, Plexo Solar",
+          "duracao": "5-10 minutos"
+        },
+        {
+          "nome": "Ativação Lua",
+          "descricao": "Banho Lunar, Meditação das Marés",
+          "regiao_corporal": "Estômago, Sistema Linfático",
+          "duracao": "5-10 minutos"
+        },
+        {
+          "nome": "Ativação Mercúrio",
+          "descricao": "Recitação de Mantras, Respiração Consciente",
+          "regiao_corporal": "Sistema Nervoso, Pulmões",
+          "duracao": "5-10 minutos"
+        },
+        {
+          "nome": "Ativação Vênus",
+          "descricao": "Canto Sagrado, Oferendas Florais",
+          "regiao_corporal": "Garganta, Rins",
+          "duracao": "5-10 minutos"
+        },
+        {
+          "nome": "Ativação Marte",
+          "descricao": "Exercícios Marciais, Jejum Purificador",
+          "regiao_corporal": "Músculos, Sistema Circulatório",
+          "duracao": "5-10 minutos"
+        },
+        {
+          "nome": "Ativação Júpiter",
+          "descricao": "Estudo Sagrado, Atos de Generosidade",
+          "regiao_corporal": "Fígado, Quadris",
+          "duracao": "5-10 minutos"
+        },
+        {
+          "nome": "Ativação Saturno",
+          "descricao": "Disciplina Ascética, Meditação Silenciosa",
+          "regiao_corporal": "Ossos, Joelhos",
+          "duracao": "5-10 minutos"
+        },
+        {
+          "nome": "Ativação Urano",
+          "descricao": "Meditação do Vazio, Respiração Paradoxal",
+          "regiao_corporal": "Sistema Nervoso Central, Coroa",
+          "duracao": "5-10 minutos"
+        },
+        {
+          "nome": "Ativação Netuno",
+          "descricao": "Sonhos Lúcidos, Contemplação Oceânica",
+          "regiao_corporal": "Glândula Pineal, Sistema Endócrino",
+          "duracao": "5-10 minutos"
+        },
+        {
+          "nome": "Ativação Plutão",
+          "descricao": "Jejum Transformador, Meditação da Morte",
+          "regiao_corporal": "Órgãos Reprodutivos, Intestinos",
+          "duracao": "5-10 minutos"
+        }
+      ],
+      "meio_dia": [],
+      "noite": []
+    },
+    "rituais_semanais": {
+      "Segunda": {
+        "planeta": "Lua",
+        "sefira": "Yesod",
+        "ritual": "Meditação Luaina",
+        "letra_hebraica": "ז",
+        "duracao": "15-20 minutos"
+      },
+      "Terça": {
+        "planeta": "Marte",
+        "sefira": "Gevurah",
+        "ritual": "Meditação Marteina",
+        "letra_hebraica": "ו",
+        "duracao": "15-20 minutos"
+      },
+      "Quarta": {
+        "planeta": "Mercúrio",
+        "sefira": "Hod",
+        "ritual": "Meditação Mercúrioina",
+        "letra_hebraica": "צ",
+        "duracao": "15-20 minutos"
+      },
+      "Quinta": {
+        "planeta": "Júpiter",
+        "sefira": "Chesed",
+        "ritual": "Meditação Júpiterina",
+        "letra_hebraica": "צ",
+        "duracao": "15-20 minutos"
+      },
+      "Sexta": {
+        "planeta": "Vênus",
+        "sefira": "Netzach",
+        "ritual": "Meditação Vênusina",
+        "letra_hebraica": "ה",
+        "duracao": "15-20 minutos"
+      },
+      "Sábado": {
+        "planeta": "Saturno",
+        "sefira": "Binah",
+        "ritual": "Meditação Saturnoina",
+        "letra_hebraica": "נ",
+        "duracao": "15-20 minutos"
+      },
+      "Domingo": {
+        "planeta": "Sol",
+        "sefira": "Tiferet",
+        "ritual": "Meditação Solina",
+        "letra_hebraica": "ק",
+        "duracao": "15-20 minutos"
+      }
+    },
+    "rituais_mensais": [],
+    "rituais_anuais": [],
+    "rituais_especiais_transitos": [
+      {
+        "data": "2025-09-12T20:59:47.831480",
+        "nome": "Ritual de Expansão Jupiteriana",
+        "descricao": "Cerimônia de abertura para abundância",
+        "importancia": "Alta"
+      },
+      {
+        "data": "2025-09-27T20:59:47.831480",
+        "nome": "Ritual de Estruturação Saturnina",
+        "descricao": "Cerimônia de disciplina e foco",
+        "importancia": "Alta"
+      }
+    ]
+  },
+  "timestamp_criacao": "2025-08-13T20:59:47.832535"
+}
