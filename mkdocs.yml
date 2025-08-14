@@ -1,0 +1,27 @@
+site_name: Escola Corpo do Verbo
+site_description: Guia de Aprendizado e Formação
+site_author: Karuv Beni EL
+site_url: 
+
+theme:
+  name: material
+  language: pt
+  palette:
+    primary: indigo
+    accent: amber
+  features:
+    - navigation.instant
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - toc.integrate
+
+# Navegação automática: o MkDocs gerará o menu a partir da estrutura em docs/
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - tables
+  - footnotes
+  - def_list
