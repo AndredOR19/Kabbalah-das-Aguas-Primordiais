@@ -1,15 +1,11 @@
 from flask import Flask, request, jsonify
-import google.generativeai as genai
-import json
-import os
+import openai, json, os
 
 app = Flask(__name__)
 
-# Chave da API do Google Gemini (lida a partir das variáveis de ambiente)
-# IMPORTANTE: No Render, a variável de ambiente deve se chamar GEMINI_API_KEY
-api_key = os.getenv("GEMINI_API_KEY")
-if api_key:
-    genai.configure(api_key=api_key)
+# Chave da API da OpenAI (lida a partir das variáveis de ambiente)
+# IMPORTANTE: No Render, a variável de ambiente deve se chamar OPENAI_API_KEY
+openai.api_key = os.getenv("OPENAI_API_KEY")
 
 # Carrega a personalidade
 with open("config.json", "r", encoding="utf-8") as f:
@@ -21,10 +17,9 @@ def oraculo():
     pergunta = data.get("pergunta")
     perfil = data.get("perfil")
 
-    if not api_key:
-        return jsonify({"resposta": "Erro: A chave da API do Gemini não foi configurada no servidor."})
+    if not openai.api_key:
+        return jsonify({"resposta": "Erro: A chave da API da OpenAI não foi configurada no servidor."})
 
-    # Constrói o prompt para o Gemini
     contexto = f"""
     Você é o Oráculo-Mestre do Instituto Águas Primordiais.
     Seus papéis são: {config['papel']}
@@ -42,13 +37,13 @@ def oraculo():
     """
 
     try:
-        # Inicializa o modelo e gera o conteúdo
-        model = genai.GenerativeModel('gemini-pro')
-        response = model.generate_content(contexto)
-        return jsonify({"resposta": response.text})
+        resposta = openai.ChatCompletion.create(
+            model="gpt-4o-mini",
+            messages=[{"role": "system", "content": contexto}]
+        )
+        return jsonify({"resposta": resposta.choices[0].message["content"]})
     except Exception as e:
-        # Retorna uma mensagem de erro mais detalhada para depuração
-        return jsonify({"resposta": f"Ocorreu um erro ao contatar o Oráculo Gemini: {str(e)}"})
+        return jsonify({"resposta": f"Ocorreu um erro ao contatar o Oráculo: {str(e)}"})
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 5000)))
