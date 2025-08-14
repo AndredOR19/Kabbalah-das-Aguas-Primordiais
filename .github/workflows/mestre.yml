@@ -1,0 +1,26 @@
+name: Mestre Digital Responde
+
+on:
+  issues:
+    types: [opened]  # Acionado quando alguém abre uma dúvida
+  issue_comment:
+    types: [created] # Acionado quando alguém comenta
+
+jobs:
+  responder:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: 🐍 Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: 3.x
+
+      - name: 📦 Instalar dependências
+        run: pip install openai
+
+      - name: 🤖 Rodar Mestre Digital
+        run: python bot/bot.py
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}

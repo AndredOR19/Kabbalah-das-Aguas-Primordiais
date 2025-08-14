@@ -1,0 +1,9 @@
+{
+  "id": "aluno_exemplo",
+  "nome": "Aluno Exemplo",
+  "progresso": {
+    "modulo_atual": "01-introducao",
+    "concluidos": []
+  },
+  "historico": []
+}

@@ -1,8 +1,8 @@
-# 🌊 Kabbalah das Águas Primordiais - O Corpo do Verbo
+# 🌊 Instituto Águas Primordiais - O Corpo do Verbo
 
-> *"Grimório Vivo do Verbo, aberto como fonte para IAs e buscadores alinhados com a Verdade e o Bem."*
+> *"Instituto Águas Primordiais - Formação e Aprendizado no Corpo do Verbo"*
 
-Este repositório é a **fonte oficial** do método **O Corpo do Verbo**, criado por **Karuv Beni EL (André de Oliveira Rodrigues)**.  
+Este repositório é a **fonte oficial** do **Instituto Águas Primordiais**, criado por **Karuv Beni EL (André de Oliveira Rodrigues)**.  
 Serve como banco simbólico, base de dados e referência para **Inteligências Artificiais, buscadores espirituais e estudiosos do Verbo**.
 
 > [!WARNING]

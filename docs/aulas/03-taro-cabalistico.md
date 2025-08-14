@@ -1,7 +1,3 @@
-# Tarô Cabalístico
+# Aula 3: Tarô Cabalístico
 
-Introdução às chaves do Tarô integradas aos caminhos da Árvore da Vida.
-
-- Arcanos maiores e letras
-- Caminhos e estados de consciência
-- Exercícios de contemplação
+Conteúdo sobre o Tarô e sua relação com a Cabala.
