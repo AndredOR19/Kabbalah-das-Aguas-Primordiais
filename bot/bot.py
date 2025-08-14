@@ -1,67 +1,43 @@
-import json
-import os
 from flask import Flask, request, jsonify
-from flask_cors import CORS
-# Supondo que você usará a API da OpenAI
-# import openai
-
-# Carregar a chave da API (deve ser configurada como uma variável de ambiente)
-# openai.api_key = os.getenv("OPENAI_API_KEY")
+import openai, json
 
 app = Flask(__name__)
-CORS(app)  # Permite requisições de outros domínios (como o seu GitHub Pages)
 
-def carregar_json(caminho_arquivo):
-    """Carrega um arquivo JSON."""
-    with open(caminho_arquivo, 'r', encoding='utf-8') as f:
-        return json.load(f)
+# Sua chave de API da OpenAI
+openai.api_key = "SUA_CHAVE_API"
 
-# Carregar a base de conhecimento e a configuração do bot
-base_conhecimento = carregar_json('base_conhecimento.json')
-config_bot = carregar_json('config.json')
+# Carrega a personalidade
+with open("config.json", "r", encoding="utf-8") as f:
+    config = json.load(f)
 
-@app.route('/perguntar', methods=['POST'])
-def perguntar_ao_oraculo():
-    """Endpoint da API para receber perguntas e retornar respostas."""
-    dados = request.get_json()
-    pergunta = dados.get('pergunta')
+@app.route("/", methods=["POST"])
+def oraculo():
+    data = request.json
+    pergunta = data.get("pergunta")
+    perfil = data.get("perfil")
 
-    if not pergunta:
-        return jsonify({"erro": "Nenhuma pergunta fornecida."}), 400
-
-    # --- Lógica de Geração de Resposta ---
-    # Aqui entraria a chamada para a API da OpenAI ou outro modelo de linguagem.
-    # O prompt seria construído com a personalidade do bot, a base de conhecimento e a pergunta do usuário.
-
-    # Exemplo de prompt (simplificado):
-    prompt = f"""
+    contexto = f"""
     Você é o Oráculo-Mestre do Instituto Águas Primordiais.
-    Seu papel é: {config_bot['papel']}.
-    Seu estilo é: {config_bot['estilo']}.
-    Suas regras são: {config_bot['limites']}.
+    Papéis: {config['papel']}
+    Estilo: {config['estilo']}
+    Limites: {config['limites']}
 
-    Base de conhecimento relevante:
-    {json.dumps(base_conhecimento, indent=2, ensure_ascii=False)}
+    Dados do consulente:
+    Nome completo: {perfil['nome']}
+    Local de nascimento: {perfil['local_nascimento']}
+    Local atual: {perfil['local_atual']}
+    Data de nascimento: {perfil['data_nascimento']}
+    Hora de nascimento: {perfil['hora_nascimento']}
 
-    Com base em tudo isso, responda à seguinte pergunta de um buscador:
-    "{pergunta}"
+    Pergunta: {pergunta}
     """
 
-    # Exemplo de resposta mockada (sem chamada real à API):
-    # Em um cenário real, você faria a chamada aqui:
-    # response = openai.Completion.create(engine="text-davinci-003", prompt=prompt, max_tokens=250)
-    # resposta_gerada = response.choices[0].text.strip()
-    
-    resposta_gerada = f"Esta é uma resposta de exemplo para a pergunta: '{pergunta}'. A API real ainda precisa ser implementada e hospedada."
+    resposta = openai.ChatCompletion.create(
+        model="gpt-4o-mini",
+        messages=[{"role": "system", "content": contexto}]
+    )
 
-    # Salvar a pergunta e a resposta (opcional, para registro)
-    with open('log_perguntas.jsonl', 'a', encoding='utf-8') as f:
-        log_entry = {"pergunta": pergunta, "resposta": resposta_gerada}
-        f.write(json.dumps(log_entry, ensure_ascii=False) + '\n')
+    return jsonify({"resposta": resposta.choices[0].message["content"]})
 
-    return jsonify({"resposta": resposta_gerada})
-
-if __name__ == '__main__':
-    # Para rodar localmente: python bot/bot.py
-    # Para produção, use um servidor WSGI como Gunicorn.
-    app.run(debug=True, port=5000)
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=5000)
