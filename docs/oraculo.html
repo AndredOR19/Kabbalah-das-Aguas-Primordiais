@@ -68,7 +68,7 @@ async function enviarPergunta() {
 
     const perfil = JSON.parse(sessionStorage.getItem("perfil_usuario"));
 
-    const response = await fetch("https://SEU-LINK-DO-RENDER.onrender.com", {
+    const response = await fetch("https://kabbalah-das-aguas-primordiais.onrender.com", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ pergunta, perfil })
