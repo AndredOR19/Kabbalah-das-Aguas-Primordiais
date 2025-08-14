@@ -1,0 +1,404 @@
+{
+  "data_escaneamento": "2025-08-13T21:27:02.032200",
+  "total_arquivos": 44,
+  "materiais_por_categoria": {
+    "apostilas-astrologia": [
+      {
+        "nome": "Sasha Fenton_In Focus Astrology.pdf",
+        "caminho": "/home/andre/Kabbalah-das-Aguas-Primordiais/documentos/materiais-referencia/apostilas-astrologia/Sasha Fenton_In Focus Astrology.pdf",
+        "extensao": ".pdf",
+        "tamanho": 26654376,
+        "data_modificacao": "2021-05-22T16:25:57",
+        "data_criacao": "2025-08-13T21:25:37.343157"
+      },
+      {
+        "nome": "Huguette Hirsig_astrologia e homossexualidade.pdf",
+        "caminho": "/home/andre/Kabbalah-das-Aguas-Primordiais/documentos/materiais-referencia/apostilas-astrologia/Huguette Hirsig_astrologia e homossexualidade.pdf",
+        "extensao": ".pdf",
+        "tamanho": 2003041,
+        "data_modificacao": "2021-05-03T23:21:40",
+        "data_criacao": "2025-08-13T21:25:37.343157"
+      },
+      {
+        "nome": "Marion D. March e Joan McEvers_Curso Básico de Astrologia - Vol. 1.pdf",
+        "caminho": "/home/andre/Kabbalah-das-Aguas-Primordiais/documentos/materiais-referencia/apostilas-astrologia/Marion D. March e Joan McEvers_Curso Básico de Astrologia - Vol. 1.pdf",
+        "extensao": ".pdf",
+        "tamanho": 2703562,
+        "data_modificacao": "2021-05-03T22:57:45",
+        "data_criacao": "2025-08-13T21:25:37.343157"
+      },
+      {
+        "nome": "Marion D. March e Joan McEvers_Curso Básico de Astrologia - Vol. 2.pdf",
+        "caminho": "/home/andre/Kabbalah-das-Aguas-Primordiais/documentos/materiais-referencia/apostilas-astrologia/Marion D. March e Joan McEvers_Curso Básico de Astrologia - Vol. 2.pdf",
+        "extensao": ".pdf",
+        "tamanho": 4679254,
+        "data_modificacao": "2021-05-03T22:57:25",
+        "data_criacao": "2025-08-13T21:25:37.343157"
+      },
+      {
+        "nome": "Marion D. March e Joan McEvers_Curso Basico de Astrologia - Vol. 3.pdf",
+        "caminho": "/home/andre/Kabbalah-das-Aguas-Primordiais/documentos/materiais-referencia/apostilas-astrologia/Marion D. March e Joan McEvers_Curso Basico de Astrologia - Vol. 3.pdf",
+        "extensao": ".pdf",
+        "tamanho": 3186811,
+        "data_modificacao": "2021-05-03T22:57:11",
+        "data_criacao": "2025-08-13T21:25:37.343157"
+      },
+      {
+        "nome": "Ciça Bueno e Márcia Mattos_Curso de Astrologia.pdf",
+        "caminho": "/home/andre/Kabbalah-das-Aguas-Primordiais/documentos/materiais-referencia/apostilas-astrologia/Ciça Bueno e Márcia Mattos_Curso de Astrologia.pdf",
+        "extensao": ".pdf",
+        "tamanho": 1533209,
+        "data_modificacao": "2021-05-03T22:56:55",
+        "data_criacao": "2025-08-13T21:25:37.343157"
+      },
+      {
+        "nome": "Jhony Uriel_Introdução à Astrologia.pptx",
+        "caminho": "/home/andre/Kabbalah-das-Aguas-Primordiais/documentos/materiais-referencia/apostilas-astrologia/Jhony Uriel_Introdução à Astrologia.pptx",
+        "extensao": ".pptx",
+        "tamanho": 2273281,
+        "data_modificacao": "2021-05-03T22:56:11",
+        "data_criacao": "2025-08-13T21:25:37.343157"
+      },
+      {
+        "nome": "Papus_Iniciação astrológica.pdf",
+        "caminho": "/home/andre/Kabbalah-das-Aguas-Primordiais/documentos/materiais-referencia/apostilas-astrologia/Papus_Iniciação astrológica.pdf",
+        "extensao": ".pdf",
+        "tamanho": 11948119,
+        "data_modificacao": "2021-05-03T22:55:39",
+        "data_criacao": "2025-08-13T21:25:37.343157"
+      },
+      {
+        "nome": "João Medeiros_Introdução a Astrologia - Casas de Consciência.pdf",
+        "caminho": "/home/andre/Kabbalah-das-Aguas-Primordiais/documentos/materiais-referencia/apostilas-astrologia/João Medeiros_Introdução a Astrologia - Casas de Consciência.pdf",
+        "extensao": ".pdf",
+        "tamanho": 516917,
+        "data_modificacao": "2021-05-03T22:55:22",
+        "data_criacao": "2025-08-13T21:25:37.343157"
+      },
+      {
+        "nome": "Maria Eugênia de Castro_Astrologia e as Dimensões do ser.pdf",
+        "caminho": "/home/andre/Kabbalah-das-Aguas-Primordiais/documentos/materiais-referencia/apostilas-astrologia/Maria Eugênia de Castro_Astrologia e as Dimensões do ser.pdf",
+        "extensao": ".pdf",
+        "tamanho": 5638443,
+        "data_modificacao": "2021-05-03T22:55:04",
+        "data_criacao": "2025-08-13T21:25:37.343157"
+      },
+      {
+        "nome": "Alexandre Volguine_Astrologia Lunar.pdf",
+        "caminho": "/home/andre/Kabbalah-das-Aguas-Primordiais/documentos/materiais-referencia/apostilas-astrologia/Alexandre Volguine_Astrologia Lunar.pdf",
+        "extensao": ".pdf",
+        "tamanho": 10476645,
+        "data_modificacao": "2021-05-03T22:54:43",
+        "data_criacao": "2025-08-13T21:25:37.341157"
+      },
+      {
+        "nome": "Elaine Bernardes_Seu signo e suas vidas passadas.pdf",
+        "caminho": "/home/andre/Kabbalah-das-Aguas-Primordiais/documentos/materiais-referencia/apostilas-astrologia/Elaine Bernardes_Seu signo e suas vidas passadas.pdf",
+        "extensao": ".pdf",
+        "tamanho": 451616,
+        "data_modificacao": "2021-05-03T22:54:23",
+        "data_criacao": "2025-08-13T21:25:37.343157"
+      },
+      {
+        "nome": "Rav Berg_Astrologia Cabalística.pdf",
+        "caminho": "/home/andre/Kabbalah-das-Aguas-Primordiais/documentos/materiais-referencia/apostilas-astrologia/Rav Berg_Astrologia Cabalística.pdf",
+        "extensao": ".pdf",
+        "tamanho": 3439948,
+        "data_modificacao": "2021-05-03T22:54:00",
+        "data_criacao": "2025-08-13T21:25:37.343157"
+      },
+      {
+        "nome": "Howard Sasportas_As Doze Casas.pdf",
+        "caminho": "/home/andre/Kabbalah-das-Aguas-Primordiais/documentos/materiais-referencia/apostilas-astrologia/Howard Sasportas_As Doze Casas.pdf",
+        "extensao": ".pdf",
+        "tamanho": 3752344,
+        "data_modificacao": "2021-05-03T22:53:31",
+        "data_criacao": "2025-08-13T21:25:37.343157"
+      },
+      {
+        "nome": "Kathleen Burt_Arquétipos do zodíaco.pdf",
+        "caminho": "/home/andre/Kabbalah-das-Aguas-Primordiais/documentos/materiais-referencia/apostilas-astrologia/Kathleen Burt_Arquétipos do zodíaco.pdf",
+        "extensao": ".pdf",
+        "tamanho": 3609963,
+        "data_modificacao": "2021-05-03T22:53:18",
+        "data_criacao": "2025-08-13T21:25:37.343157"
+      },
+      {
+        "nome": "Alexandre Volguine_A Técnica das Revoluções Solares.pdf",
+        "caminho": "/home/andre/Kabbalah-das-Aguas-Primordiais/documentos/materiais-referencia/apostilas-astrologia/Alexandre Volguine_A Técnica das Revoluções Solares.pdf",
+        "extensao": ".pdf",
+        "tamanho": 3187046,
+        "data_modificacao": "2021-05-03T22:53:05",
+        "data_criacao": "2025-08-13T21:25:37.343157"
+      },
+      {
+        "nome": "Dane Rudhyar_A Prática da Astrologia.pdf",
+        "caminho": "/home/andre/Kabbalah-das-Aguas-Primordiais/documentos/materiais-referencia/apostilas-astrologia/Dane Rudhyar_A Prática da Astrologia.pdf",
+        "extensao": ".pdf",
+        "tamanho": 1097928,
+        "data_modificacao": "2021-05-03T22:52:51",
+        "data_criacao": "2025-08-13T21:25:37.343157"
+      },
+      {
+        "nome": "Suzanne White_A Nova Astrologia.pdf",
+        "caminho": "/home/andre/Kabbalah-das-Aguas-Primordiais/documentos/materiais-referencia/apostilas-astrologia/Suzanne White_A Nova Astrologia.pdf",
+        "extensao": ".pdf",
+        "tamanho": 10219853,
+        "data_modificacao": "2021-05-03T22:52:36",
+        "data_criacao": "2025-08-13T21:25:37.343157"
+      },
+      {
+        "nome": "Ugo Volli_A Linguagem da Astrologia.pdf",
+        "caminho": "/home/andre/Kabbalah-das-Aguas-Primordiais/documentos/materiais-referencia/apostilas-astrologia/Ugo Volli_A Linguagem da Astrologia.pdf",
+        "extensao": ".pdf",
+        "tamanho": 2879996,
+        "data_modificacao": "2021-05-03T22:52:22",
+        "data_criacao": "2025-08-13T21:25:37.343157"
+      },
+      {
+        "nome": "Maria Helena Farelli_A astrologia dos ciganos e a sua magia.pdf",
+        "caminho": "/home/andre/Kabbalah-das-Aguas-Primordiais/documentos/materiais-referencia/apostilas-astrologia/Maria Helena Farelli_A astrologia dos ciganos e a sua magia.pdf",
+        "extensao": ".pdf",
+        "tamanho": 1338396,
+        "data_modificacao": "2021-05-03T22:52:04",
+        "data_criacao": "2025-08-13T21:25:37.343157"
+      },
+      {
+        "nome": "François Suzzarini_A Astrologia Egípcia.pdf",
+        "caminho": "/home/andre/Kabbalah-das-Aguas-Primordiais/documentos/materiais-referencia/apostilas-astrologia/François Suzzarini_A Astrologia Egípcia.pdf",
+        "extensao": ".pdf",
+        "tamanho": 1767517,
+        "data_modificacao": "2021-05-03T22:50:48",
+        "data_criacao": "2025-08-13T21:25:37.343157"
+      },
+      {
+        "nome": "Peter Damian_A Astrologia e os Remédios do Dr. Bach.pdf",
+        "caminho": "/home/andre/Kabbalah-das-Aguas-Primordiais/documentos/materiais-referencia/apostilas-astrologia/Peter Damian_A Astrologia e os Remédios do Dr. Bach.pdf",
+        "extensao": ".pdf",
+        "tamanho": 1425386,
+        "data_modificacao": "2021-05-03T22:50:30",
+        "data_criacao": "2025-08-13T21:25:37.343157"
+      },
+      {
+        "nome": "Marcia Starck_A Astrologia da mãe-terra.pdf",
+        "caminho": "/home/andre/Kabbalah-das-Aguas-Primordiais/documentos/materiais-referencia/apostilas-astrologia/Marcia Starck_A Astrologia da mãe-terra.pdf",
+        "extensao": ".pdf",
+        "tamanho": 2444900,
+        "data_modificacao": "2021-05-03T22:50:13",
+        "data_criacao": "2025-08-13T21:25:37.343157"
+      },
+      {
+        "nome": "Master E K_Spiritual Astrology.pdf",
+        "caminho": "/home/andre/Kabbalah-das-Aguas-Primordiais/documentos/materiais-referencia/apostilas-astrologia/Master E K_Spiritual Astrology.pdf",
+        "extensao": ".pdf",
+        "tamanho": 2748920,
+        "data_modificacao": "2021-04-17T21:35:42",
+        "data_criacao": "2025-08-13T21:25:37.343157"
+      },
+      {
+        "nome": "Michael Erlewine_How to learn astrology.pdf",
+        "caminho": "/home/andre/Kabbalah-das-Aguas-Primordiais/documentos/materiais-referencia/apostilas-astrologia/Michael Erlewine_How to learn astrology.pdf",
+        "extensao": ".pdf",
+        "tamanho": 6175874,
+        "data_modificacao": "2021-04-17T21:35:14",
+        "data_criacao": "2025-08-13T21:25:37.343157"
+      },
+      {
+        "nome": "Astrologia Basica - NANS.pdf",
+        "caminho": "/home/andre/Kabbalah-das-Aguas-Primordiais/documentos/materiais-referencia/apostilas-astrologia/Astrologia Basica - NANS.pdf",
+        "extensao": ".pdf",
+        "tamanho": 13323232,
+        "data_modificacao": "2021-03-21T18:24:34",
+        "data_criacao": "2025-08-13T21:25:37.343157"
+      },
+      {
+        "nome": "The-Complete-Guide-to-Crystal-Astrology.pdf",
+        "caminho": "/home/andre/Kabbalah-das-Aguas-Primordiais/documentos/materiais-referencia/apostilas-astrologia/The-Complete-Guide-to-Crystal-Astrology.pdf",
+        "extensao": ".pdf",
+        "tamanho": 26243309,
+        "data_modificacao": "2021-03-19T14:21:40",
+        "data_criacao": "2025-08-13T21:25:37.343157"
+      }
+    ],
+    "textos-correspondencias": [],
+    "rituais-astrologicos": [],
+    "ciclos-planetarios": [],
+    "cabala-astrologica": [
+      {
+        "nome": "Jack Chanek_Cabalah for Wiccans.pdf",
+        "caminho": "/home/andre/Kabbalah-das-Aguas-Primordiais/documentos/materiais-referencia/cabala-astrologica/Jack Chanek_Cabalah for Wiccans.pdf",
+        "extensao": ".pdf",
+        "tamanho": 20149434,
+        "data_modificacao": "2022-02-09T12:08:28",
+        "data_criacao": "2025-08-13T21:25:54.989510"
+      },
+      {
+        "nome": "Glossário da Cabala.pdf",
+        "caminho": "/home/andre/Kabbalah-das-Aguas-Primordiais/documentos/materiais-referencia/cabala-astrologica/Glossário da Cabala.pdf",
+        "extensao": ".pdf",
+        "tamanho": 460181,
+        "data_modificacao": "2021-05-11T01:45:32",
+        "data_criacao": "2025-08-13T21:25:54.989510"
+      },
+      {
+        "nome": "Luiz Trevizani_Numerologia Cabalística.pdf",
+        "caminho": "/home/andre/Kabbalah-das-Aguas-Primordiais/documentos/materiais-referencia/cabala-astrologica/Luiz Trevizani_Numerologia Cabalística.pdf",
+        "extensao": ".pdf",
+        "tamanho": 965329,
+        "data_modificacao": "2021-05-11T01:44:16",
+        "data_criacao": "2025-08-13T21:25:54.989510"
+      },
+      {
+        "nome": "Rav Philip S. Berg_Astrologia Cabalística.pdf",
+        "caminho": "/home/andre/Kabbalah-das-Aguas-Primordiais/documentos/materiais-referencia/cabala-astrologica/Rav Philip S. Berg_Astrologia Cabalística.pdf",
+        "extensao": ".pdf",
+        "tamanho": 3439948,
+        "data_modificacao": "2021-05-11T01:42:56",
+        "data_criacao": "2025-08-13T21:25:54.989510"
+      },
+      {
+        "nome": "Ashlag_Cabala para Estudante.pdf",
+        "caminho": "/home/andre/Kabbalah-das-Aguas-Primordiais/documentos/materiais-referencia/cabala-astrologica/Ashlag_Cabala para Estudante.pdf",
+        "extensao": ".pdf",
+        "tamanho": 11209708,
+        "data_modificacao": "2021-05-11T01:42:15",
+        "data_criacao": "2025-08-13T21:25:54.989510"
+      },
+      {
+        "nome": "Danea Tage_Curso de Cabala com noções de Hebraico e Aramaico.pdf",
+        "caminho": "/home/andre/Kabbalah-das-Aguas-Primordiais/documentos/materiais-referencia/cabala-astrologica/Danea Tage_Curso de Cabala com noções de Hebraico e Aramaico.pdf",
+        "extensao": ".pdf",
+        "tamanho": 2516669,
+        "data_modificacao": "2021-05-11T01:39:25",
+        "data_criacao": "2025-08-13T21:25:54.989510"
+      },
+      {
+        "nome": "Israel Regardie_O Poder da Magia.pdf",
+        "caminho": "/home/andre/Kabbalah-das-Aguas-Primordiais/documentos/materiais-referencia/cabala-astrologica/Israel Regardie_O Poder da Magia.pdf",
+        "extensao": ".pdf",
+        "tamanho": 1656287,
+        "data_modificacao": "2021-05-11T01:38:24",
+        "data_criacao": "2025-08-13T21:25:54.989510"
+      },
+      {
+        "nome": "Rav Michael Laitman_O Zohar.pdf",
+        "caminho": "/home/andre/Kabbalah-das-Aguas-Primordiais/documentos/materiais-referencia/cabala-astrologica/Rav Michael Laitman_O Zohar.pdf",
+        "extensao": ".pdf",
+        "tamanho": 8650512,
+        "data_modificacao": "2021-05-11T01:38:02",
+        "data_criacao": "2025-08-13T21:25:54.989510"
+      },
+      {
+        "nome": "Franz Bardon_A Chave para a Verdadeira Cabala.pdf",
+        "caminho": "/home/andre/Kabbalah-das-Aguas-Primordiais/documentos/materiais-referencia/cabala-astrologica/Franz Bardon_A Chave para a Verdadeira Cabala.pdf",
+        "extensao": ".pdf",
+        "tamanho": 665455,
+        "data_modificacao": "2021-05-11T01:34:52",
+        "data_criacao": "2025-08-13T21:25:54.989510"
+      },
+      {
+        "nome": "MacGregor Mathers_A Cabala Revelada.pdf",
+        "caminho": "/home/andre/Kabbalah-das-Aguas-Primordiais/documentos/materiais-referencia/cabala-astrologica/MacGregor Mathers_A Cabala Revelada.pdf",
+        "extensao": ".pdf",
+        "tamanho": 4003194,
+        "data_modificacao": "2021-05-11T01:34:34",
+        "data_criacao": "2025-08-13T21:25:54.989510"
+      },
+      {
+        "nome": "Henri Serouya_A Cabala.pdf",
+        "caminho": "/home/andre/Kabbalah-das-Aguas-Primordiais/documentos/materiais-referencia/cabala-astrologica/Henri Serouya_A Cabala.pdf",
+        "extensao": ".pdf",
+        "tamanho": 643646,
+        "data_modificacao": "2021-05-11T01:33:51",
+        "data_criacao": "2025-08-13T21:25:54.989510"
+      },
+      {
+        "nome": "Mônica Buonfiglio_Anjos Cabalísticos.pdf",
+        "caminho": "/home/andre/Kabbalah-das-Aguas-Primordiais/documentos/materiais-referencia/cabala-astrologica/Mônica Buonfiglio_Anjos Cabalísticos.pdf",
+        "extensao": ".pdf",
+        "tamanho": 614816,
+        "data_modificacao": "2021-05-01T22:51:09",
+        "data_criacao": "2025-08-13T21:25:54.989510"
+      },
+      {
+        "nome": "Samael Aun Weor_Curso Esoterico de Cabala.pdf",
+        "caminho": "/home/andre/Kabbalah-das-Aguas-Primordiais/documentos/materiais-referencia/cabala-astrologica/Samael Aun Weor_Curso Esoterico de Cabala.pdf",
+        "extensao": ".pdf",
+        "tamanho": 2107775,
+        "data_modificacao": "2021-05-01T22:48:04",
+        "data_criacao": "2025-08-13T21:25:54.989510"
+      },
+      {
+        "nome": "Yehuda Berg_O Poder da Cabala.pdf",
+        "caminho": "/home/andre/Kabbalah-das-Aguas-Primordiais/documentos/materiais-referencia/cabala-astrologica/Yehuda Berg_O Poder da Cabala.pdf",
+        "extensao": ".pdf",
+        "tamanho": 1075189,
+        "data_modificacao": "2021-05-01T22:19:44",
+        "data_criacao": "2025-08-13T21:25:54.989510"
+      },
+      {
+        "nome": "Dion Fortune_ A Cabala Mística.pdf",
+        "caminho": "/home/andre/Kabbalah-das-Aguas-Primordiais/documentos/materiais-referencia/cabala-astrologica/Dion Fortune_ A Cabala Mística.pdf",
+        "extensao": ".pdf",
+        "tamanho": 1388195,
+        "data_modificacao": "2021-05-01T22:19:14",
+        "data_criacao": "2025-08-13T21:25:54.989510"
+      },
+      {
+        "nome": "Cabala Rúnica.pdf",
+        "caminho": "/home/andre/Kabbalah-das-Aguas-Primordiais/documentos/materiais-referencia/cabala-astrologica/Cabala Rúnica.pdf",
+        "extensao": ".pdf",
+        "tamanho": 331977,
+        "data_modificacao": "2020-12-14T10:27:48",
+        "data_criacao": "2025-08-13T21:25:54.989510"
+      },
+      {
+        "nome": "Ali Al Khan S I Manual Magico de Kabbala Pratica.pdf",
+        "caminho": "/home/andre/Kabbalah-das-Aguas-Primordiais/documentos/materiais-referencia/cabala-astrologica/Ali Al Khan S I Manual Magico de Kabbala Pratica.pdf",
+        "extensao": ".pdf",
+        "tamanho": 25245744,
+        "data_modificacao": "2020-12-04T11:39:58",
+        "data_criacao": "2025-08-13T21:25:54.984510"
+      }
+    ],
+    "referencias-historicas": []
+  },
+  "arquivos_novos": [],
+  "resumo_conteudo": {
+    "apostilas-astrologia": {
+      "total_arquivos": 27,
+      "tipos_arquivo": [
+        ".pptx",
+        ".pdf"
+      ],
+      "tamanho_total": 155719886
+    },
+    "textos-correspondencias": {
+      "total_arquivos": 0,
+      "tipos_arquivo": [],
+      "tamanho_total": 0
+    },
+    "rituais-astrologicos": {
+      "total_arquivos": 0,
+      "tipos_arquivo": [],
+      "tamanho_total": 0
+    },
+    "ciclos-planetarios": {
+      "total_arquivos": 0,
+      "tipos_arquivo": [],
+      "tamanho_total": 0
+    },
+    "cabala-astrologica": {
+      "total_arquivos": 17,
+      "tipos_arquivo": [
+        ".pdf"
+      ],
+      "tamanho_total": 85124059
+    },
+    "referencias-historicas": {
+      "total_arquivos": 0,
+      "tipos_arquivo": [],
+      "tamanho_total": 0
+    }
+  }
+}

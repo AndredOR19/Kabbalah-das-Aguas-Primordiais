@@ -1,0 +1,71 @@
+{
+  "titulo": "APOSTILA DE ASTROLOGIA CABALÍSTICA",
+  "subtitulo": "Sistema Integrado Kabbalah das Águas Primordiais",
+  "versao": "1.0",
+  "data_criacao": "2025-08-13T21:30:16.319787",
+  "partes": {
+    "I": {
+      "titulo": "FUNDAMENTOS ASTROLÓGICOS",
+      "descricao": "Base técnica sólida da astrologia tradicional",
+      "capitulos": {
+        "1": "Introdução à Astrologia - História e Princípios",
+        "2": "Os Planetas - Arquétipos Cósmicos",
+        "3": "Os Signos - Qualidades e Elementos",
+        "4": "As Casas - Campos de Experiência",
+        "5": "Os Aspectos - Relações Dinâmicas",
+        "6": "Interpretação Básica do Mapa Natal"
+      }
+    },
+    "II": {
+      "titulo": "CORRESPONDÊNCIAS CABALÍSTICAS",
+      "descricao": "Integração entre Astrologia e Cabala",
+      "capitulos": {
+        "7": "A Árvore da Vida e os Planetas",
+        "8": "As 22 Letras Hebraicas e o Zodíaco",
+        "9": "Sefirot e Correspondências Planetárias",
+        "10": "Caminhos da Árvore e Casas Astrológicas",
+        "11": "Aspectos como Polaridades do Verbo",
+        "12": "O Corpo Somático do Verbo"
+      }
+    },
+    "III": {
+      "titulo": "ANÁLISE DINÂMICA - TRÂNSITOS E CICLOS",
+      "descricao": "O Verbo em movimento através do tempo",
+      "capitulos": {
+        "13": "Ciclos Planetários e Desenvolvimento Espiritual",
+        "14": "Trânsitos como Ativações Cabalísticas",
+        "15": "Retornos Planetários e Iniciações",
+        "16": "Progressões e Direções Espirituais",
+        "17": "Timing Sagrado e Astrologia Eletiva"
+      }
+    },
+    "IV": {
+      "titulo": "SISTEMA OPERATIVO SCII",
+      "descricao": "Aplicação prática do conhecimento",
+      "capitulos": {
+        "18": "Análise Completa do Mapa Cabalístico",
+        "19": "Protocolo Ritual Personalizado",
+        "20": "Práticas de Ativação Planetária",
+        "21": "Meditações e Exercícios Somáticos",
+        "22": "Integração com o Sistema SCII"
+      }
+    },
+    "V": {
+      "titulo": "CASOS PRÁTICOS E EXEMPLOS",
+      "descricao": "Aplicação real do sistema",
+      "capitulos": {
+        "23": "Análise de Mapas Exemplares",
+        "24": "Estudos de Caso de Trânsitos",
+        "25": "Protocolos Rituais Específicos",
+        "26": "Desenvolvimento de Operadores SCII"
+      }
+    }
+  },
+  "apendices": {
+    "A": "Tabelas de Correspondências Completas",
+    "B": "Efemérides e Cálculos",
+    "C": "Glossário Astrológico-Cabalístico",
+    "D": "Bibliografia e Referências",
+    "E": "Exercícios Práticos"
+  }
+}
