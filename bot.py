@@ -1,10 +1,15 @@
 from flask import Flask, request, jsonify
-import openai, json, os
+import google.generativeai as genai
+import json
+import os
 
 app = Flask(__name__)
 
-# Sua chave de API da OpenAI (lida a partir das variáveis de ambiente)
-openai.api_key = os.getenv("OPENAI_API_KEY")
+# Chave da API do Google Gemini (lida a partir das variáveis de ambiente)
+# IMPORTANTE: No Render, a variável de ambiente deve se chamar GEMINI_API_KEY
+api_key = os.getenv("GEMINI_API_KEY")
+if api_key:
+    genai.configure(api_key=api_key)
 
 # Carrega a personalidade
 with open("config.json", "r", encoding="utf-8") as f:
@@ -16,34 +21,34 @@ def oraculo():
     pergunta = data.get("pergunta")
     perfil = data.get("perfil")
 
-    if not openai.api_key:
-        return jsonify({"resposta": "Erro: A chave da API da OpenAI não foi configurada no servidor."})
+    if not api_key:
+        return jsonify({"resposta": "Erro: A chave da API do Gemini não foi configurada no servidor."})
 
+    # Constrói o prompt para o Gemini
     contexto = f"""
     Você é o Oráculo-Mestre do Instituto Águas Primordiais.
-    Papéis: {config['papel']}
-    Estilo: {config['estilo']}
-    Limites: {config['limites']}
+    Seus papéis são: {config['papel']}
+    Seu estilo é: {config['estilo']}
+    Suas regras são: {config['limites']}
 
-    Dados do consulente:
-    Nome completo: {perfil['nome']}
-    Local de nascimento: {perfil['local_nascimento']}
-    Local atual: {perfil['local_atual']}
-    Data de nascimento: {perfil['data_nascimento']}
-    Hora de nascimento: {perfil['hora_nascimento']}
+    A seguir, os dados do consulente que faz a pergunta. Use esses dados para dar uma resposta mais profunda e personalizada.
+    - Nome completo: {perfil['nome']}
+    - Local de nascimento: {perfil['local_nascimento']}
+    - Local atual: {perfil['local_atual']}
+    - Data de nascimento: {perfil['data_nascimento']}
+    - Hora de nascimento: {perfil['hora_nascimento']}
 
-    Pergunta: {pergunta}
+    Responda à seguinte pergunta: "{pergunta}"
     """
 
     try:
-        resposta = openai.ChatCompletion.create(
-            model="gpt-4o-mini",
-            messages=[{"role": "system", "content": contexto}]
-        )
-        return jsonify({"resposta": resposta.choices[0].message["content"]})
+        # Inicializa o modelo e gera o conteúdo
+        model = genai.GenerativeModel('gemini-pro')
+        response = model.generate_content(contexto)
+        return jsonify({"resposta": response.text})
     except Exception as e:
-        return jsonify({"resposta": f"Ocorreu um erro ao contatar o Oráculo: {str(e)}"})
-
+        # Retorna uma mensagem de erro mais detalhada para depuração
+        return jsonify({"resposta": f"Ocorreu um erro ao contatar o Oráculo Gemini: {str(e)}"})
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 5000)))
