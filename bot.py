@@ -9,6 +9,8 @@ GROQ_API_KEY = os.environ.get("GROQ_API_KEY")
 # Endpoint correto para a API de Chat Completions da Groq
 GROQ_ENDPOINT = "https://api.groq.com/openai/v1/chat/completions"
 
+print("CHAVE CARREGADA:", os.getenv("GROQ_API_KEY")) # Linha de depuração temporária
+
 @app.route("/", methods=["POST"])
 def responder():
     if not GROQ_API_KEY:
