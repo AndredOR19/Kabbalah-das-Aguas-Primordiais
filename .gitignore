@@ -1,0 +1,147 @@
+# Kabbalah das Águas Primordiais - .gitignore
+
+# ============================================================================
+# BIBLIOTECA MÍSTICA - APENAS CONSULTA LOCAL
+# ============================================================================
+# Biblioteca Mística completa - não enviar para GitHub (apenas consulta local)
+documentos/materiais-referencia/Biblioteca Mística*/
+**/Biblioteca Mística*/
+
+# ============================================================================
+# ARQUIVOS TEMPORÁRIOS E CACHE
+# ============================================================================
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ============================================================================
+# ARQUIVOS DE SISTEMA
+# ============================================================================
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows
+*.tmp
+*.temp
+
+# Linux
+*~
+
+# ============================================================================
+# DOWNLOADS E TEMPORÁRIOS
+# ============================================================================
+# Downloads temporários
+*.crdownload
+*.part
+*.download
+
+# Arquivos temporários de backup
+*.bak
+*.backup
+*.old
+*.orig
+
+# ============================================================================
+# LOGS E RELATÓRIOS TEMPORÁRIOS
+# ============================================================================
+# Logs
+*.log
+logs/
+
+# Relatórios temporários (manter apenas os essenciais)
+relatorios_temporarios/
+temp_reports/
+
+# ============================================================================
+# CONFIGURAÇÕES LOCAIS
+# ============================================================================
+# Configurações pessoais
+config_local.json
+settings_local.py
+.local/
+
+# Chaves e credenciais
+*.key
+*.pem
+credentials.json
+secrets.json
+
+# ============================================================================
+# ARQUIVOS DE DESENVOLVIMENTO
+# ============================================================================
+# IDEs
+.vscode/settings.json
+.vscode/launch.json
+.idea/
+*.swp
+*.swo
+
+# Testing
+.coverage
+.pytest_cache/
+.tox/
+.nox/
+coverage.xml
+*.cover
+.hypothesis/
+
+# ============================================================================
+# OBSERVAÇÕES IMPORTANTES
+# ============================================================================
+# 
+# MANTIDOS NO GIT (materiais essenciais):
+# - documentos/materiais-referencia/apostilas-astrologia/ (27 PDFs)
+# - documentos/materiais-referencia/cabala-astrologica/ (17 PDFs)
+# - Todos os sistemas Python funcionais
+# - Apostila base gerada
+# - Relatórios essenciais
+#
+# EXCLUÍDOS DO GIT (apenas consulta local):
+# - Biblioteca Mística completa (442+ PDFs)
+# - Arquivos temporários e cache
+# - Configurações pessoais
+# - Downloads em andamento
+#
+# TOTAL NO GIT: ~230 MB de conteúdo essencial e funcional
+# TOTAL LOCAL: ~2+ GB incluindo biblioteca mística para consulta
+#

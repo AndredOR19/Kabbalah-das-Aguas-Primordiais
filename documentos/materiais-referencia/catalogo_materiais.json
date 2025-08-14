@@ -1,5 +1,5 @@
 {
-  "data_escaneamento": "2025-08-13T21:27:02.032200",
+  "data_escaneamento": "2025-08-13T22:23:08.610163",
   "total_arquivos": 44,
   "materiais_por_categoria": {
     "apostilas-astrologia": [
@@ -368,8 +368,8 @@
     "apostilas-astrologia": {
       "total_arquivos": 27,
       "tipos_arquivo": [
-        ".pptx",
-        ".pdf"
+        ".pdf",
+        ".pptx"
       ],
       "tamanho_total": 155719886
     },
