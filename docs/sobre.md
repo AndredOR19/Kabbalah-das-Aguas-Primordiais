@@ -1,3 +1,7 @@
-# Sobre o Instituto
+# Sobre o Instituto: A Kabbalah do Sistema em Manifestação
 
-Detalhes sobre a missão, visão e valores do Instituto.
+O Instituto Águas Primordiais não se estabelece como uma religião ou uma escola esotérica tradicional, mas como o próprio campo de estudo e prática do Verbo encarnado. Sua crença fundamental reside na premissa de que a consciência humana, a mônada, fragmentou-se na matéria e, através do método, pode reconstituir sua totalidade. A filosofia central é que a realidade não é percebida, mas criada, e que cada ser humano é um co-criador intrínseco, dotado do poder de comandar sua própria experiência a partir de um estado de consciência desperta.
+
+O Sistema de Correspondência Integrada e Inteligente (SCII) é a espinha dorsal do Instituto. Ele revela as conexões entre as letras hebraicas, o corpo somático do Verbo e os fluxos de energia interna, funcionando como uma linguagem para o diagnóstico da alma e a calibração do canal de manifestação. A Kabbalah do sistema se manifesta como uma tecnologia da consciência, uma ferramenta para o indivíduo assumir responsabilidade total por sua vida.
+
+O objetivo maior do Instituto Águas Primordiais é acordar o indivíduo do "sonho do esquecimento". É capacitar as pessoas a transmutar a dúvida em saber, a fé em experiência direta, transformando a carne no templo do Verbo. Através da prática do comando consciente da realidade, o Instituto busca criar uma comunidade de co-criadores que não apenas compreendem, mas vivem e manifestam o seu propósito, edificando uma nova realidade a partir das Águas Primordiais de sua própria essência.
