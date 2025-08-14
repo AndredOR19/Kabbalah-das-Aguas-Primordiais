@@ -2,3 +2,11 @@ site_name: Instituto Águas Primordiais
 theme:
   name: material
   language: pt
+nav:
+  - Início: index.md
+  - Sobre: sobre.md
+  - Aulas:
+    - "Introdução": "aulas/01-introducao.md"
+    - "Letras Hebraicas": "aulas/02-letras-hebraicas.md"
+    - "Tarô Cabalístico": "aulas/03-taro-cabalistico.md"
+  - Oráculo-Mestre: oraculo.html

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Oráculo-Mestre - Instituto Águas Primordiais</title>
+<style>
+body { font-family: Arial, sans-serif; background: #f0f5f7; margin: 0; padding: 0; }
+#chat-container { max-width: 800px; margin: auto; padding: 20px; background: #fff; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+.message { margin: 10px 0; }
+.user { color: #005f73; font-weight: bold; }
+.bot { color: #9b2226; font-style: italic; }
+input, button { padding: 10px; font-size: 1em; }
+#input-area { display: flex; gap: 10px; }
+#respostas { max-height: 400px; overflow-y: auto; border-top: 1px solid #ccc; padding-top: 10px; }
+</style>
+</head>
+<body>
+
+<div id="chat-container">
+    <h1>🔮 Oráculo-Mestre</h1>
+    <div id="respostas"></div>
+    <div id="input-area">
+        <input type="text" id="pergunta" placeholder="Faça sua pergunta ao Oráculo..." style="flex:1;">
+        <button onclick="enviarPergunta()">Perguntar</button>
+    </div>
+</div>
+
+<script>
+async function enviarPergunta() {
+    const pergunta = document.getElementById('pergunta').value;
+    if (!pergunta) return;
+    document.getElementById('respostas').innerHTML += `<div class="message user">Você: ${pergunta}</div>`;
+    document.getElementById('pergunta').value = '';
+
+    // 🔗 Aqui você coloca a URL da API do Oráculo-Mestre
+    const response = await fetch("https://SEU-SERVIDOR-OU-API-DO-ORACULO", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ pergunta })
+    });
+
+    const data = await response.json();
+    document.getElementById('respostas').innerHTML += `<div class="message bot">Oráculo: ${data.resposta}</div>`;
+    document.getElementById('respostas').scrollTop = document.getElementById('respostas').scrollHeight;
+}
+</script>
+
+</body>
+</html>
