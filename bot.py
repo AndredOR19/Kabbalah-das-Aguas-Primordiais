@@ -5,16 +5,16 @@ import requests
 app = Flask(__name__)
 
 # Carrega a chave da API do Groq a partir das variáveis de ambiente
-GROQ_API_KEY = os.environ.get("GROQ_API_KEY")
+GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "SUA_CHAVE_TEMPORARIA_AQUI_PARA_TESTE") # Adicionado fallback para depuração
 # Endpoint correto para a API de Chat Completions da Groq
 GROQ_ENDPOINT = "https://api.groq.com/openai/v1/chat/completions"
 
-print("CHAVE CARREGADA:", os.getenv("GROQ_API_KEY")) # Linha de depuração temporária
+print("CHAVE CARREGADA:", GROQ_API_KEY) # Mantém o print para verificar o fallback
 
 @app.route("/", methods=["POST"])
 def responder():
-    if not GROQ_API_KEY:
-        return jsonify({"resposta": "Erro: A chave da API do Groq (GROQ_API_KEY) não foi configurada no servidor."})
+    if GROQ_API_KEY == "SUA_CHAVE_TEMPORARIA_AQUI_PARA_TESTE" or not GROQ_API_KEY: # Ajusta a verificação
+        return jsonify({"resposta": "Erro: A chave da API do Groq (GROQ_API_KEY) não foi configurada no servidor ou está usando o valor de teste."})
 
     data = request.json
     # O frontend atual envia um objeto 'perfil' com os dados e a pergunta.
