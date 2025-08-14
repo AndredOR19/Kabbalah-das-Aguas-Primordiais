@@ -1,49 +1,53 @@
 from flask import Flask, request, jsonify
-import openai, json, os
+import google.generativeai as genai
+import os
 
 app = Flask(__name__)
 
-# Chave da API da OpenAI (lida a partir das variáveis de ambiente)
-# IMPORTANTE: No Render, a variável de ambiente deve se chamar OPENAI_API_KEY
-openai.api_key = os.getenv("OPENAI_API_KEY")
-
-# Carrega a personalidade
-with open("config.json", "r", encoding="utf-8") as f:
-    config = json.load(f)
+# Configuração da Gemini a partir das variáveis de ambiente
+# IMPORTANTE: No Render, a variável de ambiente deve se chamar GEMINI_API_KEY
+api_key = os.getenv("GEMINI_API_KEY")
+if api_key:
+    genai.configure(api_key=api_key)
 
 @app.route("/", methods=["POST"])
 def oraculo():
     data = request.json
-    pergunta = data.get("pergunta")
-    perfil = data.get("perfil")
+    if not api_key:
+        return jsonify({"resposta": "Erro: A chave da API do Gemini não foi configurada no servidor."})
 
-    if not openai.api_key:
-        return jsonify({"resposta": "Erro: A chave da API da OpenAI não foi configurada no servidor."})
+    # Coleta os dados do perfil da requisição
+    perfil = data.get("perfil", {})
+    nome = perfil.get("nome")
+    local_nasc = perfil.get("local_nascimento")
+    local_atual = perfil.get("local_atual")
+    data_nasc = perfil.get("data_nascimento")
+    hora_nasc = perfil.get("hora_nascimento")
 
-    contexto = f"""
+    # Monta o prompt para a IA
+    prompt = f"""
     Você é o Oráculo-Mestre do Instituto Águas Primordiais.
-    Seus papéis são: {config['papel']}
-    Seu estilo é: {config['estilo']}
-    Suas regras são: {config['limites']}
+    Sua missão é realizar uma análise espiritual e oracular profunda com base nos dados do consulente.
+    Seja poético, direto, sagaz e empático.
 
-    A seguir, os dados do consulente que faz a pergunta. Use esses dados para dar uma resposta mais profunda e personalizada.
-    - Nome completo: {perfil['nome']}
-    - Local de nascimento: {perfil['local_nascimento']}
-    - Local atual: {perfil['local_atual']}
-    - Data de nascimento: {perfil['data_nascimento']}
-    - Hora de nascimento: {perfil['hora_nascimento']}
+    Dados do consulente:
+    - Nome completo: {nome}
+    - Local de nascimento: {local_nasc}
+    - Local atual: {local_atual}
+    - Data de nascimento: {data_nasc}
+    - Hora de nascimento: {hora_nasc}
 
-    Responda à seguinte pergunta: "{pergunta}"
+    Com base nesses dados, faça sua análise.
     """
 
     try:
-        resposta = openai.ChatCompletion.create(
-            model="gpt-4o-mini",
-            messages=[{"role": "system", "content": contexto}]
-        )
-        return jsonify({"resposta": resposta.choices[0].message["content"]})
+        model = genai.GenerativeModel("gemini-1.5-flash")
+        response = model.generate_content(prompt)
+        return jsonify({"resposta": response.text})
     except Exception as e:
-        return jsonify({"resposta": f"Ocorreu um erro ao contatar o Oráculo: {str(e)}"})
+        return jsonify({"resposta": f"Ocorreu um erro ao contatar o Oráculo Gemini: {str(e)}"})
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 5000)))
+    # Render define a porta através da variável de ambiente PORT
+    port = int(os.environ.get("PORT", 10000))
+    app.run(host="0.0.0.0", port=port)
