@@ -1,0 +1,72 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Dados do Mapa Cabalístico (Corpo do Verbo / SCII)",
+  "type": "object",
+  "required": ["identidade", "meta", "posicoes", "assinaturas"],
+  "properties": {
+    "identidade": {
+      "type": "object",
+      "required": ["nome"],
+      "properties": {
+        "nome": { "type": "string" },
+        "pseudonimo": { "type": "string" },
+        "data_nascimento": { "type": "string" },
+        "hora_nascimento": { "type": "string" },
+        "local_nascimento": { "type": "string" }
+      }
+    },
+    "meta": {
+      "type": "object",
+      "properties": {
+        "versao_template": { "type": "string" },
+        "autor_analise": { "type": "string" },
+        "repositorio": { "type": "string" }
+      }
+    },
+    "posicoes": {
+      "type": "object",
+      "description": "Planetas e pontos; cada item mapeia para signo, casa e aspectos.",
+      "patternProperties": {
+        ".*": {
+          "type": "object",
+          "required": ["signo", "casa"],
+          "properties": {
+            "signo": { "type": "string" },
+            "casa": { "type": "integer" },
+            "grau": { "type": "number" },
+            "aspectos": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": ["com", "tipo", "orbe"],
+                "properties": {
+                  "com": { "type": "string" },
+                  "tipo": { "type": "string", "enum": ["conjuncao", "sextil", "quadratura", "trigono", "oposicao", "quincunce"] },
+                  "orbe": { "type": "number" }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "assinaturas": {
+      "type": "object",
+      "description": "Assinaturas do Corpo do Verbo (letras, caminhos, arcanos) e SCII.",
+      "properties": {
+        "eixos": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "letras_chave": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "portais_operativos": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    }
+  }
+}

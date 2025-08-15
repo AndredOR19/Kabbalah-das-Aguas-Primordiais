@@ -1,0 +1,48 @@
+identidade:
+  nome: "Moema Silva"
+  pseudonimo: "A Guardiã das Águas"
+  data_nascimento: "1985-03-21"
+  hora_nascimento: "14:30"
+  local_nascimento: "Rio de Janeiro, Brasil"
+meta:
+  versao_template: "v1.0"
+  autor_analise: "Karuv Beni EL"
+  repositorio: "github.com/SEU_USER/corpo-do-verbo-mapas"
+posicoes:
+  Sol:
+    signo: "Áries"
+    casa: 1
+    grau: 0.5
+    aspectos:
+      - { com: "Marte", tipo: "conjuncao", orbe: 2.0 }
+  Lua:
+    signo: "Câncer"
+    casa: 4
+  Mercúrio:
+    signo: "Peixes"
+    casa: 12
+  Vênus:
+    signo: "Touro"
+    casa: 2
+  Marte:
+    signo: "Áries"
+    casa: 1
+  Júpiter:
+    signo: "Aquário"
+    casa: 11
+  Saturno:
+    signo: "Escorpião"
+    casa: 8
+  Urano:
+    signo: "Sagitário"
+    casa: 9
+  Netuno:
+    signo: "Capricórnio"
+    casa: 10
+  Plutão:
+    signo: "Libra"
+    casa: 7
+assinaturas:
+  eixos: ["Aleph–Bet–Gimel–Dalet–He"]
+  letras_chave: ["Aleph", "Bet", "Gimel", "Dalet", "He"]
+  portais_operativos: ["Casa 1 (Início)", "Caminho 11 (Aleph)"]

@@ -1,0 +1,31 @@
+Aleph:
+  caminho: 11
+  arcano: 0  # O Louco / Sopro Primordial
+  elemento: Ar
+  funcao: "Princípio de animação e respiração; ponte céu-terra"
+Bet:
+  caminho: 12
+  arcano: 1
+  elemento: —
+  funcao: "Estruturar a fala; moldar a casa do Verbo"
+Vav:
+  caminho: 16
+  arcano: 5
+  planeta: "Vênus (no nosso sistema: fixação/ponte)"
+  funcao: "Ancorar; fixar; unir planos"
+Nun:
+  caminho: 24
+  arcano: 13
+  funcao: "Transmutação; morte-renascimento; travessia"
+Tzadi:
+  caminho: 28
+  arcano: 17
+  funcao: "Visão, guia e projeção do futuro"
+Yod:
+  caminho: 20
+  arcano: 9
+  funcao: "Refinamento; laboratório interno; precisão"
+Tet:
+  caminho: 19
+  arcano: 11
+  funcao: "Coragem radiante; domar a força vital"

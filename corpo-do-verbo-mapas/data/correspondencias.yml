@@ -1,0 +1,9 @@
+# Correspondências (Tarot, Árvore, planetas, signos, casas → função SCII)
+# Este arquivo deve ser ajustado conforme o cânone interno do método.
+
+# Exemplo:
+# Tarot:
+#   O Louco:
+#     letra: Aleph
+#     caminho: 11
+#     funcao_scii: "Início de um novo ciclo, salto de fé"

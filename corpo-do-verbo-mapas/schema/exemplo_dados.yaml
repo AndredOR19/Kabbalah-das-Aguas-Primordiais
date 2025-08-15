@@ -1,0 +1,48 @@
+identidade:
+  nome: "Nome da Pessoa"
+  pseudonimo: "—"
+  data_nascimento: "AAAA-MM-DD"
+  hora_nascimento: "HH:MM"
+  local_nascimento: "Cidade, País"
+meta:
+  versao_template: "v1.0"
+  autor_analise: "Karuv Beni EL"
+  repositorio: "github.com/SEU_USER/corpo-do-verbo-mapas"
+posicoes:
+  Sol:
+    signo: "Escorpião"
+    casa: 7
+    grau: 12.3
+    aspectos:
+      - { com: "Júpiter", tipo: "conjuncao", orbe: 3.1 }
+  Lua:
+    signo: "Aquário"
+    casa: 10
+  Mercúrio:
+    signo: "Escorpião"
+    casa: 7
+  Vênus:
+    signo: "Sagitário"
+    casa: 8
+  Marte:
+    signo: "Virgem"
+    casa: 5
+  Júpiter:
+    signo: "Escorpião"
+    casa: 7
+  Saturno:
+    signo: "Virgem"
+    casa: 5
+  Urano:
+    signo: "Câncer"
+    casa: 3
+  Netuno:
+    signo: "Libra"
+    casa: 6
+  Plutão:
+    signo: "Leão"
+    casa: 4
+assinaturas:
+  eixos: ["Vav–Nun–Tzadi–Yod–Tet"]
+  letras_chave: ["Vav", "Nun", "Tzadi", "Yod", "Tet"]
+  portais_operativos: ["Casa 7 (Espelho)", "Caminho 24 (Nun)"]
