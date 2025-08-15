@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Oráculo-Mestre - Instituto Águas Primordiais</title>
+<style>
+body { font-family: Arial, sans-serif; background: #f0f5f7; margin: 0; padding: 0; }
+#container { max-width: 800px; margin: auto; padding: 20px; background: #fff; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+input, button, textarea { padding: 10px; font-size: 1em; width: calc(100% - 22px); margin-bottom: 10px; }
+button { width: 100%; cursor: pointer; background-color: #005f73; color: white; border: none; }
+#resposta { white-space: pre-wrap; background-color: #f9f9f9; border: 1px solid #ddd; padding: 10px; min-height: 100px; }
+</style>
+</head>
+<body>
+
+<div id="container">
+    <h1>🔮 Oráculo-Mestre</h1>
+    <p>Preencha seus dados para uma consulta personalizada:</p>
+    
+    <input type="text" id="nome" placeholder="Nome completo">
+    <input type="text" id="local_nascimento" placeholder="Local de nascimento">
+    <input type="text" id="local_atual" placeholder="Local atual">
+    <input type="date" id="data_nascimento">
+    <input type="time" id="hora_nascimento">
+    
+    <button onclick="consultarOraculo()">Consultar o Oráculo</button>
+    
+    <h2>Resposta do Oráculo:</h2>
+    <div id="resposta">Aguardando sua consulta...</div>
+</div>
+
+<script>
+async function consultarOraculo() {
+    const perfil = {
+        nome: document.getElementById('nome').value,
+        local_nascimento: document.getElementById('local_nascimento').value,
+        local_atual: document.getElementById('local_atual').value,
+        data_nascimento: document.getElementById('data_nascimento').value,
+        hora_nascimento: document.getElementById('hora_nascimento').value
+    };
+
+    if (!perfil.nome || !perfil.local_nascimento || !perfil.local_atual || !perfil.data_nascimento || !perfil.hora_nascimento) {
+        alert("Por favor, preencha todos os campos.");
+        return;
+    }
+
+    document.getElementById('resposta').innerText = "Consultando as águas primordiais...";
+
+    try {
+        const response = await fetch("https://kabbalah-das-aguas-primordiais.onrender.com", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ perfil: perfil })
+        });
+
+        if (!response.ok) {
+            throw new Error(`Erro na requisição: ${response.statusText}`);
+        }
+
+        const data = await response.json();
+        document.getElementById('resposta').innerText = data.resposta;
+    } catch (error) {
+        document.getElementById('resposta').innerText = `Ocorreu um erro ao contatar o Oráculo. Por favor, tente novamente mais tarde. Detalhe: ${error.message}`;
+    }
+}
+</script>
+
+</body>
+</html>
