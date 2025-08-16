@@ -1,0 +1,59 @@
+- id: Transmutador
+  letras_chave: [Nun, Vav]
+  funcao_scII: Transformar obstáculos em aprendizado; morte-renascimento
+  camada1: |
+    Você sente profundamente cada mudança, e cada desafio é um portal de renascimento.  
+    Nada escapa à sua percepção: cada instante é oportunidade de elevar o espírito e transmutar a matéria.
+  camada2: |
+    Nun (Caminho 24 / Arcano 13) ativa travessias, transições e renascimentos;  
+    Vav (Caminho 16 / Arcano 5) ancora planos superiores e conecta o céu à terra.  
+    Este perfil promove integração entre experiências emocionais e aprendizado espiritual.
+  camada3: |
+    Ritual de travessia com respiração guiada e carta XIII como sigilo;  
+    Meditação de morte-renascimento ao amanhecer;  
+    Ancoragem em Vav: grounding com vela verde/dourada, afirmação de ponte.
+
+- id: Visionário
+  letras_chave: [Tzadi, Yod]
+  funcao_scII: Prever tendências, guiar caminhos futuros
+  camada1: |
+    Seus olhos captam o invisível, traduzindo sinais sutis em ação consciente.  
+    O futuro se desenha à sua frente, e você é o guia silencioso de quem busca direção.
+  camada2: |
+    Tzadi (Caminho 28 / Arcano 17) projeta visão e orientação do futuro;  
+    Yod (Caminho 20 / Arcano 9) refina percepção, detalha padrões e oferece precisão.  
+    Este perfil é a ponte entre intuição e manifestação prática.
+  camada3: |
+    Observação do céu noturno e registro oracular;  
+    Escrita de visões em diário sagrado;  
+    Exercícios de clarividência controlada e alinhamento com portais operativos.
+
+- id: Ancorador
+  letras_chave: [Aleph, Vav]
+  funcao_scII: Estabilizar fluxos; criar ponte entre céu e terra
+  camada1: |
+    Você mantém firmeza em meio ao caos, conectando planos e garantindo equilíbrio.  
+    Sua presença é âncora, capaz de harmonizar qualquer fluxo de energia.
+  camada2: |
+    Aleph (Caminho 11 / Arcano 0) energiza a ponte espiritual;  
+    Vav (Caminho 16 / Arcano 5) ancora e estabiliza planos superiores.  
+    Este perfil garante integração entre inspiração e ação prática.
+  camada3: |
+    Grounding diário com vela verde/dourada;  
+    Afirmação de ponte entre planos;  
+    Meditação de alinhamento entre corpo, mente e espírito.
+
+- id: CorajosoRadiante
+  letras_chave: [Tet, Yod]
+  funcao_scII: Domar a força vital; enfrentar desafios com brilho
+  camada1: |
+    Sua coragem ilumina o caminho, inspirando outros a avançar.  
+    Você encara desafios com brilho e determinação, transformando obstáculos em oportunidades.
+  camada2: |
+    Tet (Caminho 19 / Arcano 11) domina a força vital;  
+    Yod (Caminho 20 / Arcano 9) aperfeiçoa precisão e disciplina;  
+    Este perfil ativa coragem radiante e liderança inspiradora.
+  camada3: |
+    Exercícios de respiração profunda e foco;  
+    RituaIs de ativação da força vital;  
+    Prática de disciplina energética diária com sigilos de proteção.
