@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protocolo Audiovisual do Verbo - Águas Primordiais</title>
+    <link rel="stylesheet" href="styles/mystical.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+</head>
+<body>
+    <div id="portal-container">
+        <header class="cosmic-header">
+            <h1>🌌 PROTOCOLO DO VERBO VIVO</h1>
+            <div id="current-parasha"></div>
+        </header>
+
+        <main class="main-interface">
+            <section class="control-panel">
+                <h2>🔮 SELEÇÃO DE REALIDADE</h2>
+                
+                <div class="tikun-selector">
+                    <button id="parasha-tikun" class="cosmic-btn">
+                        TIKUN DA PARASHÁ
+                    </button>
+                    <div id="parasha-info"></div>
+                </div>
+
+                <div class="mantra-selector">
+                    <select id="mantra-select">
+                        <option value="">Escolha um Mantra</option>
+                        <option value="gayatri">Gayatri Mantra</option>
+                        <option value="ommani">Om Mani Padme Hum</option>
+                        <option value="einsof">Ein Sof</option>
+                    </select>
+                </div>
+
+                <div class="personal-controls">
+                    <input type="date" id="birthdate" placeholder="Data de Nascimento">
+                    <button id="personal-tikun">MEU TIKUN</button>
+                </div>
+            </section>
+
+            <section class="visual-area">
+                <canvas id="mantra-canvas"></canvas>
+                <div id="chakra-display">
+                    <div class="chakra" data-chakra="coroa"></div>
+                    <div class="chakra" data-chakra="terceiro-olho"></div>
+                    <div class="chakra" data-chakra="garganta"></div>
+                    <div class="chakra" data-chakra="coracao"></div>
+                    <div class="chakra" data-chakra="plexo"></div>
+                    <div class="chakra" data-chakra="sacral"></div>
+                    <div class="chakra" data-chakra="base"></div>
+                </div>
+            </section>
+
+            <section class="akashic-journal">
+                <h3>📜 REGISTRO DA JORNADA</h3>
+                <textarea id="journey-log" placeholder="Registre suas visões..."></textarea>
+                <button id="save-experience">SALVAR NOS REGISTROS</button>
+            </section>
+        </main>
+    </div>
+
+    <script src="engine/cosmic_sync.js"></script>
+    <script src="engine/mantra_player.js"></script>
+    <script src="engine/parasha_engine.js"></script>
+    <script src="engine/astrological_integration.js"></script>
+    <script src="scripts/experience_dashboard.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
