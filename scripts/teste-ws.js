@@ -3,16 +3,16 @@
 
 const { io } = require('socket.io-client');
 
-const URL = process.env.WS_URL || 'wss://teu-dominio.com';
+const WS_URL = process.env.WS_URL || 'wss://kabbalah-aguas-primordiais.com';
 const TIMEOUT_MS = 10000; // timeout de segurança
 
-console.log(`🔌 Conectando em ${URL}...`);
+console.log(`🔌 Conectando em ${WS_URL}...`);
 
-const socket = io(URL, {
+const socket = io(WS_URL, {
   path: '/socket.io',
   transports: ['websocket'],
   reconnectionAttempts: 3,
-  timeout: 5000,
+  timeout: 10000,
 });
 
 let finished = false;
@@ -26,11 +26,16 @@ function done(code = 0) {
 
 socket.on('connect', () => {
   console.log('✅ Conectado! ID:', socket.id);
-  console.log('🔥 Teste de envio/recebimento (ping com ACK)...');
-  const start = Date.now();
-  socket.emit('ping', start, (ackTs) => {
-    const rtt = Date.now() - start;
-    console.log(`⏱️ Latência (RTT): ${rtt}ms`);
+  console.log('🔥 Teste de envio/recebimento (ping/ack)...');
+  const startTime = Date.now();
+  // Envia ping com callback para ACK
+  socket.emit('ping', startTime, (ackTime) => {
+    if (typeof ackTime !== 'number') {
+      console.error('❌ ACK inválido recebido');
+      return done(1);
+    }
+    const latency = ackTime - startTime;
+    console.log(`⏱️ Latência: ${latency}ms`);
     done(0);
   });
 });
@@ -40,13 +45,10 @@ socket.on('connect_error', (err) => {
   done(1);
 });
 
-socket.on('disconnect', (reason) => {
-  console.log('🚫 Desconectado:', reason);
-});
-
-socket.on('heartbeat', (ts) => console.log('💓 heartbeat', ts));
-
+// Fallback para servidores sem handler de ping
 setTimeout(() => {
-  console.error('⌛ Timeout: Nenhuma resposta em 10s');
+  console.error('⌛ Timeout: Servidor não respondeu ao ping (handler ausente?)');
+  console.log('ℹ️ Certifique-se de implementar no servidor:');
+  console.log("socket.on('ping', (ts, ack) => ack(Date.now()));");
   done(1);
 }, TIMEOUT_MS);
