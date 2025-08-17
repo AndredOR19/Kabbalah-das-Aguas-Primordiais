@@ -1,0 +1,217 @@
+# PROTOCOLO VIVALDI - Il Grosso Mogul Transfigurado
+# Mapeamento de concerto para Sefirot e corpo
+# Concerto RV 208 - "Il Grosso Mogul" - Mapeamento Cabalístico
+
+concerto:
+  nome: "Il Grosso Mogul"
+  rv_numero: 208
+  estacao: "INVERNO"
+  sefirot:
+    keter:
+      porcentagem: 15
+      chakra: "Coroa"
+      nota: "Do"
+      cor: "#FFD700"
+      arcanjo: "Metatron"
+      movimento: "Allegro"
+      duracao: "11min"
+      elemento: "Éter"
+    chokmah:
+      porcentagem: 10
+      chakra: "3º Olho"
+      nota: "Si"
+      cor: "#8A2BE2"
+      arcanjo: "Raziel"
+      movimento: "Adagio"
+      duragem: "8min"
+      elemento: "Éter"
+    binah:
+      porcentagem: 12
+      chakra: "Garganta"
+      nota: "Sol"
+      cor: "#FF4500"
+      arcanjo: "Tzadkiel"
+      movimento: "Largo"
+      duracao: "9min"
+      elemento: "Éter"
+    chesed:
+      porcentagem: 18
+      chakra: "Coração"
+      nota: "Fa"
+      cor: "#32CD32"
+      arcanjo: "Michael"
+      movimento: "Allegro"
+      duracao: "7min"
+      elemento: "Ar"
+    gevurah:
+      porcentagem: 15
+      chakra: "Plexo Solar"
+      nota: "Mi"
+      cor: "#FF4500"
+      arcanjo: "Gabriel"
+      movimento: "Presto"
+      duracao: "6min"
+      elemento: "Fogo"
+    tiferet:
+      porcentagem: 20
+      chakra: "Plexo Solar"
+      nota: "Re"
+      cor: "#FFD700"
+      arcanjo: "Rafael"
+      movimento: "Allegro"
+      duracao: "10min"
+      elemento: "Fogo"
+    netzach:
+      porcentagem: 12
+      chakra: "Coração"
+      nota: "Do"
+      cor: "#32CD32"
+      arcanjo: "Uriel"
+      movimento: "Andante"
+      duracao: "8min"
+      elemento: "Ar"
+    hod:
+      porcentagem: 8
+      chakra: "Garganta"
+      nota: "Si"
+      cor: "#00FFFF"
+      arcanjo: "Sandalfon"
+      movimento: "Moderato"
+      duracao: "5min"
+      elemento: "Éter"
+    yesod:
+      porcentagem: 10
+      chakra: "Raiz"
+      nota: "La"
+      cor: "#8A2BE2"
+      arcanjo: "Metatron"
+      movimento: "Adagio"
+      duracao: "7min"
+      elemento: "Terra"
+    malkuth:
+      porcentagem: 8
+      chakra: "Raiz"
+      nota: "Sol"
+      cor: "#00FFFF"
+      arcanjo: "Uriel"
+      movimento: "Largo"
+      duracao: "6min"
+      elemento: "Terra"
+  movimentos:
+    allegro:
+      duracao: "11min"
+      tempo: "Allegro"
+      nota: "Do"
+      chakra: "Coroa"
+      elemento: "Éter"
+    adagio:
+      duracao: "8min"
+      tempo: "Adagio"
+      nota: "Si"
+      chakra: "3º Olho"
+      elemento: "Éter"
+    largo:
+      duracao: "9min"
+      tempo: "Largo"
+      nota: "Sol"
+      chakra: "Garganta"
+      elemento: "Éter"
+    presto:
+      duracao: "6min"
+      tempo: "Presto"
+      nota: "Mi"
+      chakra: "Plexo Solar"
+      elemento: "Fogo"
+    andante:
+      duracao: "8min"
+      tempo: "Andante"
+      nota: "Re"
+      chakra: "Coração"
+      elemento: "Ar"
+    moderato:
+      duracao: "5min"
+      tempo: "Moderato"
+      nota: "La"
+      chakra: "Raiz"
+      elemento: "Terra"
+  partitura:
+    notas:
+      - { nota: "Do", frequencia: 396, chakra: "Raiz", elemento: "Terra" }
+      - { nota: "Re", frequencia: 432, chakra: "Plexo Solar", elemento: "Fogo" }
+      - { nota: "Mi", frequencia: 528, chakra: "Plexo Solar", elemento: "Fogo" }
+      - { nota: "Fa", frequencia: 396, chakra: "Raiz", elemento: "Terra" }
+      - { nota: "Sol", frequencia: 432, chakra: "Plexo Solar", elemento: "Fogo" }
+      - { nota: "La", frequencia: 528, chakra: "Coração", elemento: "Ar" }
+      - { nota: "Si", frequencia: 417, chakra: "Garganta", elemento: "Éter" }
+  correspondencias:
+    corpo:
+      coluna_vertebral:
+        C1-C7: { nota: "Do", chakra: "Coroa", elemento: "Éter" }
+        T1-T12: { nota: "Sol", chakra: "Plexo Solar", elemento: "Fogo" }
+        L1-L5: { nota: "Fa", chakra: "Raiz", elemento: "Terra" }
+        S1-S5: { nota: "Si", chakra: "Raiz", elemento: "Terra" }
+  energia:
+    total: 100
+    distribuicao:
+      keter: 15
+      tiferet: 20
+      yesod: 10
+      malkuth: 8
+  portal:
+    ativacao: "INVERNO"
+    frequencia: 396
+    chakra: "Raiz"
+    elemento: "Terra"
+  mantras:
+    - "אני אור בתוך הסערה"
+    - "אני אור בתוך הסערה"
+    - "אני אור בתוך הסערה"
+  receita:
+    - "Trovão harmonizado com frequência cabalística"
+    - "Ressonância mística baseada na letra hebraica"
+    - "Integração neural com geometria sagrada"
+  protocolo:
+    ativacao: "INVERNO"
+    frequencia: 396
+    chakra: "Raiz"
+    elemento: "Terra"
+  receita:
+    - "Trovão harmonizado com frequência cabalística"
+    - "Ressonância mística baseada na letra hebraica"
+    - "Integração neural com geometria sagrada"
+  protocolo:
+    ativacao: "INVERNO"
+    frequencia: 396
+    chakra: "Raiz"
+    elemento: "Terra"
+  receita:
+    - "Trovão harmonizado com frequência cabalística"
+    - "Ressonância mística baseada na letra hebraica"
+    - "Integração neural com geometria sagrada"
+  protocolo:
+    ativacao: "INVERNO"
+    frequencia: 396
+    chakra: "Raiz"
+    elemento: "Terra"
+  receita:
+    - "Trovão harmonizado com frequência cabalística"
+    - "Ressonância mística baseada na letra hebraica"
+    - "Integração neural com geometria sagrada"
+  protocolo:
+    ativacao: "INVERNO"
+    frequencia: 396
+    chakra: "Raiz"
+    elemento: "Terra"
+  receita:
+    - "Trovão harmonizado com frequência cabalística"
+    - "Ressonância mística baseada na letra hebraica"
+    - "Integração neural com geometria sagrada"
+  protocolo:
+    ativacao: "INVERNO"
+    frequencia: 396
+    chakra: "Raiz"
+    elemento: "Terra"
+  receita:
+    - "Trovão harmonizado com frequência cabalística"
+    - "Ressonância mística baseada na letra hebraica"
+    - "Integração neural

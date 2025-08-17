@@ -1,0 +1,174 @@
+{
+  "protocolo": "VIVALDI_QUATTRO_STAGIONI",
+  "versao": "1.0",
+  "data_criacao": "5785-10-Tamuz",
+  "concerto": {
+    "nome": "Le Quattro Stagioni",
+    "rv_numero": "RV 269, 315, 293, 297",
+    "estacoes": {
+      "primavera": {
+        "rv": "RV 269",
+        "sefirot": {
+          "netzach": 70,
+          "hod": 30
+        },
+        "chakras": ["Plexo Solar", "Coração"],
+        "elemento": "Ar",
+        "frequencia_base": 528,
+        "cor": "#32CD32",
+        "mantra": "אני אור בתוך הסערה",
+        "movimentos": {
+          "allegro": {
+            "duracao": "10:30",
+            "chakra": "Plexo Solar",
+            "nota": "Re",
+            "frequencia": 528
+          },
+          "largo": {
+            "duracao": "6:30",
+            "chakra": "Coração",
+            "nota": "Mi",
+            "frequencia": 396
+          },
+          "allegro_2": {
+            "duracao": "5:30",
+            "chakra": "Garganta",
+            "nota": "Fa",
+            "frequencia": 417
+          }
+        }
+      },
+      "estate": {
+        "rv": "RV 315",
+        "sefirot": {
+          "tiferet": 60,
+          "yesod": 40
+        },
+        "chakras": ["Plexo Solar", "Raiz"],
+        "elemento": "Fogo",
+        "frequencia_base": 432,
+        "cor": "#FF4500",
+        "mantra": "אני אור בתוך הסערה",
+        "movimentos": {
+          "allegro_non_molto": {
+            "duracao": "5:20",
+            "chakra": "Plexo Solar",
+            "nota": "Sol",
+            "frequencia": 432
+          },
+          "adagio": {
+            "duracao": "6:30",
+            "chakra": "Coração",
+            "nota": "La",
+            "frequencia": 528
+          },
+          "presto": {
+            "duracao": "2:50",
+            "chakra": "Raiz",
+            "nota": "Si",
+            "frequencia": 396
+          }
+        }
+      },
+      "autunno": {
+        "rv": "RV 293",
+        "sefirot": {
+          "chesed": 55,
+          "gevurah": 45
+        },
+        "chakras": ["Coração", "Plexo Solar"],
+        "elemento": "Terra",
+        "frequencia_base": 417,
+        "cor": "#8A2BE2",
+        "mantra": "אני אור בתוך הסערה",
+        "movimentos": {
+          "allegro": {
+            "duracao": "11:30",
+            "chakra": "Coração",
+            "nota": "Do",
+            "frequencia": 417
+          },
+          "adagio_molto": {
+            "duracao": "6:00",
+            "chakra": "Plexo Solar",
+            "nota": "Re",
+            "frequencia": 432
+          },
+          "allegro_2": {
+            "duracao": "5:00",
+            "chakra": "Raiz",
+            "nota": "Mi",
+            "frequencia": 396
+          }
+        }
+      },
+      "inverno": {
+        "rv": "RV 297",
+        "sefirot": {
+          "keter": 50,
+          "malkuth": 50
+        },
+        "chakras": ["Coroa", "Raiz"],
+        "elemento": "Água",
+        "frequencia_base": 396,
+        "cor": "#00FFFF",
+        "mantra": "אני אור בתוך הסערה",
+        "movimentos": {
+          "allegro_non_molto": {
+            "duracao": "3:30",
+            "chakra": "Coroa",
+            "nota": "Fa",
+            "frequencia": 396
+          },
+          "largo": {
+            "duracao": "2:00",
+            "chakra": "3º Olho",
+            "nota": "Sol",
+            "frequencia": 432
+          },
+          "allegro": {
+            "duracao": "3:20",
+            "chakra": "Raiz",
+            "nota": "La",
+            "frequencia": 528
+          }
+        }
+      }
+    }
+  },
+  "mapeamento_corpo": {
+    "coluna_vertebral": {
+      "C1-C7": {
+        "estacao": "inverno",
+        "sefira": "keter",
+        "nota": "Do",
+        "frequencia": 396
+      },
+      "T1-T12": {
+        "estacao": "primavera",
+        "sefira": "tiferet",
+        "nota": "Re",
+        "frequencia": 528
+      },
+      "L1-L5": {
+        "estacao": "estate",
+        "sefira": "yesod",
+        "nota": "Mi",
+        "frequencia": 432
+      },
+      "S1-S5": {
+        "estacao": "autunno",
+        "sefira": "malkuth",
+        "nota": "Fa",
+        "frequencia": 417
+      }
+    }
+  },
+  "portal_ativacao": {
+    "sequencia": ["primavera", "estate", "autunno", "inverno"],
+    "frequencia_total": 1877,
+    "chakra_central": "Plexo Solar",
+    "elemento_unificador": "Éter",
+    "mantra_universal": "אני אור בתוך הסערה"
+  }
+}
