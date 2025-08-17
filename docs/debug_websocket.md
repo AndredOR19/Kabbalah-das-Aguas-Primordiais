@@ -128,6 +128,13 @@ const io = new Server(httpServer, {
   },
 });
 
+// Handler essencial para teste de latência (ping/ack)
+io.on('connection', (socket) => {
+  socket.on('ping', (timestamp, callback) => {
+    callback(Date.now()); // responde com timestamp atual
+  });
+});
+
 setInterval(() => io.emit('heartbeat', Date.now()), 20000);
 ```
 
