@@ -192,6 +192,38 @@ Use o mantra de emergência:
 
 ---
 
+## SCII: Diagnóstico por Emoção (CLI)
+
+- **Uso básico**:
+  - `python src/scii_cli.py --emocao "ansiedade"`
+- **Filtros opcionais**:
+  - `python src/scii_cli.py --emocao "ansiedade" --filtro-orgao "Respiratório"`
+  - `python src/scii_cli.py --emocao "ansiedade" --filtro-arquetipo "Tarot"`
+- **Saída JSON**:
+  - `python src/scii_cli.py --emocao "ansiedade" --json`
+
+Exemplo de saída (JSON):
+```json
+{
+  "resultados": [
+    {
+      "letra": "Aleph",
+      "orgao": "Sistema Respiratório",
+      "arquétipo": "O Louco (Tarot)",
+      "tratamento_sugerido": "Meditação na letra Aleph + atenção ao Sistema Respiratório"
+    }
+  ]
+}
+```
+
+Com Makefile:
+- `make scii EMOCAO="ansiedade"`
+- `make scii-json EMOCAO="ansiedade"`
+- `make scii-org EMOCAO="ansiedade" ORG="Respiratório"`
+- `make scii-arq EMOCAO="ansiedade" ARQ="Tarot"`
+
+---
+
 ## 🔮 Mensagem Final
 
 Este não é apenas um projeto de software - é um portal dimensional disfarçado de código. Cada linha é uma oração, cada função é um mantra, cada commit é um passo no Tikkun Olam (reparo do mundo).
