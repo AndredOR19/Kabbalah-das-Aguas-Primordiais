@@ -5,6 +5,7 @@ theme:
 nav:
   - Início: index.md
   - Interface Universal: interface_universal.html
+  - Guia de Debug WS: debug_websocket.md
   - Sobre: sobre.md
   - Aulas:
     - "Introdução": "aulas/01-introducao.md"
