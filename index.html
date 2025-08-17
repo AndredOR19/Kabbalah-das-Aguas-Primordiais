@@ -3,69 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Protocolo Audiovisual do Verbo - Águas Primordiais</title>
+    <title>Kabbalah das Águas Primordiais - Protocolo do Verbo</title>
     <link rel="stylesheet" href="styles/mystical.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
 </head>
 <body>
-    <div id="portal-container">
-        <header class="cosmic-header">
-            <h1>🌌 PROTOCOLO DO VERBO VIVO</h1>
-            <div id="current-parasha"></div>
+    <div id="cosmic-container">
+        <header>
+            <h1>🌊 Kabbalah das Águas Primordiais</h1>
+            <h2>Protocolo Audiovisual do Verbo</h2>
         </header>
 
-        <main class="main-interface">
-            <section class="control-panel">
-                <h2>🔮 SELEÇÃO DE REALIDADE</h2>
-                
-                <div class="tikun-selector">
-                    <button id="parasha-tikun" class="cosmic-btn">
-                        TIKUN DA PARASHÁ
-                    </button>
-                    <div id="parasha-info"></div>
-                </div>
+        <div id="cosmic-panel">
+            <div id="parasha-info">
+                <h3>🌌 Parashá da Semana</h3>
+                <div id="current-parasha">Carregando...</div>
+                <div id="tikun-info"></div>
+                <button id="activate-tikun">Ativar Tikun da Parashá</button>
+            </div>
 
-                <div class="mantra-selector">
-                    <select id="mantra-select">
-                        <option value="">Escolha um Mantra</option>
-                        <option value="gayatri">Gayatri Mantra</option>
-                        <option value="ommani">Om Mani Padme Hum</option>
-                        <option value="einsof">Ein Sof</option>
-                    </select>
-                </div>
+            <div id="mantra-selector">
+                <h3>🔮 Mantras Sagrados</h3>
+                <select id="mantra-select">
+                    <option value="">Selecione um mantra</option>
+                </select>
+                <button id="play-mantra">Iniciar Mantra</button>
+            </div>
 
-                <div class="personal-controls">
-                    <input type="date" id="birthdate" placeholder="Data de Nascimento">
-                    <button id="personal-tikun">MEU TIKUN</button>
-                </div>
-            </section>
+            <div id="player-controls">
+                <button id="start-ritual">Iniciar Ritual</button>
+                <button id="pause-ritual">Pausar</button>
+                <button id="reset-ritual">Resetar</button>
+            </div>
+        </div>
 
-            <section class="visual-area">
-                <canvas id="mantra-canvas"></canvas>
-                <div id="chakra-display">
-                    <div class="chakra" data-chakra="coroa"></div>
-                    <div class="chakra" data-chakra="terceiro-olho"></div>
-                    <div class="chakra" data-chakra="garganta"></div>
-                    <div class="chakra" data-chakra="coracao"></div>
-                    <div class="chakra" data-chakra="plexo"></div>
-                    <div class="chakra" data-chakra="sacral"></div>
-                    <div class="chakra" data-chakra="base"></div>
-                </div>
-            </section>
+        <div id="visualization">
+            <canvas id="cosmic-canvas"></canvas>
+        </div>
 
-            <section class="akashic-journal">
-                <h3>📜 REGISTRO DA JORNADA</h3>
-                <textarea id="journey-log" placeholder="Registre suas visões..."></textarea>
-                <button id="save-experience">SALVAR NOS REGISTROS</button>
-            </section>
-        </main>
+        <div id="akashic-journal">
+            <h3>📖 Diário Akáshico</h3>
+            <textarea id="experience-log" placeholder="Registre sua experiência..."></textarea>
+            <button id="save-experience">Salvar Experiência</button>
+        </div>
     </div>
 
-    <script src="engine/cosmic_sync.js"></script>
-    <script src="engine/mantra_player.js"></script>
-    <script src="engine/parasha_engine.js"></script>
-    <script src="engine/astrological_integration.js"></script>
-    <script src="scripts/experience_dashboard.js"></script>
-    <script src="scripts/main.js"></script>
+    <script src="src/cosmicSync.js"></script>
+    <script src="src/mantraEngine.js"></script>
+    <script src="src/main.js"></script>
 </body>
 </html>

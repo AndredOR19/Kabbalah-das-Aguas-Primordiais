@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Interface Universal — Instituto Águas Primordiais</title>
+  <style>
+    :root {
+      --bg: #0b0f14;
+      --panel: #111821;
+      --text: #e7efff;
+      --muted: #9fb3c8;
+      --accent: #58a6ff;
+      --gold: #ffd700;
+      --success: #44e4a0;
+    }
+    body { margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif; background: linear-gradient(180deg, #0b0f14 0%, #0a0e13 100%); color: var(--text); }
+    header { padding: 24px 16px; text-align: center; border-bottom: 1px solid #1b2430; background: rgba(17, 24, 33, 0.7); position: sticky; top: 0; backdrop-filter: blur(8px); }
+    h1 { margin: 0 0 6px; font-size: 1.8rem; }
+    p.sub { margin: 0; color: var(--muted); }
+    .container { max-width: 1100px; margin: 24px auto; padding: 0 16px 40px; }
+
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; }
+    .card { background: var(--panel); border: 1px solid #1b2430; border-radius: 12px; padding: 16px; }
+    .card h2 { margin-top: 0; font-size: 1.1rem; }
+    .controls label { display: block; margin: 10px 0 6px; color: var(--muted); font-size: 0.9rem; }
+    select, input[type="number"], button { width: 100%; padding: 10px 12px; background: #0f1520; color: var(--text); border: 1px solid #262f3e; border-radius: 8px; }
+    button { cursor: pointer; background: linear-gradient(180deg, #152235, #101a29); border: 1px solid #2a3a52; }
+    button:hover { border-color: #3d5371; }
+    .small { font-size: 0.85rem; color: var(--muted); }
+
+    .badge { display: inline-block; padding: 3px 8px; border-radius: 999px; background: #0f1a28; border: 1px solid #2a3a52; color: var(--accent); font-size: 0.8rem; }
+    .kpi { display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px; margin-top: 8px; }
+    .kpi div { background: #0f1520; border: 1px solid #1f2a3a; border-radius: 8px; padding: 10px; font-size: 0.9rem; }
+    .kpi strong { display: block; color: var(--muted); font-weight: 500; font-size: 0.8rem; }
+
+    footer { text-align: center; padding: 24px; color: var(--muted); }
+    .note { font-size: 0.88rem; color: var(--muted); }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Interface Universal</h1>
+    <p class="sub">Portal unificado — Oráculo, Protocolo Vivaldi, Mapas e Pesquisas</p>
+  </header>
+
+  <main class="container">
+    <section class="grid">
+      <div class="card">
+        <h2>Protocolo Vivaldi — Simulador Web</h2>
+        <p class="small">Gere um “trovão harmônico” no navegador e veja o mapeamento cabalístico.</p>
+        <div class="controls">
+          <label>Estação</label>
+          <select id="estacao">
+            <option value="PRIMAVERA" data-freq="528">Primavera — 528Hz</option>
+            <option value="VERAO" data-freq="432">Verão — 432Hz</option>
+            <option value="OUTONO" data-freq="417">Outono — 417Hz</option>
+            <option value="INVERNO" data-freq="396">Inverno — 396Hz</option>
+          </select>
+
+          <label>Frequência (Hz)</label>
+          <input id="freq" type="number" value="528" min="50" max="2000" step="1" />
+
+          <label>Duração (s)</label>
+          <input id="duracao" type="number" value="3" min="0.5" max="10" step="0.1" />
+
+          <div style="display:flex; gap:8px; margin-top:12px;">
+            <button id="btnPlay">▶ Gerar Trovão</button>
+            <button id="btnStop">⏹ Parar</button>
+          </div>
+        </div>
+
+        <div class="kpi">
+          <div><strong>Letra</strong><span id="kLetra">—</span></div>
+          <div><strong>Sefira</strong><span id="kSefira">—</span></div>
+          <div><strong>Chakra</strong><span id="kChakra">—</span></div>
+          <div><strong>Elemento</strong><span id="kElemento">—</span></div>
+        </div>
+        <p class="small" style="margin-top:10px">Mantra: <span class="badge" id="kMantra">—</span></p>
+      </div>
+
+      <div class="card">
+        <h2>Oráculo — Acesso</h2>
+        <p class="small">Versão anterior do oráculo. Será futuramente consolidado nesta interface.</p>
+        <p>
+          <a class="badge" href="./oraculo.html">Abrir Oráculo-Mestre</a>
+        </p>
+        <p class="note">Dica: mantenha esta interface como ponto central e use os módulos especializados conforme a necessidade.</p>
+      </div>
+
+      <div class="card">
+        <h2>Explorações e Laboratório</h2>
+        <ul class="small">
+          <li><a href="https://github.com/AndredOR19/Kabbalah-das-Aguas-Primordiais/tree/main/PROTOCOLO_VIVALDI">Repositório do Protocolo Vivaldi</a></li>
+          <li><a href="https://github.com/AndredOR19/Kabbalah-das-Aguas-Primordiais">Código-fonte (GitHub)</a></li>
+        </ul>
+        <p class="note">Para execução completa (Node/Python), use o repositório local. Esta página fornece uma simulação WebAudio para demonstrações no navegador.</p>
+      </div>
+    </section>
+
+    <section class="card" style="margin-top:16px;">
+      <h2>Notas</h2>
+      <p class="note">Esta interface unificada foi criada para o GitHub Pages (MkDocs). Integra o simulador do Protocolo Vivaldi no navegador e links para módulos existentes. A execução “completa” dos rituais e geradores depende do ambiente local.</p>
+    </section>
+  </main>
+
+  <footer>
+    © Instituto Águas Primordiais — Interface Universal
+  </footer>
+
+  <script>
+    // Mapa espiritual baseado em spinal_encoder.js
+    const freqMap = {
+      432: { letra: 'א', sefira: 'Keter', chakra: 'Coroa', elemento: 'Éter' },
+      528: { letra: 'ה', sefira: 'Tiferet', chakra: 'Plexo Solar', elemento: 'Fogo' },
+      396: { letra: 'ש', sefira: 'Yesod', chakra: 'Raiz', elemento: 'Terra' },
+      417: { letra: 'ר', sefira: 'Hod', chakra: 'Garganta', elemento: 'Éter' },
+      639: { letra: 'ו', sefira: 'Netzach', chakra: 'Coração', elemento: 'Ar' }
+    };
+
+    const harmony = [432, 528, 396, 417, 639, 741, 852];
+
+    function nearestHarmony(f) {
+      return harmony.reduce((prev, curr) => Math.abs(curr - f) < Math.abs(prev - f) ? curr : prev);
+    }
+
+    function getSpiritualMapping(f) {
+      // Usa frequência harmônica mais próxima para mapeamento
+      const closest = nearestHarmony(f);
+      const base = Object.keys(freqMap).map(Number).reduce((prev, curr) => Math.abs(curr - closest) < Math.abs(prev - closest) ? curr : prev);
+      return freqMap[base] || { letra: '•', sefira: 'Desconhecida', chakra: '—', elemento: '—' };
+    }
+
+    function mantra(mapping) {
+      return `אני ${mapping.letra} ${mapping.sefira} בתוך ${mapping.elemento}`;
+    }
+
+    // WebAudio — trovão simples: oscilador + ruído com decaimento
+    let ctx;
+    let noiseNode, osc, gain;
+
+    function stopAudio() {
+      if (!ctx) return;
+      try { noiseNode && noiseNode.stop(); } catch {}
+      try { osc && osc.stop(); } catch {}
+      try { gain && gain.disconnect(); } catch {}
+      noiseNode = osc = gain = null;
+    }
+
+    function playThunder(freq, dur) {
+      stopAudio();
+      ctx = ctx || new (window.AudioContext || window.webkitAudioContext)();
+
+      // Ruído
+      const bufferSize = ctx.sampleRate * dur;
+      const buffer = ctx.createBuffer(1, bufferSize, ctx.sampleRate);
+      const data = buffer.getChannelData(0);
+      for (let i = 0; i < bufferSize; i++) {
+        data[i] = (Math.random() * 2 - 1) * 0.35; // ruído branco suave
+      }
+      noiseNode = ctx.createBufferSource();
+      noiseNode.buffer = buffer;
+
+      // Oscilador base
+      osc = ctx.createOscillator();
+      osc.type = 'sine';
+      osc.frequency.value = freq;
+
+      // Envoltória: ataque curto + decaimento
+      gain = ctx.createGain();
+      const now = ctx.currentTime;
+      const attack = Math.max(0.02, dur * 0.05);
+      gain.gain.setValueAtTime(0.0, now);
+      gain.gain.linearRampToValueAtTime(0.9, now + attack);
+      gain.gain.exponentialRampToValueAtTime(0.0001, now + dur);
+
+      // Mix e saída
+      noiseNode.connect(gain);
+      osc.connect(gain);
+      gain.connect(ctx.destination);
+
+      noiseNode.start(now);
+      osc.start(now);
+      noiseNode.stop(now + dur);
+      osc.stop(now + dur);
+    }
+
+    // UI bindings
+    const selEstacao = document.getElementById('estacao');
+    const inFreq = document.getElementById('freq');
+    const inDur = document.getElementById('duracao');
+    const outLetra = document.getElementById('kLetra');
+    const outSefira = document.getElementById('kSefira');
+    const outChakra = document.getElementById('kChakra');
+    const outElemento = document.getElementById('kElemento');
+    const outMantra = document.getElementById('kMantra');
+
+    selEstacao.addEventListener('change', (e) => {
+      const opt = selEstacao.options[selEstacao.selectedIndex];
+      inFreq.value = opt.dataset.freq || 528;
+      renderMapping();
+    });
+
+    function renderMapping() {
+      const f = Number(inFreq.value || 528);
+      const m = getSpiritualMapping(f);
+      outLetra.textContent = m.letra;
+      outSefira.textContent = m.sefira;
+      outChakra.textContent = m.chakra;
+      outElemento.textContent = m.elemento;
+      outMantra.textContent = mantra(m);
+    }
+
+    document.getElementById('btnPlay').addEventListener('click', () => {
+      const f = Number(inFreq.value || 528);
+      const d = Math.max(0.2, Number(inDur.value || 3));
+      renderMapping();
+      playThunder(f, d);
+    });
+
+    document.getElementById('btnStop').addEventListener('click', () => stopAudio());
+
+    // Inicializa
+    renderMapping();
+  </script>
+</body>
+</html>
