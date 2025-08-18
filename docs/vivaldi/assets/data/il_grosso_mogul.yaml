@@ -1,0 +1,23 @@
+concertos:
+  - titulo: "La Primavera"
+    frequencia_base: 528
+    sefira: "Tiferet"
+    chakra: "Cardíaco"
+    elemento: "Ar"
+    arcanjo: "Rafael"
+    caminho_audio: "assets/audio/primavera.mp3"
+    cores: ["#4CAF50", "#8BC34A"]
+    notas:
+      - frequencia: 396
+        intencao: "Libertação emocional"
+      - frequencia: 417
+        intencao: "Desbloqueio de padrões"
+
+  - titulo: "L'Estade"
+    frequencia_base: 432
+    sefira: "Gevurah"
+    chakra: "Plexo Solar"
+    elemento: "Fogo"
+    arcanjo: "Kamael"
+    caminho_audio: "assets/audio/estate.mp3"
+    cores: ["#FF9800", "#F44336"]

@@ -1,0 +1,37 @@
+/* Hero section styling for the homepage */
+.hero {
+  margin: 2rem 0 3rem;
+  padding: 2.5rem;
+  border-radius: 12px;
+  /* Azul petróleo + Ciano */
+  background: linear-gradient(135deg, rgba(38,50,56,.14), rgba(0,188,212,.14));
+}
+.hero h1 {
+  margin: 0 0 .25rem;
+  font-size: 2.2rem;
+}
+.hero p {
+  margin: 0 0 1rem;
+  font-size: 1.05rem;
+  opacity: .9;
+}
+.hero-actions .md-button { margin-right: .5rem; }
+
+/* Cards grid */
+.cards-grid {
+  margin: 1.5rem 0 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+}
+.card {
+  display: block;
+  padding: 1rem 1.25rem;
+  border: 1px solid rgba(0,0,0,.08);
+  border-radius: 10px;
+  background: var(--md-default-bg-color);
+  transition: transform .15s ease, box-shadow .15s ease;
+}
+.card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.06); }
+.card h3 { margin: .25rem 0 .25rem; font-size: 1.05rem; }
+.card p { margin: 0; opacity: .85; }

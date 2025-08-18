@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Vortex Player - Protocolo Vivaldi</title>
+  <!-- Ajuste de paths para funcionar dentro do MkDocs (docs/vivaldi) -->
+  <link rel="stylesheet" href="dna_strings_visualizer.css">
+  
+  <!-- Bibliotecas necessárias -->
+  <script src="https://cdn.jsdelivr.net/npm/js-yaml@4.0.0/dist/js-yaml.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  
+  <!-- Scripts locais (paths relativos) -->
+  <script src="scripts/spinal_encoder.js"></script>
+  <script src="scripts/data_integration.js"></script>
+  <script src="scripts/player_logic.js"></script>
+</head>
+
+<body>
+  <div id="vortex-container">
+    <div id="info-panel">
+      <h2 id="concerto-titulo">Carregando concerto...</h2>
+      <p id="concerto-info">Sefira: <span class="dado">-</span> | 
+        Chakra: <span class="dado">-</span></p>
+      <div id="frequencia-display">528 Hz</div>
+    </div>
+    
+    <div id="controls">
+      <button id="btn-primavera">Primavera</button>
+      <button id="btn-estate">Verão</button>
+      <button id="btn-autunno">Outono</button>
+      <button id="btn-inverno">Inverno</button>
+    </div>
+  </div>
+</body>
+</html>
