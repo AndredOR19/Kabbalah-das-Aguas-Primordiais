@@ -1,0 +1,83 @@
+# Configurações Cabalísticas do Protocolo Vivaldi
+# Baseado no Zohar e na Kabbalah
+
+configuracoes:
+  nome: "Il Grosso Mogul"
+  versao: "1.0"
+  data_criacao: "5785-10-Tamuz"
+  
+frequencias:
+  primavera:
+    base: 396
+    harmonica: [396, 594, 792]
+    sefira: "netzach"
+    elemento: "ar"
+    
+  estate:
+    base: 417
+    harmonica: [417, 625.5, 834]
+    sefira: "hod"
+    elemento: "fogo"
+    
+  autunno:
+    base: 528
+    harmonica: [528, 792, 1056]
+    sefira: "tiferet"
+    elemento: "terra"
+    
+  inverno:
+    base: 639
+    harmonica: [639, 958.5, 1278]
+    sefira: "chesed"
+    elemento: "agua"
+
+sefirot:
+  keter:
+    frequencia: 963
+    cor: "branco"
+    elemento: "éter"
+    
+  chokmah:
+    frequencia: 852
+    cor: "azul"
+    elemento: "ar"
+    
+  binah:
+    frequencia: 741
+    cor: "amarelo"
+    elemento: "terra"
+    
+  chesed:
+    frequencia: 639
+    cor: "verde"
+    elemento: "agua"
+    
+  gevurah:
+    frequencia: 528
+    cor: "vermelho"
+    elemento: "fogo"
+    
+  tiferet:
+    frequencia: 417
+    cor: "laranja"
+    elemento: "sol"
+    
+  netzach:
+    frequencia: 396
+    cor: "verde-escuro"
+    elemento: "vênus"
+    
+  hod:
+    frequencia: 285
+    cor: "laranja-claro"
+    elemento: "mercúrio"
+    
+  yesod:
+    frequencia: 174
+    cor: "violeta"
+    elemento: "lua"
+    
+  malchut:
+    frequencia: 63
+    cor: "marrom"
+    elemento: "terra"

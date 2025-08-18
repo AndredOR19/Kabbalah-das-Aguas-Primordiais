@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vortex Player - Protocolo Vivaldi</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/dna_string_visualizer.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+</head>
+<body>
+    <div id="vortex-container">
+        <div id="three-canvas"></div>
+        
+        <div id="player-interface">
+            <header>
+                <h1>Vortex Harmônico</h1>
+                <div id="current-season">Estação: PRIMAVERA</div>
+            </header>
+            
+            <div id="control-panel">
+                <div class="frequency-control">
+                    <label>Frequência Base:</label>
+                    <input type="range" id="freq-slider" min="396" max="852" value="528">
+                    <span id="freq-value">528 Hz</span>
+                </div>
+                
+                <div class="season-selector">
+                    <label>Estação:</label>
+                    <select id="season-select">
+                        <option value="primavera">Primavera - 396 Hz</option>
+                        <option value="estate">Estate - 417 Hz</option>
+                        <option value="autunno">Autunno - 528 Hz</option>
+                        <option value="inverno">Inverno - 639 Hz</option>
+                    </select>
+                </div>
+                
+                <div class="sefirot-display">
+                    <div id="active-sefira">Tiferet Ativa</div>
+                    <div id="spinal-mapping">T5-T7: Centro Cardíaco</div>
+                </div>
+                
+                <div class="player-controls">
+                    <button id="play-btn" class="control-btn">▶ Play</button>
+                    <button id="pause-btn" class="control-btn">⏸ Pause</button>
+                    <button id="generate-thunder" class="control-btn">⚡ Gerar Trovão</button>
+                </div>
+            </div>
+            
+            <div id="visualization-panel">
+                <div id="dna-helix"></div>
+                <div id="frequency-waves"></div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="scripts/player_logic.js"></script>
+    <script src="scripts/spinal_encoder.js"></script>
+    <script src="scripts/threejs_vortex.js"></script>
+    <script>
+        // Initialize Vortex Player
+        initVortexVisualization();
+        
+        // Event listeners
+        document.getElementById('season-select').addEventListener('change', (e) => {
+            updateSeasonFrequency(e.target.value);
+        });
+        
+        document.getElementById('generate-thunder').addEventListener('click', () => {
+            generateThunderHarmonic();
+        });
+    </script>
+</body>
+</html>
