@@ -4,7 +4,7 @@ Mestre Digital - Integração com GitHub Issues
 Responde automaticamente a issues e comentários no GitHub
 """
 
-import openai
+import groq
 import json
 import os
 import sys
@@ -14,11 +14,11 @@ from github import Github
 REPOSITORY = os.getenv('REPOSITORY')
 ISSUE_NUMBER = int(os.getenv('ISSUE_NUMBER', 0))
 GITHUB_TOKEN = os.getenv('GITHUB_TOKEN')
-OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
+GROQ_API_KEY = os.getenv('GROQ_API_KEY')
 
 # Inicializar clientes
 g = Github(GITHUB_TOKEN)
-client = openai.OpenAI(api_key=OPENAI_API_KEY)
+client = groq.Groq(api_key=GROQ_API_KEY)
 
 # Carregar configurações
 with open('bot/config.json', 'r', encoding='utf-8') as f:
@@ -76,12 +76,11 @@ def gerar_resposta_github(pergunta, contexto_issue=None):
     messages.append({"role": "user", "content": pergunta})
     
     response = client.chat.completions.create(
-        model=config.get('modelo', 'gpt-4o-mini'),
+        model=config.get('modelo', 'llama3-8b-8192'),
         messages=messages,
         max_tokens=config.get('max_tokens', 1500),
         temperature=config.get('temperature', 0.7)
     )
-    
     return response.choices[0].message.content
 
 def responder_issue_github():
