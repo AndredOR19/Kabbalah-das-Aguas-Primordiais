@@ -1,0 +1,25 @@
+{
+  "lint": {
+    "exclude": [
+      "node_modules/",
+      ".git/",
+      "package-lock.json",
+      "PROTOCOLO_VIVALDI/",
+      "protocolo-vivaldi/",
+      "menu-dinamico/",
+      "menu_dinamico/",
+      "docs/",
+      "scripts/",
+      "src/",
+      "engine/",
+      "scii_database.js/"
+    ]
+  },
+  "test": {
+    "exclude": [
+      "node_modules/",
+      ".git/",
+      "package-lock.json"
+    ]
+  }
+}
