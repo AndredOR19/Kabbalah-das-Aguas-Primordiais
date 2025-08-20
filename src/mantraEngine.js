@@ -38,7 +38,7 @@ class MantraEngine {
         const frequency = this.currentMantra.frequencia_base * (this.currentSyllable + 1);
 
         // Emitir evento para visualização
-        window.dispatchEvent(new CustomEvent('mantraSyllable', {
+        globalThis.dispatchEvent(new CustomEvent('mantraSyllable', {
             detail: { syllable, color, frequency }
         }));
 
@@ -51,13 +51,13 @@ class MantraEngine {
             setTimeout(() => this.playNextSyllable(), this.currentMantra.duracao_por_fonema);
         } else {
             this.isPlaying = false;
-            window.dispatchEvent(new CustomEvent('mantraComplete'));
+            globalThis.dispatchEvent(new CustomEvent('mantraComplete'));
         }
     }
 
     async playTone(frequency, duration) {
         if (!this.audioContext) {
-            this.audioContext = new (window.AudioContext || window.webkitAudioContext)();
+            this.audioContext = new (globalThis.AudioContext || globalThis.webkitAudioContext)();
         }
 
         const oscillator = this.audioContext.createOscillator();

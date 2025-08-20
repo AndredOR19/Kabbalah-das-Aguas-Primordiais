@@ -4,7 +4,7 @@
 let currentFrequency = 528;
 let currentSeason = 'inverno';
 let activeSefira = 'tiferet';
-let spinalMapping = 'T5-T7';
+let _spinalMapping = 'T5-T7';
 
 // Frequency mappings for seasons
 const seasonFrequencies = {
@@ -59,7 +59,7 @@ function updateSefiraDisplay(sefira) {
 }
 
 // Encode spinal movement
-function encodeSpinalMovement(spinalSegment) {
+function _encodeSpinalMovement(spinalSegment) {
     const [start, end] = spinalSegment.split('-');
     const startNum = parseInt(start.substring(1));
     const endNum = parseInt(end.substring(1));
@@ -85,7 +85,7 @@ function generateDNAPattern(start, end) {
 }
 
 // Activate DNA visualization
-function activateDNAVisualization(pattern) {
+function _activateDNAVisualization(pattern) {
     console.log('Activating DNA visualization with pattern:', pattern);
     // Implementation for DNA visualization
 }

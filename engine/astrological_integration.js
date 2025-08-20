@@ -218,4 +218,4 @@ class AstrologicalIntegration {
 }
 
 // Export para uso global
-window.AstrologicalIntegration = AstrologicalIntegration;
+globalThis.AstrologicalIntegration = AstrologicalIntegration;

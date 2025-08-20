@@ -7,7 +7,7 @@ async function carregarDadosConcerto() {
     const concertos = Array.isArray(data) ? data : (data?.concertos || []);
     
     // Integrar com player
-    window.concertosData = concertos;
+    globalThis.concertosData = concertos;
     inicializarPlayer(concertos);
     
   } catch (erro) {
@@ -36,7 +36,7 @@ async function carregarMapeamentoEstacoes() {
     });
     
     // Integrar com sistema
-    window.estacoesData = estacoes;
+    globalThis.estacoesData = estacoes;
     configurarEstacoes(estacoes);
     
   } catch (erro) {

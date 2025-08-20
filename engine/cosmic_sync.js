@@ -119,4 +119,4 @@ class CosmicEngine {
 }
 
 // Inicialização global
-const cosmicEngine = new CosmicEngine();
+const _cosmicEngine = new CosmicEngine();

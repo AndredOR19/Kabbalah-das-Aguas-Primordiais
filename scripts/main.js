@@ -37,7 +37,7 @@ class AguasPrimordiaisSystem {
         });
 
         // Auto-deteção de Parashá ao carregar
-        window.addEventListener('load', async () => {
+        globalThis.addEventListener('load', async () => {
             await this.autoDetectParasha();
         });
     }
@@ -168,7 +168,7 @@ class AguasPrimordiaisSystem {
         };
 
         // Salvar no localStorage
-        let experiences = JSON.parse(localStorage.getItem('aguas_experiences') || '[]');
+        const experiences = JSON.parse(localStorage.getItem('aguas_experiences') || '[]');
         experiences.push(experience);
         localStorage.setItem('aguas_experiences', JSON.stringify(experiences));
 
@@ -299,7 +299,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 });
 
 // Utilitários de debug
-window.debugSystem = {
+globalThis.debugSystem = {
     showCurrentParasha: () => console.log(cosmicEngine.currentParasha),
     showPersonalTikun: (date) => console.log(cosmicEngine.calculatePersonalTikun(date)),
     showAllMantras: () => console.log('Carregue data/mantras.json para ver mantras disponíveis')

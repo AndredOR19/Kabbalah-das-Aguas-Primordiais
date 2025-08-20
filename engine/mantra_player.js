@@ -1,7 +1,7 @@
 class MantraPlayer {
     constructor() {
         this.scene = new THREE.Scene();
-        this.camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+        this.camera = new THREE.PerspectiveCamera(75, globalThis.innerWidth / globalThis.innerHeight, 0.1, 1000);
         this.renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
         this.currentMantra = null;
         this.isPlaying = false;
@@ -12,7 +12,7 @@ class MantraPlayer {
     }
 
     init() {
-        this.renderer.setSize(window.innerWidth * 0.7, window.innerHeight * 0.6);
+        this.renderer.setSize(globalThis.innerWidth * 0.7, globalThis.innerHeight * 0.6);
         document.getElementById('mantra-canvas').appendChild(this.renderer.domElement);
         
         // Iluminação mística
@@ -26,7 +26,7 @@ class MantraPlayer {
         this.camera.position.z = 15;
         
         // Inicializar Web Audio API
-        this.audioContext = new (window.AudioContext || window.webkitAudioContext)();
+        this.audioContext = new (globalThis.AudioContext || globalThis.webkitAudioContext)();
     }
 
     async loadMantra(mantraData) {
@@ -190,4 +190,4 @@ class MantraPlayer {
 }
 
 // Inicialização global
-const mantraPlayer = new MantraPlayer();
+const _mantraPlayer = new MantraPlayer();

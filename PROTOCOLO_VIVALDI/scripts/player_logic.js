@@ -1,7 +1,7 @@
 function inicializarPlayer(concertos) {
   const player = {
     concertoAtual: null,
-    audioContext: new (window.AudioContext || window.webkitAudioContext)(),
+    audioContext: new (globalThis.AudioContext || globalThis.webkitAudioContext)(),
     
     iniciarConcerto(nomeConcerto) {
       const concerto = concertos.find(c => c.titulo.includes(nomeConcerto));
@@ -13,7 +13,7 @@ function inicializarPlayer(concertos) {
       this.iniciarEfeitosVisuais(concerto.cores);
       
       // Integrar com neurostorm
-      window.postMessage({ 
+      globalThis.postMessage({ 
         type: 'CONCERTO_INICIADO', 
         dados: concerto 
       }, '*');
@@ -45,7 +45,7 @@ function inicializarPlayer(concertos) {
   
   // ... outros botões
   
-  window.vortexPlayer = player;
+  globalThis.vortexPlayer = player;
 }
 
 function configurarEstacoes(estacoes) {

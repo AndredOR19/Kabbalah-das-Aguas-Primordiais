@@ -1,4 +1,4 @@
-class CosmicSync {
+class _CosmicSync {
     constructor() {
         this.currentParasha = null;
         this.currentYear = 5785;

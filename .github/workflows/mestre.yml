@@ -24,6 +24,6 @@ jobs:
           pip install openai
 
       - name: Rodar Mestre Digital
-        run: python bot/bot.py
+        run: python bot/bot_github.py
         env:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}

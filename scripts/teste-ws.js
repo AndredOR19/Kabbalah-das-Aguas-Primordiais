@@ -3,7 +3,7 @@
 
 const { io } = require('socket.io-client');
 
-const WS_URL = process.env.WS_URL || 'wss://kabbalah-aguas-primordiais.com';
+const WS_URL = Deno.env.get('WS_URL') || 'wss://kabbalah-aguas-primordiais.com';
 const TIMEOUT_MS = 10000; // timeout de segurança
 
 console.log(`🔌 Conectando em ${WS_URL}...`);
@@ -21,7 +21,7 @@ function done(code = 0) {
   if (finished) return;
   finished = true;
   try { socket.close(); } catch (e) {}
-  process.exit(code);
+  Deno.exit(code);
 }
 
 socket.on('connect', () => {

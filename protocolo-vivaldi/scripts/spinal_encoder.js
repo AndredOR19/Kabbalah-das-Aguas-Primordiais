@@ -118,10 +118,10 @@ function calculateRegionFrequency(region) {
 }
 
 // Exportar funções para uso global
-if (typeof window !== 'undefined') {
-    window.encodeSpinalMovement = encodeSpinalMovement;
-    window.mapSpinalRegion = mapSpinalRegion;
-    window.calculateRegionFrequency = calculateRegionFrequency;
+if (typeof globalThis !== 'undefined') {
+    globalThis.encodeSpinalMovement = encodeSpinalMovement;
+    globalThis.mapSpinalRegion = mapSpinalRegion;
+    globalThis.calculateRegionFrequency = calculateRegionFrequency;
 }
 
 // Para uso em Node.js

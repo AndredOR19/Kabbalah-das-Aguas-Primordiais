@@ -1,0 +1,161 @@
+{
+  "version": "3.2.1",
+  "systemName": "Sistema Oracular das Águas Primordiais",
+  "releaseDate": "2025-08-15",
+  
+  "knowledgeBase": {
+    "sources": [
+      {
+        "name": "Liber 777",
+        "path": "/documentos/materiais-referencia/liber777.json",
+        "weight": 1.0,
+        "categories": ["correspondências", "sefirot", "qlipha", "tarot"]
+      },
+      {
+        "name": "Clavicula Salomonis",
+        "path": "/documentos/materiais-referencia/clavicula.json",
+        "weight": 0.8,
+        "categories": ["ritual", "invocação", "pentáculos", "angelologia"]
+      },
+      {
+        "name": "Sefer Yetzirah",
+        "path": "/documentos/materiais-referencia/sefer.json",
+        "weight": 0.9,
+        "categories": ["letras hebraicas", "criação", "cosmologia"]
+      },
+      {
+        "name": "Zohar",
+        "path": "/documentos/materiais-referencia/zohar.json",
+        "weight": 0.7,
+        "categories": ["kabbalah", "exegese", "misticismo"]
+      }
+    ],
+    "updateInterval": 604800000,
+    "embeddingModel": "text-embedding-3-large",
+    "contextWindow": 10,
+    "maxResults": 25
+  },
+  
+  "sigilGenerator": {
+    "gridSize": 9,
+    "renderSize": 500,
+    "animationFrames": 60,
+    "colorSchemes": {
+      "default": {
+        "background": "#f5f5f5",
+        "foreground": "#1a1a1a",
+        "accent": "#7b61ff"
+      },
+      "lunar": {
+        "background": "#e8eeff",
+        "foreground": "#2c2c54",
+        "accent": "#c7c7fd"
+      },
+      "solar": {
+        "background": "#fffae8",
+        "foreground": "#4a3e0c",
+        "accent": "#ffde5a"
+      },
+      "mercurial": {
+        "background": "#f0fff0",
+        "foreground": "#154c15",
+        "accent": "#7bffa3"
+      }
+    },
+    "elementSymbols": {
+      "fire": ["△", "↑"],
+      "water": ["▽", "~"],
+      "air": ["○", "⌇"],
+      "earth": ["□", "⊕"],
+      "spirit": ["☉", "⛤"]
+    },
+    "hashAlgorithm": "SHA-256"
+  },
+  
+  "oracularControl": {
+    "alertTypes": ["synchronicity", "pattern", "planetary", "numerical"],
+    "patternThreshold": 0.7,
+    "minPatternOccurrences": 3,
+    "updateInterval": 3600000,
+    "maxReadingsStored": 1000,
+    "dashboard": {
+      "defaultView": "latest",
+      "availableViews": ["latest", "calendar", "patterns", "map"],
+      "autoRefresh": true,
+      "refreshInterval": 300000
+    },
+    "exportFormats": ["json", "pdf", "calendar"],
+    "integrations": {
+      "calendar": true,
+      "email": true,
+      "messaging": false
+    }
+  },
+  
+  "ritualGenerator": {
+    "complexity": {
+      "simple": {
+        "steps": 5,
+        "duration": 15,
+        "elements": 3
+      },
+      "standard": {
+        "steps": 10,
+        "duration": 30,
+        "elements": 7
+      },
+      "complex": {
+        "steps": 22,
+        "duration": 60,
+        "elements": 12
+      }
+    },
+    "elementCategories": [
+      "invocação",
+      "banimento",
+      "consagração",
+      "oferenda",
+      "visualização",
+      "cântico",
+      "movimento",
+      "respiração"
+    ]
+  },
+  
+  "api": {
+    "baseUrl": "https://api.aguas-primordiais.com/v3",
+    "timeout": 30000,
+    "endpoints": {
+      "auth": "/auth",
+      "readings": "/readings",
+      "sigils": "/sigils",
+      "patterns": "/patterns",
+      "rituals": "/rituals",
+      "export": "/export"
+    },
+    "rateLimit": {
+      "requests": 100,
+      "period": 3600
+    }
+  },
+  
+  "development": {
+    "debug": false,
+    "logLevel": "warn",
+    "mockData": false,
+    "testMode": false
+  },
+  
+  "telemetry": {
+    "enabled": false,
+    "anonymous": true,
+    "collectUsageData": false,
+    "sharePatterns": false
+  },
+  
+  "localization": {
+    "defaultLocale": "pt-BR",
+    "supportedLocales": ["pt-BR", "en-US", "es-ES", "fr-FR", "he-IL"],
+    "rtlSupport": true
+  }
+}
