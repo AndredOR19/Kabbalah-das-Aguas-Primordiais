@@ -1,0 +1,64 @@
+name: Deploy Mestre
+
+on:
+  push:
+    branches: [ "principal", "main" ]
+  pull_request:
+    branches: [ "principal", "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+      with:
+        submodules: recursive
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+        npm ci
+
+    - name: Configure Git
+      run: |
+        git config --global user.name "GitHub Actions Bot"
+        git config --global user.email "actions@github.com"
+        
+    - name: Lint Markdown files
+      run: |
+        npm install -g markdownlint-cli
+        markdownlint '**/*.md' || true
+
+    - name: Configure Groq API
+      env:
+        GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+      run: |
+        if [ -z "$GROQ_API_KEY" ]; then
+          echo "Warning: GROQ_API_KEY não está configurada"
+          exit 1
+        fi
+
+    - name: Build and Test
+      run: |
+        # Adicione aqui seus comandos de build e teste
+        echo "Executando build e testes..."
+
+    - name: Deploy
+      if: github.ref == 'refs/heads/principal' && github.event_name == 'push' || github.ref == 'refs/heads/main' && github.event_name == 'push'
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        # Adicione aqui seus comandos de deploy
+        echo "Executando deploy..."

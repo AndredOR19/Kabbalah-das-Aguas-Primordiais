@@ -1,0 +1,12 @@
+{
+  "name": "corpo-do-verbo",
+  "version": "1.0.0",
+  "description": "O Corpo do Verbo - Sistema de práticas e documentação",
+  "scripts": {
+    "lint": "markdownlint '**/*.md'",
+    "lint:fix": "markdownlint '**/*.md' --fix"
+  },
+  "devDependencies": {
+    "markdownlint-cli": "^0.33.0"
+  }
+}
