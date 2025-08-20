@@ -5,6 +5,9 @@
 // Importa biblioteca de testes Deno
 import { assertEquals, assertExists } from "https://deno.land/std/testing/asserts.ts";
 
+// Importar o módulo de integração enochiana
+import "./enochian_integration.js";
+
 // Mock de dados para testes
 const mockData = {
   liber777: {
@@ -162,4 +165,43 @@ Deno.test("EsotericKnowledgeBase - Gerar ritual", async () => {
   assertExists(ritual.steps);
   assertEquals(ritual.title, "Ritual de Proteção Saturnina");
   assertEquals(ritual.steps.length, 3);
+});
+
+// Testes para a integração enochiana
+Deno.test("EsotericKnowledgeBase - Integração Enochiana", async () => {
+  const kb = new EsotericKnowledgeBase();
+  
+  // Simular inicialização da integração enochiana
+  kb.loadSources = async () => {
+    kb.sources = {
+      liber777: {},
+      claviculaSalomonis: {},
+      seferYetzirah: {},
+      enochian: {}
+    };
+    kb.enochianIntegration = new EnochianSCIIIntegration();
+  };
+  
+  await kb.loadSources();
+  
+  // Verificar se a integração enochiana foi inicializada
+  assertExists(kb.enochianIntegration);
+  
+  // Testar tradução de fórmula
+  const formula = kb.translateEnochianFormula("Aura de Cura");
+  assertExists(formula);
+  assertEquals(formula.name.includes("Aura de Cura"), true);
+  
+  // Testar obtenção do mapa de correspondências
+  const map = kb.getEnochianCorrespondenceMap();
+  assertExists(map.synoticMap);
+  assertExists(map.enochianStructure);
+  
+  // Testar geração de prática integrativa
+  const practice = kb.generateIntegrativePractice("Necessito de proteção");
+  assertExists(practice);
+  assertEquals(practice.type, "proteção");
+  assertExists(practice.systems.enochian);
+  assertExists(practice.systems.scii);
+  assertExists(practice.systems.quimbanda);
 });

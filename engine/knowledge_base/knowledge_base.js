@@ -8,10 +8,12 @@ class EsotericKnowledgeBase {
         this.sources = {
             liber777: null,
             claviculaSalomonis: null,
-            seferYetzirah: null
+            seferYetzirah: null,
+            enochian: null
         };
         this.correlations = new Map();
         this.vectorIndex = null;
+        this.enochianIntegration = null;
     }
 
     async loadSources() {
@@ -19,7 +21,8 @@ class EsotericKnowledgeBase {
             const sourceFiles = {
                 liber777: '/documentos/materiais-referencia/liber777.json',
                 claviculaSalomonis: '/documentos/materiais-referencia/clavicula.json',
-                seferYetzirah: '/documentos/materiais-referencia/sefer.json'
+                seferYetzirah: '/documentos/materiais-referencia/sefer.json',
+                enochian: '/documentos/materiais-referencia/enochian.json'
             };
 
             for (const [key, path] of Object.entries(sourceFiles)) {
@@ -29,6 +32,11 @@ class EsotericKnowledgeBase {
 
             this._buildCorrelations();
             this._trainVectorIndex();
+            
+            // Inicializar integração enochiana
+            if (globalThis.EnochianSCIIIntegration) {
+                this.enochianIntegration = new EnochianSCIIIntegration();
+            }
 
         } catch (error) {
             console.error('Erro ao carregar fontes esotéricas:', error);
@@ -106,6 +114,48 @@ class EsotericKnowledgeBase {
 
     _constructRitual(components) {
         // Constrói o ritual usando os componentes identificados
+    }
+    
+    /**
+     * Integração com o sistema enochiano
+     */
+    
+    /**
+     * Traduz uma fórmula enochiana para o circuito SCII correspondente
+     * @param {string} formulaName - Nome da fórmula enochiana
+     * @returns {Object} - Detalhes da tradução
+     */
+    translateEnochianFormula(formulaName) {
+        if (!this.enochianIntegration) {
+            return { error: "Integração enochiana não inicializada" };
+        }
+        
+        return this.enochianIntegration.translateFormula(formulaName);
+    }
+    
+    /**
+     * Obtém o mapa completo de correspondências entre sistemas
+     * @returns {Object} - Mapa de correspondências
+     */
+    getEnochianCorrespondenceMap() {
+        if (!this.enochianIntegration) {
+            return { error: "Integração enochiana não inicializada" };
+        }
+        
+        return this.enochianIntegration.getCompleteCorrespondenceMap();
+    }
+    
+    /**
+     * Gera uma prática integrativa baseada nos sistemas Enochiano, SCII e Quimbanda
+     * @param {string} intention - Intenção da prática
+     * @returns {Object} - Prática integrativa detalhada
+     */
+    generateIntegrativePractice(intention) {
+        if (!this.enochianIntegration) {
+            return { error: "Integração enochiana não inicializada" };
+        }
+        
+        return this.enochianIntegration.generateIntegrativePractice(intention);
     }
 }
 
