@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#para{
+
+    font-family:'Raleway',sans-serif;
+    font-weight: 450;
+    padding-top:30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    letter-spacing:1px;
+    
+    
+}
+
+body{
+   
+   
+    align-items: center;
+    background-color: #CDDEFF;
+}
+
+b{
+    font-weight:bold;
+}
+
+.keys{
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    width:60%;
+    height:70%;
+
+}
+.traits{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    width:40%;
+    height:50%;
+
+}
+
+.navbar{
+        height: 60px;
+        background:#24A19C;
+}
+
+.navbar-nav{
+    font-size: 17.5px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    color:white;    
+}
+
+#title{
+    font-size:30px;
+    letter-spacing: 1px
+}
+
+#table_link{
+    text-decoration: underline;
+}
+
+.patti{
+    background:#7CD1B8;
+}
+
+#underline{
+    background:#7CD1B8;
+
+}
+#butt{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    
+}
+
+#keys{
+    font-size:20px;
+    font-weight: bolder;
+    word-spacing: 1.5px;
+    
+   
+}
+
+#already_acc{
+    text-align:center
+}
+
+#emailHelp{
+    font-weight: normal;
+    word-spacing: 1px;
+    font-size:15px
+}
+
+.form-control{
+    width:25%;
+}
+
+h1{
+    font-weight: 150px;
+    word-spacing: 1.5px;
+    letter-spacing:1px;
+    margin-bottom:20px
+}
+
+#login_png{
+        
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    width:20%;
+    height:20%;
+}
+
+#error_msg{
+    
+    background-color: #d63934e0;
+    margin-left: 520px;
+    margin-right: 520px;
+    padding: 7px;
+    font-weight:bolder;
+    letter-spacing: 1px;
+    
+}
+
+.dropdown-item{
+    
+    font-weight:bold;
+    font-size: 17.5px;
+    letter-spacing: 1.5px;
+    
+}
+
+#drop{
+    margin-left: 430px;
+}
+
+.dropdown-menu{
+    background:#89B5AF;  
+}
+
+#history{
+
+    font-size:20px;
+    font-weight:bolder;
+    background-color: #89B5AF;
+    margin-top: 50px;
+    color:white;
+    padding-left:40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+   
+}
+#footer{
+    margin-top: 100px
+}
+
+#info{
+    font-size:17px;
+    text-align: center;
+    margin: 20px;
+    
+}
+
+#key_info{
+    background:#89B5AF;
+    padding: 20px;
+    margin:20px;
+    color: white;
+
+
+}
+b{
+    color:rgb(94, 93, 93);
+    
+}
