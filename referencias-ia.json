@@ -1,0 +1,69 @@
+{
+  "sistema": "Kabbalah das Águas Primordiais",
+  "versao": "1.0",
+  "formato_ia": "json+markdown",
+  "livros": {
+    "o_corpo_do_verbo": {
+      "titulo": "O Corpo do Verbo",
+      "volumes": 7,
+      "essencia": "Mapeamento somático da linguagem divina",
+      "arquivos_principais": [
+        "O_Corpo_do_Verbo_Final_pt.pdf",
+        "o_corpo_do_verbo.epub",
+        "the_body_of_the_word.epub"
+      ],
+      "temas": ["anatomia sagrada", "vibração", "DNA espiritual", "destino", "alquimia"],
+      "localizacao": "/home/andre/O corpo do verbo/Para A.I-20250815T233838Z-1-001/Para A.I"
+    },
+    "livro_templo_interno": {
+      "titulo": "Livro do Templo Interno",
+      "capitulos": 15,
+      "essencia": "Misticismo corporal através da dança sagrada",
+      "arquivos_principais": [
+        "Livro_do_Templo_Interno/README.md",
+        "Livro_do_Templo_Interno/01_Prefacio_do_Silencio.md",
+        "Livro_do_Templo_Interno/15_Fechamento_do_Cubo.md"
+      ],
+      "temas": ["dança sagrada", "templo interno", "merkavon", "mantra final"],
+      "localizacao": "/home/andre/Kabbalah-das-Aguas-Primordiais/Livro_do_Templo_Interno"
+    },
+    "scii_5_0": {
+      "titulo": "SCII 5.0 - Sistema de Correspondências",
+      "essencia": "Sistema integrado de mapeamento somático-numérico",
+      "arquivos_principais": [
+        "SCII 5.0/SCII 5.0 Definição",
+        "SCII 5.0/Mapeamento Somático das Vibrações Numéricas",
+        "SCII 5.0/PROTOCOLO_IA.md"
+      ],
+      "temas": ["correspondências", "gematria", "rituais", "veracidade", "matriz pessoal"],
+      "localizacao": "/home/andre/Kabbalah-das-Aguas-Primordiais/SCII 5.0"
+    },
+    "bereshit_corporificado": {
+      "titulo": "Bereshit Corporificado",
+      "essencia": "Gênese através do corpo como texto primordial",
+      "arquivos_principais": [
+        "Bereshit_Corporificado_COMPLETO.html",
+        "Tratado_Bereshit_Corporificado.html"
+      ],
+      "temas": ["criação", "corpo-texto", "bereshit", "primordial"],
+      "localizacao": "/home/andre/O corpo do verbo/Para A.I-20250815T233838Z-1-001/Para A.I"
+    }
+  },
+  "blogspot": {
+    "url": "https://kabbalahdasaguasprimordiais.blogspot.com/",
+    "temas_principais": [
+      "Águas Primordiais como consciência",
+      "Alfabeto hebraico no corpo",
+      "Zohar aplicado à anatomia",
+      "Rituais de transformação"
+    ],
+    "arquivo_local": "/home/andre/Kabbalah-das-Aguas-Primordiais/blogspot/"
+  },
+  "formato_resumo": {
+    "essencia": "2-3 frases do núcleo",
+    "palavras_chave": "5 termos principais",
+    "contexto_ia": "aplicação prática",
+    "referencia": "link conteúdo completo"
+  },
+  "tags_ia": ["cabala", "corpo", "misticismo", "anatomia-sagrada", "vibração", "transformação"]
+}

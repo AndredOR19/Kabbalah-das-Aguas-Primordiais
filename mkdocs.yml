@@ -1,9 +1,51 @@
 site_name: Instituto Águas Primordiais
+site_url: https://andredor19.github.io/Kabbalah-das-Aguas-Primordiais/
+use_directory_urls: true
 theme:
   name: material
   language: pt
+  logo: images/logo.svg
+  favicon: images/favicon.svg
+  palette:
+    - scheme: default
+      primary: blue grey
+      accent: cyan
+    - scheme: slate
+      primary: blue grey
+      accent: cyan
+      toggle:
+        icon: material/weather-night
+        name: Modo noturno
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - search.highlight
+    - search.share
+extra_css:
+  - styles/mystical.css
+  - styles/hero.css
 nav:
   - Início: index.md
+  - Interface Universal: interface_universal.html
+  - Guia de Debug WS: debug_websocket.md
+  - SCII 5.0:
+    - Introdução: 'SCII 5.0/docs/README.md'
+    - Volume I - Fundamentos:
+      - Visão Geral: 'SCII 5.0/docs/Volume-I-Fundamentos/index.md'
+      - Os Dois Fluxos: 'SCII 5.0/docs/Volume-I-Fundamentos/01_Os_Dois_Fluxos.md'
+      - A Matemática Sagrada: 'SCII 5.0/docs/Volume-I-Fundamentos/02_A_Matematica_Sagrada.md'
+      - O Corpo como Interface: 'SCII 5.0/docs/Volume-I-Fundamentos/03_O_Corpo_como_Interface.md'
+      - O SCII: 'SCII 5.0/docs/Volume-I-Fundamentos/04_O_SCII.md'
+      - O Alfabeto Operativo: 'SCII 5.0/docs/Volume-I-Fundamentos/05_O_Alfabeto_Operativo.md'
+    - Volume II - Manual de Operações:
+      - Visão Geral: 'SCII 5.0/docs/Volume-II-Manual-de-Operacoes/index.md'
+      - Protocolos Diários:
+        - Respiração das 21 Letras: 'SCII 5.0/docs/Volume-II-Manual-de-Operacoes/Protocolos-Diarios/Respiracao_21_Letras.md'
+    - Volume III - Laboratório de Tecnomancia:
+      - Visão Geral: 'SCII 5.0/docs/Volume-III-Laboratorio-de-Tecnomancia/index.md'
+  - Protocolo Vivaldi:
+    - Visão Geral: PR_FIX_PROTOCOLO_VIVALDI.md
+    - Vortex Player: vivaldi/vortex_player.html
   - Sobre: sobre.md
   - Aulas:
     - "Introdução": "aulas/01-introducao.md"

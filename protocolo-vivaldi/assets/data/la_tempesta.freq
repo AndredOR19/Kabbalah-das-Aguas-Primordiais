@@ -1,0 +1,69 @@
+# Frequências Especiais - La Tempesta
+# Frequências harmônicas para ativação espiritual
+
+# Frequências Solfeggio
+frequencias_solfeggio:
+  174: "Segurança e amor"
+  285: "Cura e regeneração"
+  396: "Libertação do medo"
+  417: "Facilita mudanças"
+  528: "Reparação do DNA"
+  639: "Relações harmoniosas"
+  741: "Expressão autêntica"
+  852: "Retorno ao espírito"
+  963: "Conexão divina"
+
+# Frequências de Tempestade
+tempestade_frequencias:
+  432: "Frequência natural da Terra"
+  440: "Padrão musical moderno"
+  528: "Frequência do amor"
+  666: "Frequência de transformação"
+  777: "Frequência de iluminação"
+  888: "Frequência de abundância"
+  999: "Frequência de completude"
+
+# Harmônicos de Vivaldi
+vivaldi_harmonics:
+  primavera:
+    fundamental: 396
+    harmonics: [396, 594, 792, 990, 1188]
+    
+  estate:
+    fundamental: 417
+    harmonics: [417, 625.5, 834, 1042.5, 1251]
+    
+  autunno:
+    fundamental: 528
+    harmonics: [528, 792, 1056, 1320, 1584]
+    
+  inverno:
+    fundamental: 639
+    harmonics: [639, 958.5, 1278, 1597.5, 1917]
+
+# Mapeamento Espinal
+spinal_frequencies:
+  C1: 963
+  C2: 852
+  C3: 741
+  C4: 639
+  C5: 528
+  C6: 417
+  C7: 396
+  T1: 285
+  T2: 174
+  T3: 963
+  T4: 852
+  T5: 741
+  T6: 639
+  T7: 528
+  T8: 417
+  T9: 396
+  T10: 285
+  T11: 174
+  T12: 963
+  L1: 852
+  L2: 741
+  L3: 639
+  L4: 528
+  L5: 417

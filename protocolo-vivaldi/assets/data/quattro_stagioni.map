@@ -1,0 +1,66 @@
+# Mapeamento das Quatro Estações - Protocolo Vivaldi
+# Baseado nos concertos de Vivaldi
+
+PRIMAVERA:
+  concerto: "La Primavera"
+  op: 8, nº 1
+  tonalidade: "Mi maior"
+  frequencia_base: 396
+  movimentos:
+    - "Allegro"
+    - "Largo"
+    - "Danza pastorale"
+  sefira: "netzach"
+  elemento: "ar"
+  caracteristicas:
+    - "Renascimento"
+    - "Crescimento"
+    - "Nova vida"
+
+ESTATE:
+  concerto: "L'Estate"
+  op: 8, nº 2
+  tonalidade: "Sol menor"
+  frequencia_base: 417
+  movimentos:
+    - "Allegro non molto"
+    - "Adagio"
+    - "Presto"
+  sefira: "hod"
+  elemento: "fogo"
+  caracteristicas:
+    - "Calor"
+    - "Paixão"
+    - "Transformação"
+
+AUTUNNO:
+  concerto: "L'Autunno"
+  op: 8, nº 3
+  tonalidade: "Fá maior"
+  frequencia_base: 528
+  movimentos:
+    - "Allegro"
+    - "Adagio molto"
+    - "Allegro"
+  sefira: "tiferet"
+  elemento: "terra"
+  caracteristicas:
+    - "Colheita"
+    - "Gratidão"
+    - "Preparação"
+
+INVERNO:
+  concerto: "L'Inverno"
+  op: 8, nº 4
+  tonalidade: "Fá menor"
+  frequencia_base: 639
+  movimentos:
+    - "Allegro non molto"
+    - "Largo"
+    - "Allegro"
+  sefira: "chesed"
+  elemento: "água"
+  caracteristicas:
+    - "Repouso"
+    - "Reflexão"
+    - "Renovação"

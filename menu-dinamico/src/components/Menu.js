@@ -246,12 +246,13 @@ class Menu {
                         this._toggleSubmenu(item);
                     }
                     break;
-                case 'Escape':
+                case 'Escape': {
                     const openSubmenu = item.querySelector('.submenu.active');
                     if (openSubmenu) {
                         this._toggleSubmenu(item, false);
                     }
                     break;
+                }
             }
         });
     }
@@ -288,11 +289,11 @@ class Menu {
  * Inicializa o menu quando o DOM estiver completamente carregado
  * Isso garante que todos os elementos necessários estejam disponíveis
  */
-window.addEventListener('DOMContentLoaded', () => {
+globalThis.addEventListener('DOMContentLoaded', () => {
     try {
         const menu = new Menu('menu-container');
         // Expõe a instância do menu globalmente para debugging se necessário
-        window._menuInstance = menu;
+        globalThis._menuInstance = menu;
     } catch (error) {
         console.error('Erro ao inicializar o menu:', error);
     }

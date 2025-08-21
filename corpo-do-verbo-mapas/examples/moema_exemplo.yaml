@@ -1,48 +1,24 @@
 identidade:
-  nome: "Moema Silva"
-  pseudonimo: "A Guardiã das Águas"
-  data_nascimento: "1985-03-21"
-  hora_nascimento: "14:30"
-  local_nascimento: "Rio de Janeiro, Brasil"
+  nome: "Moema Brandão"
+  pseudonimo: "Luminária da Travessia"
+  data_nascimento: "1985-04-12"
+  hora_nascimento: "06:45"
+  local_nascimento: "São Paulo, Brasil"
 meta:
   versao_template: "v1.0"
   autor_analise: "Karuv Beni EL"
-  repositorio: "github.com/SEU_USER/corpo-do-verbo-mapas"
+  repositorio: "github.com/AndredOR19/corpo-do-verbo-mapas"
 posicoes:
   Sol:
-    signo: "Áries"
-    casa: 1
-    grau: 0.5
-    aspectos:
-      - { com: "Marte", tipo: "conjuncao", orbe: 2.0 }
-  Lua:
-    signo: "Câncer"
-    casa: 4
-  Mercúrio:
-    signo: "Peixes"
-    casa: 12
-  Vênus:
-    signo: "Touro"
-    casa: 2
-  Marte:
-    signo: "Áries"
-    casa: 1
-  Júpiter:
-    signo: "Aquário"
-    casa: 11
-  Saturno:
     signo: "Escorpião"
-    casa: 8
-  Urano:
-    signo: "Sagitário"
-    casa: 9
-  Netuno:
-    signo: "Capricórnio"
-    casa: 10
-  Plutão:
-    signo: "Libra"
     casa: 7
+    grau: 12.3
+    aspectos:
+      - { com: "Júpiter", tipo: "conjuncao", orbe: 3.1 }
+  Lua:
+    signo: "Aquário"
+    casa: 10
 assinaturas:
-  eixos: ["Aleph–Bet–Gimel–Dalet–He"]
-  letras_chave: ["Aleph", "Bet", "Gimel", "Dalet", "He"]
-  portais_operativos: ["Casa 1 (Início)", "Caminho 11 (Aleph)"]
+  eixos: ["Vav–Nun–Tzadi–Yod–Tet"]
+  letras_chave: ["Nun", "Tzadi", "Vav"]
+  portais_operativos: ["Casa 7 (Espelho)", "Caminho 24 (Nun)"]

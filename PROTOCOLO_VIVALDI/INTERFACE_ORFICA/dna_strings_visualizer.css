@@ -1,0 +1,223 @@
+/* PROTOCOLO VIVALDI - DNA Strings Visualizer CSS */
+/* Estilos místicos para visualização de sequências de DNA como partituras musicais */
+
+:root {
+    --cor-primaria: #00ffff;
+    --cor-secundaria: #8a2be2;
+    --cor-dourada: #ffd700;
+    --cor-vermelha: #ff4500;
+    --cor-verde: #32cd32;
+    --cor-fundo: #000011;
+    --cor-texto: #ffffff;
+    --cor-chakra-coroa: #8a2be2;
+    --cor-chakra-3olho: #4b0082;
+    --cor-chakra-garganta: #00bfff;
+    --cor-chakra-coracao: #32cd32;
+    --cor-chakra-plexo: #ffd700;
+    --cor-chakra-raiz: #ff4500;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', monospace;
+    background: var(--cor-fundo);
+    color: var(--cor-texto);
+    overflow: hidden;
+    background-image: 
+        radial-gradient(circle at 20% 50%, rgba(138, 43, 226, 0.3) 0%, transparent 50%),
+        radial-gradient(circle at 80% 50%, rgba(0, 255, 255, 0.3) 0%, transparent 50%),
+        radial-gradient(circle at 50% 20%, rgba(255, 215, 0, 0.2) 0%, transparent 50%);
+}
+
+.cosmic-portal {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 300px 1fr;
+    grid-template-rows: 1fr 200px 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.starfield {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: 
+        radial-gradient(2px 2px at 20px 30px, #eee, transparent),
+        radial-gradient(2px 2px at 40px 70px, rgba(255,255,255,0.8), transparent),
+        radial-gradient(1px 1px at 90px 40px, #fff, transparent),
+        radial-gradient(1px 1px at 130px 80px, rgba(255,255,255,0.6), transparent),
+        radial-gradient(2px 2px at 160px 30px, #ddd, transparent);
+    background-repeat: repeat;
+    background-size: 200px 100px;
+    animation: twinkle 4s infinite;
+}
+
+@keyframes twinkle {
+    0%, 100% { opacity: 0.8; }
+    50% { opacity: 1; }
+}
+
+.vortex-container {
+    grid-column: 1 / -1;
+    grid-row: 1 / -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+#vortex-canvas {
+    border-radius: 50%;
+    box-shadow: 
+        0 0 50px var(--cor-primaria),
+        0 0 100px var(--cor-secundaria),
+        inset 0 0 50px rgba(255, 255, 255, 0.1);
+}
+
+.control-panel {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 300px;
+    background: rgba(0, 0, 17, 0.8);
+    border: 1px solid var(--cor-primaria);
+    border-radius: 10px;
+    padding: 20px;
+    backdrop-filter: blur(10px);
+    z-index: 10;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.3);
+}
+
+.control-panel h1 {
+    color: var(--cor-dourada);
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    text-shadow: 0 0 10px var(--cor-dourada);
+}
+
+.control-panel h2 {
+    color: var(--cor-primaria);
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    text-shadow: 0 0 5px var(--cor-primaria);
+}
+
+.season-selector {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.season-btn {
+    background: rgba(0, 255, 255, 0.1);
+    border: 1px solid var(--cor-primaria);
+    color: var(--cor-texto);
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: inherit;
+}
+
+.season-btn:hover {
+    background: rgba(0, 255, 255, 0.3);
+    box-shadow: 0 0 15px var(--cor-primaria);
+    transform: translateY(-2px);
+}
+
+.season-btn.active {
+    background: var(--cor-primaria);
+    color: var(--cor-fundo);
+    box-shadow: 0 0 20px var(--cor-primaria);
+}
+
+.chakra-display {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 20px;
+}
+
+.chakra {
+    padding: 8px;
+    border-radius: 5px;
+    text-align: center;
+    transition: all 0.3s ease;
+    border: 1px solid transparent;
+}
+
+.chakra.active {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px currentColor;
+}
+
+#coroa { background: var(--cor-chakra-coroa); }
+#terceiro-olho { background: var(--cor-chakra-3olho); }
+#garganta { background: var(--cor-chakra-garganta); }
+#coracao { background: var(--cor-chakra-coracao); }
+#plexo-solar { background: var(--cor-chakra-plexo); }
+#raiz { background: var(--cor-chakra-raiz); }
+
+.frequency-display {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    font-size: 0.9em;
+}
+
+.hebrew-letters {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.letter {
+    font-size: 2em;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.letter:hover {
+    transform: scale(1.2);
+    text-shadow: 0 0 10px var(--cor-dourada);
+}
+
+.playback-controls {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.playback-controls button {
+    background: rgba(255, 215, 0, 0.2);
+    border: 1px solid var(--cor-dourada);
+    color: var(--cor-texto);
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: inherit;
+}
+
+.playback-controls button:hover {
+    background: var(--cor-dourada);
+    color: var(--cor-fundo);
+    box-shadow: 0 0 15px var(--cor-d

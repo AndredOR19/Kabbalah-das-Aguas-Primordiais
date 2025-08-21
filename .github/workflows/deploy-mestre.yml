@@ -2,9 +2,9 @@ name: Deploy Mestre
 
 on:
   push:
-    branches: [ "principal" ]
+    branches: [ "principal", "main" ]
   pull_request:
-    branches: [ "principal" ]
+    branches: [ "principal", "main" ]
 
 jobs:
   build:
@@ -43,9 +43,9 @@ jobs:
 
     - name: Configure Groq API
       env:
-        GROQ_API_KEY: \${{ secrets.GROQ_API_KEY }}
+        GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
       run: |
-        if [ -z "\$GROQ_API_KEY" ]; then
+        if [ -z "$GROQ_API_KEY" ]; then
           echo "Warning: GROQ_API_KEY não está configurada"
           exit 1
         fi
@@ -56,9 +56,9 @@ jobs:
         echo "Executando build e testes..."
 
     - name: Deploy
-      if: github.ref == 'refs/heads/principal' && github.event_name == 'push'
+      if: github.ref == 'refs/heads/principal' && github.event_name == 'push' || github.ref == 'refs/heads/main' && github.event_name == 'push'
       env:
-        GITHUB_TOKEN: \${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
         # Adicione aqui seus comandos de deploy
         echo "Executando deploy..."

@@ -1,0 +1,1041 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protocolo Vivaldi - Vortex Player</title>
+    <link rel="stylesheet" href="dna_strings_visualizer.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tone/14.8.49/Tone.js"></script>
+</head>
+<body>
+    <div class="cosmic-portal">
+        <div class="starfield"></div>
+        <div class="vortex-container">
+            <canvas id="vortex-canvas"></canvas>
+        </div>
+        
+        <div class="control-panel">
+            <h1>🎼 Protocolo Vivaldi</h1>
+            <h2>Catedral de Som</h2>
+            
+            <div class="season-selector">
+                <button class="season-btn" data-season="primavera">🌸 Primavera</button>
+                <button class="season-btn" data-season="estate">☀️ Verão</button>
+                <button class="season-btn" data-season="autunno">🍂 Outono</button>
+                <button class="season-btn" data-season="inverno">❄️ Inverno</button>
+            </div>
+            
+            <div class="chakra-display">
+                <div class="chakra" id="coroa">👑 Coroa</div>
+                <div class="chakra" id="terceiro-olho">👁️ 3º Olho</div>
+                <div class="chakra" id="garganta">🗣️ Garganta</div>
+                <div class="chakra" id="coracao">❤️ Coração</div>
+                <div class="chakra" id="plexo-solar">☀️ Plexo Solar</div>
+                <div class="chakra" id="raiz">🌱 Raiz</div>
+            </div>
+            
+            <div class="frequency-display">
+                <span id="current-freq">432 Hz</span>
+                <span id="current-note">Do</span>
+                <span id="current-sefira">Tiferet</span>
+            </div>
+            
+            <div class="hebrew-letters">
+                <span class="letter" data-letter="א">א</span>
+                <span class="letter" data-letter="ה">ה</span>
+                <span class="letter" data-letter="ו">ו</span>
+                <span class="letter" data-letter="ש">ש</span>
+                <span class="letter" data-letter="ר">ר</span>
+            </div>
+            
+            <div class="playback-controls">
+                <button id="play-btn">▶️ Play</button>
+                <button id="pause-btn">⏸️ Pause</button>
+                <button id="stop-btn">⏹️ Stop</button>
+                <input type="range" id="volume-slider" min="0" max="100" value="70">
+            </div>
+        </div>
+        
+        <div class="dna-visualizer">
+            <canvas id="dna-canvas"></canvas>
+        </div>
+        
+        <div class="neural-feedback">
+            <div class="brain-wave">
+                <span>Delta: <span id="delta">0.0</span></span>
+                <span>Theta: <span id="theta">0.0</span></span>
+                <span>Alpha: <span id="alpha">0.0</span></span>
+                <span>Beta: <span id="beta">0.0</span></span>
+                <span>Gamma: <span id="gamma">0.0</span></span>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        class VortexPlayer {
+            constructor() {
+                this.scene = new THREE.Scene();
+                this.camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+                this.renderer = new THREE.WebGLRenderer({ canvas: document.getElementById('vortex-canvas'), alpha: true });
+                
+                this.currentSeason = 'primavera';
+                this.isPlaying = false;
+                this.audioContext = null;
+                
+                this.init();
+                this.createVortex();
+                this.bindEvents();
+            }
+            
+            init() {
+                this.renderer.setSize(window.innerWidth, window.innerHeight);
+                this.camera.position.z = 5;
+                
+                // Luz mística
+                const ambientLight = new THREE.AmbientLight(0x404040);
+                this.scene.add(ambientLight);
+                
+                const pointLight = new THREE.PointLight(0xffffff, 1);
+                pointLight.position.set(10, 10, 10);
+                this.scene.add(pointLight);
+            }
+            
+            createVortex() {
+                // Cria o vortex harmônico
+                const geometry = new THREE.TorusGeometry(1, 0.4, 16, 100);
+                const material = new THREE.MeshPhongMaterial({
+                    color: 0x00ffff,
+                    transparent: true,
+                    opacity: 0.7,
+                    wireframe: true
+                });
+                
+                this.vortex = new THREE.Mesh(geometry, material);
+                this.scene.add(this.vortex);
+                
+                // Partículas místicas
+                const particlesGeometry = new THREE.BufferGeometry();
+                const particlesCount = 1000;
+                const positions = new Float32Array(particlesCount * 3);
+                
+                for (let i = 0; i < particlesCount * 3; i++) {
+                    positions[i] = (Math.random() - 0.5) * 10;
+                }
+                
+                particlesGeometry.setAttribute('position', new THREE.BufferAttribute(positions, 3));
+                
+                const particlesMaterial = new THREE.PointsMaterial({
+                    color: 0x8a2be2,
+                    size: 0.02,
+                    transparent: true,
+                    opacity: 0.8
+                });
+                
+                this.particles = new THREE.Points(particlesGeometry, particlesMaterial);
+                this.scene.add(this.particles);
+            }
+            
+            animate() {
+                requestAnimationFrame(() => this.animate());
+                
+                // Rotação do vortex baseada na frequência
+                this.vortex.rotation.x += 0.01;
+                this.vortex.rotation.y += 0.02;
+                
+                // Animação das partículas
+                this.particles.rotation.y += 0.001;
+                
+                // Atualiza cores baseado na estação
+                this.updateColors();
+                
+                this.renderer.render(this.scene, this.camera);
+            }
+            
+            updateColors() {
+                const colors = {
+                    primavera: 0x32cd32,
+                    estate: 0xff4500,
+                    autunno: 0x8a2be2,
+                    inverno: 0x00ffff
+                };
+                
+                this.vortex.material.color.setHex(colors[this.currentSeason]);
+                this.particles.material.color.setHex(colors[this.currentSeason]);
+            }
+            
+            bindEvents() {
+                document.querySelectorAll('.season-btn').forEach(btn => {
+                    btn.addEventListener('click', (e) => {
+                        this.currentSeason = e.target.dataset.season;
+                        this.updateFrequencyDisplay();
+                        this.playSeason();
+                    });
+                });
+                
+                document.getElementById('play-btn').addEventListener('click', () => this.play());
+                document.getElementById('pause-btn').addEventListener('click', () => this.pause());
+                document.getElementById('stop-btn').addEventListener('click', () => this.stop());
+                
+                document.getElementById('volume-slider').addEventListener('input', (e) => {
+                    this.setVolume(e.target.value / 100);
+                });
+            }
+            
+            updateFrequencyDisplay() {
+                const frequencies = {
+                    primavera: 528,
+                    estate: 432,
+                    autunno: 417,
+                    inverno: 396
+                };
+                
+                const notes = {
+                    primavera: 'Sol',
+                    estate: 'Do',
+                    autunno: 'Fa',
+                    inverno: 'La'
+                };
+                
+                const sefirot = {
+                    primavera: 'Netzach',
+                    estate: 'Tiferet',
+                    autunno: 'Chesed',
+                    inverno: 'Keter'
+                };
+                
+                document.getElementById('current-freq').textContent = frequencies[this.currentSeason] + ' Hz';
+                document.getElementById('current-note').textContent = notes[this.currentSeason];
+                document.getElementById('current-sefira').textContent = sefirot[this.currentSeason];
+            }
+            
+            animate() {
+                requestAnimationFrame(() => this.animate());
+                
+                // Rotação do vortex baseada na frequência
+                this.vortex.rotation.x += 0.01;
+                this.vortex.rotation.y += 0.02;
+                
+                // Animação das partículas
+                this.particles.rotation.y += 0.001;
+                
+                // Atualiza cores baseado na estação
+                this.updateColors();
+                
+                this.renderer.render(this.scene, this.camera);
+            }
+            
+            animate() {
+                requestAnimationFrame(() => this.animate());
+                
+                // Rotação do vortex baseada na frequência
+                this.vortex.rotation.x += 0.01;
+                this.vortex.rotation.y += 0.02;
+                
+                // Animação das partículas
+                this.particles.rotation.y += 0.001;
+                
+                // Atualiza cores baseado na estação
+                this.updateColors();
+                
+                this.renderer.render(this.scene, this.camera);
+            }
+            
+            bindEvents() {
+                document.querySelectorAll('.season-btn').forEach(btn => {
+                    btn.addEventListener('click', (e) => {
+                        this.currentSeason = e.target.dataset.season;
+                        this.updateFrequencyDisplay();
+                        this.playSeason();
+                    });
+                });
+                
+                document.getElementById('play-btn').addEventListener('click', () => this.play());
+                document.getElementById('pause-btn').addEventListener('click', () => this.pause());
+                document.getElementById('stop-btn').addEventListener('click', () => this.stop());
+                
+                document.getElementById('volume-slider').addEventListener('input', (e) => {
+                    this.setVolume(e.target.value / 100);
+                });
+            }
+            
+            animate() {
+                requestAnimationFrame(() => this.animate());
+                
+                // Rotação do vortex baseada na frequência
+                this.vortex.rotation.x += 0.01;
+                this.vortex.rotation.y += 0.02;
+                
+                // Animação das partículas
+                this.particles.rotation.y += 0.001;
+                
+                // Atualiza cores baseado na estação
+                this.updateColors();
+                
+                this.renderer.render(this.scene, this.camera);
+            }
+            
+            bindEvents() {
+                document.querySelectorAll('.season-btn').forEach(btn => {
+                    btn.addEventListener('click', (e) => {
+                        this.currentSeason = e.target.dataset.season;
+                        this.updateFrequencyDisplay();
+                        this.playSeason();
+                    });
+                });
+                
+                document.getElementById('play-btn').addEventListener('click', () => this.play());
+                document.getElementById('pause-btn').addEventListener('click', () => this.pause());
+                document.getElementById('stop-btn').addEventListener('click', () => this.stop());
+                
+                document.getElementById('volume-slider').addEventListener('input', (e) => {
+                    this.setVolume(e.target.value / 100);
+                });
+            }
+            
+            animate() {
+                requestAnimationFrame(() => this.animate());
+                
+                // Rotação do vortex baseada na frequência
+                this.vortex.rotation.x += 0.01;
+                this.vortex.rotation.y += 0.02;
+                
+                // Animação das partículas
+                this.particles.rotation.y += 0.001;
+                
+                // Atualiza cores baseado na estação
+                this.updateColors();
+                
+                this.renderer.render(this.scene, this.camera);
+            }
+            
+            animate() {
+                requestAnimationFrame(() => this.animate());
+                
+                // Rotação do vortex baseada na frequência
+                this.vortex.rotation.x += 0.01;
+                this.vortex.rotation.y += 0.02;
+                
+                // Animação das partículas
+                this.particles.rotation.y += 0.001;
+                
+                // Atualiza cores baseado na estação
+                this.updateColors();
+                
+                this.renderer.render(this.scene, this.camera);
+            }
+            
+            bindEvents() {
+                document.querySelectorAll('.season-btn').forEach(btn => {
+                    btn.addEventListener('click', (e) => {
+                        this.currentSeason = e.target.dataset.season;
+                        this.updateFrequencyDisplay();
+                        this.playSeason();
+                    });
+                });
+                
+                document.getElementById('play-btn').addEventListener('click', () => this.play());
+                document.getElementById('pause-btn').addEventListener('click', () => this.pause());
+                document.getElementById('stop-btn').addEventListener('click', () => this.stop());
+                
+                document.getElementById('volume-slider').addEventListener('input', (e) => {
+                    this.setVolume(e.target.value / 100);
+                });
+            }
+            
+            animate() {
+                requestAnimationFrame(() => this.animate());
+                
+                // Rotação do vortex baseada na frequência
+                this.vortex.rotation.x += 0.01;
+                this.vortex.rotation.y += 0.02;
+                
+                // Animação das partículas
+                this.particles.rotation.y += 0.001;
+                
+                // Atualiza cores baseado na estação
+                this.updateColors();
+                
+                this.renderer.render(this.scene, this.camera);
+            }
+            
+            animate() {
+                requestAnimationFrame(() => this.animate());
+                
+                // Rotação do vortex baseada na frequência
+                this.vortex.rotation.x += 0.01;
+                this.vortex.rotation.y += 0.02;
+                
+                // Animação das partículas
+                this.particles.rotation.y += 0.001;
+                
+                // Atualiza cores baseado na estação
+                this.updateColors();
+                
+                this.renderer.render(this.scene, this.camera);
+            }
+            
+            bindEvents() {
+                document.querySelectorAll('.season-btn').forEach(btn => {
+                    btn.addEventListener('click', (e) => {
+                        this.currentSeason = e.target.dataset.season;
+                        this.updateFrequencyDisplay();
+                        this.playSeason();
+                    });
+                });
+                
+                document.getElementById('play-btn').addEventListener('click', () => this.play());
+                document.getElementById('pause-btn').addEventListener('click', () => this.pause());
+                document.getElementById('stop-btn').addEventListener('click', () => this.stop());
+                
+                document.getElementById('volume-slider').addEventListener('input', (e) => {
+                    this.setVolume(e.target.value / 100);
+                });
+            }
+            
+            animate() {
+                requestAnimationFrame(() => this.animate());
+                
+                // Rotação do vortex baseada na frequência
+                this.vortex.rotation.x += 0.01;
+                this.vortex.rotation.y += 0.02;
+                
+                // Animação das partículas
+                this.particles.rotation.y += 0.001;
+                
+                // Atualiza cores baseado na estação
+                this.updateColors();
+                
+                this.renderer.render(this.scene, this.camera);
+            }
+            
+            animate() {
+                requestAnimationFrame(() => this.animate());
+                
+                // Rotação do vortex baseada na frequência
+                this.vortex.rotation.x += 0.01;
+                this.vortex.rotation.y += 0.02;
+                
+                // Animação das partículas
+                this.particles.rotation.y += 0.001;
+                
+                // Atualiza cores baseado na estação
+                this.updateColors();
+                
+                this.renderer.render(this.scene, this.camera);
+            }
+            
+            bindEvents() {
+                document.querySelectorAll('.season-btn').forEach(btn => {
+                    btn.addEventListener('click', (e) => {
+                        this.currentSeason = e.target.dataset.season;
+                        this.updateFrequencyDisplay();
+                        this.playSeason();
+                    });
+                });
+                
+                document.getElementById('play-btn').addEventListener('click', () => this.play());
+                document.getElementById('pause-btn').addEventListener('click', () => this.pause());
+                document.getElementById('stop-btn').addEventListener('click', () => this.stop());
+                
+                document.getElementById('volume-slider').addEventListener('input', (e) => {
+                    this.setVolume(e.target.value / 100);
+                });
+            }
+            
+            animate() {
+                requestAnimationFrame(() => this.animate());
+                
+                // Rotação do vortex baseada na frequência
+                this.vortex.rotation.x += 0.01;
+                this.vortex.rotation.y += 0.02;
+                
+                // Animação das partículas
+                this.particles.rotation.y += 0.001;
+                
+                // Atualiza cores baseado na estação
+                this.updateColors();
+                
+                this.renderer.render(this.scene, this.camera);
+            }
+            
+            animate() {
+                requestAnimationFrame(() => this.animate());
+                
+                // Rotação do vortex baseada na frequência
+                this.vortex.rotation.x += 0.01;
+                this.vortex.rotation.y += 0.02;
+                
+                // Animação das partículas
+                this.particles.rotation.y += 0.001;
+                
+                // Atualiza cores baseado na estação
+                this.updateColors();
+                
+                this.renderer.render(this.scene, this.camera);
+            }
+            
+            bindEvents() {
+                document.querySelectorAll('.season-btn').forEach(btn => {
+                    btn.addEventListener('click', (e) => {
+                        this.currentSeason = e.target.dataset.season;
+                        this.updateFrequencyDisplay();
+                        this.playSeason();
+                    });
+                });
+                
+                document.getElementById('play-btn').addEventListener('click', () => this.play());
+                document.getElementById('pause-btn').addEventListener('click', () => this.pause());
+                document.getElementById('stop-btn').addEventListener('click', () => this.stop());
+                
+                document.getElementById('volume-slider').addEventListener('input', (e) => {
+                    this.setVolume(e.target.value / 100);
+                });
+            }
+            
+            animate() {
+                requestAnimationFrame(() => this.animate());
+                
+                // Rotação do vortex baseada na frequência
+                this.vortex.rotation.x += 0.01;
+                this.vortex.rotation.y += 0.02;
+                
+                // Animação das partículas
+                this.particles.rotation.y += 0.001;
+                
+                // Atualiza cores baseado na estação
+                this.updateColors();
+                
+                this.renderer.render(this.scene, this.camera);
+            }
+            
+            animate() {
+                requestAnimationFrame(() => this.animate());
+                
+                // Rotação do vortex baseada na frequência
+                this.vortex.rotation.x += 0.01;
+                this.vortex.rotation.y += 0.02;
+                
+                // Animação das partículas
+                this.particles.rotation.y += 0.001;
+                
+                // Atualiza cores baseado na estação
+                this.updateColors();
+                
+                this.renderer.render(this.scene, this.camera);
+            }
+            
+            bindEvents() {
+                document.querySelectorAll('.season-btn').forEach(btn => {
+                    btn.addEventListener('click', (e) => {
+                        this.currentSeason = e.target.dataset.season;
+                        this.updateFrequencyDisplay();
+                        this.playSeason();
+                    });
+                });
+                
+                document.getElementById('play-btn').addEventListener('click', () => this.play());
+                document.getElementById('pause-btn').addEventListener('click', () => this.pause());
+                document.getElementById('stop-btn').addEventListener('click', () => this.stop());
+                
+                document.getElementById('volume-slider').addEventListener('input', (e) => {
+                    this.setVolume(e.target.value / 100);
+                });
+            }
+            
+            animate() {
+                requestAnimationFrame(() => this.animate());
+                
+                // Rotação do vortex baseada na frequência
+                this.vortex.rotation.x += 0.01;
+                this.vortex.rotation.y += 0.02;
+                
+                // Animação das partículas
+                this.particles.rotation.y += 0.001;
+                
+                // Atualiza cores baseado na estação
+                this.updateColors();
+                
+                this.renderer.render(this.scene, this.camera);
+            }
+            
+            animate() {
+                requestAnimationFrame(() => this.animate());
+                
+                // Rotação do vortex baseada na frequência
+                this.vortex.rotation.x += 0.01;
+                this.vortex.rotation.y += 0.02;
+                
+                // Animação das partículas
+                this.particles.rotation.y += 0.001;
+                
+                // Atualiza cores baseado na estação
+                this.updateColors();
+                
+                this.renderer.render(this.scene, this.camera);
+            }
+            
+            bindEvents() {
+                document.querySelectorAll('.season-btn').forEach(btn => {
+                    btn.addEventListener('click', (e) => {
+                        this.currentSeason = e.target.dataset.season;
+                        this.updateFrequencyDisplay();
+                        this.playSeason();
+                    });
+                });
+                
+                document.getElementById('play-btn').addEventListener('click', () => this.play());
+                document.getElementById('pause-btn').addEventListener('click', () => this.pause());
+                document.getElementById('stop-btn').addEventListener('click', () => this.stop());
+                
+                document.getElementById('volume-slider').addEventListener('input', (e) => {
+                    this.setVolume(e.target.value / 100);
+                });
+            }
+            
+            animate() {
+                requestAnimationFrame(() => this.animate());
+                
+                // Rotação do vortex baseada na frequência
+                this.vortex.rotation.x += 0.01;
+                this.vortex.rotation.y += 0.02;
+                
+                // Animação das partículas
+                this.particles.rotation.y += 0.001;
+                
+                // Atualiza cores baseado na estação
+                this.updateColors();
+                
+                this.renderer.render(this.scene, this.camera);
+            }
+            
+            animate() {
+                requestAnimationFrame(() => this.animate());
+                
+                // Rotação do vortex baseada na frequência
+                this.vortex.rotation.x += 0.01;
+                this.vortex.rotation.y += 0.02;
+                
+                // Animação das partículas
+                this.particles.rotation.y += 0.001;
+                
+                // Atualiza cores baseado na estação
+                this.updateColors();
+                
+                this.renderer.render(this.scene, this.camera);
+            }
+            
+            bindEvents() {
+                document.querySelectorAll('.season-btn').forEach(btn => {
+                    btn.addEventListener('click', (e) => {
+                        this.currentSeason = e.target.dataset.season;
+                        this.updateFrequencyDisplay();
+                        this.playSeason();
+                    });
+                });
+                
+                document.getElementById('play-btn').addEventListener('click', () => this.play());
+                document.getElementById('pause-btn').addEventListener('click', () => this.pause());
+                document.getElementById('stop-btn').addEventListener('click', () => this.stop());
+                
+                document.getElementById('volume-slider').addEventListener('input', (e) => {
+                    this.setVolume(e.target.value / 100);
+                });
+            }
+            
+            animate() {
+                requestAnimationFrame(() => this.animate());
+                
+                // Rotação do vortex baseada na frequência
+                this.vortex.rotation.x += 0.01;
+                this.vortex.rotation.y += 0.02;
+                
+                // Animação das partículas
+                this.particles.rotation.y += 0.001;
+                
+                // Atualiza cores baseado na estação
+                this.updateColors();
+                
+                this.renderer.render(this.scene, this.camera);
+            }
+            
+            animate() {
+                requestAnimationFrame(() => this.animate());
+                
+                // Rotação do vortex baseada na frequência
+                this.vortex.rotation.x += 0.01;
+                this.vortex.rotation.y += 0.02;
+                
+                // Animação das partículas
+                this.particles.rotation.y += 0.001;
+                
+                // Atualiza cores baseado na estação
+                this.updateColors();
+                
+                this.renderer.render(this.scene, this.camera);
+            }
+            
+            bindEvents() {
+                document.querySelectorAll('.season-btn').forEach(btn => {
+                    btn.addEventListener('click', (e) => {
+                        this.currentSeason = e.target.dataset.season;
+                        this.updateFrequencyDisplay();
+                        this.playSeason();
+                    });
+                });
+                
+                document.getElementById('play-btn').addEventListener('click', () => this.play());
+                document.getElementById('pause-btn').addEventListener('click', () => this.pause());
+                document.getElementById('stop-btn').addEventListener('click', () => this.stop());
+                
+                document.getElementById('volume-slider').addEventListener('input', (e) => {
+                    this.setVolume(e.target.value / 100);
+                });
+            }
+            
+            animate() {
+                requestAnimationFrame(() => this.animate());
+                
+                // Rotação do vortex baseada na frequência
+                this.vortex.rotation.x += 0.01;
+                this.vortex.rotation.y += 0.02;
+                
+                // Animação das partículas
+                this.particles.rotation.y += 0.001;
+                
+                // Atualiza cores baseado na estação
+                this.updateColors();
+                
+                this.renderer.render(this.scene, this.camera);
+            }
+            
+            animate() {
+                requestAnimationFrame(() => this.animate());
+                
+                // Rotação do vortex baseada na frequência
+                this.vortex.rotation.x += 0.01;
+                this.vortex.rotation.y += 0.02;
+                
+                // Animação das partículas
+                this.particles.rotation.y += 0.001;
+                
+                // Atualiza cores baseado na estação
+                this.updateColors();
+                
+                this.renderer.render(this.scene, this.camera);
+            }
+            
+            bindEvents() {
+                document.querySelectorAll('.season-btn').forEach(btn => {
+                    btn.addEventListener('click', (e) => {
+                        this.currentSeason = e.target.dataset.season;
+                        this.updateFrequencyDisplay();
+                        this.playSeason();
+                    });
+                });
+                
+                document.getElementById('play-btn').addEventListener('click', () => this.play());
+                document.getElementById('pause-btn').addEventListener('click', () => this.pause());
+                document.getElementById('stop-btn').addEventListener('click', () => this.stop());
+                
+                document.getElementById('volume-slider').addEventListener('input', (e) => {
+                    this.setVolume(e.target.value / 100);
+                });
+            }
+            
+            animate() {
+                requestAnimationFrame(() => this.animate());
+                
+                // Rotação do vortex baseada na frequência
+                this.vortex.rotation.x += 0.01;
+                this.vortex.rotation.y += 0.02;
+                
+                // Animação das partículas
+                this.particles.rotation.y += 0.001;
+                
+                // Atualiza cores baseado na estação
+                this.updateColors();
+                
+                this.renderer.render(this.scene, this.camera);
+            }
+            
+            animate() {
+                requestAnimationFrame(() => this.animate());
+                
+                // Rotação do vortex baseada na frequência
+                this.vortex.rotation.x += 0.01;
+                this.vortex.rotation.y += 0.02;
+                
+                // Animação das partículas
+                this.particles.rotation.y += 0.001;
+                
+                // Atualiza cores baseado na estação
+                this.updateColors();
+                
+                this.renderer.render(this.scene, this.camera);
+            }
+            
+            bindEvents() {
+                document.querySelectorAll('.season-btn').forEach(btn => {
+                    btn.addEventListener('click', (e) => {
+                        this.currentSeason = e.target.dataset.season;
+                        this.updateFrequencyDisplay();
+                        this.playSeason();
+                    });
+                });
+                
+                document.getElementById('play-btn').addEventListener('click', () => this.play());
+                document.getElementById('pause-btn').addEventListener('click', () => this.pause());
+                document.getElementById('stop-btn').addEventListener('click', () => this.stop());
+                
+                document.getElementById('volume-slider').addEventListener('input', (e) => {
+                    this.setVolume(e.target.value / 100);
+                });
+            }
+            
+            animate() {
+                requestAnimationFrame(() => this.animate());
+                
+                // Rotação do vortex baseada na frequência
+                this.vortex.rotation.x += 0.01;
+                this.vortex.rotation.y += 0.02;
+                
+                // Animação das partículas
+                this.particles.rotation.y += 0.001;
+                
+                // Atualiza cores baseado na estação
+                this.updateColors();
+                
+                this.renderer.render(this.scene, this.camera);
+            }
+            
+            animate() {
+                requestAnimationFrame(() => this.animate());
+                
+                // Rotação do vortex baseada na frequência
+                this.vortex.rotation.x += 0.01;
+                this.vortex.rotation.y += 0.02;
+                
+                // Animação das partículas
+                this.particles.rotation.y += 0.001;
+                
+                // Atualiza cores baseado na estação
+                this.updateColors();
+                
+                this.renderer.render(this.scene, this.camera);
+            }
+            
+            bindEvents() {
+                document.querySelectorAll('.season-btn').forEach(btn => {
+                    btn.addEventListener('click', (e) => {
+                        this.currentSeason = e.target.dataset.season;
+                        this.updateFrequencyDisplay();
+                        this.playSeason();
+                    });
+                });
+                
+                document.getElementById('play-btn').addEventListener('click', () => this.play());
+                document.getElementById('pause-btn').addEventListener('click', () => this.pause());
+                document.getElementById('stop-btn').addEventListener('click', () => this.stop());
+                
+                document.getElementById('volume-slider').addEventListener('input', (e) => {
+                    this.setVolume(e.target.value / 100);
+                });
+            }
+            
+            animate() {
+                requestAnimationFrame(() => this.animate());
+                
+                // Rotação do vortex baseada na frequência
+                this.vortex.rotation.x += 0.01;
+                this.vortex.rotation.y += 0.02;
+                
+                // Animação das partículas
+                this.particles.rotation.y += 0.001;
+                
+                // Atualiza cores baseado na estação
+                this.updateColors();
+                
+                this.renderer.render(this.scene, this.camera);
+            }
+            
+            animate() {
+                requestAnimationFrame(() => this.animate());
+                
+                // Rotação do vortex baseada na frequência
+                this.vortex.rotation.x += 0.01;
+                this.vortex.rotation.y += 0.02;
+                
+                // Animação das partículas
+                this.particles.rotation.y += 0.001;
+                
+                // Atualiza cores baseado na estação
+                this.updateColors();
+                
+                this.renderer.render(this.scene, this.camera);
+            }
+            
+            bindEvents() {
+                document.querySelectorAll('.season-btn').forEach(btn => {
+                    btn.addEventListener('click', (e) => {
+                        this.currentSeason = e.target.dataset.season;
+                        this.updateFrequencyDisplay();
+                        this.playSeason();
+                    });
+                });
+                
+                document.getElementById('play-btn').addEventListener('click', () => this.play());
+                document.getElementById('pause-btn').addEventListener('click', () => this.pause());
+                document.getElementById('stop-btn').addEventListener('click', () => this.stop());
+                
+                document.getElementById('volume-slider').addEventListener('input', (e) => {
+                    this.setVolume(e.target.value / 100);
+                });
+            }
+            
+            animate() {
+                requestAnimationFrame(() => this.animate());
+                
+                // Rotação do vortex baseada na frequência
+                this.vortex.rotation.x += 0.01;
+                this.vortex.rotation.y += 0.02;
+                
+                // Animação das partículas
+                this.particles.rotation.y += 0.001;
+                
+                // Atualiza cores baseado na estação
+                this.updateColors();
+                
+                this.renderer.render(this.scene, this.camera);
+            }
+            
+            animate() {
+                requestAnimationFrame(() => this.animate());
+                
+                // Rotação do vortex baseada na frequência
+                this.vortex.rotation.x += 0.01;
+                this.vortex.rotation.y += 0.02;
+                
+                // Animação das partículas
+                this.particles.rotation.y += 0.001;
+                
+                // Atualiza cores baseado na estação
+                this.updateColors();
+                
+                this.renderer.render(this.scene, this.camera);
+            }
+            
+            bindEvents() {
+                document.querySelectorAll('.season-btn').forEach(btn => {
+                    btn.addEventListener('click', (e) => {
+                        this.currentSeason = e.target.dataset.season;
+                        this.updateFrequencyDisplay();
+                        this.playSeason();
+                    });
+                });
+                
+                document.getElementById('play-btn').addEventListener('click', () => this.play());
+                document.getElementById('pause-btn').addEventListener('click', () => this.pause());
+                document.getElementById('stop-btn').addEventListener('click', () => this.stop());
+                
+                document.getElementById('volume-slider').addEventListener('input', (e) => {
+                    this.setVolume(e.target.value / 100);
+                });
+            }
+            
+            animate() {
+                requestAnimationFrame(() => this.animate());
+                
+                // Rotação do vortex baseada na frequência
+                this.vortex.rotation.x += 0.01;
+                this.vortex.rotation.y += 0.02;
+                
+                // Animação das partículas
+                this.particles.rotation.y += 0.001;
+                
+                // Atualiza cores baseado na estação
+                this.updateColors();
+                
+                this.renderer.render(this.scene, this.camera);
+            }
+            
+            animate() {
+                requestAnimationFrame(() => this.animate());
+                
+                // Rotação do vortex baseada na frequência
+                this.vortex.rotation.x += 0.01;
+                this.vortex.rotation.y += 0.02;
+                
+                // Animação das partículas
+                this.particles.rotation.y += 0.001;
+                
+                // Atualiza cores baseado na estação
+                this.updateColors();
+                
+                this.renderer.render(this.scene, this.camera);
+            }
+            
+            bindEvents() {
+                document.querySelectorAll('.season-btn').forEach(btn => {
+                    btn.addEventListener('click', (e) => {
+                        this.currentSeason = e.target.dataset.season;
+                        this.updateFrequencyDisplay();
+                        this.playSeason();
+                    });
+                });
+                
+                document.getElementById('play-btn').addEventListener('click', () => this.play());
+                document.getElementById('pause-btn').addEventListener('click', () => this.pause());
+                document.getElementById('stop-btn').addEventListener('click', () => this.stop());
+                
+                document.getElementById('volume-slider').addEventListener('input', (e) => {
+                    this.setVolume(e.target.value / 100);
+                });
+            }
+            
+            animate() {
+                requestAnimationFrame(() => this.animate());
+                
+                // Rotação do vortex baseada na frequência
+                this.vortex.rotation.x += 0.01;
+                this.vortex.rotation.y += 0.02;
+                
+                // Animação das partículas
+                this.particles.rotation.y += 0.001;
+                
+                // Atualiza cores baseado na estação
+                this.updateColors();
+                
+                this.renderer.render(this.scene, this.camera);
+            }
+            
+            animate() {
+                requestAnimationFrame(() => this.animate());
+                
+                // Rotação do vortex baseada na frequência
+                this.vortex.rotation.x += 0.01;
+                this.vortex.rotation.y += 0.02;
+                
+                // Animação das partículas
+                this.particles.rotation.y += 0.001;
+                
+                // Atualiza cores baseado na estação
+                this.updateColors();
+                
+                this.renderer.render(this.scene, this.camera);
+            }
+            
+            bindEvents() {
+                document.querySelectorAll('.season-btn').forEach(btn => {
+                    btn.addEventListener('click', (e) => {
+                        this.currentSeason = e.target.dataset.season;
+                        this.updateFrequencyDisplay();
+                        this.playSeason();
+                    });
+                });
+                
+                document.getElementById('play-btn').addEventListener('click', () => this.play());
+                document.getElementById('pause-btn').addEventListener('click', () => this.pause());
+                document.getElementById('stop-btn').addEventListener('click', () => this.stop());
+                
+                document.getElementBy

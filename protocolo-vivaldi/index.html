@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protocolo Vivaldi - Portal de Diagnóstico</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/dna_string_visualizer.css">
+</head>
+<body>
+    <div id="portal-container">
+        <header>
+            <h1>Protocolo Vivaldi</h1>
+            <h2>Portal de Diagnóstico Cabalístico</h2>
+        </header>
+        
+        <main>
+            <section id="diagnostic-panel">
+                <div class="sefirot-grid">
+                    <div class="sefira" data-sefira="keter">Keter</div>
+                    <div class="sefira" data-sefira="chokmah">Chokmah</div>
+                    <div class="sefira" data-sefira="binah">Binah</div>
+                    <div class="sefira" data-sefira="chesed">Chesed</div>
+                    <div class="sefira" data-sefira="gevurah">Gevurah</div>
+                    <div class="sefira" data-sefira="tiferet">Tiferet</div>
+                    <div class="sefira" data-sefira="netzach">Netzach</div>
+                    <div class="sefira" data-sefira="hod">Hod</div>
+                    <div class="sefira" data-sefira="yesod">Yesod</div>
+                    <div class="sefira" data-sefira="malchut">Malchut</div>
+                </div>
+                
+                <div id="frequency-display">
+                    <h3>Frequência Atual: <span id="current-freq">528 Hz</span></h3>
+                    <div id="dna-visualizer"></div>
+                </div>
+            </section>
+            
+            <section id="control-panel">
+                <button id="activate-protocol" class="protocol-btn">
+                    Ativar Protocolo Vivaldi
+                </button>
+                <button id="open-vortex" class="protocol-btn">
+                    Abrir Vortex Player
+                </button>
+            </section>
+        </main>
+    </div>
+    
+    <script src="scripts/player_logic.js"></script>
+    <script src="scripts/spinal_encoder.js"></script>
+    <script>
+        document.getElementById('open-vortex').addEventListener('click', () => {
+            window.location.href = 'vortex_player.html';
+        });
+        
+        document.getElementById('activate-protocol').addEventListener('click', () => {
+            const spinalCode = encodeSpinalMovement('T5-T7');
+            updateFrequencyDisplay(spinalCode.frequency);
+            activateDNAVisualization(spinalCode.pattern);
+        });
+    </script>
+</body>
+</html>

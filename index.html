@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kabbalah das Águas Primordiais - Protocolo do Verbo</title>
+    <link rel="stylesheet" href="styles/mystical.css">
+</head>
+<body>
+    <div id="cosmic-container">
+        <header>
+            <h1>🌊 Kabbalah das Águas Primordiais</h1>
+            <h2>Protocolo Audiovisual do Verbo</h2>
+        </header>
+
+        <div id="cosmic-panel">
+            <div id="parasha-info">
+                <h3>🌌 Parashá da Semana</h3>
+                <div id="current-parasha">Carregando...</div>
+                <div id="tikun-info"></div>
+                <button id="activate-tikun">Ativar Tikun da Parashá</button>
+            </div>
+
+            <div id="mantra-selector">
+                <h3>🔮 Mantras Sagrados</h3>
+                <select id="mantra-select">
+                    <option value="">Selecione um mantra</option>
+                </select>
+                <button id="play-mantra">Iniciar Mantra</button>
+            </div>
+
+            <div id="player-controls">
+                <button id="start-ritual">Iniciar Ritual</button>
+                <button id="pause-ritual">Pausar</button>
+                <button id="reset-ritual">Resetar</button>
+            </div>
+        </div>
+
+        <div id="visualization">
+            <canvas id="cosmic-canvas"></canvas>
+        </div>
+
+        <div id="akashic-journal">
+            <h3>📖 Diário Akáshico</h3>
+            <textarea id="experience-log" placeholder="Registre sua experiência..."></textarea>
+            <button id="save-experience">Salvar Experiência</button>
+        </div>
+    </div>
+
+    <script src="src/cosmicSync.js"></script>
+    <script src="src/mantraEngine.js"></script>
+    <script src="src/main.js"></script>
+</body>
+</html>

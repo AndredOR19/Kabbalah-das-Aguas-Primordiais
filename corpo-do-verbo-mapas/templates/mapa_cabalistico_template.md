@@ -30,7 +30,6 @@
 
 ## 1) Camada 1 — História Simples
 
-> Texto claro e acessível, sem jargão.  
 {{ bloco_historia_simples }}
 
 ---
@@ -38,16 +37,18 @@
 ## 2) Camada 2 — Tradução Técnica (Corpo do Verbo)
 
 ### 2.1 Sol
-- Signo/Casa: **{{ posicoes.Sol.signo }} / Casa {{ posicoes.Sol.casa }}**  
-- Letra / Caminho / Arcano: **{{ sol.letra }} / {{ sol.caminho }} / {{ sol.arcano }}**  
+- Signo/Casa: **{{ posicoes.Sol.signo }} / Casa {{ posicoes.Sol.casa }}**
+- Letra / Caminho / Arcano: **{{ sol.letra }} / {{ sol.caminho }} / {{ sol.arcano }}**
 - Função: {{ sol.funcao }}
 
 ### 2.2 Lua
-- Signo/Casa: **{{ posicoes.Lua.signo }} / Casa {{ posicoes.Lua.casa }}**  
-- Letra / Caminho / Arcano: **{{ lua.letra }} / {{ lua.caminho }} / {{ lua.arcano }}**  
+- Signo/Casa: **{{ posicoes.Lua.signo }} / Casa {{ posicoes.Lua.casa }}**
+- Letra / Caminho / Arcano: **{{ lua.letra }} / {{ lua.caminho }} / {{ lua.arcano }}**
 - Função: {{ lua.funcao }}
 
 <!-- Repita para Mercúrio, Vênus, Marte, Júpiter, Saturno, Urano, Netuno, Plutão, Asc/MC/IC/DC -->
+
+{{ bloco_traducao_tecnica }}
 
 ---
 
@@ -61,6 +62,8 @@
 ### 3.2 Padrão de Travessia (Eixo)
 - **{{ assinaturas.eixos[0] }}** → {{ scii.descricao_eixo_principal }}
 
+{{ bloco_operatividade }}
+
 ---
 
 ## 4) Diagrama de Fluxo Cabalístico
@@ -71,17 +74,11 @@ flowchart LR
   B --> C[Expressão no Mundo]
 ```
 
-> *Substituir por diagrama gerado dinamicamente, se desejado.*
-
 ---
 
 ## 5) Roteiro Operativo (Rituais & Práticas)
 
-* **Ritual de Travessia (Nun):** {{ rituais.travessia_nun }}
-* **Ancoragem (Vav):** {{ rituais.ancoragem_vav }}
-* **Visão (Tzadi):** {{ rituais.visao_tzadi }}
-
-> Observações de segurança energética, grounding e integração.
+Ver Camada 3 para exercícios de travessia, ancoragem e visão.
 
 ---
 

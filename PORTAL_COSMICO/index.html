@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal Cósmico - Protocolo Vivaldi</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Courier New', monospace;
+            background: #000011;
+            color: #ffffff;
+            overflow: hidden;
+            background-image: 
+                radial-gradient(circle at 20% 50%, rgba(138, 43, 226, 0.3) 0%, transparent 50%),
+                radial-gradient(circle at 80% 50%, rgba(0, 255, 255, 0.3) 0%, transparent 50%),
+                radial-gradient(circle at 50% 20%, rgba(255, 215, 0, 0.2) 0%, transparent 50%);
+        }
+
+        .cosmic-portal {
+            position: relative;
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background: #000011;
+        }
+
+        .starfield {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: 
+                radial-gradient(2px 2px at 20px 30px, #eee, transparent),
+                radial-gradient(2px 2px at 40px 70px, rgba(255,255,255,0.8), transparent),
+                radial-gradient(1px 1px at 90px 40px, #fff, transparent),
+                radial-gradient(1px 1px at 130px 80px, rgba(255,255,255,0.6), transparent),
+                radial-gradient(2px 2px at 160px 30px, #ddd, transparent);
+            background-repeat: repeat;
+            background-size: 200px 100px;
+            animation: twinkle 4s infinite;
+        }
+
+        @keyframes twinkle {
+            0%, 100% { opacity: 0.8; }
+            50% { opacity: 1; }
+        }
+
+        .portal-header {
+            text-align: center;
+            z-index: 10;
+            margin-bottom: 50px;
+        }
+
+        .portal-title {
+            font-size: 3em;
+            color: #00ffff;
+            text-shadow: 0 0 20px #00ffff;
+            margin-bottom: 10px;
+            animation: glow 2s ease-in-out infinite alternate;
+        }
+
+        @keyframes glow {
+            from { text-shadow: 0 0 20px #00ffff; }
+            to { text-shadow: 0 0 30px #00ffff, 0 0 40px #8a2be2; }
+        }
+
+        .portal-subtitle {
+            font-size: 1.5em;
+            color: #ffd700;
+            text-shadow: 0 0 10px #ffd700;
+            margin-bottom: 30px;
+        }
+
+        .oraculo-container {
+            background: rgba(0, 0, 17, 0.8);
+            border: 1px solid #00ffff;
+            border-radius: 20px;
+            padding: 40px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 0 50px rgba(0, 255, 255, 0.3);
+            max-width: 600px;
+            width: 90%;
+            text-align: center;
+        }
+
+        .symptom-selector {
+            margin-bottom: 30px;
+        }
+
+        .symptom-selector h3 {
+            color: #ffd700;
+            margin-bottom: 20px;
+            font-size: 1.3em;
+        }
+
+        .symptom-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+
+        .symptom-btn {
+            background: rgba(138, 43, 226, 0.2);
+            border: 1px solid #8a2be2;
+            color: #ffffff;
+            padding: 15px;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-family: inherit;
+            font-size: 1.1em;
+        }
+
+        .symptom-btn:hover {
+            background: rgba(138, 43, 226, 0.4);
+            box-shadow: 0 0 20px rgba(138, 43, 226, 0.5);
+            transform: translateY(-2px);
+        }
+
+        .symptom-btn.selected {
+            background: #8a2be2;
+            color: #000011;
+            box-shadow: 0 0 30px rgba(138, 43, 226, 0.7);
+        }
+
+        .prescription-display {
+            background: rgba(0, 255, 255, 0.1);
+            border: 1px solid #00ffff;
+            border-radius: 15px;
+            padding: 30px;
+            margin-top: 30px;
+            min-height: 200px;
+            display: none;
+        }
+
+        .prescription-display.active {
+            display: block;
+            animation: fadeIn 1s ease-in;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .prescription-title {
+            color: #ffd700;
+            font-size: 1.5em;
+            margin-bottom: 20px;
+            text-shadow: 0 0 10px #ffd700;
+        }
+
+        .prescription-details {
+            color: #ffffff;
+            line-height: 1.8;
+            font-size: 1.1em;
+        }
+
+        .prescription-concerto {
+            color: #00ffff;
+            font-size: 1.3em;
+            margin: 15px 0;
+            text-shadow: 0 0 5px #00ffff;
+        }
+
+        .prescription-movement {
+            color: #8a2be2;
+            font-size: 1.2em;
+            margin: 10px 0;
+        }
+
+        .prescription-duration {
+            color: #ffd700;
+            font-size: 1.1em;
+            margin: 10px 0;
+        }
+
+        .prescription-target {
+            color: #32cd32;
+            font-size: 1.1em;
+            margin: 10px 0;
+        }
+
+        .activate-btn {
+            background: linear-gradient(45deg, #00ffff, #8a2be2);
+            border: none;
+            color: #000011;
+            padding: 20px 40px;
+            font-size: 1.3em;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin-top: 30px;
+            font-family: inherit;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .activate-btn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 30px rgba(0, 255, 255, 0.7);
+        }
+
+        .activate-btn:disabled {
+            background: rgba(255, 255, 255, 0.2);
+            cursor: not-allowed;
+            transform: none;
+            box-shadow: none;
+        }
+
+        .hebrew-blessing {
+            font-size: 2em;
+            color: #ffd700;
+            margin: 20px 0;
+            text-shadow: 0 0 10px #ffd700;
+            font-family: serif;
+        }
+
+        .loading {
+            display: none;
+            color: #00ffff;
+            font-size: 1.2em;
+            margin: 20px 0;
+            animation: pulse 1.5s ease-in-out infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 0.5; }
+            50% { opacity: 1; }
+        }
+
+        .cosmic-message {
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            color: rgba(255, 255, 255, 0.7);
+            font-size: 0.9em;
+            text-align: center;
+            max-width: 600px;
+        }
+    </style>
+</head>
+<body>
+    <div class="cosmic-portal">
+        <div class="starfield"></div>
+        
+        <div class="portal-header">
+            <h1 class="portal-title">🌀 Portal Cósmico</h1>
+            <p class="portal-subtitle">Protocolo Vivaldi - Oráculo Musical</p>
+        </div>
+
+        <div class="oraculo-container">
+            <h2>Diagnóstico por Sintomas</h2>
+            <p>Selecione seus sintomas emocionais/espirituais para receber sua prescrição musical personalizada:</p>
+
+            <div class="symptom-selector">
+                <h3>Selecione seus sintomas:</h3>
+                <div class="symptom-grid">
+                    <button class="symptom-btn" data-symptom="apatia_espiritual">😔 Apatia Espiritual</button>
+                    <button class="symptom-btn" data-symptom="excesso_racional">🧠 Excesso Racional</button>
+                    <button class="symptom-btn" data-symptom="medo_transmutacao">😨 Medo de Transmutação</button>
+                    <button class="symptom-btn" data-symptom="desconexao_divina">🕊️ Desconexão Divina</button>
+                    <button class="symptom-btn" data-symptom="bloqueio_criativo">🎨 Bloqueio Criativo</button>
+                    <button class="symptom-btn" data-symptom="ansiedade_temporal">⏰ Ansiedade Temporal</button>
+                    <button class="symptom-btn" data-symptom="peso_karmico">⚖️ Peso Kármico</button>
+                    <button class="symptom-btn" data-symptom="busca_sentido">🔍 Busca de Sentido</button>
+                </div>
+            </div>
+
+            <div class="prescription-display" id="prescription">
+                <h3 class="prescription-title">Sua Prescrição Musical</h3>
+                <div id="prescription-content">
+                    <p>Selecione seus sintomas para receber sua prescrição personalizada...</p>
+                </div>
+            </div>
+
+            <button class="activate-btn" id="activate-btn" disabled>Ativar Protocolo</button>
+            <div class="loading" id="loading">Ativando portal dimensional...</div>
+
+            <div class="hebrew-blessing">אני אור בתוך הסערה</div>
+        </div>
+
+        <div class="cosmic-message">
+            "Não tememos o trovão - celebramos sua neuroplasticidade"
+        </div>
+    </div>
+
+    <script>
+        class OraculoVivaldi {
+            constructor() {
+                this.symptomMap = {
+                    'apatia_espiritual': {
+                        concerto: "Il Grosso Mogul",
+                        rv: "RV 208",
+                        movement: "Allegro",
+                        duration: "11min",
+                        target: "glândula pineal",
+                        sefira: "Tiferet",
+                        frequency: 528,
+                        mantra: "אני אור בתוך הסערה",
+                        description: "Para despertar o fogo interior e reconectar com o propósito divino",
+                        chakra: "Plexo Solar",
+                        element: "Fogo"
+                    },
+                    'excesso_racional': {
+                        concerto: "La Tempesta",
+                        rv: "RV 253",
+                        movement: "Presto",
+                        duration: "3m33s",
+                        target: "amígdalas",
+                        sefira: "Hod",
+                        frequency: 417,
+                        mantra: "אני אור בתוך הסערה",
+                        description: "Para silenciar a mente racional e abrir espaço para a intuição",
+                        chakra: "Garganta",
+                        element: "Éter"
+                    },
+                    'medo_transmutacao': {
+                        concerto: "Le Quattro Stagioni",
+                        rv: "RV 269-297",
+                        movement: "Largo",
+                        duration: "8min",
+                        target: "plexo solar",
+                        sefira: "Yesod",
+                        frequency: 396,
+                        mantra: "אני אור בתוך הסערה",
+                        description: "Para transmutar medo em coragem e abraçar a transformação",
+                        chakra: "Raiz",
+                        element: "Terra"
+                    },
+                    'desconexao_divina': {
+                        concerto: "Nisi Dominus",
+                        rv: "RV 608",
+                        movement: "Adagio",
+                        duration: "9min",
+                        target: "coroa",
+                        sefira: "Keter",
+                        frequency: 432,
+                        mantra: "אני אור בתוך הסערה",
+                        description: "Para reconectar com a fonte divina e restaurar a unidade",
+                        chakra: "Coroa",
+                        element: "Éter"
+                    },
+                    'bloqueio_criativo': {
+                        concerto: "Concerto para Violino em Mi",
+                        rv: "RV 271",
+                        movement: "Allegro",
+                        duration: "7min",
+                        target: "córtex pré-frontal",
+                        sefira: "Chokmah",
+                        frequency: 528,
+                        mantra: "אני אור בתוך הסערה",
+                        description: "Para desbloquear o fluxo criativo e manifestar ideias divinas",
+                        chakra: "3º Olho",
+                        element: "Luz"
+                    },
+                    'ansiedade_temporal': {
+                        concerto: "Concerto para Mandolino",
+                        rv: "RV 425",
+                        movement: "Andante",
+                        duration: "5min",
+                        target: "hipotálamo",
+                        sefira: "Netzach",
+                        frequency: 417,
+                        mantra: "אני אור בתוך הסערה",
+                        description: "Para dissolver a ansiedade temporal e viver no eterno agora",
+                        chakra: "Coração",
+                        element: "Ar"
+                    },
+                    'peso_karmico': {
+                        concerto: "Stabat Mater",
+                        rv: "RV 621",
+                        movement: "Largo",
+                        duration: "12min",
+                        target: "sistema límbico",
+                        sefira: "Binah",
+                        frequency: 396,
+                        mantra: "אני אור בתוך הסערה",
+                        description: "Para liberar pesos kármicos e restaurar a leveza do ser",
+                        chakra: "Raiz",
+                        element: "Terra"
+                    },
+                    'busca_sentido': {
+                        concerto: "Gloria",
+                        rv: "RV 589",
+                        movement: "Allegro",
+                        duration: "6min",
+                        target: "córtex temporal",
+                        sefira: "Chesed",
+                        frequency: 432,
+                        mantra: "אני אור בתוך הסערה",
+                        description: "Para encontrar sentido e propósito na jornada existencial",
+                        chakra: "Coração",
+                        element: "Ar"
+                    }
+                };
+
+                this.selectedSymptoms = new Set();
+                this.init();
+            }
+
+            init() {
+                this.bindEvents();
+                this.createCosmicEffects();
+            }
+
+            bindEvents() {
+                document.querySelectorAll('.symptom-btn').forEach(btn => {
+                    btn.addEventListener('click', (e) => {
+                        this.toggleSymptom(e.target);
+                    });
+                });
+
+                document.getElementById('activate-btn').addEventListener('click', () => {
+                    this.activateProtocol();
+                });
+            }
+
+            toggleSymptom(button) {
+                const symptom = button.dataset.symptom;
+                
+                if (this.selectedSymptoms.has(symptom)) {
+                    this.selectedSymptoms.delete(symptom);
+                    button.classList.remove('selected');
+                } else {
+                    this.selectedSymptoms.add(symptom);
+                    button.classList.add('selected');
+                }
+
+                this.updatePrescription();
+                this.updateActivateButton();
+            }
+
+            updatePrescription() {
+                const prescriptionDiv = document.getElementById('prescription');
+                const contentDiv = document.getElementById('prescription-content');
+
+                if (this.selectedSymptoms.size === 0) {
+                    prescriptionDiv.classList.remove('active');
+                    contentDiv.innerHTML = '<p>Selecione seus sintomas para receber sua prescrição personalizada...</p>';
+                    return;
+                }
+
+                prescriptionDiv.classList.add('active');
+
+                let combinedPrescription = this.createCombinedPrescription();
+                contentDiv.innerHTML = combinedPrescription;
+            }
+
+            createCombinedPrescription() {
+                const symptoms = Array.from(this.selectedSymptoms);
+                
+                if (symptoms.length === 1) {
+                    return this.createSinglePrescription(symptoms[0]);
+                }
+
+                return this.createSymphonyPrescription(symptoms);
+            }
+
+            createSinglePrescription(symptom) {
+                const data = this.symptomMap[symptom];
+                
+                return `
+                    <div class="prescription-concerto">${data.concerto} (${data.rv})</div>
+                    <div class="prescription-movement">Movimento: ${data.movement}</div>
+                    <div class="prescription-duration">Duração: ${data.duration}</div>
+                    <div class="prescription-target">Alvo: ${data.target}</div>
+                    <div class="prescription-sefira">Sefira: ${data.sefira} (${data.frequency}Hz)</div>
+                    <div class="prescription-description">${data.description}</div>
+                    <div class="prescription-mantra">Mantra: ${data.mantra}</div>
+                    <div class="prescription-chakra">Chakra: ${data.chakra} | Elemento: ${data.element}</div>
+                `;
+            }
+
+            createSymphonyPrescription(symptoms) {
+                const frequencies = symptoms.map(s => this.symptomMap[s].frequency);
+                const avgFrequency = Math.round(frequencies.reduce((a, b) => a + b) / frequencies.length);
+                
+                const concertos = symptoms.map(s => this.symptomMap[s].concerto);
+                const sefirot = symptoms.map(s => this.symptomMap[s].sefira);
+                
+                return `
+                    <div class="prescription-title">Sinfonia Personalizada</div>
+                    <div class="prescription-description">
+                        Baseado na sua combinação única de sintomas, foi criada uma sinfonia especialmente para você:
+                    </div>
+                    <div class="prescription-concerto">Concertos Selecionados: ${concertos.join(', ')}</div>
+                    <div class="prescription-sefira">Frequência Média: ${avgFrequency}Hz</div>
+                    <div class="prescription-sefira">Sefirot Envolvidos: ${sefirot.join(', ')}</div>
+                    <div class="prescription-description">
+                        Esta sinfonia foi alquimicamente combinada para abordar todos os aspectos de sua jornada atual.
+                        Ouça na ordem apresentada, permitindo que cada concerto prepare o terreno para o próximo.
+                    </div>
+                    <div class="prescription-mantra">Mantra Universal: אני אור בתוך הסערה</div>
+                `;
+            }
+
+            updateActivateButton() {
+                const activateBtn = document.getElementById('activate-btn');
+                activateBtn.disabled = this.selectedSymptoms.size === 0;
+            }
+
+            async activateProtocol() {
+                const activateBtn = document.getElementById('activate-btn');
+                const loading = document.getElementById('loading');
+                
+                activateBtn.disabled = true;
+                loading.style.display = 'block';
+                
+                await this.simulatePortalActivation();
+                
+                loading.style.display = 'none';
+                this.showActivationComplete();
+            }
+
+            async simulatePortalActivation() {
+                await new Promise(resolve => setTimeout(resolve, 3000));
+            }
+
+            showActivationComplete() {
+                const prescription = document.getElementById('prescription-content');
+                prescription.innerHTML = `
+                    <div class="prescription-title">🌀 Portal Ativado</div>
+                    <div class="prescription-description">
+                        O Protocolo Vivaldi foi ativado com sucesso. 
+                        Sua prescrição musical está sendo preparada no reino cósmico.
+                    </div>
+                    <div class="prescription-description">
+                        Em instantes, você será redirecionado para a experiência completa.
+                        Prepare-se para a jornada de transformação.
+                    </div>
+                    <div class="hebrew-blessing">ברוך אתה יהוה</div>
+                `;
+                
+                setTimeout(() => {
+                    window.location.href = '../PROTOCOLO_VIVALDI/INTERFACE_ORFICA/vortex_player.html';
+                }, 5000);
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            new OraculoVivaldi();
+        });
+    </script>
+</body>
+</html>

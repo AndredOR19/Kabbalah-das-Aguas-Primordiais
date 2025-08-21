@@ -1,0 +1,17 @@
+PRIMAVERA:
+  frequencia: 528
+  arquetipo: "Renascimento"
+  duracao: 1200
+  transicoes:
+    - tempo: 300
+      frequencia: 396
+    - tempo: 600
+      frequencia: 639
+
+INVERNO:
+  frequencia: 417
+  arquetipo: "Introspecção"
+  duracao: 900
+  transicoes:
+    - tempo: 450
+      frequencia: 528
