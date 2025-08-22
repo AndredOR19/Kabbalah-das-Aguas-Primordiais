@@ -1,0 +1,50 @@
+
+### Arquivo: `A-Chave-Heptarquica/README.md`
+```markdown
+---
+title: A Chave Heptárquica
+description: Manual Operativo para o Governo Consciente
+author: André de Oliveira Rodrigues
+date: 2024-03-20
+category: Sistema Principal
+version: 2.0
+---
+
+# 🗝️ A Chave Heptárquica: Manual Operativo para o Governo Consciente
+
+> **Um Sistema Operacional para a Alma Encarnada**
+
+Bem-vindo ao coração da Kabbalah das Águas Primordiais. Este não é um livro, mas um sistema de ativação.
+
+## 📚 Volumes
+
+### 📘 Volume I: Fundamentos da Engenharia do Verbo
+- [00. Dedicatória](./Volume-I-Fundamentos/00_Dedicatoria.md)
+- [00. Introdução](./Volume-I-Fundamentos/00_Introducao.md)
+- [01. Os Dois Fluxos](./Volume-I-Fundamentos/01_Os_Dois_Fluxos.md)
+- [02. A Matemática Sagrada](./Volume-I-Fundamentos/02_A_Matematica_Sagrada.md)
+- [03. O Corpo como Interface](./Volume-I-Fundamentos/03_O_Corpo_como_Interface.md)
+- [04. O SCII](./Volume-I-Fundamentos/04_O_SCII.md)
+- [05. O Alfabeto Operativo](./Volume-I-Fundamentos/05_O_Alfabeto_Operativo.md)
+
+### ⚙️ Volume II: Manual de Operações
+- [Protocolos Diários](./Volume-II-Manual-de-Operacoes/README.md#protocolos-diários)
+- [Rituais Estruturados](./Volume-II-Manual-de-Operacoes/README.md#rituais-estruturados)
+- [Fórmulas Aplicadas](./Volume-II-Manual-de-Operacoes/README.md#fórmulas-aplicadas)
+
+### 🔬 Volume III: Laboratório de Tecnomancia
+- [Metodologia LFO](./Volume-III-Laboratorio-de-Tecnomancia/README.md#metodologia-lfo)
+- [Integração Tecnológica](./Volume-III-Laboratorio-de-Tecnomancia/README.md#integração-tecnológica)
+- [Experimentos Validados](./Volume-III-Laboratorio-de-Tecnomancia/README.md#experimentos-validados)
+
+## 🎯 Como Usar Este Sistema
+
+1. **Iniciante**: Comece pelo [Volume I](./Volume-I-Fundamentos/00_Introducao.md)
+2. **Praticante**: Incorpore os [Protocolos Diários](./Volume-II-Manual-de-Operacoes/README.md)
+3. **Avançado**: Explore o [Laboratório de Tecnomancia](./Volume-III-Laboratorio-de-Tecnomancia/README.md)
+
+## ⚡ Quick Start
+
+Para uma ativação rápida:
+```bash
+python scripts/quick_start.py

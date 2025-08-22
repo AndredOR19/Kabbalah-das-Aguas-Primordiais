@@ -1,0 +1,1 @@
+mkdir -p scripts data config logs reports

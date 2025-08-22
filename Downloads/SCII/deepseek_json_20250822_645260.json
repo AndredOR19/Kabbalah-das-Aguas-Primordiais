@@ -1,0 +1,17 @@
+{
+  "12": {
+    "nome": "Mente",
+    "letras": ["ה", "ו", "ז", "ח", "ט", "י", "ל", "נ", "ס", "ע", "צ", "ק"],
+    "signos": ["Áries", "Touro", "Gêmeos", "Câncer", "Leão", "Virgem", "Libra", "Escorpião", "Sagitário", "Capricórnio", "Aquário", "Peixes"]
+  },
+  "7": {
+    "nome": "Matéria",
+    "letras": ["ב", "ג", "ד", "כ", "פ", "ר", "ת"],
+    "planetas": ["Lua", "Marte", "Sol", "Vênus", "Mercúrio", "Saturno", "Júpiter"]
+  },
+  "3": {
+    "nome": "Força",
+    "letras": ["א", "מ", "ש"],
+    "elementos": ["Ar", "Água", "Fogo"]
+  }
+}

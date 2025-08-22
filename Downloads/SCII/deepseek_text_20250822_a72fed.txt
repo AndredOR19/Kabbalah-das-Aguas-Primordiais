@@ -1,0 +1,61 @@
+
+## 2. TABELAS DE REFERÊNCIA CRUZADA COMPLETAS
+
+### Arquivo: `A-Chave-Heptarquica/Recursos/Tabelas_Referencia.md`
+
+```markdown
+---
+title: Tabelas de Referência Cruzada
+description: Correspondências completas 12-7-3
+author: André de Oliveira Rodrigues
+date: 2024-03-20
+category: Recursos
+version: 1.0
+---
+
+# Tabelas Completas de Correspondência
+
+## Tabela 1: Sistema das 12 Letras Simples (Mente)
+
+| Letra | Valor | Signo | Tribo | Fruto | Função | Cor | Elemento |
+|-------|-------|-------|-------|-------|--------|-----|----------|
+| ה (Heh) | 5 | Áries | Judah | Visão | Iniciativa | Vermelho | Fogo |
+| ו (Vav) | 6 | Touro | Issachar | Audição | Estabilidade | Verde | Terra |
+| ז (Zayin) | 7 | Gêmeos | Zebulun | Olfato | Comunicação | Laranja | Ar |
+| ח (Chet) | 8 | Câncer | Reuben | Fala | Proteção | Prateado | Água |
+| ט (Tet) | 9 | Leão | Simeon | Paladar | Expressão | Dourado | Fogo |
+| י (Yod) | 10 | Virgem | Gad | Toque | Análise | Azul | Terra |
+| ל (Lamed) | 30 | Libra | Ephraim | Relacionamento | Equilíbrio | Rosa | Ar |
+| נ (Nun) | 50 | Escorpião | Manasseh | Repouso | Transformação | Vermelho | Água |
+| ס (Samekh) | 60 | Sagitário | Benjamin | Movimento | Expansão | Roxo | Fogo |
+| ע (Ayin) | 70 | Capricórnio | Dan | Raiva | Estrutura | Preto | Terra |
+| צ (Tzadi) | 90 | Aquário | Asher | Pensamento | Inovação | Azul | Ar |
+| ק (Qof) | 100 | Peixes | Naphtali | Riso | Unidade | Verde | Água |
+
+## Tabela 2: Sistema das 7 Letras Duplas (Matéria)
+
+| Letra | Valor | Planeta | Dia | Polaridade | Função | Cor | Metal |
+|-------|-------|---------|-----|------------|--------|-----|-------|
+| ב (Bet) | 2 | Lua | Segunda | Vida/Morte | Ciclos | Prateado | Prata |
+| ג (Gimel) | 3 | Marte | Terça | Paz/Guerra | Ação | Vermelho | Ferro |
+| ד (Dalet) | 4 | Sol | Quarta | Sabedoria/Ignorância | Consciência | Dourado | Ouro |
+| כ (Kaf) | 20 | Vênus | Quinta | Riqueza/Pobreza | Amor | Verde | Cobre |
+| פ (Peh) | 80 | Mercúrio | Sexta | Fertilidade/Estéril | Comunicação | Amarelo | Mercúrio |
+| ר (Resh) | 200 | Saturno | Sábado | Domínio/Escravidão | Estrutura | Preto | Chumbo |
+| ת (Tav) | 400 | Júpiter | Domingo | Graça/Desgraça | Expansão | Roxo | Estanho |
+
+## Tabela 3: Sistema das 3 Letras Mãe (Força)
+
+| Letra | Valor | Elemento | Força | Função | Cor | Direção | Tempo |
+|-------|-------|----------|-------|--------|-----|---------|-------|
+| א (Alef) | 1 | Ar | Espírito | Inspiração | Branco | Leste | Manhã |
+| מ (Mem) | 40 | Água | Consciência | Dissolução | Azul | Oeste | Noite |
+| ש (Shin) | 300 | Fogo | Vontade | Transformação | Vermelho | Sul | Meio-dia |
+
+## Tabela 4: Correspondências Cruzadas 12-7-3
+
+| Combinação | Fórmula | Aplicação | Ritual |
+|------------|---------|-----------|--------|
+| Comunicação + Intelecto | ז + פ | Criatividade | Ritual do Mensageiro |
+| Estrutura + Expansão | ע + ת | Prosperidade | Ritual do Alicerce |
+| Transformação + Ação | נ + ג | Mudança | Ritual da Fênix |

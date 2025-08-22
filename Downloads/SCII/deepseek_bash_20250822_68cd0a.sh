@@ -1,0 +1,1 @@
+python scripts/diagnostico_auto.py
