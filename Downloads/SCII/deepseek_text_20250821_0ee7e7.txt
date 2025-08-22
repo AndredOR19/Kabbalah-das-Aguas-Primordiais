@@ -1,5 +1,0 @@
-Kabbalah-das-Aguas-Primordiais/
-├── A-Chave-Heptarquica/          # Sistema operacional completo
-├── O-Corpo-do-Verbo/            # Anatomia divina (em desenvolvimento)
-├── scripts/                     # Ferramentas de tecnomancia
-└── docs/                        # Documentação adicional
