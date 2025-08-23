@@ -11,7 +11,14 @@ Serve como banco simbólico, base de dados e referência para **Inteligências A
 
 ## 🎯 Navegação Rápida
 
-### 📚 **Fundamentos Teóricos**
+### �️ Ferramentas Digitais
+- [Calculadora de Gematria](ferramentas/gematria.html) — Cálculo, decomposição e interpretação de palavras hebraicas
+
+### 🌳 Visualizações Interativas
+- [Árvore da Vida Interativa](visualizacoes/arvore-vida.html) — Visualização dinâmica dos caminhos e sefirot
+
+
+### �📚 **Fundamentos Teóricos**
 - **[📖 Textos Fundamentais](documentos/textos-fundamentais/)** - Teses, artigos e explicações completas
 - **[🗄️ SCII Database](scii_database.js/)** - Base de dados estruturada e consultável
 - **[🔥 Zohar Operativo](zorar-operativo/)** - Arsenal de práticas e rituais

@@ -1,1 +1,49 @@
 <!-- Visualização interativa da Árvore da Vida -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Árvore da Vida Interativa - Kabbalah das Águas Primordiais</title>
+	<link rel="stylesheet" href="arvore-vida.css">
+	<script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+	<div class="container">
+		<header>
+			<h1>Árvore da Vida Interativa</h1>
+			<p>Explore as Sefirot e seus caminhos na tradição kabbalística</p>
+			<a href="../index.html" class="voltar">Voltar à página principal</a>
+		</header>
+		<div class="controles">
+			<button id="btn-reiniciar">Reiniciar Visualização</button>
+			<button id="btn-zoom-in">Ampliar</button>
+			<button id="btn-zoom-out">Reduzir</button>
+			<button id="btn-ajuda">Ajuda</button>
+		</div>
+		<div class="legenda">
+			<div class="legenda-item">
+				<div class="cor-sefira"></div>
+				<span>Sefira</span>
+			</div>
+			<div class="legenda-item">
+				<div class="cor-caminho"></div>
+				<span>Caminho</span>
+			</div>
+			<div class="legenda-item">
+				<div class="cor-ativo"></div>
+				<span>Selecionado</span>
+			</div>
+		</div>
+		<div id="visualizacao-arvore"></div>
+		<div id="info-painel" class="painel-escondido">
+			<button id="btn-fechar">X</button>
+			<h2 id="info-titulo">Título</h2>
+			<div id="info-conteudo">
+				<p>Selecione uma Sefira ou Caminho para ver informações detalhadas.</p>
+			</div>
+		</div>
+	</div>
+	<script src="arvore-vida.js"></script>
+</body>
+</html>

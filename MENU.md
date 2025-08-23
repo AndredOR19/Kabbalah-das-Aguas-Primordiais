@@ -1,3 +1,18 @@
+
+# 🌟 MENU PRINCIPAL — Acesso Rápido
+
+- [Início](index.html)
+- [Calculadora de Gematria](ferramentas/gematria.html)
+- [Árvore da Vida Interativa](visualizacoes/arvore-vida.html)
+- [Meditações](meditacoes/)
+- [Documentação](documentacao/)
+- [API](api/)
+- [Blog & Migração](blog/)
+
+---
+
+# 📂 MENU AUTOMÁTICO – O Corpo do Verbo
+```python
 import os
 
 ROOT = "."  # Pasta raiz do repositório
@@ -21,3 +36,4 @@ def gerar_menu(pasta_raiz):
 
 with open(OUTPUT, "w", encoding="utf-8") as f:
     f.write(gerar_menu(ROOT))
+```
