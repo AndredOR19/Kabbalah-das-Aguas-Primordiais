@@ -179,30 +179,27 @@ function gerarInterpretacao(valor) {
 }
 
 // Inicializar a calculadora quando a página carregar
-document.addEventListener('DOMContentLoaded', function() {
-	// Preencher a tabela de letras
+window.addEventListener('DOMContentLoaded', function() {
 	preencherTabelaLetras();
-    
-	// Configurar o botão de calcular
-	document.getElementById('btn-calcular').addEventListener('click', function() {
-		const palavraInput = document.getElementById('palavra-input').value.trim();
-        
-		if (palavraInput === '') {
+
+	const btnCalcular = document.getElementById('btn-calcular');
+	const palavraInput = document.getElementById('palavra-input');
+
+	function calcularEExibir() {
+		const valor = palavraInput.value.trim();
+		if (valor === '') {
 			alert('Por favor, digite uma palavra em hebraico.');
 			return;
 		}
-        
-		const resultado = calcularGematria(palavraInput);
+		const resultado = calcularGematria(valor);
 		mostrarResultado(resultado);
-	});
-    
-	// Permitir calcular pressionando Enter
-	document.getElementById('palavra-input').addEventListener('keypress', function(e) {
+	}
+
+	btnCalcular.onclick = calcularEExibir;
+	palavraInput.onkeydown = function(e) {
 		if (e.key === 'Enter') {
-			document.getElementById('btn-calcular').click();
+			calcularEExibir();
 		}
-	});
-    
-	// Adicionar alguns exemplos para facilitar o teste
-	document.getElementById('palavra-input').value = 'חכמה';
+	};
+	palavraInput.value = 'חכמה';
 });
