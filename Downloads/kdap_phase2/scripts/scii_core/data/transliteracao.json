@@ -1,0 +1,178 @@
+[
+  {
+    "pt": "A",
+    "hebraico": "א",
+    "valor": 1,
+    "caminho": 11,
+    "arquetipo": "Aleph - Sopro",
+    "tikun": "Unificação do início"
+  },
+  {
+    "pt": "B",
+    "hebraico": "ב",
+    "valor": 2,
+    "caminho": 12,
+    "arquetipo": "Bet - Casa",
+    "tikun": "Fundamento, acolhimento"
+  },
+  {
+    "pt": "G",
+    "hebraico": "ג",
+    "valor": 3,
+    "caminho": 13,
+    "arquetipo": "Gimel - Ponte",
+    "tikun": "Movimento, dádiva"
+  },
+  {
+    "pt": "D",
+    "hebraico": "ד",
+    "valor": 4,
+    "caminho": 14,
+    "arquetipo": "Dalet - Porta",
+    "tikun": "Abrir-se, humildade"
+  },
+  {
+    "pt": "H",
+    "hebraico": "ה",
+    "valor": 5,
+    "caminho": 15,
+    "arquetipo": "He - Janela",
+    "tikun": "Revelação, visão"
+  },
+  {
+    "pt": "V",
+    "hebraico": "ו",
+    "valor": 6,
+    "caminho": 16,
+    "arquetipo": "Vav - Conexão",
+    "tikun": "Unir céus e terra"
+  },
+  {
+    "pt": "Z",
+    "hebraico": "ז",
+    "valor": 7,
+    "caminho": 17,
+    "arquetipo": "Zayin - Arma",
+    "tikun": "Discernimento"
+  },
+  {
+    "pt": "CH",
+    "hebraico": "ח",
+    "valor": 8,
+    "caminho": 18,
+    "arquetipo": "Chet - Vida",
+    "tikun": "Superar limitações"
+  },
+  {
+    "pt": "T",
+    "hebraico": "ט",
+    "valor": 9,
+    "caminho": 19,
+    "arquetipo": "Tet - Serpente",
+    "tikun": "Domar instintos"
+  },
+  {
+    "pt": "Y",
+    "hebraico": "י",
+    "valor": 10,
+    "caminho": 20,
+    "arquetipo": "Yod - Semente",
+    "tikun": "Potencial criativo"
+  },
+  {
+    "pt": "K",
+    "hebraico": "כ",
+    "valor": 20,
+    "caminho": 21,
+    "arquetipo": "Kaf - Palma da mão",
+    "tikun": "Aceitação"
+  },
+  {
+    "pt": "L",
+    "hebraico": "ל",
+    "valor": 30,
+    "caminho": 22,
+    "arquetipo": "Lamed - Cajado",
+    "tikun": "Aprendizado"
+  },
+  {
+    "pt": "M",
+    "hebraico": "מ",
+    "valor": 40,
+    "caminho": 23,
+    "arquetipo": "Mem - Água",
+    "tikun": "Fluir, adaptação"
+  },
+  {
+    "pt": "N",
+    "hebraico": "נ",
+    "valor": 50,
+    "caminho": 24,
+    "arquetipo": "Nun - Peixe",
+    "tikun": "Ressurreição"
+  },
+  {
+    "pt": "S",
+    "hebraico": "ס",
+    "valor": 60,
+    "caminho": 25,
+    "arquetipo": "Samekh - Suporte",
+    "tikun": "Confiança"
+  },
+  {
+    "pt": "O",
+    "hebraico": "ע",
+    "valor": 70,
+    "caminho": 26,
+    "arquetipo": "Ayin - Olho",
+    "tikun": "Visão interior"
+  },
+  {
+    "pt": "P",
+    "hebraico": "פ",
+    "valor": 80,
+    "caminho": 27,
+    "arquetipo": "Pe - Boca",
+    "tikun": "Expressão"
+  },
+  {
+    "pt": "TZ",
+    "hebraico": "צ",
+    "valor": 90,
+    "caminho": 28,
+    "arquetipo": "Tzadi - Justiça",
+    "tikun": "Retidão"
+  },
+  {
+    "pt": "Q",
+    "hebraico": "ק",
+    "valor": 100,
+    "caminho": 29,
+    "arquetipo": "Qof - Sagrado",
+    "tikun": "Separação do ego"
+  },
+  {
+    "pt": "R",
+    "hebraico": "ר",
+    "valor": 200,
+    "caminho": 30,
+    "arquetipo": "Resh - Cabeça",
+    "tikun": "Clareza mental"
+  },
+  {
+    "pt": "SH",
+    "hebraico": "ש",
+    "valor": 300,
+    "caminho": 31,
+    "arquetipo": "Shin - Fogo",
+    "tikun": "Transformação"
+  },
+  {
+    "pt": "T",
+    "hebraico": "ת",
+    "valor": 400,
+    "caminho": 32,
+    "arquetipo": "Tav - Selo",
+    "tikun": "Conclusão, verdade"
+  }
+]

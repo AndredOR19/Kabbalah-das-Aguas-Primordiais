@@ -1,0 +1,206 @@
+/* Estilos específicos para a página da Calculadora de Gematria */
+body {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	line-height: 1.6;
+	color: #333;
+	background-color: #f9f5ff;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+header {
+	background: linear-gradient(135deg, #4a148c 0%, #6a1b9a 100%);
+	color: white;
+	padding: 2rem;
+	border-radius: 10px;
+	margin-bottom: 2rem;
+	text-align: center;
+}
+
+header h1 {
+	margin: 0 0 0.5rem 0;
+	font-size: 2.5rem;
+}
+
+header p {
+	margin: 0;
+	opacity: 0.9;
+}
+
+.voltar {
+	display: inline-block;
+	margin-top: 1rem;
+	color: #e1bee7;
+	text-decoration: none;
+	font-weight: 500;
+}
+
+.voltar:hover {
+	text-decoration: underline;
+}
+
+.calculadora {
+	background: white;
+	padding: 2rem;
+	border-radius: 10px;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+	margin-bottom: 2rem;
+}
+
+.entrada {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 1.5rem;
+}
+
+.entrada label {
+	font-weight: 600;
+	margin-bottom: 0.5rem;
+	color: #4a148c;
+}
+
+.entrada input {
+	padding: 0.75rem;
+	border: 2px solid #d1c4e9;
+	border-radius: 5px;
+	font-size: 1.1rem;
+	margin-bottom: 1rem;
+}
+
+.entrada button {
+	padding: 0.75rem;
+	background: #4a148c;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	font-size: 1.1rem;
+	cursor: pointer;
+	transition: background 0.3s;
+}
+
+.entrada button:hover {
+	background: #6a1b9a;
+}
+
+.resultado {
+	text-align: center;
+	padding: 1.5rem;
+	background: #f3e5f5;
+	border-radius: 8px;
+}
+
+.resultado h2 {
+	color: #4a148c;
+	margin-top: 0;
+}
+
+#valor-gematria {
+	font-size: 3rem;
+	font-weight: bold;
+	color: #6a1b9a;
+	margin: 1rem 0;
+}
+
+#interpretacao {
+	text-align: left;
+	margin-top: 1.5rem;
+}
+
+.decomposicao, .conceitos-similares, .interpretacao-valor {
+	margin-bottom: 1.5rem;
+}
+
+.decomposicao h3, .conceitos-similares h3, .interpretacao-valor h3 {
+	color: #4a148c;
+	border-bottom: 1px solid #d1c4e9;
+	padding-bottom: 0.5rem;
+}
+
+ul {
+	padding-left: 1.5rem;
+}
+
+li {
+	margin-bottom: 0.5rem;
+}
+
+.tabela-valores {
+	background: white;
+	padding: 2rem;
+	border-radius: 10px;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.tabela-valores h2 {
+	color: #4a148c;
+	text-align: center;
+	margin-top: 0;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: 1rem;
+}
+
+th, td {
+	padding: 0.75rem;
+	text-align: left;
+	border-bottom: 1px solid #e1bee7;
+}
+
+th {
+	background: #f3e5f5;
+	color: #4a148c;
+	font-weight: 600;
+}
+
+.letra-hebraica {
+	font-size: 1.5rem;
+	text-align: center;
+	font-weight: bold;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+	.container {
+		padding: 10px;
+	}
+    
+	header {
+		padding: 1.5rem;
+	}
+    
+	header h1 {
+		font-size: 2rem;
+	}
+    
+	.calculadora, .tabela-valores {
+		padding: 1.5rem;
+	}
+    
+	table {
+		font-size: 0.9rem;
+	}
+    
+	.letra-hebraica {
+		font-size: 1.2rem;
+	}
+}
+
+@media (max-width: 480px) {
+	table {
+		display: block;
+		overflow-x: auto;
+	}
+    
+	#valor-gematria {
+		font-size: 2.5rem;
+	}
+}

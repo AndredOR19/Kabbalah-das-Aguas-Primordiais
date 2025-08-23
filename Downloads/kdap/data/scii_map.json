@@ -1,0 +1,17 @@
+{
+    "I": {
+        "hebrew": "י",
+        "value": 10,
+        "archetype": "Yod - Semente"
+    },
+    "S": {
+        "hebrew": "ס",
+        "value": 60,
+        "archetype": "Samekh - Suporte"
+    },
+    "A": {
+        "hebrew": "א",
+        "value": 1,
+        "archetype": "Aleph - Sopro"
+    }
+}

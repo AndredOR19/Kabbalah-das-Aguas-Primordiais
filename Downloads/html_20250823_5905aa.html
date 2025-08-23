@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Gematria - Kabbalah das Águas Primordiais</title>
+    <link rel="stylesheet" href="gematria.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Calculadora de Gematria</h1>
+            <p>Calcule o valor numérico de palavras em hebraico segundo a tradição kabbalística</p>
+            <a href="../index.html" class="voltar">Voltar à página principal</a>
+        </header>
+        
+        <div class="calculadora">
+            <div class="entrada">
+                <label for="palavra-input">Digite uma palavra em hebraico:</label>
+                <input type="text" id="palavra-input" placeholder="חכמה">
+                <button id="btn-calcular">Calcular</button>
+            </div>
+            
+            <div class="resultado">
+                <h2>Resultado:</h2>
+                <div id="valor-gematria">-</div>
+                <div id="interpretacao"></div>
+            </div>
+        </div>
+        
+        <div class="tabela-valores">
+            <h2>Valores das Letras Hebraicas</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Letra</th>
+                        <th>Nome</th>
+                        <th>Valor</th>
+                        <th>Significado</th>
+                    </tr>
+                </thead>
+                <tbody id="tabela-letras">
+                    <!-- Preenchido via JavaScript -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+    
+    <script src="gematria.js"></script>
+</body>
+</html>

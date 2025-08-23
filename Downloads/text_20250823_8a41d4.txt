@@ -1,0 +1,35 @@
+Kabbalah-das-Aguas-Primordiais/
+│
+├── index.html                          # Página principal
+├── estilo.css                          # Estilos principais
+├── script.js                           # Funcionalidades JavaScript
+├── CONTRIBUTING.md                     # Diretrizes de contribuição
+├── LICENSE                             # Licença Creative Commons
+├── README.md                           # Documentação principal atualizada
+│
+├── visualizacoes/                      # Pasta para visualizações
+│   ├── arvore-vida.html                # Árvore da Vida interativa
+│   ├── arvore-vida.css                 # Estilos para a visualização
+│   └── arvore-vida.js                  # Lógica da visualização
+│
+├── ferramentas/                        # Pasta para ferramentas
+│   ├── gematria.html                   # Calculadora de Gematria
+│   ├── gematria.css                    # Estilos da calculadora
+│   └── gematria.js                     # Lógica da calculadora
+│
+├── meditacoes/                         # Pasta para meditações
+│   ├── meditacao-aguas-primordiais.md  # Meditação guiada
+│   └── meditacao-binah.md              # Exemplo de outra meditação
+│
+├── documentacao/                       # Documentação expandida
+│   ├── conceitos-avancados.md          # Conceitos kabbalísticos
+│   ├── correspondencias-completas.md   # Tabela de correspondências
+│   └── bibliografia.md                 # Fontes e referências
+│
+├── api/                                # Futura API
+│   ├── README.md                       # Documentação da API
+│   └── exemplo-uso.js                  # Exemplo de uso
+│
+└── blog/                               # Conteúdo migrado do Blogger
+    ├── migracao-blog.py                # Script para migração
+    └── posts/                          # Posts convertidos para Markdown

@@ -1,0 +1,6 @@
+{
+  "Issá": {
+    "observacao": "Exemplo de termo com acento; no MVP a acentuação é normalizada.",
+    "esperado": "JSON com tokens alfabéticos e soma proto-gematria."
+  }
+}
