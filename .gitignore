@@ -145,3 +145,6 @@ coverage.xml
 # TOTAL NO GIT: ~230 MB de conteúdo essencial e funcional
 # TOTAL LOCAL: ~2+ GB incluindo biblioteca mística para consulta
 #node_modules/
+
+# Dependências Node (não versionar)
+node_modules/
