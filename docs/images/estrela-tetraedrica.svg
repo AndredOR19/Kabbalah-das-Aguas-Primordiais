@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="400" height="400">
+  <defs>
+    <style>
+      .wire { fill: none; stroke: #ff4081; stroke-width: 2; }
+    </style>
+  </defs>
+  <!-- Tetraedro para cima (triângulo) -->
+  <polygon points="100,20 170,140 30,140" class="wire"/>
+  <!-- Tetraedro para baixo (triângulo invertido) -->
+  <polygon points="100,180 170,60 30,60" class="wire"/>
+</svg>

@@ -67,6 +67,10 @@ Protocolo expandido:
 
 ## O Cubo da Estabilidade vs A Estrela do Movimento
 
+![Cubo da estabilidade](images/cubo.svg)
+
+![Estrela tetraédrica do movimento](images/estrela-tetraedrica.svg)
+
 Sua estrela tetraédrica é perfeita para o movimento. O cubo tradicional oferece a estabilidade fundamental.
 
 Solução integrada:
@@ -92,6 +96,8 @@ Protocolo expandido:
 
 ## Yesod: Fundação Sexual e Colunar
 
+Veja também: [Volume I – O Alfabeto Operativo (Yesod)](../SCII 5.0/docs/Volume-I-Fundamentos/05_O_Alfabeto_Operativo.md)
+
 Sua correlação (Yesod = coluna) é operativa. A tradição acrescenta Yesod = órgãos sexuais.
 
 Solução integrada: Yesod como sistema de transmissão energética
@@ -104,6 +110,8 @@ Protocolo expandido:
 ---
 
 ## Kether: Coroa Física e Não-Coroa
+
+Leitura relacionada: [Volume I – O Alfabeto Operativo (Kether)](../SCII 5.0/docs/Volume-I-Fundamentos/05_O_Alfabeto_Operativo.md) e [O SCII – Fluxo de Kether](../SCII 5.0/docs/Volume-I-Fundamentos/04_O_SCII.md)
 
 Sua correlação (Kether = cabeça) é funcional. A tradição complexifica: Kether é “Ain” (Nada), “Não-Cabeça”.
 

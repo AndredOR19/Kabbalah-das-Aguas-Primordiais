@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="400" height="400">
+  <defs>
+    <style>
+      .wire { fill: none; stroke: #00bcd4; stroke-width: 2; }
+      .dim { stroke: #90a4ae; stroke-dasharray: 4 4; }
+    </style>
+  </defs>
+  <!-- Face frontal -->
+  <rect x="40" y="60" width="80" height="80" class="wire"/>
+  <!-- Face traseira deslocada -->
+  <rect x="80" y="30" width="80" height="80" class="wire"/>
+  <!-- Conectores -->
+  <line x1="40" y1="60" x2="80" y2="30" class="wire"/>
+  <line x1="120" y1="60" x2="160" y2="30" class="wire"/>
+  <line x1="40" y1="140" x2="80" y2="110" class="wire"/>
+  <line x1="120" y1="140" x2="160" y2="110" class="wire"/>
+</svg>
