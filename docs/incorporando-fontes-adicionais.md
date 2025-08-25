@@ -145,3 +145,24 @@ Protocolo expandido:
 5. Transmissão Aquilina: direcione a energia via Águia (escolha a função)
 6. Ativação das Rodas: visualize rodas convertendo torque em movimento
 7. Conexão Coroa-Dual: conecte com Kether-manifesto e receba de Kether-oculto
+
+---
+
+## Tabela-resumo de Correspondências
+
+| Símbolo | Funções/Polaridades | Sefirot implicadas | Uso recomendado |
+|---|---|---|---|
+| Leão | Expansivo (Chesed) / Contrativo (Gevurah) | Chesed / Gevurah | Criatividade / Foco e Disciplina |
+| Águia | Transmissão (Yesod); Velocidade (Netzach); Precisão (Hod) | Yesod / Netzach / Hod | Manifestação / Implementação / Discernimento |
+| Cubo | Estabilidade, estrutura base | Malkuth↔Yesod (fundação) | Ancoragem do campo |
+| Estrela Tetraédrica | Movimento, motor de torção | Dinâmica entre polos (microcosmo) | Ativação energética |
+| Ophanim | Conversão de torque em direção | Interface dinâmica entre Chayot e movimento | Direcionamento da prática |
+| Kether | Manifesto (coroa) / Oculto (vácuo) | Kether | Conexão / Inspiração |
+
+---
+
+## Navegação Relacionada
+
+- Aula: [Merkavon](aulas/11-merkavon.md)
+- Fundamentos SCII: [O SCII – Fluxo a partir de Kether](../SCII 5.0/docs/Volume-I-Fundamentos/04_O_SCII.md)
+- Alfabeto Operativo: [Correspondências de Kether e Yesod](../SCII 5.0/docs/Volume-I-Fundamentos/05_O_Alfabeto_Operativo.md)
