@@ -1,5 +1,28 @@
 # Incorporando as Fontes Adicionais
 
+## Sumário
+
+- [Guia Rápido](#guia-rápido)
+- [Modo Cherubímico](#modo-cherubímico-a-merkavah-como-sistema-de-proteç## Protocolo da Merkavah Expandida (Exemplo)
+
+![Motor Leão-Touro](images/motor-leao-touro.svg)
+
+1. Estabilização Cúbica: visualize-se no centro de um cubo de luz
+2. Ativação Cherúbica: visualize as Chayot como guardiões nos 4 quadrantes
+3. Ativação do Motor: ative o torque Leão–Touro via respiração
+4. Modulação Serafínica: adicione "asas" de proteção e grounding
+5. Transmissão Aquilina: direcione a energia via Águia (escolha a função)
+6. Ativação das Rodas: visualize rodas convertendo torque em movimento
+7. Conexão Coroa-Dual: conecte com Kether-manifesto e receba de Kether-ocultoel-10)
+- [Camada Serafínica](#camada-serafínica-o-sistema-de-purificação-isaías-6)
+- [Polaridade Dinâmica: Leão](#polaridade-dinâmica-leão-como-chesed-ou-gevurah)
+- [A Águia Multidimensional](#a-águia-multidimensional-yesod--netzach--hod)
+- [O Cubo da Estabilidade vs A Estrela do Movimento](#o-cubo-da-estabilidade-vs-a-estrela-do-movimento)
+- [Integrando as Rodas (Ophanim)](#integrando-as-rodas-ophanim)
+- [Yesod: Fundação Sexual e Colunar](#yesod-fundação-sexual-e-colunar)
+- [Kether: Coroa Física e Não-Coroa](#kether-coroa-física-e-não-coroa)
+- [Protocolo da Merkavah Expandida](#protocolo-da-merkavah-expandida-exemplo)
+
 ## Guia Rápido
 
 1. Estabilize o Cubo (centro do espaço)

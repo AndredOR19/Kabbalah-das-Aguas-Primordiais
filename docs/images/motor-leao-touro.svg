@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 100" width="400" height="200">
+  <defs>
+    <style>
+      .axis { fill: none; stroke: #ff9800; stroke-width: 2; stroke-dasharray: 5 5; }
+      .symbol { font-family: sans-serif; font-size: 24px; fill: #ff9800; text-anchor: middle; }
+      .arrow { fill: #ff9800; }
+    </style>
+  </defs>
+  <!-- Eixo horizontal -->
+  <line x1="30" y1="50" x2="170" y2="50" class="axis"/>
+  <!-- Símbolo Leão -->
+  <text x="40" y="45">♌</text>
+  <text x="40" y="75" class="symbol">Leão</text>
+  <!-- Símbolo Touro -->
+  <text x="160" y="45">♉</text>
+  <text x="160" y="75" class="symbol">Touro</text>
+  <!-- Setas de torque -->
+  <path d="M 90 40 L 110 50 L 90 60 Z" class="arrow" transform="rotate(180 100 50)"/>
+  <path d="M 110 40 L 90 50 L 110 60 Z" class="arrow"/>
+</svg>
