@@ -46,6 +46,8 @@ nav:
   - Protocolo Vivaldi:
     - Visão Geral: PR_FIX_PROTOCOLO_VIVALDI.md
     - Vortex Player: vivaldi/vortex_player.html
+  - Estudos: 
+    - Incorporando as Fontes Adicionais: docs/incorporando-fontes-adicionais.md
   - Sobre: sobre.md
   - Aulas:
     - "Introdução": "aulas/01-introducao.md"
