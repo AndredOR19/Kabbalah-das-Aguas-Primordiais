@@ -1,5 +1,15 @@
 # Incorporando as Fontes Adicionais
 
+## Guia Rápido
+
+1. Estabilize o Cubo (centro do espaço)
+2. Ative Chayot como Guardiões (Ezequiel 10)
+3. Engrene o Motor Leão–Touro (Ezequiel 1)
+4. Module com Serafins (Isaías 6)
+5. Direcione com a Águia (Yesod/Netzach/Hod)
+6. Converta com Ophanim (rodas internas)
+7. Conecte Kether duplo (manifesto/oculto)
+
 Este documento integra camadas tradicionais da Merkavah e correspondências clássicas, expandindo seu sistema com modos de proteção, modulação energética, geometrias e nuances corporais. Use as seções como módulos combináveis em seus protocolos.
 
 ---
@@ -91,6 +101,8 @@ Como integrar:
 
 Protocolo expandido:
 > “Após ativar as Chayot, visualize rodas de luz nos planos horizontal e vertical, convertendo sua energia em movimento direcionado.”
+
+![Ophanim — rodas dentro de rodas](images/ophanim.svg)
 
 ---
 

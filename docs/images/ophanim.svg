@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="440" height="440">
+  <defs>
+    <style>
+      .ring { fill: none; stroke: #ffc107; stroke-width: 3; }
+      .axis { stroke: #ff6f00; stroke-width: 2; stroke-dasharray: 4 4; }
+      .eye { fill: #ffc107; }
+    </style>
+  </defs>
+  <!-- Anel externo -->
+  <circle cx="110" cy="110" r="90" class="ring"/>
+  <!-- Anel interno -->
+  <circle cx="110" cy="110" r="55" class="ring"/>
+  <!-- Eixos cruzados (horizontal e vertical) -->
+  <line x1="20" y1="110" x2="200" y2="110" class="axis"/>
+  <line x1="110" y1="20" x2="110" y2="200" class="axis"/>
+  <!-- Pontos/"olhos" nos anéis -->
+  <circle cx="110" cy="20" r="4" class="eye"/>
+  <circle cx="110" cy="200" r="4" class="eye"/>
+  <circle cx="20" cy="110" r="4" class="eye"/>
+  <circle cx="200" cy="110" r="4" class="eye"/>
+  <circle cx="110" cy="55" r="3" class="eye"/>
+  <circle cx="110" cy="165" r="3" class="eye"/>
+  <circle cx="75" cy="110" r="3" class="eye"/>
+  <circle cx="145" cy="110" r="3" class="eye"/>
+</svg>
