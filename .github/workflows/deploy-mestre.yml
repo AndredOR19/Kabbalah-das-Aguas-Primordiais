@@ -41,12 +41,12 @@ jobs:
         npm install -g markdownlint-cli
         markdownlint '**/*.md' || true
 
-    - name: Configure Groq API
+    - name: Configure Gemini API
       env:
-        GROQ_API_KEY: \${{ secrets.GROQ_API_KEY }}
+        GEMINI_API_KEY: \${{ secrets.GEMINI_API_KEY }}
       run: |
-        if [ -z "\$GROQ_API_KEY" ]; then
-          echo "Warning: GROQ_API_KEY não está configurada"
+        if [ -z "\$GEMINI_API_KEY" ]; then
+          echo "Warning: GEMINI_API_KEY não está configurada"
           exit 1
         fi
 
