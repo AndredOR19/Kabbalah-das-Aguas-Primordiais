@@ -41,12 +41,12 @@ jobs:
         npm install -g markdownlint-cli
         markdownlint '**/*.md' || true
 
-    - name: Configure Gemini API
+    - name: Configure Google API
       env:
-        GEMINI_API_KEY: \${{ secrets.GEMINI_API_KEY }}
+        GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
       run: |
-        if [ -z "\$GEMINI_API_KEY" ]; then
-          echo "Warning: GEMINI_API_KEY não está configurada"
+        if [ -z "$GOOGLE_API_KEY" ]; then
+          echo "Warning: GOOGLE_API_KEY não está configurada"
           exit 1
         fi
 
