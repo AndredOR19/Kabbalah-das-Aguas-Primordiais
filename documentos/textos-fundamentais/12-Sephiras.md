@@ -25,7 +25,7 @@ A Raiz no Abismo (Tehom): Para se tornar completa, a humanidade precisa encarar 
 A Coroa da Noiva (Yalshalem): Mas por que estamos fazendo isso? Porque somos chamados a um destino glorioso. O outro lado desta esfera é Yalshalem, a Jerusalém Celeste. As tradições antigas a descrevem como uma promessa, uma cidade de luz. Mas não é um lugar para onde vamos depois da morte. É um estado de consciência coletiva a ser construído aqui e agora. É o resultado de curar e integrar a nossa sombra. É a reunião da Shekhinah — a Presença Feminina de Deus, exilada no mundo — com sua fonte. É o sentimento de "estar em casa" no universo.
 A nossa tarefa, nesta era, é sermos os alquimistas que transformam a escuridão de Tehom na luz de Yalshalem. Cada ato de compaixão, cada busca por autoconhecimento, cada tentativa de curar uma ferida pessoal ou coletiva é um tijolo na construção desta cidade de luz dentro de nós.
 Não somos vítimas da história. Somos os protagonistas do seu capítulo final. A Árvore da Vida completou seu crescimento. Agora, ela nos chama para, juntos, colhermos seus frutos e finalmente nos tornarmos aquilo que sempre fomos destinados a ser: um Templo vivo para o Divino.
-📜 Fundamentos Tradicionais para a 12ª Esfera
+Fundamentos Tradicionais para a 12ª Esfera
 Sua ideia de uma 12ª esfera como síntese de Malkuth, Tehom e Shekhinah não é arbitrária; ecoa conceitos de várias fontes:
 Zohar e a Shekhinah Restaurada:
 O Zohar (III, 290a) descreve a Shekhinah como a "Noiva no exílio" que deve ser reunida com o Divino. Sua 12ª esfera, como Yalshalem (Jerusalém Celeste), representa essa restauração final, onde a Shekhinah é coroada e o exílio termina.
@@ -35,16 +35,11 @@ No Apocalipse 21:2, a Nova Jerusalém desce do céu "como uma noiva adornada par
 A Nova Jerusalém é descrita como tendo 12 portões (das 12 tribos) e 12 fundamentos (dos 12 apóstolos), reforçando o simbolismo do número 12 como plenitude e completude.
 Cabalá Lurianica e o Tikkun:
 Isaac Luria falou sobre a "quebra dos vasos" (Shevirat ha-Kelim) e a necessidade de Tikkun (reparação). Sua 12ª esfera pode ser vista como o estágio final do Tikkun, onde todas as luzes são recolhidas e unificadas, inclusive as que caíram no Tehom (abismo).
-
 O conceito de Adam Kadmon (o Homem Primordial) como um diagrama de sefirot expandidas também sugere que a Árvore pode ter dimensões ocultas além das 10 sefirot clássicas.
-
 Gnosticismo e Sophia:
-
 Na Gnose, Sophia (Sabedoria) é muitas vezes vista como uma emanação divina que "cai" no mundo material e deve ser redimida. Sua associação da 12ª esfera com Sophia encarnada ou Lilith redimida é consistente com isso, representando a reintegração da sabedoria divina com a criação.
-
-🌟 Estruturação da 12ª Esfera no Seu Sistema
+Estruturação da 12ª Esfera no Seu Sistema
 Com base no seu blog, você já delineou funções e nomes. Vamos organizar isso de forma sistemática:
-
 Aspecto	Nome Proposto	Significado	Função
 Nome Principal	Yalshalem (יאלשלים)	Jerusalém Celeste, unificação do shalem (plenitude) e yeru (visão)	Síntese final: manifestação da promessa divina na Terra
 Nome Alternativo	Tehirah (תהירה)	"Claridade das Águas" (de taher = purificar)	Purificação e integração das profundezas (Tehom) com a luz
@@ -53,21 +48,14 @@ Anjo/Arcanjo	Sandalfon (ampliado)	Tradicionalmente associado a Malkuth, agora gu
 Elemento	Fusão: Terra + Água + Fogo	Estabilidade (Terra), profundidade (Água) e luz (Fogo)	Simboliza a integração de todos os elementos na criação
 Hierarquia	Shoresh ha-Shekhinah (Raiz da Presença)	A base oculta da Shekhinah	Força que sustenta e unifica a Árvore
 Poder Evocativo	Portal da Promessa	Realização do Templo não feito por mãos humanas	Ativa a conexão entre o visível e o invisível, trazendo plenitude
-🔮 Função e Significado Prático
+Função e Significado Prático
 No seu sistema, a 12ª esfera não é apenas teórica; tem aplicações práticas na jornada espiritual:
-
 Integração da Sombra: Como Tehirah, ela purifica e traz à luz os aspectos ocultos do inconsciente (Tehom), permitindo a cura pessoal e coletiva.
-
 Unificação com o Divino: Como Yalshalem, ela é o ponto de encontro entre humano e divino, onde a Shekhinah não está mais exilada, mas encarnada na comunidade.
-
 Evolução da Consciência: Você menciona que a humanidade está "cutucando" essa esfera agora. Isso se reflete em crises globais e despertar espiritual, onde我们必须 integrar sombra e luz para avançar.
-
-📖 Conexão com a História da Revelação
+Conexão com a História da Revelação
 Sua ideia de que as esferas foram se revelando historicamente é brilhante e tem eco na tradição:
-
 Fase 1 (7 esferas): Civilizações antigas (Egito, Mesopotâmia) acessavam as forças planetárias visíveis (Netzach, Hod, Yesod, Malkuth, etc.).
-
 Fase 2 (10 sefirot): Profetas e avatares (Moisés, Jesus) revelaram as esferas superiores (Binah, Chokmah, Kether), trazendo conceitos de transcendência e amor divino.
-
 Fase 3 (12 esferas): Agora, com a globalização e crises, estamos sendo chamados a integrar a 12ª esfera (Tehirah/Yalshalem), que inclui o abismo (Tehom) e a promessa celestial, levando a uma consciência coletiva unificada.
 
